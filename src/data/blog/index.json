@@ -531,5 +531,80 @@
       "autumn pet names",
       "spring pet names"
     ]
+  },
+  {
+    "slug": "exotic-pet-names-ultimate-guide",
+    "title": "Exotic Pet Names: 130+ Ultimate Ideas for Unique & Unusual Animals",
+    "description": "From hedgehogs to sugar gliders, discover 130+ exotic pet names for unique and unusual animals. Creative, funny, and meaningful names for your extraordinary companion.",
+    "date": "2026-06-07",
+    "category": "Exotic Pet Names",
+    "image": "🦔",
+    "tags": [
+      "exotic pet names",
+      "hedgehog names",
+      "sugar glider names",
+      "ferret names",
+      "chinchilla names"
+    ]
+  },
+  {
+    "slug": "mythology-fantasy-pet-names-guide",
+    "title": "Mythology and Fantasy Pet Names: 150+ Legendary Ideas from Gods, Monsters and Magic",
+    "description": "Discover 150+ mythology and fantasy pet names drawn from Greek, Norse, Egyptian legends, and modern fantasy. Epic names for pets with legendary personalities.",
+    "date": "2026-06-07",
+    "category": "Fantasy Pet Names",
+    "image": "🐉",
+    "tags": [
+      "mythology pet names",
+      "fantasy pet names",
+      "greek god names",
+      "norse names",
+      "dragon names"
+    ]
+  },
+  {
+    "slug": "small-dog-names-complete-guide",
+    "title": "Small Dog Names: 140+ Perfect Ideas for Tiny Breeds with Big Personalities",
+    "description": "140+ small dog names for Chihuahuas, Pomeranians, Yorkies, and all tiny breeds. From cute and funny to fancy and fierce, find the perfect name for your little dog.",
+    "date": "2026-06-07",
+    "category": "Dog Names",
+    "image": "🐾",
+    "tags": [
+      "small dog names",
+      "tiny dog names",
+      "chihuahua names",
+      "pomeranian names",
+      "yorkie names"
+    ]
+  },
+  {
+    "slug": "cat-names-by-color-coat-patterns",
+    "title": "Cat Names by Color: 120+ Ideas Based on Coat Colors, Patterns and Markings",
+    "description": "120+ cat names organized by coat color and pattern. Black, white, orange, grey, calico, tabby, tuxedo, and more. Find the perfect name matching your cat's unique appearance.",
+    "date": "2026-06-07",
+    "category": "Cat Names",
+    "image": "🐱",
+    "tags": [
+      "cat names by color",
+      "black cat names",
+      "white cat names",
+      "orange cat names",
+      "calico cat names"
+    ]
+  },
+  {
+    "slug": "food-drink-inspired-pet-names",
+    "title": "Food and Drink Pet Names: 150+ Delicious Ideas for Your Tasty Companion",
+    "description": "150+ food and drink inspired pet names from sweet desserts to savory snacks, exotic cuisines, and refreshing beverages. Deliciously creative names for dogs, cats, and all pets.",
+    "date": "2026-06-07",
+    "category": "Pet Names",
+    "image": "🍕",
+    "tags": [
+      "food pet names",
+      "drink pet names",
+      "food dog names",
+      "food cat names",
+      "cute food names"
+    ]
   }
 ]
