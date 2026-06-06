@@ -1,0 +1,26 @@
+{
+  "slug": "tiger",
+  "displayName": "Tiger",
+  "icon": "🐯",
+  "scientificName": "Panthera tigris",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Asian forests and grasslands",
+  "diet": "Carnivorous (deer, wild boar)",
+  "lifespan": "10–15 years (wild)",
+  "size": "Up to 3.3 m, 300 kg",
+  "conservationStatus": "Endangered",
+  "funFacts": [
+    "A tiger's night vision is 6x better than a human's.",
+    "The Siberian tiger is the largest wild cat on Earth.",
+    "Tigers are excellent swimmers and enjoy bathing.",
+    "Tigers can consume up to 40 kg of meat at once."
+  ],
+  "seoTitle": "Tiger Facts — 🐯 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about tigers 🐯. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "giraffe",
+  "displayName": "Giraffe",
+  "icon": "🦒",
+  "scientificName": "Giraffa camelopardalis",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "African savannas",
+  "diet": "Herbivorous (acacia leaves)",
+  "lifespan": "25 years (wild)",
+  "size": "Up to 5.5 m tall, 1,900 kg",
+  "conservationStatus": "Vulnerable",
+  "funFacts": [
+    "Giraffe spots are like human fingerprints — unique to each individual.",
+    "A giraffe's tongue is 45–50 cm long and dark blue-black.",
+    "They have the same number of neck vertebrae as humans — 7.",
+    "Giraffes sleep only 30 minutes to 2 hours per day."
+  ],
+  "seoTitle": "Giraffe Facts — 🦒 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about giraffes 🦒. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

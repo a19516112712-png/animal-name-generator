@@ -1,30 +1,41 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import fs from "fs";
-import path from "path";
+import { loadIndex } from "@/lib/data";
 
-interface AnimalIndex {
-  slug: string;
-  name: string;
-  icon: string;
-}
-
-function loadIndex(): AnimalIndex[] {
-  return JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), "src/data/animals/index.json"), "utf-8")
-  );
-}
-
-export const metadata = {
-  title: "All Animals - Animal Name Generator | 200+ Animals",
-  description:
-    "Browse all 200+ animals in our name generator. Find male, female, cute, funny, fantasy, unique, cool, and baby names for every animal.",
+export const metadata: Metadata = {
+  title: "All Animals — Browse 989+ Animal Name Generators",
+  description: "Browse our complete collection of 989+ animal name generators. Find male, female, cute, funny names for every animal species. 100% free!",
+  openGraph: { title: "All Animals — Animal Name Generator", description: "Browse 989+ animal name generators with 160+ names each.", type: "website" },
+  twitter: { card: "summary_large_image", title: "All Animals", description: "989+ animal name generators — all free!" },
+  alternates: { canonical: "https://bestanimalnames.com/animals/" },
 };
 
 export default function AnimalsPage() {
   const animals = loadIndex();
 
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "All Animal Name Generators",
+    description: `Browse ${animals.length}+ animal name generators. Find the perfect name for any pet or animal character.`,
+    url: "https://bestanimalnames.com/animals/",
+    isPartOf: { "@type": "WebSite", name: "Animal Name Generator", url: "https://bestanimalnames.com" },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://bestanimalnames.com/" },
+      { "@type": "ListItem", position: 2, name: "All Animals", item: "https://bestanimalnames.com/animals/" },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+    
       <section className="bg-gradient-to-br from-primary to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">

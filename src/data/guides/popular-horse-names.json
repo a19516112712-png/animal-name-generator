@@ -1,0 +1,19 @@
+{
+  "slug": "popular-horse-names",
+  "title": "Popular Horse Names — Top Popular Picks 🐴",
+  "description": "Discover the popular horse names. Hand-picked popular names for your horse.",
+  "category": "Top Picks",
+  "relatedAnimals": [
+    "horse"
+  ],
+  "faq": [
+    {
+      "q": "What are the popular horse names?",
+      "a": "The popular horse names include a mix of timeless classics and fresh ideas."
+    },
+    {
+      "q": "How often do popular names change?",
+      "a": "Name trends evolve over time, but classic names remain popular for decades."
+    }
+  ]
+}

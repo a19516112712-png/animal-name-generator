@@ -1,0 +1,26 @@
+{
+  "slug": "whale",
+  "displayName": "Whale",
+  "icon": "🐋",
+  "scientificName": "Balaenoptera musculus",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Cetacea",
+    "family": "Balaenopteridae"
+  },
+  "habitat": "Oceans worldwide",
+  "diet": "Carnivorous (krill, small fish)",
+  "lifespan": "80–90 years",
+  "size": "Up to 30 m, 200 tons",
+  "conservationStatus": "Endangered",
+  "funFacts": [
+    "A blue whale's heart is the size of a small car.",
+    "Blue whales are the largest animals ever to have lived on Earth.",
+    "Whales sleep vertically, suspended in the water.",
+    "A whale can consume 4 tons of krill per day."
+  ],
+  "seoTitle": "Whale Facts — 🐋 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about whales 🐋. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "lion",
+  "displayName": "Lion",
+  "icon": "🦁",
+  "scientificName": "Panthera leo",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Felidae"
+  },
+  "habitat": "African savannas and grasslands",
+  "diet": "Carnivorous (large ungulates)",
+  "lifespan": "10–14 years (wild)",
+  "size": "1.2 m tall, 190 kg (male)",
+  "conservationStatus": "Vulnerable",
+  "funFacts": [
+    "Lions are the only cats with tufted tails.",
+    "A lion's roar can be heard up to 8 km away.",
+    "A lion can eat up to 40 kg of meat in one meal.",
+    "Lions sleep 16–20 hours a day."
+  ],
+  "seoTitle": "Lion Facts — 🦁 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about lions 🦁. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

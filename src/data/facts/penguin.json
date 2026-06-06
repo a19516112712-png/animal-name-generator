@@ -1,0 +1,26 @@
+{
+  "slug": "penguin",
+  "displayName": "Penguin",
+  "icon": "🐧",
+  "scientificName": "Spheniscidae (varies by species)",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Sphenisciformes",
+    "family": "Spheniscidae"
+  },
+  "habitat": "Southern Hemisphere, Antarctica to Galapagos",
+  "diet": "Carnivorous (fish, krill, squid)",
+  "lifespan": "15–20 years",
+  "size": "30 cm (Little Penguin) to 1.2 m (Emperor)",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "Penguins can drink seawater — they have a special gland that filters out salt.",
+    "Penguin feathers are waterproof and provide excellent insulation.",
+    "Emperor penguins can dive up to 500 meters deep.",
+    "A group of penguins on land is called a 'waddle'."
+  ],
+  "seoTitle": "Penguin Facts — 🐧 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about penguins 🐧. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

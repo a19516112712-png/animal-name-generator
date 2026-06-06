@@ -1,0 +1,26 @@
+{
+  "slug": "eagle",
+  "displayName": "Eagle",
+  "icon": "🦅",
+  "scientificName": "Aquila chrysaetos",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Mountains and open landscapes",
+  "diet": "Carnivorous (rabbits, marmots, fish)",
+  "lifespan": "20–30 years (wild)",
+  "size": "2.3 m wingspan, 6 kg",
+  "conservationStatus": "Least Concern",
+  "funFacts": [
+    "A bald eagle's nest can weigh up to 1 ton.",
+    "They can dive at speeds up to 160 km/h.",
+    "Eagles can spot prey from up to 3 km away.",
+    "Eagle bones are hollow to reduce weight for flight."
+  ],
+  "seoTitle": "Eagle Facts — 🦅 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about eagles 🦅. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

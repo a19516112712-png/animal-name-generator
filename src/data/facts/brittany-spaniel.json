@@ -1,0 +1,26 @@
+{
+  "slug": "brittany-spaniel",
+  "displayName": "Brittany Spaniel",
+  "icon": "🐕",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae"
+  },
+  "habitat": "Domestic, worldwide",
+  "diet": "Omnivorous (commercial dog food, meat, vegetables)",
+  "lifespan": "10–15 years",
+  "size": "Varies by breed (15–110 cm at shoulder)",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "Dogs can understand up to 250 words and gestures.",
+    "Dogs have been domesticated for over 15,000 years.",
+    "The Basenji is the only barkless dog breed — it yodels instead.",
+    "Dogs have three eyelids, including one called the nictitating membrane."
+  ],
+  "seoTitle": "Brittany Spaniel Facts — 🐕 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about brittany spaniels 🐕. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

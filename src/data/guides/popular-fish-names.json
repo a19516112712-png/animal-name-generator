@@ -1,0 +1,19 @@
+{
+  "slug": "popular-fish-names",
+  "title": "Popular Fish Names — Top Popular Picks 🐠",
+  "description": "Discover the popular fish names. Hand-picked popular names for your fish.",
+  "category": "Top Picks",
+  "relatedAnimals": [
+    "fish"
+  ],
+  "faq": [
+    {
+      "q": "What are the popular fish names?",
+      "a": "The popular fish names include a mix of timeless classics and fresh ideas."
+    },
+    {
+      "q": "How often do popular names change?",
+      "a": "Name trends evolve over time, but classic names remain popular for decades."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "pig",
+  "displayName": "Pig",
+  "icon": "🐷",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia/Aves",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Farms and agricultural land worldwide",
+  "diet": "Varies (grass, grain, insects, commercial feed)",
+  "lifespan": "Varies by species and use",
+  "size": "Varies by species",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "Cows have best friends and get stressed when separated from them.",
+    "Pigs are considered the 4th most intelligent animal, after chimps, dolphins, and elephants.",
+    "Goats have rectangular pupils that give them 320–340 degree field of vision.",
+    "Chickens are the closest living relatives to the Tyrannosaurus rex."
+  ],
+  "seoTitle": "Pig Facts — 🐷 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about pigs 🐷. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

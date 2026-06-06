@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+Sitemap: https://animalnamegen.com/sitemap.xml

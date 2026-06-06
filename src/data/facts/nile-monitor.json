@@ -1,0 +1,26 @@
+{
+  "slug": "nile-monitor",
+  "displayName": "Nile Monitor",
+  "icon": "🦎",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Varies (deserts, forests, wetlands, oceans)",
+  "diet": "Varies (insects, small mammals, plants, fish)",
+  "lifespan": "2–150+ years depending on species",
+  "size": "1.6 cm (dwarf gecko) to 6+ m (saltwater crocodile)",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "Chameleons don't change color to camouflage — they do it to regulate temperature and communicate.",
+    "Crocodiles have been around for 200 million years, surviving the dinosaur extinction.",
+    "Snakes smell with their tongues, collecting particles and analyzing them with the Jacobson's organ.",
+    "Some turtles can breathe through their butts — using cloacal respiration."
+  ],
+  "seoTitle": "Nile Monitor Facts — 🦎 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about nile monitors 🦎. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

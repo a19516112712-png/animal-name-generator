@@ -1,0 +1,26 @@
+{
+  "slug": "crocodile",
+  "displayName": "Crocodile",
+  "icon": "🐊",
+  "scientificName": "Crocodylus niloticus",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Crocodilia",
+    "family": "Crocodylidae"
+  },
+  "habitat": "Rivers and wetlands in Africa",
+  "diet": "Carnivorous (fish, antelope, zebra)",
+  "lifespan": "70–100 years",
+  "size": "Up to 6 m, 1,000 kg",
+  "conservationStatus": "Least Concern",
+  "funFacts": [
+    "They swallow stones to help digestion and buoyancy.",
+    "They can hold their breath underwater for over an hour.",
+    "Crocodiles can go months without eating after a large meal.",
+    "Crocodiles have the strongest bite of any living animal."
+  ],
+  "seoTitle": "Crocodile Facts — 🐊 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about crocodiles 🐊. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

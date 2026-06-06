@@ -1,0 +1,26 @@
+{
+  "slug": "echidna",
+  "displayName": "Echidna",
+  "icon": "🦔",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Varies worldwide",
+  "diet": "Varies by species",
+  "lifespan": "Varies by species",
+  "size": "Varies by species",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "Migratory animals travel thousands of kilometers each year for breeding or feeding.",
+    "Many wild animals form complex social structures within their groups.",
+    "Some species communicate through complex vocalizations and body language.",
+    "Many wild animals have unique adaptations for survival in their specific habitats."
+  ],
+  "seoTitle": "Echidna Facts — 🦔 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about echidnas 🦔. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

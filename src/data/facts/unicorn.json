@@ -1,0 +1,26 @@
+{
+  "slug": "unicorn",
+  "displayName": "Unicorn",
+  "icon": "🦄",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Mythological",
+    "class": "Mythological",
+    "order": "Mythological",
+    "family": "Mythological"
+  },
+  "habitat": "Mythology and folklore worldwide",
+  "diet": "Varies by legend",
+  "lifespan": "Immortal or varies by legend",
+  "size": "Varies by depiction",
+  "conservationStatus": "Not Applicable",
+  "funFacts": [
+    "The unicorn is Scotland's national animal.",
+    "Griffins were believed to guard treasures in Greek and Persian mythology.",
+    "Dragon myths appear independently in nearly every ancient culture worldwide.",
+    "The Kraken legend likely originated from sightings of giant squid."
+  ],
+  "seoTitle": "Unicorn Facts — 🦄 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about unicorns 🦄. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

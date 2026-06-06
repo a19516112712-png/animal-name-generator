@@ -1,0 +1,19 @@
+{
+  "slug": "popular-cat-names",
+  "title": "Popular Cat Names — Top Popular Picks 🐱",
+  "description": "Discover the popular cat names. Hand-picked popular names for your cat.",
+  "category": "Top Picks",
+  "relatedAnimals": [
+    "cat"
+  ],
+  "faq": [
+    {
+      "q": "What are the popular cat names?",
+      "a": "The popular cat names include a mix of timeless classics and fresh ideas."
+    },
+    {
+      "q": "How often do popular names change?",
+      "a": "Name trends evolve over time, but classic names remain popular for decades."
+    }
+  ]
+}

@@ -19,6 +19,10 @@ export interface AnimalData {
   seoTitle: string;
   seoDescription: string;
   namingGuide: string[];
+  pinterestTitle?: string;
+  pinterestDescription?: string;
+  pinterestKeywords?: string[];
+  pinterestPins?: { title: string; description: string }[];
 }
 
 export interface AnimalIndex {
@@ -109,4 +113,75 @@ export function getAllNameTypeSlugs(): string[] {
     }
   }
   return slugs;
+}
+
+export interface CategoryData {
+  slug: string;
+  name: string;
+  icon: string;
+  description: string;
+  animals: string[];
+  seoTitle: string;
+  seoDescription: string;
+}
+
+export function loadCategories(): CategoryData[] {
+  const fp = path.join(process.cwd(), "src/data/categories/index.json");
+  return JSON.parse(fs.readFileSync(fp, "utf-8")) as CategoryData[];
+}
+
+export function loadCategory(slug: string): CategoryData | null {
+  const all = loadCategories();
+  return all.find(c => c.slug === slug) || null;
+}
+
+export interface FactData {
+  slug: string;
+  displayName: string;
+  icon: string;
+  scientificName: string;
+  classification: { kingdom: string; phylum: string; class: string; order: string; family: string };
+  habitat: string;
+  diet: string;
+  lifespan: string;
+  size: string;
+  conservationStatus: string;
+  funFacts: string[];
+  seoTitle: string;
+  seoDescription: string;
+}
+
+export function loadFactData(slug: string): FactData | null {
+  try {
+    const fp = path.join(process.cwd(), "src/data/facts", `${slug}.json`);
+    return JSON.parse(fs.readFileSync(fp, "utf-8")) as FactData;
+  } catch {
+    return null;
+  }
+}
+
+export function loadFactIndex(): { slug: string; displayName: string; icon: string }[] {
+  const fp = path.join(process.cwd(), "src/data/facts/index.json");
+  return JSON.parse(fs.readFileSync(fp, "utf-8"));
+}
+
+export interface GuideData {
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  relatedAnimals: string[];
+  faq: { q: string; a: string }[];
+}
+
+export function loadGuides(): GuideData[] {
+  const fp = path.join(process.cwd(), "src/data/guides/index.json");
+  return JSON.parse(fs.readFileSync(fp, "utf-8"));
+}
+
+export function loadGuide(slug: string): GuideData | null {
+  try {
+    const fp = path.join(process.cwd(), "src/data/guides", `${slug}.json`);
+    return JSON.parse(fs.readFileSync(fp, "utf-8")) as GuideData;
+  } catch { return null; }
 }

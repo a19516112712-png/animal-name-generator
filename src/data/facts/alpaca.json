@@ -1,0 +1,26 @@
+{
+  "slug": "alpaca",
+  "displayName": "Alpaca",
+  "icon": "🦙",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia/Aves",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Farms and agricultural land worldwide",
+  "diet": "Varies (grass, grain, insects, commercial feed)",
+  "lifespan": "Varies by species and use",
+  "size": "Varies by species",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "Goats have rectangular pupils that give them 320–340 degree field of vision.",
+    "Chickens are the closest living relatives to the Tyrannosaurus rex.",
+    "A horse's heart weighs about 10 pounds and pumps 75 liters of blood per minute when galloping.",
+    "Cows have best friends and get stressed when separated from them."
+  ],
+  "seoTitle": "Alpaca Facts — 🦙 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about alpacas 🦙. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

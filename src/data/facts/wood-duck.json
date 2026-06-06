@@ -1,0 +1,26 @@
+{
+  "slug": "wood-duck",
+  "displayName": "Wood Duck",
+  "icon": "🦆",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Varies (forests, grasslands, wetlands, urban areas)",
+  "diet": "Varies by species (seeds, insects, nectar, fish, meat)",
+  "lifespan": "2–80 years depending on species",
+  "size": "5 cm (bee hummingbird) to 2.7 m (ostrich)",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "Owls cannot move their eyes, so they rotate their heads up to 270 degrees.",
+    "Birds are the only living descendants of dinosaurs.",
+    "A group of flamingos is called a 'flamboyance'.",
+    "The Arctic Tern migrates 71,000 km annually, the longest migration of any animal."
+  ],
+  "seoTitle": "Wood Duck Facts — 🦆 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about wood ducks 🦆. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

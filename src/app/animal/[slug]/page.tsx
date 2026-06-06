@@ -7,8 +7,11 @@ import type { AnimalData, AnimalIndex } from "@/lib/data";
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  return loadIndex().map((a) => ({ slug: a.slug }));
+  return loadIndex().slice(0, 30).map((a) => ({ slug: a.slug }));
 }
+
+export const dynamicParams = true;
+
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -17,9 +20,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: data.seoTitle,
     description: data.seoDescription,
-    openGraph: { title: data.seoTitle, description: data.seoDescription, type: "website" },
+    openGraph: {
+      title: data.seoTitle,
+      description: data.seoDescription,
+      type: "website",
+    },
     twitter: { card: "summary_large_image", title: data.seoTitle, description: data.seoDescription },
-    alternates: { canonical: `https://animalnamegen.com/animal/${slug}/` },
+    alternates: { canonical: `https://bestanimalnames.com/animal/${slug}/` },
+    other: {
+      "pinterest-rich-pin": "true",
+      ...(data.pinterestTitle ? { "og:see_also": `https://bestanimalnames.com/animal/${slug}/` } : {}),
+    },
   };
 }
 
@@ -61,9 +72,9 @@ export default async function AnimalPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://animalnamegen.com/" },
-      { "@type": "ListItem", position: 2, name: "All Animals", item: "https://animalnamegen.com/animals/" },
-      { "@type": "ListItem", position: 3, name: `${data.displayName} Names`, item: `https://animalnamegen.com/animal/${slug}/` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://bestanimalnames.com/" },
+      { "@type": "ListItem", position: 2, name: "All Animals", item: "https://bestanimalnames.com/animals/" },
+      { "@type": "ListItem", position: 3, name: `${data.displayName} Names`, item: `https://bestanimalnames.com/animal/${slug}/` },
     ],
   };
 
@@ -100,6 +111,13 @@ export default async function AnimalPage({ params }: Props) {
         <Link href="/animals/" className="hover:text-primary">All Animals</Link>
         <span>/</span>
         <span className="text-gray-800 font-medium">{data.displayName} Names</span>
+
+        {/* Facts CTA */}
+        <div className="max-w-7xl mx-auto px-4 -mt-2 mb-8">
+          <Link href={`/animal/${slug}/facts/`} className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-full px-5 py-2.5 text-amber-800 font-semibold text-sm hover:bg-amber-100 transition-colors">
+            💡 Learn Facts About {data.displayName}s →
+          </Link>
+        </div>
       </nav>
 
       {/* Hero */}

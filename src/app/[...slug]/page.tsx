@@ -7,8 +7,11 @@ import type { AnimalData, AnimalIndex, NameType } from "@/lib/data";
 type Props = { params: Promise<{ slug: string[] }> };
 
 export function generateStaticParams() {
-  return getAllNameTypeSlugs().map((s) => ({ slug: [s] }));
+  return getAllNameTypeSlugs().slice(0, 30).map((s) => ({ slug: [s] }));
 }
+
+export const dynamicParams = true;
+
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -27,8 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
     },
     twitter: { card: "summary_large_image" },
+    other: { "pinterest-rich-pin": "true" },
     alternates: {
-      canonical: `https://animalnamegen.com/${parsed.nameType.key === "names" ? `${parsed.animalSlug}-names` : `${parsed.nameType.key}-${parsed.animalSlug}-names`}/`,
+      canonical: `https://bestanimalnames.com/${parsed.nameType.key === "names" ? `${parsed.animalSlug}-names` : `${parsed.nameType.key}-${parsed.animalSlug}-names`}/`,
     },
   };
 }
@@ -73,16 +77,105 @@ export default async function NameTypePage({ params }: Props) {
     );
   }
 
+  const categoryLinks = NAME_TYPES.filter((nt) => nt.key !== nameType.key);
+  const relatedAnimals = allAnimals.filter((a) => a.slug !== animalSlug).sort(() => Math.random() - 0.5).slice(0, 8);
+
+  // --- Structured Data Schemas ---
+
   const names = (data[nameType.field] as string[]) || data.maleNames;
   const pageTitle = nameType.key === "names"
     ? `${data.displayName} Names`
     : `${data.displayName} ${nameType.label}`;
+  const pageUrl = `https://bestanimalnames.com/${nameType.key === "names" ? `${animalSlug}-names` : `${nameType.key}-${animalSlug}-names`}/`;
 
-  const categoryLinks = NAME_TYPES.filter((nt) => nt.key !== nameType.key);
-  const relatedAnimals = allAnimals.filter((a) => a.slug !== animalSlug).sort(() => Math.random() - 0.5).slice(0, 8);
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://bestanimalnames.com/" },
+      { "@type": "ListItem", position: 2, name: "All Animals", item: "https://bestanimalnames.com/animals/" },
+      { "@type": "ListItem", position: 3, name: `${data.displayName} Names`, item: `https://bestanimalnames.com/animal/${animalSlug}/` },
+      { "@type": "ListItem", position: 4, name: `${data.displayName} ${nameType.label}`, item: pageUrl },
+    ],
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `What are ${nameType.label.toLowerCase()} for ${data.displayName.toLowerCase()}s?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${nameType.label} for ${data.displayName.toLowerCase()}s are specially selected names that reflect the personality, appearance, and unique traits of ${data.displayName.toLowerCase()}s. Our collection includes ${names.length}+ hand-picked options ranging from classic to creative, each chosen to capture the essence of these wonderful animals.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How do I choose the perfect ${nameType.label.toLowerCase()} for my ${data.displayName.toLowerCase()}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Start by observing your ${data.displayName.toLowerCase()}'s personality, appearance, and quirks. Say potential names aloud to test how they sound. Choose a name that's easy to pronounce and remember — 1-2 syllables works best. Consider names that reflect your ${data.displayName.toLowerCase()}'s unique traits, whether it's playful, dignified, curious, or cuddly. Try your top picks for a day each before making the final decision.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `What makes a good ${nameType.label.toLowerCase()} for a ${data.displayName.toLowerCase()}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `A good ${nameType.label.toLowerCase()} for a ${data.displayName.toLowerCase()} should be easy to pronounce, distinctive enough to catch your pet's attention, and meaningful to you. ${nameType.seoDescPrefix.split("and")[0]?.trim() || "Unique"} names are especially effective because they stand out at the vet, park, or training class. The best name is one that makes you smile every time you say it.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Can I use ${nameType.label.toLowerCase()} for other types of pets or characters?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Absolutely! While these names are curated with ${data.displayName.toLowerCase()}s in mind, many of them work wonderfully for any pet, stuffed animal, game avatar, or fictional character. Names transcend species — a great name is a great name regardless of who or what it belongs to. Feel free to browse and use any name that speaks to you.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How often do you update these ${data.displayName.toLowerCase()} ${nameType.label.toLowerCase()}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `We regularly review and refresh our name collections to keep them current and inspiring. New names are added based on trends, user suggestions, and creative discoveries. Bookmark this page and check back for fresh ideas — or explore our other name categories for even more options.`,
+        },
+      },
+    ],
+  };
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: pageTitle + " Generator",
+    description: `${nameType.seoDescPrefix} ${data.displayName.toLowerCase()} names. Browse our curated collection of ${names.length}+ ${data.displayName.toLowerCase()} ${nameType.label.toLowerCase()} — hand-picked and 100% free.`,
+    url: pageUrl,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Animal Name Generator",
+      url: "https://bestanimalnames.com",
+    },
+  };
+
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: names.map((name, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: name,
+    })),
+  };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+
       {/* Breadcrumb */}
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link>

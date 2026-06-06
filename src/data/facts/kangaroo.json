@@ -1,0 +1,26 @@
+{
+  "slug": "kangaroo",
+  "displayName": "Kangaroo",
+  "icon": "🦘",
+  "scientificName": "Macropus rufus",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Diprotodontia",
+    "family": "Macropodidae"
+  },
+  "habitat": "Australian grasslands and deserts",
+  "diet": "Herbivorous (grasses, shrubs)",
+  "lifespan": "8–12 years (wild)",
+  "size": "Up to 1.8 m, 90 kg",
+  "conservationStatus": "Least Concern",
+  "funFacts": [
+    "They can pause pregnancies until conditions are favorable.",
+    "A newborn joey is only 2 cm long — the size of a jellybean.",
+    "They can leap up to 9 meters in a single bound.",
+    "Kangaroos use their tails as a fifth leg when walking."
+  ],
+  "seoTitle": "Kangaroo Facts — 🦘 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about kangaroos 🦘. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

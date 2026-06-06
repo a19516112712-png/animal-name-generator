@@ -1,0 +1,26 @@
+{
+  "slug": "wolf",
+  "displayName": "Wolf",
+  "icon": "🐺",
+  "scientificName": "Canis lupus",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Northern hemisphere forests and tundra",
+  "diet": "Carnivorous (deer, elk, bison)",
+  "lifespan": "6–8 years (wild)",
+  "size": "Up to 1.6 m, 80 kg",
+  "conservationStatus": "Least Concern",
+  "funFacts": [
+    "Wolves can run up to 60 km/h in short bursts.",
+    "Wolf packs are family groups led by a breeding pair.",
+    "A wolf can eat 9 kg of meat in one sitting.",
+    "Wolf pups are born blind and deaf."
+  ],
+  "seoTitle": "Wolf Facts — 🐺 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about wolfs 🐺. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

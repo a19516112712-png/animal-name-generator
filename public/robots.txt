@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /api/
 
-Sitemap: https://animalnamegen.com/sitemap.xml
+Sitemap: https://bestanimalnames.com/sitemap.xml
