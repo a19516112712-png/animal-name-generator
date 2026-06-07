@@ -606,5 +606,81 @@
       "food cat names",
       "cute food names"
     ]
+  },
+  {
+    "slug": "farm-animal-names-barnyard-companions",
+    "title": "Farm Animal Names: 130+ Charming Ideas for Barnyard Companions and Backyard Flocks",
+    "description": "Discover 130+ farm animal names for chickens, goats, cows, pigs, ducks, and sheep. From classic country names to funny puns, find the perfect name for every barnyard friend.",
+    "date": "2026-06-07",
+    "category": "Farm Animal Names",
+    "image": "🐄",
+    "tags": [
+      "farm animal names",
+      "chicken names",
+      "goat names",
+      "cow names",
+      "pig names",
+      "duck names"
+    ]
+  },
+  {
+    "slug": "ocean-marine-pet-names-sea-creatures",
+    "title": "Ocean and Marine Pet Names: 120+ Ideas from the Deep Blue Sea",
+    "description": "120+ ocean-inspired pet names for fish, turtles, and all sea-loving companions. From coral reefs to deep sea creatures, find nautical names full of marine magic.",
+    "date": "2026-06-07",
+    "category": "Pet Names",
+    "image": "🐠",
+    "tags": [
+      "ocean pet names",
+      "marine names",
+      "sea creature names",
+      "fish names",
+      "nautical names"
+    ]
+  },
+  {
+    "slug": "african-safari-animal-names-wildlife",
+    "title": "African Safari Animal Names: 120+ Wild Ideas from the Serengeti",
+    "description": "120+ African wildlife-inspired pet names drawn from the Serengeti's lions, elephants, giraffes, zebras, and more. Wild, majestic names for pets with untamed spirits.",
+    "date": "2026-06-07",
+    "category": "Wildlife Names",
+    "image": "🦁",
+    "tags": [
+      "african animal names",
+      "safari names",
+      "lion names",
+      "elephant names",
+      "zebra names"
+    ]
+  },
+  {
+    "slug": "warrior-heroic-pet-names-brave",
+    "title": "Warrior and Heroic Pet Names: 120+ Brave Names for Courageous Companions",
+    "description": "120+ warrior, hero, and battle-inspired pet names from history, mythology, and legend. Strong, brave names for protective dogs, fearless cats, and courageous companions.",
+    "date": "2026-06-07",
+    "category": "Strong Pet Names",
+    "image": "⚔️",
+    "tags": [
+      "warrior pet names",
+      "heroic dog names",
+      "brave cat names",
+      "strong pet names",
+      "battle names"
+    ]
+  },
+  {
+    "slug": "space-sci-fi-pet-names-cosmic",
+    "title": "Space and Sci-Fi Pet Names: 130+ Cosmic Ideas for Out-of-This-World Companions",
+    "description": "130+ space and science fiction pet names from planets, stars, galaxies, and iconic sci-fi franchises. Cosmic names for pets with stellar personalities.",
+    "date": "2026-06-07",
+    "category": "Sci-Fi Pet Names",
+    "image": "🚀",
+    "tags": [
+      "space pet names",
+      "sci-fi names",
+      "planet names",
+      "star names",
+      "star wars pet names"
+    ]
   }
 ]
