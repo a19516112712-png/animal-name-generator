@@ -90,22 +90,32 @@ try {
 for (const a of animals) {
   urls.push(urlEl(`${BASE}/animal/${a.slug}/facts/`, "weekly", "0.8"));
 }
-// Blog post pages (MUST be before sitemap string construction)
-const blogDir = path.join(__dirname, "..", "src", "data", "blog");
-try {
-  const blogPosts = JSON.parse(fs.readFileSync(path.join(blogDir, "index.json"), "utf-8"));
-  for (const p of blogPosts) {
-    urls.push(urlEl(`${BASE}/blog/${p.slug}/`, "weekly", "0.7"));
-  }
-} catch (_) {}
 
+
+
+// Blog post directory
+const blogDir = path.join(__dirname, "..", "src", "data", "blog");
 
 // Ideas pages
 const ideasDir = path.join(__dirname, "..", "src", "data", "ideas");
+let ideasUrls = [];
 try {
   const ideas = JSON.parse(fs.readFileSync(path.join(ideasDir, "index.json"), "utf-8"));
   for (const idea of ideas) {
-    urls.push(urlEl(`${BASE}/ideas/${idea.slug}/`, "weekly", "0.6"));
+    const url = urlEl(`${BASE}/ideas/${idea.slug}/`, "weekly", "0.6");
+    urls.push(url);
+    ideasUrls.push(url);
+  }
+} catch (_) {}
+
+// Blog posts (collect separately for sub-sitemap)
+let blogUrls = [];
+try {
+  const blogPosts = JSON.parse(fs.readFileSync(path.join(blogDir, "index.json"), "utf-8"));
+  for (const p of blogPosts) {
+    const url = urlEl(`${BASE}/blog/${p.slug}/`, "weekly", "0.7");
+    urls.push(url);
+    blogUrls.push(url);
   }
 } catch (_) {}
 
@@ -123,4 +133,24 @@ const publicDir = path.join(__dirname, "..", "public");
 fs.mkdirSync(publicDir, { recursive: true });
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemap);
 
+// Sub-sitemap: Blog
+if (blogUrls.length > 0) {
+  const blogSitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${blogUrls.join("\n")}
+</urlset>`;
+  fs.writeFileSync(path.join(publicDir, "blog-sitemap.xml"), blogSitemap);
+}
+
+// Sub-sitemap: Ideas
+if (ideasUrls.length > 0) {
+  const ideasSitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${ideasUrls.join("\n")}
+</urlset>`;
+  fs.writeFileSync(path.join(publicDir, "ideas-sitemap.xml"), ideasSitemap);
+}
+
 console.log(`✅ Generated sitemap.xml with ${urls.length} URLs`);
+console.log(`   blog-sitemap.xml: ${blogUrls.length} URLs`);
+console.log(`   ideas-sitemap.xml: ${ideasUrls.length} URLs`);

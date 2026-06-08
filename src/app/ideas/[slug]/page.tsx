@@ -4,6 +4,28 @@ import { notFound } from "next/navigation";
 import { loadIndex, loadAnimalData, type AnimalData } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
 
+
+import fs from "fs";
+import path from "path";
+
+interface IdeaIndexItem {
+  slug: string;
+}
+
+function loadAllIdeas(): IdeaIndexItem[] {
+  const fp = path.join(process.cwd(), "src/data/ideas/index.json");
+  return JSON.parse(fs.readFileSync(fp, "utf-8")) as IdeaIndexItem[];
+}
+
+function getRelatedIdeas(currentSlug: string, count: number = 8): IdeaIndexItem[] {
+  const all = loadAllIdeas();
+  const currentAnimal = slugToAnimal(currentSlug);
+  return all
+    .filter(i => i.slug !== currentSlug && slugToAnimal(i.slug) === currentAnimal)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, count);
+}
+
 type Props = { params: Promise<{ slug: string }> };
 
 export const dynamicParams = true;
@@ -126,6 +148,8 @@ export default async function IdeasPage({ params }: Props) {
     .sort(() => Math.random() - 0.5)
     .slice(0, 6);
 
+  const relatedIdeas = getRelatedIdeas(slug, 8);
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -146,10 +170,35 @@ export default async function IdeasPage({ params }: Props) {
     })),
   } : null;
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description: `Find the perfect ${adj.toLowerCase()} name for your ${animal} — ${num}+ handpicked ideas from BestAnimalNames.com.`,
+    author: { "@type": "Organization", name: "Animal Name Generator" },
+    publisher: { "@type": "Organization", name: "Animal Name Generator", url: "https://bestanimalnames.com" },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://bestanimalnames.com/ideas/${slug}/` },
+    datePublished: "2025-06-01",
+    dateModified: "2025-06-01",
+    inLanguage: "en",
+  };
+
+  const faqSchema = namingTips.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: namingTips.map((tip) => ({
+      "@type": "Question",
+      name: tip.split(" — ")[0] || tip.slice(0, 80) + "...",
+      acceptedAnswer: { "@type": "Answer", text: tip },
+    })),
+  } : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {itemListSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />}
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap">
         <Link href="/" className="hover:text-primary">Home</Link><span>/</span>
@@ -222,6 +271,30 @@ export default async function IdeasPage({ params }: Props) {
             Pin this {adj.toLowerCase()} {animal} names collection to your Pinterest board
           </p>
         </div>
+
+        {/* Related Name Collections */}
+        {relatedIdeas.length > 0 && (
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 mb-8">
+            <h2 className="text-xl font-bold mb-4">🔗 Related {animal.charAt(0).toUpperCase() + animal.slice(1)} Name Collections</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              {relatedIdeas.map((idea) => {
+                const ideaTitle = slugToTitle(idea.slug);
+                const ideaAnimal = slugToAnimal(idea.slug);
+                const ideaNum = slugToNum(idea.slug);
+                return (
+                  <Link
+                    key={idea.slug}
+                    href={`/ideas/${idea.slug}/`}
+                    className="bg-amber-50 hover:bg-amber-100 rounded-lg p-3 text-center border border-amber-200 hover:border-primary/30 transition-colors"
+                  >
+                    <div className="text-xs font-semibold text-gray-800 line-clamp-2">{ideaTitle}</div>
+                    <div className="text-xs text-gray-500 mt-1">{ideaNum}+ names</div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Related Animals */}
         {relatedAnimals.length > 0 && (

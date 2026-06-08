@@ -54,6 +54,43 @@ function loadBlogPost(slug: string): BlogContent | null {
   }
 }
 
+
+function loadAllBlogPosts(): BlogContent[] {
+  const fp = path.join(process.cwd(), "src/data/blog/index.json");
+  return JSON.parse(fs.readFileSync(fp, "utf-8")) as BlogContent[];
+}
+
+function getRelatedPosts(currentSlug: string, count: number = 6): BlogContent[] {
+  const all = loadAllBlogPosts();
+  const current = all.find(p => p.slug === currentSlug);
+  if (!current) return [];
+  
+  const scored = all
+    .filter(p => p.slug !== currentSlug)
+    .map(p => {
+      let score = 0;
+      if (p.category === current.category) score += 3;
+      const sharedTags = p.tags.filter(t => current.tags.includes(t));
+      score += sharedTags.length * 2;
+      return { post: p, score };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, count)
+    .map(x => x.post);
+  
+  return scored;
+}
+
+function getPrevNextPosts(currentSlug: string): { prev: BlogContent | null; next: BlogContent | null } {
+  const all = loadAllBlogPosts();
+  const idx = all.findIndex(p => p.slug === currentSlug);
+  if (idx === -1) return { prev: null, next: null };
+  return {
+    prev: idx > 0 ? all[idx - 1] : null,
+    next: idx < all.length - 1 ? all[idx + 1] : null,
+  };
+}
+
 function renderContent(content: { type: string; text: string }[], animals: { slug: string; name: string }[]): React.ReactNode {
   const slugMap = new Map(animals.map((a) => [a.slug, a.name]));
 
@@ -109,6 +146,11 @@ export default async function BlogPost({ params }: Props) {
   const guides = loadGuides();
   const guideMap = new Map(guides.map((g) => [g.slug, g.title]));
   const animalMap = new Map(animals.map((a) => [a.slug, a]));
+  const relatedPosts = getRelatedPosts(slug, 6);
+  const { prev, next } = getPrevNextPosts(slug);
+
+  const articleBody = post.content.map(b => b.text).join(" ");
+  const wordCount = articleBody.split(/\s+/).length;
 
   const blogSchema = {
     "@context": "https://schema.org",
@@ -116,8 +158,14 @@ export default async function BlogPost({ params }: Props) {
     headline: post.title,
     description: post.description,
     datePublished: post.date,
+    dateModified: post.date,
     author: { "@type": "Organization", name: "Animal Name Generator" },
     publisher: { "@type": "Organization", name: "Animal Name Generator", url: "https://bestanimalnames.com" },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://bestanimalnames.com/blog/${slug}/` },
+    wordCount,
+    articleBody,
+    image: `https://bestanimalnames.com/images/og/blog-${slug}.png`,
+    inLanguage: "en",
   };
 
   const faqSchema = post.faq && post.faq.length > 0 ? {
@@ -223,6 +271,44 @@ export default async function BlogPost({ params }: Props) {
               })}
             </div>
           </section>
+        )}
+
+        {/* Related Articles */}
+        {relatedPosts.length > 0 && (
+          <section className="mt-12">
+            <h2 className="text-2xl font-bold mb-6">📝 Related Articles</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {relatedPosts.map((rp) => (
+                <Link key={rp.slug} href={`/blog/${rp.slug}/`}
+                  className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group">
+                  <div className="text-3xl mb-3">{rp.image}</div>
+                  <span className="text-xs bg-primary/10 text-primary font-semibold px-2 py-0.5 rounded-full">{rp.category}</span>
+                  <h3 className="text-sm font-bold text-gray-800 mt-2 group-hover:text-primary line-clamp-2">{rp.title}</h3>
+                  <p className="text-xs text-gray-500 mt-1 line-clamp-2">{rp.description}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Previous / Next Navigation */}
+        {(prev || next) && (
+          <nav className="mt-12 grid grid-cols-2 gap-4" aria-label="Post navigation">
+            {prev ? (
+              <Link href={`/blog/${prev.slug}/`}
+                className="bg-white rounded-xl p-4 border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group text-left">
+                <span className="text-xs text-gray-500">← Previous Post</span>
+                <p className="text-sm font-semibold text-gray-700 group-hover:text-primary mt-1 line-clamp-1">{prev.title}</p>
+              </Link>
+            ) : <div />}
+            {next ? (
+              <Link href={`/blog/${next.slug}/`}
+                className="bg-white rounded-xl p-4 border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group text-right">
+                <span className="text-xs text-gray-500">Next Post →</span>
+                <p className="text-sm font-semibold text-gray-700 group-hover:text-primary mt-1 line-clamp-1">{next.title}</p>
+              </Link>
+            ) : <div />}
+          </nav>
         )}
 
         <div className="mt-12 p-6 bg-primary/5 rounded-2xl border border-primary/10 text-center">
