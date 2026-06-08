@@ -24,10 +24,11 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateStaticParams() {
   const fp = path.join(process.cwd(), "src/data/blog/index.json");
   const posts: { slug: string }[] = JSON.parse(fs.readFileSync(fp, "utf-8"));
-  return posts.slice(0, 20).map((p) => ({ slug: p.slug }));
+  return posts.map((p) => ({ slug: p.slug }));
 }
 
 export const dynamicParams = true;
+export const revalidate = 3600;
 
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
