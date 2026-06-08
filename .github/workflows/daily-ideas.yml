@@ -1,0 +1,50 @@
+name: Daily Ideas Generator
+
+on:
+  schedule:
+    # Runs at 15:00 Beijing time (07:00 UTC)
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    # Allows manual trigger from GitHub UI
+
+jobs:
+  generate-ideas:
+    name: Generate 30 SEO Ideas Pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate daily ideas
+        run: node scripts/generate-daily-ideas.mjs
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/ideas/ public/sitemap.xml
+          git diff --staged --quiet || (
+            git commit -m "💡 Daily ideas generation — $(date '+%Y-%m-%d') [skip ci]" &&
+            git push
+          )
+
+      - name: Output deployment status
+        run: |
+          echo "✅ Ideas generation workflow complete"
+          echo "📅 Date: $(date '+%Y-%m-%d')"
+          echo "🚀 Vercel will auto-deploy on push to main"
+          echo "🔗 Site: https://bestanimalnames.com"
+          echo "🗺️  Sitemap: https://bestanimalnames.com/sitemap.xml"
