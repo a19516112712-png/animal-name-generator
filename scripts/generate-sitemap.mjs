@@ -99,6 +99,16 @@ try {
   }
 } catch (_) {}
 
+
+// Ideas pages
+const ideasDir = path.join(__dirname, "..", "src", "data", "ideas");
+try {
+  const ideas = JSON.parse(fs.readFileSync(path.join(ideasDir, "index.json"), "utf-8"));
+  for (const idea of ideas) {
+    urls.push(urlEl(`${BASE}/ideas/${idea.slug}/`, "weekly", "0.6"));
+  }
+} catch (_) {}
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
