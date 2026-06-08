@@ -682,5 +682,81 @@
       "star names",
       "star wars pet names"
     ]
+  },
+  {
+    "slug": "tv-movie-pet-names-pop-culture",
+    "title": "TV and Movie Pet Names: 140+ Pop Culture Ideas from Hit Shows and Films",
+    "description": "140+ TV and movie inspired pet names from Game of Thrones, Friends, The Office, Marvel, Disney, and more beloved shows and films. Perfect for pop culture fans.",
+    "date": "2026-06-08",
+    "category": "Pop Culture Names",
+    "image": "🎬",
+    "tags": [
+      "tv pet names",
+      "movie pet names",
+      "game of thrones names",
+      "marvel pet names",
+      "friends pet names"
+    ]
+  },
+  {
+    "slug": "desert-animal-names-arid-wildlife",
+    "title": "Desert Animal Names: 120+ Arid Wildlife Ideas from the World's Driest Landscapes",
+    "description": "120+ desert animal names from camels, fennec foxes, roadrunners, scorpions, and more. Hardy, resilient names for pets with desert spirit and survival instincts.",
+    "date": "2026-06-08",
+    "category": "Wildlife Names",
+    "image": "🐪",
+    "tags": [
+      "desert animal names",
+      "camel names",
+      "fennec fox names",
+      "lizard names",
+      "arid names"
+    ]
+  },
+  {
+    "slug": "woodland-forest-animal-names-enchanted",
+    "title": "Woodland and Forest Animal Names: 130+ Enchanted Ideas from the Deep Woods",
+    "description": "130+ woodland and forest animal names from deer, foxes, owls, bears, rabbits, and more. Enchanted forest names for pets with wild spirits and gentle hearts.",
+    "date": "2026-06-08",
+    "category": "Nature Names",
+    "image": "🦊",
+    "tags": [
+      "woodland names",
+      "forest animal names",
+      "deer names",
+      "owl names",
+      "bear names",
+      "fox names"
+    ]
+  },
+  {
+    "slug": "zodiac-astrology-pet-names-cosmic",
+    "title": "Zodiac and Astrology Pet Names: 130+ Celestial Ideas from the Stars",
+    "description": "130+ zodiac and astrology pet names for every star sign. From Aries to Pisces, discover cosmic names aligned with the stars for pets with celestial personalities.",
+    "date": "2026-06-08",
+    "category": "Astrology Names",
+    "image": "♈",
+    "tags": [
+      "zodiac pet names",
+      "astrology names",
+      "horoscope pet names",
+      "star sign names",
+      "celestial names"
+    ]
+  },
+  {
+    "slug": "artistic-creative-pet-names-inspired",
+    "title": "Artistic and Creative Pet Names: 140+ Inspired Ideas from Art, Music, and Literature",
+    "description": "140+ artistic pet names from famous painters, composers, writers, and creative movements. Beautiful, cultured names for pets with artistic souls and creative spirits.",
+    "date": "2026-06-08",
+    "category": "Creative Names",
+    "image": "🎨",
+    "tags": [
+      "artistic pet names",
+      "artist names",
+      "composer names",
+      "literary names",
+      "creative names"
+    ]
   }
 ]
