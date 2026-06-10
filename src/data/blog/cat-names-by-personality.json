@@ -17,8 +17,41 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">The Personality-First Approach</a></li><li><a href=\"#regal\">Regal & Dignified Cats</a></li><li><a href=\"#goofy\">Goofy & Playful Cats</a></li><li><a href=\"#cuddly\">Cuddly Lap Cats</a></li><li><a href=\"#adventurer\">Adventurous Explorers</a></li><li><a href=\"#independent\">Independent & Aloof Cats</a></li><li><a href=\"#vocal\">Talkative Chatterboxes</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "The Personality-First Approach"
+        },
+        {
+          "href": "#regal",
+          "text": "Regal & Dignified Cats"
+        },
+        {
+          "href": "#goofy",
+          "text": "Goofy & Playful Cats"
+        },
+        {
+          "href": "#cuddly",
+          "text": "Cuddly Lap Cats"
+        },
+        {
+          "href": "#adventurer",
+          "text": "Adventurous Explorers"
+        },
+        {
+          "href": "#independent",
+          "text": "Independent & Aloof Cats"
+        },
+        {
+          "href": "#vocal",
+          "text": "Talkative Chatterboxes"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

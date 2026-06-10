@@ -17,8 +17,37 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Why Breed Matters for Naming</a></li><li><a href=\"#small\">Small Dog Names — Chihuahua to Yorkie</a></li><li><a href=\"#medium\">Medium Dog Names — Beagle to Corgi</a></li><li><a href=\"#large\">Large Dog Names — Shepherd to Husky</a></li><li><a href=\"#giant\">Giant Dog Names — Great Dane to Mastiff</a></li><li><a href=\"#tips\">5 Expert Naming Tips</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Why Breed Matters for Naming"
+        },
+        {
+          "href": "#small",
+          "text": "Small Dog Names — Chihuahua to Yorkie"
+        },
+        {
+          "href": "#medium",
+          "text": "Medium Dog Names — Beagle to Corgi"
+        },
+        {
+          "href": "#large",
+          "text": "Large Dog Names — Shepherd to Husky"
+        },
+        {
+          "href": "#giant",
+          "text": "Giant Dog Names — Great Dane to Mastiff"
+        },
+        {
+          "href": "#tips",
+          "text": "5 Expert Naming Tips"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

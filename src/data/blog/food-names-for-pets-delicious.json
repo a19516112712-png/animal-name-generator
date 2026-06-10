@@ -14,8 +14,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Introduction</a></li><li><a href=\"#name-list\">The Complete List — 90 Names</a></li><li><a href=\"#choose\">How to Choose the Perfect Name</a></li><li><a href=\"#categories\">Name Categories & Themes</a></li><li><a href=\"#tips\">Tips for Using These Names</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Introduction"
+        },
+        {
+          "href": "#name-list",
+          "text": "The Complete List — 90 Names"
+        },
+        {
+          "href": "#choose",
+          "text": "How to Choose the Perfect Name"
+        },
+        {
+          "href": "#categories",
+          "text": "Name Categories & Themes"
+        },
+        {
+          "href": "#tips",
+          "text": "Tips for Using These Names"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

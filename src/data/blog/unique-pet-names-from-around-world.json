@@ -18,8 +18,41 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Why Choose an International Name</a></li><li><a href=\"#japanese\">Japanese Pet Names — Elegant & Meaningful</a></li><li><a href=\"#nordic\">Scandinavian & Nordic Names — Strong & Mythical</a></li><li><a href=\"#latin\">Italian, Spanish & French Names — Romantic & Musical</a></li><li><a href=\"#celtic\">Celtic & Irish Names — Ancient & Poetic</a></li><li><a href=\"#african\">African & Swahili Names — Powerful & Distinctive</a></li><li><a href=\"#tips\">Tips for Choosing International Names</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Why Choose an International Name"
+        },
+        {
+          "href": "#japanese",
+          "text": "Japanese Pet Names — Elegant & Meaningful"
+        },
+        {
+          "href": "#nordic",
+          "text": "Scandinavian & Nordic Names — Strong & Mythical"
+        },
+        {
+          "href": "#latin",
+          "text": "Italian, Spanish & French Names — Romantic & Musical"
+        },
+        {
+          "href": "#celtic",
+          "text": "Celtic & Irish Names — Ancient & Poetic"
+        },
+        {
+          "href": "#african",
+          "text": "African & Swahili Names — Powerful & Distinctive"
+        },
+        {
+          "href": "#tips",
+          "text": "Tips for Choosing International Names"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

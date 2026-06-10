@@ -18,8 +18,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Seasonal Names Are Meaningful Choices</a></li><li><a href=\"#winter\">Winter Pet Names: Snow, Ice & Cozy Warmth</a></li><li><a href=\"#spring\">Spring Pet Names: Blooms, Rain & Renewal</a></li><li><a href=\"#summer\">Summer Pet Names: Sun, Beach & Adventure</a></li><li><a href=\"#autumn\">Autumn Pet Names: Harvest, Color & Coziness</a></li><li><a href=\"#choosing\">Choosing the Right Seasonal Name</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Seasonal Names Are Meaningful Choices"
+        },
+        {
+          "href": "#winter",
+          "text": "Winter Pet Names: Snow, Ice & Cozy Warmth"
+        },
+        {
+          "href": "#spring",
+          "text": "Spring Pet Names: Blooms, Rain & Renewal"
+        },
+        {
+          "href": "#summer",
+          "text": "Summer Pet Names: Sun, Beach & Adventure"
+        },
+        {
+          "href": "#autumn",
+          "text": "Autumn Pet Names: Harvest, Color & Coziness"
+        },
+        {
+          "href": "#choosing",
+          "text": "Choosing the Right Seasonal Name"
+        }
+      ]
     },
     {
       "type": "h2",

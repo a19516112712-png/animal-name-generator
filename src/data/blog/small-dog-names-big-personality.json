@@ -18,8 +18,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Small Dogs, Big Personalities</a></li><li><a href=\"#ironic\">Ironic Names — Tiny Dog, Giant Name</a></li><li><a href=\"#sweet\">Sweet Names — Celebrating Smallness</a></li><li><a href=\"#fancy\">Fancy & Sophisticated Names</a></li><li><a href=\"#breed\">Breed-Specific Small Dog Names</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Small Dogs, Big Personalities"
+        },
+        {
+          "href": "#ironic",
+          "text": "Ironic Names — Tiny Dog, Giant Name"
+        },
+        {
+          "href": "#sweet",
+          "text": "Sweet Names — Celebrating Smallness"
+        },
+        {
+          "href": "#fancy",
+          "text": "Fancy & Sophisticated Names"
+        },
+        {
+          "href": "#breed",
+          "text": "Breed-Specific Small Dog Names"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

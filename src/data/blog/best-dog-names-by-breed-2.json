@@ -17,8 +17,29 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Breed Matters When Naming Your Dog</a></li><li><a href=\"#small\">Best Names for Small Dog Breeds</a></li><li><a href=\"#medium\">Best Names for Medium Dog Breeds</a></li><li><a href=\"#large\">Best Names for Large Dog Breeds</a></li><li><a href=\"#pick\">How to Pick the Right Name for Any Breed</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Breed Matters When Naming Your Dog"
+        },
+        {
+          "href": "#small",
+          "text": "Best Names for Small Dog Breeds"
+        },
+        {
+          "href": "#medium",
+          "text": "Best Names for Medium Dog Breeds"
+        },
+        {
+          "href": "#large",
+          "text": "Best Names for Large Dog Breeds"
+        },
+        {
+          "href": "#pick",
+          "text": "How to Pick the Right Name for Any Breed"
+        }
+      ]
     },
     {
       "type": "h2",

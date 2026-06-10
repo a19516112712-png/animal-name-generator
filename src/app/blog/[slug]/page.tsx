@@ -178,6 +178,25 @@ function renderContent(content: { type: string; text: string }[], animals: { slu
 
     // Plain text blocks: use replaceLinks for {animal-slug} patterns
     switch (block.type) {
+      case "toc": {
+        const items: { href: string; text: string }[] = (block as any).items || [];
+        if (items.length === 0) return null;
+        return (
+          <div key={idx} className="bg-gradient-to-br from-primary/5 to-indigo-50 rounded-2xl p-6 border border-primary/10 mb-8">
+            <h3 className="text-lg font-bold text-gray-800 mb-4">📋 Table of Contents</h3>
+            <ol className="space-y-2 list-none pl-0">
+              {items.map((item, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <span className="text-primary font-bold mt-0.5 min-w-[1.5em]">{i + 1}.</span>
+                  <a href={item.href} className="text-gray-700 hover:text-primary hover:underline transition-colors text-sm leading-relaxed">
+                    {item.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </div>
+        );
+      }
       case "h2":
         return <h2 key={idx} className="text-2xl font-bold mt-10 mb-4 text-gray-900">{replaceLinks(block.text)}</h2>;
       case "h3":

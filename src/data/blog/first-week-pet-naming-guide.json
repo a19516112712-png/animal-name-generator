@@ -18,8 +18,37 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">The First Week Window</a></li><li><a href=\"#day1\">Days 1-2: Observation Without Pressure</a></li><li><a href=\"#day3\">Days 3-4: Building Your Shortlist</a></li><li><a href=\"#day5\">Days 5-6: Testing Your Top Three</a></li><li><a href=\"#day7\">Day 7: Making It Official</a></li><li><a href=\"#mistakes\">Common First-Week Naming Mistakes</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "The First Week Window"
+        },
+        {
+          "href": "#day1",
+          "text": "Days 1-2: Observation Without Pressure"
+        },
+        {
+          "href": "#day3",
+          "text": "Days 3-4: Building Your Shortlist"
+        },
+        {
+          "href": "#day5",
+          "text": "Days 5-6: Testing Your Top Three"
+        },
+        {
+          "href": "#day7",
+          "text": "Day 7: Making It Official"
+        },
+        {
+          "href": "#mistakes",
+          "text": "Common First-Week Naming Mistakes"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

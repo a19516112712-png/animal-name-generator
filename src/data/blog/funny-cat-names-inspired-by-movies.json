@@ -18,8 +18,29 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Movie Cat Names Work</a></li><li><a href=\"#iconic\">Iconic Movie Characters</a></li><li><a href=\"#puns\">Clever Movie Pun Names</a></li><li><a href=\"#animated\">Animated Film Cat Characters</a></li><li><a href=\"#pick\">How to Pick the Right One</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Movie Cat Names Work"
+        },
+        {
+          "href": "#iconic",
+          "text": "Iconic Movie Characters"
+        },
+        {
+          "href": "#puns",
+          "text": "Clever Movie Pun Names"
+        },
+        {
+          "href": "#animated",
+          "text": "Animated Film Cat Characters"
+        },
+        {
+          "href": "#pick",
+          "text": "How to Pick the Right One"
+        }
+      ]
     },
     {
       "type": "h2",

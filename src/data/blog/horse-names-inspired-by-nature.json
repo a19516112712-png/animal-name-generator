@@ -18,8 +18,29 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Nature Names Suit Horses</a></li><li><a href=\"#mountains\">Mountain & Peak-Inspired Names</a></li><li><a href=\"#water\">Water & River-Inspired Names</a></li><li><a href=\"#sky\">Sky & Weather-Inspired Names</a></li><li><a href=\"#flora\">Plant & Tree-Inspired Names</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Nature Names Suit Horses"
+        },
+        {
+          "href": "#mountains",
+          "text": "Mountain & Peak-Inspired Names"
+        },
+        {
+          "href": "#water",
+          "text": "Water & River-Inspired Names"
+        },
+        {
+          "href": "#sky",
+          "text": "Sky & Weather-Inspired Names"
+        },
+        {
+          "href": "#flora",
+          "text": "Plant & Tree-Inspired Names"
+        }
+      ]
     },
     {
       "type": "h2",

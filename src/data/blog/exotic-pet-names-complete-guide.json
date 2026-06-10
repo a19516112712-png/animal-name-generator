@@ -19,8 +19,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#🦎-why-exotic-pets-deserve-spec\">🦎 Why Exotic Pets Deserve Special Names</a></li><li><a href=\"#🐍-snake-names-—-mysterious-&-m\">🐍 Snake Names — Mysterious & Majestic</a></li><li><a href=\"#🦜-bird-names-—-colorful-&-char\">🦜 Bird Names — Colorful & Characterful</a></li><li><a href=\"#🦔-small-exotic-mammal-names-—-\">🦔 Small Exotic Mammal Names — Hedgehogs, Ferrets & More</a></li><li><a href=\"#🔗-more-exotic-pet-name-ideas\">🔗 More Exotic Pet Name Ideas</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#🦎-why-exotic-pets-deserve-spec",
+          "text": "🦎 Why Exotic Pets Deserve Special Names"
+        },
+        {
+          "href": "#🐍-snake-names-—-mysterious-&-m",
+          "text": "🐍 Snake Names — Mysterious & Majestic"
+        },
+        {
+          "href": "#🦜-bird-names-—-colorful-&-char",
+          "text": "🦜 Bird Names — Colorful & Characterful"
+        },
+        {
+          "href": "#🦔-small-exotic-mammal-names-—-",
+          "text": "🦔 Small Exotic Mammal Names — Hedgehogs, Ferrets & More"
+        },
+        {
+          "href": "#🔗-more-exotic-pet-name-ideas",
+          "text": "🔗 More Exotic Pet Name Ideas"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

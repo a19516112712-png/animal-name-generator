@@ -17,8 +17,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#appeal\">Why Vintage Names Are Making a Comeback</a></li><li><a href=\"#1920s\">1920s Jazz Age Pet Names</a></li><li><a href=\"#1950s\">1950s Mid-Century Pet Names</a></li><li><a href=\"#literary\">Literary & Historical Vintage Names</a></li><li><a href=\"#categories\">Vintage Names by Pet Personality</a></li><li><a href=\"#modern\">Putting a Modern Twist on Vintage Names</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#appeal",
+          "text": "Why Vintage Names Are Making a Comeback"
+        },
+        {
+          "href": "#1920s",
+          "text": "1920s Jazz Age Pet Names"
+        },
+        {
+          "href": "#1950s",
+          "text": "1950s Mid-Century Pet Names"
+        },
+        {
+          "href": "#literary",
+          "text": "Literary & Historical Vintage Names"
+        },
+        {
+          "href": "#categories",
+          "text": "Vintage Names by Pet Personality"
+        },
+        {
+          "href": "#modern",
+          "text": "Putting a Modern Twist on Vintage Names"
+        }
+      ]
     },
     {
       "type": "h2",

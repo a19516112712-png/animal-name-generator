@@ -19,8 +19,37 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">The Science of Cute Names</a></li><li><a href=\"#sweet\">Sweet & Gentle Names</a></li><li><a href=\"#bubbly\">Bubbly & Energetic Names</a></li><li><a href=\"#tiny\">Tiny & Precious Names</a></li><li><a href=\"#cozy\">Cozy & Comforting Names</a></li><li><a href=\"#kawaii\">Kawaii Japanese Cute Names</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "The Science of Cute Names"
+        },
+        {
+          "href": "#sweet",
+          "text": "Sweet & Gentle Names"
+        },
+        {
+          "href": "#bubbly",
+          "text": "Bubbly & Energetic Names"
+        },
+        {
+          "href": "#tiny",
+          "text": "Tiny & Precious Names"
+        },
+        {
+          "href": "#cozy",
+          "text": "Cozy & Comforting Names"
+        },
+        {
+          "href": "#kawaii",
+          "text": "Kawaii Japanese Cute Names"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

@@ -18,8 +18,29 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Male Rabbits Deserve Unique Names</a></li><li><a href=\"#classic\">Classic Gentleman Names</a></li><li><a href=\"#food\">Food-Inspired Boy Bunny Names</a></li><li><a href=\"#nature\">Nature & Woodland Names</a></li><li><a href=\"#pick\">How to Pick the Perfect Name</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Male Rabbits Deserve Unique Names"
+        },
+        {
+          "href": "#classic",
+          "text": "Classic Gentleman Names"
+        },
+        {
+          "href": "#food",
+          "text": "Food-Inspired Boy Bunny Names"
+        },
+        {
+          "href": "#nature",
+          "text": "Nature & Woodland Names"
+        },
+        {
+          "href": "#pick",
+          "text": "How to Pick the Perfect Name"
+        }
+      ]
     },
     {
       "type": "h2",

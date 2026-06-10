@@ -18,8 +18,37 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#🔥-the-biggest-pet-naming-trend\">🔥 The Biggest Pet Naming Trends of 2025</a></li><li><a href=\"#👴-vintage-human-names-making-a\">👴 Vintage Human Names Making a Comeback</a></li><li><a href=\"#🌿-nature-inspired-names-contin\">🌿 Nature-Inspired Names Continue to Dominate</a></li><li><a href=\"#🎬-pop-culture:-streaming-shows\">🎬 Pop Culture: Streaming Shows Drive Naming</a></li><li><a href=\"#🍜-food-names-are-getting-more-\">🍜 Food Names Are Getting More Specific</a></li><li><a href=\"#🎯-how-to-choose-a-trend-aware-\">🎯 How to Choose a Trend-Aware Name</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#🔥-the-biggest-pet-naming-trend",
+          "text": "🔥 The Biggest Pet Naming Trends of 2025"
+        },
+        {
+          "href": "#👴-vintage-human-names-making-a",
+          "text": "👴 Vintage Human Names Making a Comeback"
+        },
+        {
+          "href": "#🌿-nature-inspired-names-contin",
+          "text": "🌿 Nature-Inspired Names Continue to Dominate"
+        },
+        {
+          "href": "#🎬-pop-culture:-streaming-shows",
+          "text": "🎬 Pop Culture: Streaming Shows Drive Naming"
+        },
+        {
+          "href": "#🍜-food-names-are-getting-more-",
+          "text": "🍜 Food Names Are Getting More Specific"
+        },
+        {
+          "href": "#🎯-how-to-choose-a-trend-aware-",
+          "text": "🎯 How to Choose a Trend-Aware Name"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

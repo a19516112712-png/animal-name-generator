@@ -18,8 +18,37 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Why Funny Names Work</a></li><li><a href=\"#puns\">Pun Names That Actually Land</a></li><li><a href=\"#food\">Food Names That Are Actually Funny</a></li><li><a href=\"#celeb\">Celebrity Pun Names</a></li><li><a href=\"#ironic\">Ironic & Contrast Names</a></li><li><a href=\"#tips\">Making Funny Names Work Long-Term</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Why Funny Names Work"
+        },
+        {
+          "href": "#puns",
+          "text": "Pun Names That Actually Land"
+        },
+        {
+          "href": "#food",
+          "text": "Food Names That Are Actually Funny"
+        },
+        {
+          "href": "#celeb",
+          "text": "Celebrity Pun Names"
+        },
+        {
+          "href": "#ironic",
+          "text": "Ironic & Contrast Names"
+        },
+        {
+          "href": "#tips",
+          "text": "Making Funny Names Work Long-Term"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

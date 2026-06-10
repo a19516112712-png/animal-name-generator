@@ -14,8 +14,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Introduction</a></li><li><a href=\"#why-matters\">Why the Right Name Matters</a></li><li><a href=\"#steps\">Step-by-Step Naming Guide</a></li><li><a href=\"#tips\">Expert Tips & Best Practices</a></li><li><a href=\"#mistakes\">Common Mistakes to Avoid</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Introduction"
+        },
+        {
+          "href": "#why-matters",
+          "text": "Why the Right Name Matters"
+        },
+        {
+          "href": "#steps",
+          "text": "Step-by-Step Naming Guide"
+        },
+        {
+          "href": "#tips",
+          "text": "Expert Tips & Best Practices"
+        },
+        {
+          "href": "#mistakes",
+          "text": "Common Mistakes to Avoid"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

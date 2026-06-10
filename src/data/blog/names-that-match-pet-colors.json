@@ -18,8 +18,37 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#intro\">Why Color-Based Naming Works</a></li><li><a href=\"#white\">White & Cream Coat Names</a></li><li><a href=\"#black\">Black & Dark Coat Names</a></li><li><a href=\"#orange\">Orange, Red & Ginger Names</a></li><li><a href=\"#gray\">Gray, Blue & Silver Names</a></li><li><a href=\"#multi\">Multi-Color & Pattern Names</a></li><li><a href=\"#faq\">FAQ</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#intro",
+          "text": "Why Color-Based Naming Works"
+        },
+        {
+          "href": "#white",
+          "text": "White & Cream Coat Names"
+        },
+        {
+          "href": "#black",
+          "text": "Black & Dark Coat Names"
+        },
+        {
+          "href": "#orange",
+          "text": "Orange, Red & Ginger Names"
+        },
+        {
+          "href": "#gray",
+          "text": "Gray, Blue & Silver Names"
+        },
+        {
+          "href": "#multi",
+          "text": "Multi-Color & Pattern Names"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
     },
     {
       "type": "h2",

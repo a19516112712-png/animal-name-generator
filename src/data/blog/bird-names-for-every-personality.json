@@ -17,8 +17,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#personality\">Why Your Bird's Personality Should Guide Their Name</a></li><li><a href=\"#playful\">Playful & Curious Bird Names</a></li><li><a href=\"#elegant\">Elegant & Majestic Bird Names</a></li><li><a href=\"#chatty\">Chatty & Vocal Bird Names</a></li><li><a href=\"#colorful\">Colorful & Vibrant Bird Names</a></li><li><a href=\"#choosing\">How to Choose the Right Name for Your Bird</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#personality",
+          "text": "Why Your Bird's Personality Should Guide Their Name"
+        },
+        {
+          "href": "#playful",
+          "text": "Playful & Curious Bird Names"
+        },
+        {
+          "href": "#elegant",
+          "text": "Elegant & Majestic Bird Names"
+        },
+        {
+          "href": "#chatty",
+          "text": "Chatty & Vocal Bird Names"
+        },
+        {
+          "href": "#colorful",
+          "text": "Colorful & Vibrant Bird Names"
+        },
+        {
+          "href": "#choosing",
+          "text": "How to Choose the Right Name for Your Bird"
+        }
+      ]
     },
     {
       "type": "h2",

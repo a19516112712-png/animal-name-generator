@@ -18,8 +18,29 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Hamster Names Matter to Kids</a></li><li><a href=\"#food\">Food Names Kids Love</a></li><li><a href=\"#tiny\">Tiny & Sweet Names</a></li><li><a href=\"#character\">Storybook & Cartoon Names</a></li><li><a href=\"#pick\">Picking the Perfect Kid-Friendly Name</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Hamster Names Matter to Kids"
+        },
+        {
+          "href": "#food",
+          "text": "Food Names Kids Love"
+        },
+        {
+          "href": "#tiny",
+          "text": "Tiny & Sweet Names"
+        },
+        {
+          "href": "#character",
+          "text": "Storybook & Cartoon Names"
+        },
+        {
+          "href": "#pick",
+          "text": "Picking the Perfect Kid-Friendly Name"
+        }
+      ]
     },
     {
       "type": "h2",

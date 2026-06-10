@@ -18,8 +18,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Reptiles and Amphibians Deserve Thoughtful Names</a></li><li><a href=\"#mythological\">Mythological & Legendary Names</a></li><li><a href=\"#funny\">Funny & Punny Names</a></li><li><a href=\"#fierce\">Fierce & Powerful Names</a></li><li><a href=\"#cute\">Cute & Tiny Names</a></li><li><a href=\"#care\">Naming Tips for Specific Species</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Reptiles and Amphibians Deserve Thoughtful Names"
+        },
+        {
+          "href": "#mythological",
+          "text": "Mythological & Legendary Names"
+        },
+        {
+          "href": "#funny",
+          "text": "Funny & Punny Names"
+        },
+        {
+          "href": "#fierce",
+          "text": "Fierce & Powerful Names"
+        },
+        {
+          "href": "#cute",
+          "text": "Cute & Tiny Names"
+        },
+        {
+          "href": "#care",
+          "text": "Naming Tips for Specific Species"
+        }
+      ]
     },
     {
       "type": "h2",

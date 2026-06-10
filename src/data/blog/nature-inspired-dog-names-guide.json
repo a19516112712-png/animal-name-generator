@@ -18,8 +18,33 @@
       "text": "📋 Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li><a href=\"#why\">Why Nature Names Are Perfect for Dogs</a></li><li><a href=\"#mountains\">Mountain & Landscape Dog Names</a></li><li><a href=\"#water\">River, Lake & Ocean Dog Names</a></li><li><a href=\"#forests\">Forest & Woodland Dog Names</a></li><li><a href=\"#weather\">Weather & Sky Dog Names</a></li><li><a href=\"#plants\">Plant & Flower Dog Names</a></li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#why",
+          "text": "Why Nature Names Are Perfect for Dogs"
+        },
+        {
+          "href": "#mountains",
+          "text": "Mountain & Landscape Dog Names"
+        },
+        {
+          "href": "#water",
+          "text": "River, Lake & Ocean Dog Names"
+        },
+        {
+          "href": "#forests",
+          "text": "Forest & Woodland Dog Names"
+        },
+        {
+          "href": "#weather",
+          "text": "Weather & Sky Dog Names"
+        },
+        {
+          "href": "#plants",
+          "text": "Plant & Flower Dog Names"
+        }
+      ]
     },
     {
       "type": "h2",
