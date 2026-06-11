@@ -10,6 +10,9 @@ import path from "path";
 
 interface IdeaIndexItem {
   slug: string;
+  animal?: string;
+  adjective?: string;
+  number?: string;
 }
 
 function loadAllIdeas(): IdeaIndexItem[] {
@@ -17,11 +20,20 @@ function loadAllIdeas(): IdeaIndexItem[] {
   return JSON.parse(fs.readFileSync(fp, "utf-8")) as IdeaIndexItem[];
 }
 
+function findIdeaBySlug(slug: string): IdeaIndexItem | null {
+  return loadAllIdeas().find(i => i.slug === slug) || null;
+}
+
 function getRelatedIdeas(currentSlug: string, count: number = 8): IdeaIndexItem[] {
   const all = loadAllIdeas();
-  const currentAnimal = slugToAnimal(currentSlug);
+  const current = findIdeaBySlug(currentSlug);
+  const currentAnimal = current?.animal || slugToAnimal(currentSlug);
   return all
-    .filter(i => i.slug !== currentSlug && slugToAnimal(i.slug) === currentAnimal)
+    .filter(i => {
+      if (i.slug === currentSlug) return false;
+      const iAnimal = i.animal || slugToAnimal(i.slug);
+      return iAnimal === currentAnimal;
+    })
     .sort(() => Math.random() - 0.5)
     .slice(0, count);
 }
