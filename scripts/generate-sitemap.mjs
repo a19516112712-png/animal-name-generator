@@ -153,4 +153,34 @@ ${ideasUrls.join("\n")}
 
 console.log(`✅ Generated sitemap.xml with ${urls.length} URLs`);
 console.log(`   blog-sitemap.xml: ${blogUrls.length} URLs`);
+// Sub-sitemap: StartsWith
+const startswithAnimals = [
+  "dog", "cat", "rabbit", "hamster", "horse", "bird", "parrot", "fish",
+  "turtle", "snake", "lizard", "frog", "guinea-pig", "ferret", "chinchilla",
+  "hedgehog", "mouse", "pig", "goat", "sheep", "cow", "chicken", "duck",
+  "fox", "wolf", "bear", "lion", "tiger", "elephant", "panda", "monkey",
+  "dolphin", "penguin", "owl", "eagle", "butterfly", "dragon", "unicorn",
+  "phoenix", "deer", "raccoon", "squirrel", "otter", "koala", "zebra",
+  "giraffe", "cheetah", "leopard", "shark", "whale", "octopus", "seal",
+  "peacock", "flamingo", "swan", "parakeet", "cockatiel", "goldfish",
+];
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+let startswithUrls = [];
+for (const animal of startswithAnimals) {
+  if (!animals.find(a => a.slug === animal)) continue;
+  for (const letter of letters) {
+    const url = urlEl(`${BASE}/startswith/${letter}/${animal}/`, "weekly", "0.6");
+    urls.push(url);
+    startswithUrls.push(url);
+  }
+}
+if (startswithUrls.length > 0) {
+  const startswithSitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${startswithUrls.join("\n")}
+</urlset>`;
+  fs.writeFileSync(path.join(publicDir, "startswith-sitemap.xml"), startswithSitemap);
+}
+
 console.log(`   ideas-sitemap.xml: ${ideasUrls.length} URLs`);
+console.log(`   startswith-sitemap.xml: ${startswithUrls.length} URLs`);

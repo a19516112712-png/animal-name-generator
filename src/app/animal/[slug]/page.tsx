@@ -264,6 +264,50 @@ export default async function AnimalPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Browse Names by Letter */}
+      <section className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <h2 className="text-xl font-bold mb-4">🔤 Browse {data.displayName} Names by Letter</h2>
+          <p className="text-gray-600 text-sm mb-4">
+            Looking for {data.displayName.toLowerCase()} names that start with a specific letter? 
+            Browse our complete A-Z collection:
+          </p>
+          <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-cols-13 gap-1.5">
+            {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => (
+              <Link
+                key={l}
+                href={`/startswith/${l}/${slug}/`}
+                className="bg-gray-50 hover:bg-primary/10 rounded-lg py-2 text-center text-sm font-bold text-gray-700 hover:text-primary transition-colors"
+              >
+                {l}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Browse Names by Letter */}
+      <section className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <h2 className="text-xl font-bold mb-4">🔤 Browse {data.displayName} Names by Letter</h2>
+          <p className="text-gray-600 text-sm mb-4">
+            Looking for {data.displayName.toLowerCase()} names that start with a specific letter? 
+            Browse our complete A-Z collection:
+          </p>
+          <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-cols-13 gap-1.5">
+            {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => (
+              <Link
+                key={l}
+                href={`/startswith/${l}/${slug}/`}
+                className="bg-gray-50 hover:bg-primary/10 rounded-lg py-2 text-center text-sm font-bold text-gray-700 hover:text-primary transition-colors"
+              >
+                {l}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
