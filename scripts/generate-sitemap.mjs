@@ -108,7 +108,7 @@ try {
   }
 } catch (_) {}
 
-// Blog posts (collect separately for sub-sitemap)
+// Blog posts
 let blogUrls = [];
 try {
   const blogPosts = JSON.parse(fs.readFileSync(path.join(blogDir, "index.json"), "utf-8"));
@@ -119,41 +119,7 @@ try {
   }
 } catch (_) {}
 
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-${urls.join("\n")}
-</urlset>
-`;
-
-const publicDir = path.join(__dirname, "..", "public");
-fs.mkdirSync(publicDir, { recursive: true });
-fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemap);
-
-// Sub-sitemap: Blog
-if (blogUrls.length > 0) {
-  const blogSitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${blogUrls.join("\n")}
-</urlset>`;
-  fs.writeFileSync(path.join(publicDir, "blog-sitemap.xml"), blogSitemap);
-}
-
-// Sub-sitemap: Ideas
-if (ideasUrls.length > 0) {
-  const ideasSitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${ideasUrls.join("\n")}
-</urlset>`;
-  fs.writeFileSync(path.join(publicDir, "ideas-sitemap.xml"), ideasSitemap);
-}
-
-console.log(`✅ Generated sitemap.xml with ${urls.length} URLs`);
-console.log(`   blog-sitemap.xml: ${blogUrls.length} URLs`);
-// Sub-sitemap: StartsWith
+// Startswith URLs
 const startswithAnimals = [
   "dog", "cat", "rabbit", "hamster", "horse", "bird", "parrot", "fish",
   "turtle", "snake", "lizard", "frog", "guinea-pig", "ferret", "chinchilla",
@@ -182,16 +148,8 @@ for (const animal of startswithAnimals) {
     startswithUrls.push(url);
   }
 }
-if (startswithUrls.length > 0) {
-  const startswithSitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${startswithUrls.join("\n")}
-</urlset>`;
-  fs.writeFileSync(path.join(publicDir, "startswith-sitemap.xml"), startswithSitemap);
-}
 
-console.log(`   ideas-sitemap.xml: ${ideasUrls.length} URLs`);
-// Sub-sitemap: Length
+// Length URLs
 const lengthAnimals = startswithAnimals;
 const validLengths = [3, 4, 5, 6, 7, 8, 9, 10];
 let lengthUrls = [];
@@ -203,13 +161,43 @@ for (const animal of lengthAnimals) {
     lengthUrls.push(url);
   }
 }
-if (lengthUrls.length > 0) {
-  const lengthSitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${lengthUrls.join("\n")}
+
+// === Write all sitemaps ===
+const publicDir = path.join(__dirname, "..", "public");
+fs.mkdirSync(publicDir, { recursive: true });
+
+// Build sitemap XML (after all URLs collected)
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+${urls.join("\n")}
 </urlset>`;
-  fs.writeFileSync(path.join(publicDir, "length-sitemap.xml"), lengthSitemap);
+
+fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemap);
+
+// Sub-sitemaps
+if (blogUrls.length > 0) {
+  fs.writeFileSync(path.join(publicDir, "blog-sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${blogUrls.join("\n")}\n</urlset>`);
+}
+if (ideasUrls.length > 0) {
+  fs.writeFileSync(path.join(publicDir, "ideas-sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${ideasUrls.join("\n")}\n</urlset>`);
+}
+if (startswithUrls.length > 0) {
+  fs.writeFileSync(path.join(publicDir, "startswith-sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${startswithUrls.join("\n")}\n</urlset>`);
+}
+if (lengthUrls.length > 0) {
+  fs.writeFileSync(path.join(publicDir, "length-sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${lengthUrls.join("\n")}\n</urlset>`);
 }
 
+console.log(`✅ Generated sitemap.xml with ${urls.length} URLs`);
+console.log(`   blog-sitemap.xml: ${blogUrls.length} URLs`);
+console.log(`   ideas-sitemap.xml: ${ideasUrls.length} URLs`);
 console.log(`   startswith-sitemap.xml: ${startswithUrls.length} URLs`);
 console.log(`   length-sitemap.xml: ${lengthUrls.length} URLs`);

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://animalnamegen.com",
+  siteUrl: "https://bestanimalnames.com",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   changefreq: "weekly",
