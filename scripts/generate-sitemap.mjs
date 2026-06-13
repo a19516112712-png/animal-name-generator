@@ -163,6 +163,14 @@ const startswithAnimals = [
   "phoenix", "deer", "raccoon", "squirrel", "otter", "koala", "zebra",
   "giraffe", "cheetah", "leopard", "shark", "whale", "octopus", "seal",
   "peacock", "flamingo", "swan", "parakeet", "cockatiel", "goldfish",
+  "spider", "bee", "ant", "ladybug", "crab", "jellyfish", "starfish",
+  "llama", "meerkat", "sloth", "hippo", "rhino", "gorilla", "crocodile",
+  "kangaroo", "polar-bear", "walrus", "seahorse", "clownfish",
+  "betta-fish", "canary", "gecko", "iguana", "chameleon", "axolotl",
+  "capybara", "red-panda", "snow-leopard", "beluga", "narwhal", "manatee",
+  "platypus", "wombat", "tasmanian-devil", "quokka", "fennec-fox",
+  "serval", "ocelot", "caracal", "margay", "jaguar", "cougar",
+  "bobcat", "lynx",
 ];
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 let startswithUrls = [];
@@ -183,4 +191,25 @@ ${startswithUrls.join("\n")}
 }
 
 console.log(`   ideas-sitemap.xml: ${ideasUrls.length} URLs`);
+// Sub-sitemap: Length
+const lengthAnimals = startswithAnimals;
+const validLengths = [3, 4, 5, 6, 7, 8, 9, 10];
+let lengthUrls = [];
+for (const animal of lengthAnimals) {
+  if (!animals.find(a => a.slug === animal)) continue;
+  for (const len of validLengths) {
+    const url = urlEl(`${BASE}/length/${len}/${animal}/`, "weekly", "0.6");
+    urls.push(url);
+    lengthUrls.push(url);
+  }
+}
+if (lengthUrls.length > 0) {
+  const lengthSitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${lengthUrls.join("\n")}
+</urlset>`;
+  fs.writeFileSync(path.join(publicDir, "length-sitemap.xml"), lengthSitemap);
+}
+
 console.log(`   startswith-sitemap.xml: ${startswithUrls.length} URLs`);
+console.log(`   length-sitemap.xml: ${lengthUrls.length} URLs`);

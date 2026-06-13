@@ -287,6 +287,27 @@ export default async function AnimalPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Browse Names by Length */}
+      <section className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <h2 className="text-xl font-bold mb-4">📏 Browse {data.displayName} Names by Length</h2>
+          <p className="text-gray-600 text-sm mb-4">
+            Prefer {data.displayName.toLowerCase()} names of a specific length? Find short and sweet or longer distinctive names:
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {[3,4,5,6,7,8,9,10].map(n => (
+              <Link
+                key={n}
+                href={`/length/${n}/${slug}/`}
+                className="bg-gray-50 hover:bg-emerald-50 rounded-lg px-4 py-2 text-center text-sm font-semibold text-gray-700 hover:text-emerald-700 transition-colors"
+              >
+                {n} Letters
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Browse Names by Letter */}
       <section className="max-w-4xl mx-auto px-4 py-8">
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
@@ -303,6 +324,27 @@ export default async function AnimalPage({ params }: Props) {
                 className="bg-gray-50 hover:bg-primary/10 rounded-lg py-2 text-center text-sm font-bold text-gray-700 hover:text-primary transition-colors"
               >
                 {l}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Browse Names by Length */}
+      <section className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <h2 className="text-xl font-bold mb-4">📏 Browse {data.displayName} Names by Length</h2>
+          <p className="text-gray-600 text-sm mb-4">
+            Prefer {data.displayName.toLowerCase()} names of a specific length? Find short and sweet or longer distinctive names:
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {[3,4,5,6,7,8,9,10].map(n => (
+              <Link
+                key={n}
+                href={`/length/${n}/${slug}/`}
+                className="bg-gray-50 hover:bg-emerald-50 rounded-lg px-4 py-2 text-center text-sm font-semibold text-gray-700 hover:text-emerald-700 transition-colors"
+              >
+                {n} Letters
               </Link>
             ))}
           </div>
