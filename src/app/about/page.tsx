@@ -9,9 +9,33 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://bestanimalnames.com/about/" },
 };
 
+
+  const pageSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bestanimalnames.com/" },
+      { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://bestanimalnames.com/about/" }
+    ]
+  };
+
+
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Animal Name Generator",
+    "url": "https://bestanimalnames.com",
+    "description": "Free animal name generator with 989+ animals. Browse thousands of name ideas.",
+    "sameAs": [
+      "https://www.pinterest.com/bestanimalnames/"
+    ]
+  };
+
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link><span className="text-gray-300">/</span>
         <span className="text-gray-800 font-medium">About Us</span>

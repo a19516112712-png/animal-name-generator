@@ -71,6 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <ul className="space-y-2 text-sm">
                 <li><Link href="/about/" className="hover:text-white transition-colors">About</Link></li>
                 <li><Link href="/contact/" className="hover:text-white transition-colors">Contact</Link></li>
+                <li><Link href="/faq/" className="hover:text-white transition-colors">FAQ</Link></li>
               </ul>
             </div>
             <div>

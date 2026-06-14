@@ -26,11 +26,21 @@ function loadBlogPosts(): BlogPost[] {
   return JSON.parse(fs.readFileSync(fp, "utf-8"));
 }
 
+
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Animal Name Generator Blog",
+    "description": "Pet naming tips, complete name guides, and creative ideas for every animal.",
+    "url": "https://bestanimalnames.com/blog/",
+  };
+
 export default function BlogPage() {
   const posts = loadBlogPosts();
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link><span>/</span>
         <span className="text-gray-800 font-medium">Blog</span>

@@ -9,9 +9,20 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://bestanimalnames.com/cookie-policy/" },
 };
 
+
+  const pageSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bestanimalnames.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Cookie Policy", "item": "https://bestanimalnames.com/cookie-policy/" }
+    ]
+  };
+
 export default function CookiePolicyPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link><span className="text-gray-300">/</span>
         <span className="text-gray-800 font-medium">Cookie Policy</span>

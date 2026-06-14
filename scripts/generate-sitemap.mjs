@@ -43,6 +43,7 @@ urls.push(urlEl(`${BASE}/privacy-policy/`, "monthly", "0.5"));
 urls.push(urlEl(`${BASE}/terms/`, "monthly", "0.5"));
 urls.push(urlEl(`${BASE}/disclaimer/`, "monthly", "0.5"));
 urls.push(urlEl(`${BASE}/cookie-policy/`, "monthly", "0.5"));
+urls.push(urlEl(`${BASE}/faq/`, "monthly", "0.6"));
 
 // Animal pages
 for (const a of animals) {

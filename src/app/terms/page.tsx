@@ -9,9 +9,20 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://bestanimalnames.com/terms/" },
 };
 
+
+  const pageSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bestanimalnames.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Terms of Service", "item": "https://bestanimalnames.com/terms/" }
+    ]
+  };
+
 export default function TermsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link><span className="text-gray-300">/</span>
         <span className="text-gray-800 font-medium">Terms of Service</span>
