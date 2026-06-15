@@ -41,6 +41,12 @@ function getRelatedIdeas(currentSlug: string, count: number = 8): IdeaIndexItem[
 type Props = { params: Promise<{ slug: string }> };
 
 export const dynamicParams = true;
+export const revalidate = 86400;
+
+export async function generateStaticParams() {
+  const ideas = loadAllIdeas();
+  return ideas.map((idea) => ({ slug: idea.slug }));
+}
 
 function slugToTitle(slug: string): string {
   return slug

@@ -18,8 +18,33 @@
       "text": "Table of Contents"
     },
     {
-      "type": "p",
-      "text": "<ol><li>The Unique Appeal of Exotic Pet Names</li><li>Hedgehog Names: Spiky and Sweet</li><li>Sugar Glider Names: Tiny Aerial Acrobats</li><li>Ferret Names: Mischievous and Playful</li><li>Chinchilla Names: Soft and Sophisticated</li><li>Names for Other Exotic Small Pets</li></ol>"
+      "type": "toc",
+      "items": [
+        {
+          "href": "#the-unique-appeal-of-exotic-pet-names",
+          "text": "The Unique Appeal of Exotic Pet Names"
+        },
+        {
+          "href": "#hedgehog-names-spiky-and-sweet",
+          "text": "Hedgehog Names: Spiky and Sweet"
+        },
+        {
+          "href": "#sugar-glider-names-tiny-aerial-acrobats",
+          "text": "Sugar Glider Names: Tiny Aerial Acrobats"
+        },
+        {
+          "href": "#ferret-names-mischievous-and-playful",
+          "text": "Ferret Names: Mischievous and Playful"
+        },
+        {
+          "href": "#chinchilla-names-soft-and-sophisticated",
+          "text": "Chinchilla Names: Soft and Sophisticated"
+        },
+        {
+          "href": "#names-for-other-exotic-small-pets",
+          "text": "Names for Other Exotic Small Pets"
+        }
+      ]
     },
     {
       "type": "h2",
