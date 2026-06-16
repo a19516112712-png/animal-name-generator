@@ -1,858 +1,93 @@
 [
   {
-    "slug": "dog",
-    "name": "Dog",
-    "icon": "🐕"
+    "slug": "aardvark",
+    "name": "Aardvark",
+    "icon": "🐜"
   },
   {
-    "slug": "cat",
-    "name": "Cat",
+    "slug": "aardwolf",
+    "name": "Aardwolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "abyssinian",
+    "name": "Abyssinian Cat",
     "icon": "🐱"
   },
   {
-    "slug": "fox",
-    "name": "Fox",
-    "icon": "🦊"
+    "slug": "abyssinian-cat",
+    "name": "Abyssinian Cat",
+    "icon": "🐱"
   },
   {
-    "slug": "bear",
-    "name": "Bear",
-    "icon": "🐻"
-  },
-  {
-    "slug": "rabbit",
-    "name": "Rabbit",
-    "icon": "🐰"
-  },
-  {
-    "slug": "hamster",
-    "name": "Hamster",
-    "icon": "🐹"
-  },
-  {
-    "slug": "guinea-pig",
-    "name": "Guinea Pig",
-    "icon": "🐹"
-  },
-  {
-    "slug": "horse",
-    "name": "Horse",
-    "icon": "🐴"
-  },
-  {
-    "slug": "parrot",
-    "name": "Parrot",
-    "icon": "🦜"
-  },
-  {
-    "slug": "turtle",
-    "name": "Turtle",
-    "icon": "🐢"
-  },
-  {
-    "slug": "fish",
-    "name": "Fish",
+    "slug": "achilles-tang",
+    "name": "Achilles Tang",
     "icon": "🐠"
   },
   {
-    "slug": "snake",
-    "name": "Snake",
-    "icon": "🐍"
+    "slug": "addax",
+    "name": "Addax",
+    "icon": "🦌"
   },
   {
-    "slug": "lizard",
-    "name": "Lizard",
-    "icon": "🦎"
-  },
-  {
-    "slug": "frog",
-    "name": "Frog",
+    "slug": "african-bullfrog",
+    "name": "African Bullfrog",
     "icon": "🐸"
   },
   {
-    "slug": "hedgehog",
-    "name": "Hedgehog",
-    "icon": "🦔"
+    "slug": "african-dormouse",
+    "name": "African Dormouse",
+    "icon": "🐹"
   },
   {
-    "slug": "ferret",
-    "name": "Ferret",
-    "icon": "🦡"
-  },
-  {
-    "slug": "chinchilla",
-    "name": "Chinchilla",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "mouse",
-    "name": "Mouse",
-    "icon": "🐭"
-  },
-  {
-    "slug": "rat",
-    "name": "Rat",
-    "icon": "🐀"
-  },
-  {
-    "slug": "bird",
-    "name": "Bird",
-    "icon": "🐦"
-  },
-  {
-    "slug": "duck",
-    "name": "Duck",
-    "icon": "🦆"
-  },
-  {
-    "slug": "goose",
-    "name": "Goose",
-    "icon": "🦆"
-  },
-  {
-    "slug": "chicken",
-    "name": "Chicken",
-    "icon": "🐔"
-  },
-  {
-    "slug": "pig",
-    "name": "Pig",
-    "icon": "🐷"
-  },
-  {
-    "slug": "cow",
-    "name": "Cow",
-    "icon": "🐮"
-  },
-  {
-    "slug": "sheep",
-    "name": "Sheep",
-    "icon": "🐑"
-  },
-  {
-    "slug": "goat",
-    "name": "Goat",
-    "icon": "🐐"
-  },
-  {
-    "slug": "alpaca",
-    "name": "Alpaca",
-    "icon": "🦙"
-  },
-  {
-    "slug": "llama",
-    "name": "Llama",
-    "icon": "🦙"
-  },
-  {
-    "slug": "donkey",
-    "name": "Donkey",
-    "icon": "🫏"
-  },
-  {
-    "slug": "elephant",
-    "name": "Elephant",
+    "slug": "african-elephant",
+    "name": "African Elephant",
     "icon": "🐘"
   },
   {
-    "slug": "lion",
-    "name": "Lion",
+    "slug": "african-grey",
+    "name": "African Grey Parrot",
+    "icon": "🦜"
+  },
+  {
+    "slug": "african-grey-hornbill",
+    "name": "African Grey Hornbill",
+    "icon": "🐦"
+  },
+  {
+    "slug": "african-grey-parrot",
+    "name": "African Grey Parrot",
+    "icon": "🦜"
+  },
+  {
+    "slug": "african-lion",
+    "name": "African Lion",
     "icon": "🦁"
   },
   {
-    "slug": "tiger",
-    "name": "Tiger",
-    "icon": "🐯"
-  },
-  {
-    "slug": "leopard",
-    "name": "Leopard",
-    "icon": "🐆"
-  },
-  {
-    "slug": "cheetah",
-    "name": "Cheetah",
-    "icon": "🐆"
-  },
-  {
-    "slug": "wolf",
-    "name": "Wolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "coyote",
-    "name": "Coyote",
-    "icon": "🐺"
-  },
-  {
-    "slug": "hyena",
-    "name": "Hyena",
-    "icon": "🦡"
-  },
-  {
-    "slug": "panda",
-    "name": "Panda",
-    "icon": "🐼"
-  },
-  {
-    "slug": "koala",
-    "name": "Koala",
-    "icon": "🐨"
-  },
-  {
-    "slug": "kangaroo",
-    "name": "Kangaroo",
-    "icon": "🦘"
-  },
-  {
-    "slug": "raccoon",
-    "name": "Raccoon",
-    "icon": "🦝"
-  },
-  {
-    "slug": "squirrel",
-    "name": "Squirrel",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "chipmunk",
-    "name": "Chipmunk",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "otter",
-    "name": "Otter",
-    "icon": "🦦"
-  },
-  {
-    "slug": "beaver",
-    "name": "Beaver",
-    "icon": "🦫"
-  },
-  {
-    "slug": "skunk",
-    "name": "Skunk",
-    "icon": "🦨"
-  },
-  {
-    "slug": "deer",
-    "name": "Deer",
-    "icon": "🦌"
-  },
-  {
-    "slug": "moose",
-    "name": "Moose",
-    "icon": "🫎"
-  },
-  {
-    "slug": "reindeer",
-    "name": "Reindeer",
-    "icon": "🦌"
-  },
-  {
-    "slug": "giraffe",
-    "name": "Giraffe",
-    "icon": "🦒"
-  },
-  {
-    "slug": "zebra",
-    "name": "Zebra",
-    "icon": "🦓"
-  },
-  {
-    "slug": "hippopotamus",
-    "name": "Hippopotamus",
-    "icon": "🦛"
-  },
-  {
-    "slug": "rhinoceros",
-    "name": "Rhinoceros",
-    "icon": "🦏"
-  },
-  {
-    "slug": "gorilla",
-    "name": "Gorilla",
-    "icon": "🦍"
-  },
-  {
-    "slug": "monkey",
-    "name": "Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "chimpanzee",
-    "name": "Chimpanzee",
-    "icon": "🐒"
-  },
-  {
-    "slug": "orangutan",
-    "name": "Orangutan",
-    "icon": "🦧"
-  },
-  {
-    "slug": "lemur",
-    "name": "Lemur",
-    "icon": "🐒"
-  },
-  {
-    "slug": "dolphin",
-    "name": "Dolphin",
-    "icon": "🐬"
-  },
-  {
-    "slug": "whale",
-    "name": "Whale",
-    "icon": "🐋"
-  },
-  {
-    "slug": "shark",
-    "name": "Shark",
-    "icon": "🦈"
-  },
-  {
-    "slug": "octopus",
-    "name": "Octopus",
-    "icon": "🐙"
-  },
-  {
-    "slug": "jellyfish",
-    "name": "Jellyfish",
-    "icon": "🪼"
-  },
-  {
-    "slug": "seahorse",
-    "name": "Seahorse",
-    "icon": "🐴"
-  },
-  {
-    "slug": "starfish",
-    "name": "Starfish",
-    "icon": "🌟"
-  },
-  {
-    "slug": "crab",
-    "name": "Crab",
-    "icon": "🦀"
-  },
-  {
-    "slug": "lobster",
-    "name": "Lobster",
-    "icon": "🦞"
-  },
-  {
-    "slug": "penguin",
-    "name": "Penguin",
+    "slug": "african-penguin",
+    "name": "African Penguin",
     "icon": "🐧"
   },
   {
-    "slug": "seal",
-    "name": "Seal",
-    "icon": "🦭"
+    "slug": "agouti",
+    "name": "Agouti",
+    "icon": "🐹"
   },
   {
-    "slug": "walrus",
-    "name": "Walrus",
-    "icon": "🦭"
-  },
-  {
-    "slug": "polar-bear",
-    "name": "Polar Bear",
-    "icon": "🐻‍❄️"
-  },
-  {
-    "slug": "eagle",
-    "name": "Eagle",
-    "icon": "🦅"
-  },
-  {
-    "slug": "hawk",
-    "name": "Hawk",
-    "icon": "🦅"
-  },
-  {
-    "slug": "owl",
-    "name": "Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "falcon",
-    "name": "Falcon",
-    "icon": "🦅"
-  },
-  {
-    "slug": "raven",
-    "name": "Raven",
-    "icon": "🐦‍⬛"
-  },
-  {
-    "slug": "crow",
-    "name": "Crow",
-    "icon": "🐦‍⬛"
-  },
-  {
-    "slug": "peacock",
-    "name": "Peacock",
-    "icon": "🦚"
-  },
-  {
-    "slug": "swan",
-    "name": "Swan",
-    "icon": "🦢"
-  },
-  {
-    "slug": "butterfly",
-    "name": "Butterfly",
-    "icon": "🦋"
-  },
-  {
-    "slug": "bee",
-    "name": "Bee",
-    "icon": "🐝"
-  },
-  {
-    "slug": "ladybug",
-    "name": "Ladybug",
-    "icon": "🐞"
-  },
-  {
-    "slug": "ant",
-    "name": "Ant",
-    "icon": "🐜"
-  },
-  {
-    "slug": "spider",
-    "name": "Spider",
-    "icon": "🕷️"
-  },
-  {
-    "slug": "scorpion",
-    "name": "Scorpion",
-    "icon": "🦂"
-  },
-  {
-    "slug": "dragon",
-    "name": "Dragon",
-    "icon": "🐉"
-  },
-  {
-    "slug": "unicorn",
-    "name": "Unicorn",
-    "icon": "🦄"
-  },
-  {
-    "slug": "phoenix",
-    "name": "Phoenix",
-    "icon": "🐦‍🔥"
-  },
-  {
-    "slug": "griffin",
-    "name": "Griffin",
-    "icon": "🦅"
-  },
-  {
-    "slug": "pegasus",
-    "name": "Pegasus",
-    "icon": "🐴"
-  },
-  {
-    "slug": "mermaid",
-    "name": "Mermaid",
-    "icon": "🧜‍♀️"
-  },
-  {
-    "slug": "werewolf",
-    "name": "Werewolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "bat",
-    "name": "Bat",
-    "icon": "🦇"
-  },
-  {
-    "slug": "camel",
-    "name": "Camel",
-    "icon": "🐪"
-  },
-  {
-    "slug": "gazelle",
-    "name": "Gazelle",
-    "icon": "🦌"
-  },
-  {
-    "slug": "anteater",
-    "name": "Anteater",
-    "icon": "🐜"
-  },
-  {
-    "slug": "sloth",
-    "name": "Sloth",
-    "icon": "🦥"
-  },
-  {
-    "slug": "armadillo",
-    "name": "Armadillo",
-    "icon": "🦔"
-  },
-  {
-    "slug": "porcupine",
-    "name": "Porcupine",
-    "icon": "🦔"
-  },
-  {
-    "slug": "meerkat",
-    "name": "Meerkat",
-    "icon": "🦡"
-  },
-  {
-    "slug": "wombat",
-    "name": "Wombat",
-    "icon": "🦡"
-  },
-  {
-    "slug": "platypus",
-    "name": "Platypus",
-    "icon": "🦆"
-  },
-  {
-    "slug": "tasmanian-devil",
-    "name": "Tasmanian Devil",
-    "icon": "🦡"
-  },
-  {
-    "slug": "dingo",
-    "name": "Dingo",
+    "slug": "airedale-terrier",
+    "name": "Airedale Terrier",
     "icon": "🐕"
   },
   {
-    "slug": "jackal",
-    "name": "Jackal",
-    "icon": "🐺"
+    "slug": "akita",
+    "name": "Akita",
+    "icon": "🐕"
   },
   {
-    "slug": "fennec-fox",
-    "name": "Fennec Fox",
-    "icon": "🦊"
-  },
-  {
-    "slug": "arctic-fox",
-    "name": "Arctic Fox",
-    "icon": "🦊"
-  },
-  {
-    "slug": "red-panda",
-    "name": "Red Panda",
-    "icon": "🐼"
-  },
-  {
-    "slug": "snow-leopard",
-    "name": "Snow Leopard",
-    "icon": "🐆"
-  },
-  {
-    "slug": "jaguar",
-    "name": "Jaguar",
-    "icon": "🐆"
-  },
-  {
-    "slug": "puma",
-    "name": "Puma",
-    "icon": "🐆"
-  },
-  {
-    "slug": "lynx",
-    "name": "Lynx",
-    "icon": "🐱"
-  },
-  {
-    "slug": "bobcat",
-    "name": "Bobcat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ocelot",
-    "name": "Ocelot",
-    "icon": "🐆"
-  },
-  {
-    "slug": "caracal",
-    "name": "Caracal",
-    "icon": "🐱"
-  },
-  {
-    "slug": "serval",
-    "name": "Serval",
-    "icon": "🐱"
-  },
-  {
-    "slug": "manatee",
-    "name": "Manatee",
-    "icon": "🦭"
-  },
-  {
-    "slug": "dugong",
-    "name": "Dugong",
-    "icon": "🦭"
-  },
-  {
-    "slug": "narwhal",
-    "name": "Narwhal",
-    "icon": "🐋"
-  },
-  {
-    "slug": "beluga",
-    "name": "Beluga",
-    "icon": "🐋"
-  },
-  {
-    "slug": "orca",
-    "name": "Orca",
-    "icon": "🐋"
-  },
-  {
-    "slug": "sperm-whale",
-    "name": "Sperm Whale",
-    "icon": "🐋"
-  },
-  {
-    "slug": "humpback-whale",
-    "name": "Humpback Whale",
-    "icon": "🐋"
-  },
-  {
-    "slug": "manta-ray",
-    "name": "Manta Ray",
-    "icon": "🦈"
-  },
-  {
-    "slug": "stingray",
-    "name": "Stingray",
-    "icon": "🦈"
-  },
-  {
-    "slug": "swordfish",
-    "name": "Swordfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "marlin",
-    "name": "Marlin",
-    "icon": "🐟"
-  },
-  {
-    "slug": "tuna",
-    "name": "Tuna",
-    "icon": "🐟"
-  },
-  {
-    "slug": "salmon",
-    "name": "Salmon",
-    "icon": "🐟"
-  },
-  {
-    "slug": "clownfish",
-    "name": "Clownfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "pufferfish",
-    "name": "Pufferfish",
-    "icon": "🐡"
-  },
-  {
-    "slug": "anglerfish",
-    "name": "Anglerfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "axolotl",
-    "name": "Axolotl",
-    "icon": "🦎"
-  },
-  {
-    "slug": "iguana",
-    "name": "Iguana",
-    "icon": "🦎"
-  },
-  {
-    "slug": "chameleon",
-    "name": "Chameleon",
-    "icon": "🦎"
-  },
-  {
-    "slug": "gecko",
-    "name": "Gecko",
-    "icon": "🦎"
-  },
-  {
-    "slug": "komodo-dragon",
-    "name": "Komodo Dragon",
-    "icon": "🦎"
-  },
-  {
-    "slug": "crocodile",
-    "name": "Crocodile",
-    "icon": "🐊"
-  },
-  {
-    "slug": "alligator",
-    "name": "Alligator",
-    "icon": "🐊"
-  },
-  {
-    "slug": "cobra",
-    "name": "Cobra",
-    "icon": "🐍"
-  },
-  {
-    "slug": "python",
-    "name": "Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "rattlesnake",
-    "name": "Rattlesnake",
-    "icon": "🐍"
-  },
-  {
-    "slug": "anaconda",
-    "name": "Anaconda",
-    "icon": "🐍"
-  },
-  {
-    "slug": "tarantula",
-    "name": "Tarantula",
-    "icon": "🕷️"
-  },
-  {
-    "slug": "praying-mantis",
-    "name": "Praying Mantis",
-    "icon": "🦗"
-  },
-  {
-    "slug": "stick-insect",
-    "name": "Stick Insect",
-    "icon": "🦗"
-  },
-  {
-    "slug": "caterpillar",
-    "name": "Caterpillar",
-    "icon": "🐛"
-  },
-  {
-    "slug": "snail",
-    "name": "Snail",
-    "icon": "🐌"
-  },
-  {
-    "slug": "earthworm",
-    "name": "Earthworm",
-    "icon": "🪱"
-  },
-  {
-    "slug": "cockroach",
-    "name": "Cockroach",
-    "icon": "🪳"
-  },
-  {
-    "slug": "firefly",
-    "name": "Firefly",
-    "icon": "🪲"
-  },
-  {
-    "slug": "beetle",
-    "name": "Beetle",
-    "icon": "🪲"
-  },
-  {
-    "slug": "dragonfly",
-    "name": "Dragonfly",
-    "icon": "🪰"
-  },
-  {
-    "slug": "grasshopper",
-    "name": "Grasshopper",
-    "icon": "🦗"
-  },
-  {
-    "slug": "cricket",
-    "name": "Cricket",
-    "icon": "🦗"
-  },
-  {
-    "slug": "termite",
-    "name": "Termite",
-    "icon": "🐜"
-  },
-  {
-    "slug": "wasp",
-    "name": "Wasp",
-    "icon": "🐝"
-  },
-  {
-    "slug": "mosquito",
-    "name": "Mosquito",
-    "icon": "🦟"
-  },
-  {
-    "slug": "centipede",
-    "name": "Centipede",
-    "icon": "🦂"
-  },
-  {
-    "slug": "millipede",
-    "name": "Millipede",
-    "icon": "🪱"
-  },
-  {
-    "slug": "hermit-crab",
-    "name": "Hermit Crab",
-    "icon": "🦀"
-  },
-  {
-    "slug": "pigeon",
-    "name": "Pigeon",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "sparrow",
-    "name": "Sparrow",
-    "icon": "🐦"
-  },
-  {
-    "slug": "blue-jay",
-    "name": "Blue Jay",
-    "icon": "🐦"
-  },
-  {
-    "slug": "cardinal",
-    "name": "Cardinal",
-    "icon": "🐦"
-  },
-  {
-    "slug": "robin",
-    "name": "Robin",
-    "icon": "🐦"
-  },
-  {
-    "slug": "hummingbird",
-    "name": "Hummingbird",
-    "icon": "🐦"
-  },
-  {
-    "slug": "woodpecker",
-    "name": "Woodpecker",
-    "icon": "🐦"
-  },
-  {
-    "slug": "pelican",
-    "name": "Pelican",
-    "icon": "🦤"
-  },
-  {
-    "slug": "seagull",
-    "name": "Seagull",
-    "icon": "🕊️"
+    "slug": "alaskan-malamute",
+    "name": "Alaskan Malamute",
+    "icon": "🐕"
   },
   {
     "slug": "albatross",
@@ -860,549 +95,79 @@
     "icon": "🕊️"
   },
   {
-    "slug": "kiwi",
-    "name": "Kiwi",
-    "icon": "🥝"
+    "slug": "alligator",
+    "name": "Alligator",
+    "icon": "🐊"
   },
   {
-    "slug": "ostrich",
-    "name": "Ostrich",
-    "icon": "🦤"
-  },
-  {
-    "slug": "emu",
-    "name": "Emu",
-    "icon": "🦤"
-  },
-  {
-    "slug": "toucan",
-    "name": "Toucan",
-    "icon": "🦜"
-  },
-  {
-    "slug": "macaw",
-    "name": "Macaw",
-    "icon": "🦜"
-  },
-  {
-    "slug": "cockatoo",
-    "name": "Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "lovebird",
-    "name": "Lovebird",
-    "icon": "🦜"
-  },
-  {
-    "slug": "budgie",
-    "name": "Budgie",
-    "icon": "🦜"
-  },
-  {
-    "slug": "canary",
-    "name": "Canary",
-    "icon": "🐦"
-  },
-  {
-    "slug": "finch",
-    "name": "Finch",
-    "icon": "🐦"
-  },
-  {
-    "slug": "goldfish",
-    "name": "Goldfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "betta-fish",
-    "name": "Betta Fish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "koi",
-    "name": "Koi",
+    "slug": "alligator-gar",
+    "name": "Alligator Gar",
     "icon": "🐟"
   },
   {
-    "slug": "angelfish",
-    "name": "Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "guppy",
-    "name": "Guppy",
-    "icon": "🐟"
-  },
-  {
-    "slug": "tetra",
-    "name": "Tetra",
-    "icon": "🐟"
-  },
-  {
-    "slug": "discus",
-    "name": "Discus",
-    "icon": "🐠"
-  },
-  {
-    "slug": "cichlid",
-    "name": "Cichlid",
-    "icon": "🐟"
-  },
-  {
-    "slug": "sea-turtle",
-    "name": "Sea Turtle",
+    "slug": "alligator-snapping-turtle",
+    "name": "Alligator Snapping Turtle",
     "icon": "🐢"
   },
   {
-    "slug": "tortoise",
-    "name": "Tortoise",
-    "icon": "🐢"
+    "slug": "alpaca",
+    "name": "Alpaca",
+    "icon": "🦙"
   },
   {
-    "slug": "tree-frog",
-    "name": "Tree Frog",
-    "icon": "🐸"
+    "slug": "alpine-ibex",
+    "name": "Alpine Ibex",
+    "icon": "🐐"
   },
   {
-    "slug": "toad",
-    "name": "Toad",
-    "icon": "🐸"
+    "slug": "amazon-river-dolphin",
+    "name": "Amazon River Dolphin",
+    "icon": "🐬"
   },
   {
-    "slug": "salamander",
-    "name": "Salamander",
-    "icon": "🦎"
-  },
-  {
-    "slug": "newt",
-    "name": "Newt",
-    "icon": "🦎"
-  },
-  {
-    "slug": "barn-owl",
-    "name": "Barn Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "great-horned-owl",
-    "name": "Great Horned Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "kookaburra",
-    "name": "Kookaburra",
-    "icon": "🐦"
-  },
-  {
-    "slug": "puffin",
-    "name": "Puffin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "kingfisher",
-    "name": "Kingfisher",
-    "icon": "🐦"
-  },
-  {
-    "slug": "mockingbird",
-    "name": "Mockingbird",
-    "icon": "🐦"
-  },
-  {
-    "slug": "nightingale",
-    "name": "Nightingale",
-    "icon": "🐦"
-  },
-  {
-    "slug": "cuckoo",
-    "name": "Cuckoo",
-    "icon": "🐦"
-  },
-  {
-    "slug": "honey-badger",
-    "name": "Honey Badger",
-    "icon": "🦡"
-  },
-  {
-    "slug": "wolverine",
-    "name": "Wolverine",
-    "icon": "🦡"
-  },
-  {
-    "slug": "badger",
-    "name": "Badger",
-    "icon": "🦡"
-  },
-  {
-    "slug": "weasel",
-    "name": "Weasel",
-    "icon": "🦡"
-  },
-  {
-    "slug": "mink",
-    "name": "Mink",
-    "icon": "🦡"
-  },
-  {
-    "slug": "marten",
-    "name": "Marten",
-    "icon": "🦡"
-  },
-  {
-    "slug": "mongoose",
-    "name": "Mongoose",
-    "icon": "🦡"
-  },
-  {
-    "slug": "yak",
-    "name": "Yak",
-    "icon": "🐃"
-  },
-  {
-    "slug": "bison",
-    "name": "Bison",
+    "slug": "american-bison",
+    "name": "American Bison",
     "icon": "🦬"
   },
   {
-    "slug": "buffalo",
-    "name": "Buffalo",
-    "icon": "🐃"
-  },
-  {
-    "slug": "ox",
-    "name": "Ox",
-    "icon": "🐂"
-  },
-  {
-    "slug": "musk-ox",
-    "name": "Musk Ox",
-    "icon": "🐃"
-  },
-  {
-    "slug": "pronghorn",
-    "name": "Pronghorn",
-    "icon": "🦌"
-  },
-  {
-    "slug": "ibex",
-    "name": "Ibex",
-    "icon": "🐐"
-  },
-  {
-    "slug": "mountain-goat",
-    "name": "Mountain Goat",
-    "icon": "🐐"
-  },
-  {
-    "slug": "bighorn-sheep",
-    "name": "Bighorn Sheep",
-    "icon": "🐑"
-  },
-  {
-    "slug": "wild-boar",
-    "name": "Wild Boar",
-    "icon": "🐗"
-  },
-  {
-    "slug": "warthog",
-    "name": "Warthog",
-    "icon": "🐗"
-  },
-  {
-    "slug": "tapir",
-    "name": "Tapir",
-    "icon": "🐖"
-  },
-  {
-    "slug": "capybara",
-    "name": "Capybara",
-    "icon": "🦫"
-  },
-  {
-    "slug": "marmot",
-    "name": "Marmot",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "groundhog",
-    "name": "Groundhog",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "prairie-dog",
-    "name": "Prairie Dog",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "jerboa",
-    "name": "Jerboa",
-    "icon": "🐭"
-  },
-  {
-    "slug": "gerbil",
-    "name": "Gerbil",
-    "icon": "🐭"
-  },
-  {
-    "slug": "vole",
-    "name": "Vole",
-    "icon": "🐭"
-  },
-  {
-    "slug": "lemming",
-    "name": "Lemming",
-    "icon": "🐭"
-  },
-  {
-    "slug": "hyrax",
-    "name": "Hyrax",
-    "icon": "🐹"
-  },
-  {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "icon": "🦔"
-  },
-  {
-    "slug": "aardvark",
-    "name": "Aardvark",
-    "icon": "🐜"
-  },
-  {
-    "slug": "wildebeest",
-    "name": "Wildebeest",
-    "icon": "🐃"
-  },
-  {
-    "slug": "dhole",
-    "name": "Dhole",
-    "icon": "🐕"
-  },
-  {
-    "slug": "fossa",
-    "name": "Fossa",
+    "slug": "american-bobtail",
+    "name": "American Bobtail",
     "icon": "🐱"
   },
   {
-    "slug": "quokka",
-    "name": "Quokka",
-    "icon": "🦘"
+    "slug": "american-curl",
+    "name": "American Curl",
+    "icon": "🐱"
   },
   {
-    "slug": "bandicoot",
-    "name": "Bandicoot",
-    "icon": "🐹"
+    "slug": "american-eskimo-dog",
+    "name": "American Eskimo Dog",
+    "icon": "🐕"
   },
   {
-    "slug": "bilby",
-    "name": "Bilby",
-    "icon": "🐰"
+    "slug": "american-flamingo",
+    "name": "American Flamingo",
+    "icon": "🦩"
   },
   {
-    "slug": "numbat",
-    "name": "Numbat",
-    "icon": "🦡"
+    "slug": "american-shorthair",
+    "name": "American Shorthair",
+    "icon": "🐱"
   },
   {
-    "slug": "echidna",
-    "name": "Echidna",
-    "icon": "🦔"
+    "slug": "american-wirehair",
+    "name": "American Wirehair",
+    "icon": "🐱"
   },
   {
-    "slug": "kiwi-bird",
-    "name": "Kiwi Bird",
-    "icon": "🥝"
+    "slug": "amur-leopard",
+    "name": "Amur Leopard",
+    "icon": "🐆"
   },
   {
-    "slug": "cassowary",
-    "name": "Cassowary",
-    "icon": "🦃"
-  },
-  {
-    "slug": "vulture",
-    "name": "Vulture",
-    "icon": "🦅"
-  },
-  {
-    "slug": "mandrill",
-    "name": "Mandrill",
-    "icon": "🐒"
-  },
-  {
-    "slug": "baboon",
-    "name": "Baboon",
-    "icon": "🐒"
-  },
-  {
-    "slug": "gibbon",
-    "name": "Gibbon",
-    "icon": "🐒"
-  },
-  {
-    "slug": "macaque",
-    "name": "Macaque",
-    "icon": "🐒"
-  },
-  {
-    "slug": "marmoset",
-    "name": "Marmoset",
-    "icon": "🐒"
-  },
-  {
-    "slug": "tamarin",
-    "name": "Tamarin",
-    "icon": "🐒"
-  },
-  {
-    "slug": "capuchin-monkey",
-    "name": "Capuchin Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "howler-monkey",
-    "name": "Howler Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "spider-monkey",
-    "name": "Spider Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "proboscis-monkey",
-    "name": "Proboscis Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "secretary-bird",
-    "name": "Secretary Bird",
-    "icon": "🦅"
-  },
-  {
-    "slug": "harpy-eagle",
-    "name": "Harpy Eagle",
-    "icon": "🦅"
-  },
-  {
-    "slug": "condor",
-    "name": "Condor",
-    "icon": "🦅"
-  },
-  {
-    "slug": "okapi",
-    "name": "Okapi",
-    "icon": "🦒"
-  },
-  {
-    "slug": "impala",
-    "name": "Impala",
-    "icon": "🦌"
-  },
-  {
-    "slug": "springbok",
-    "name": "Springbok",
-    "icon": "🦌"
-  },
-  {
-    "slug": "antelope",
-    "name": "Antelope",
-    "icon": "🦌"
-  },
-  {
-    "slug": "elk",
-    "name": "Elk",
-    "icon": "🦌"
-  },
-  {
-    "slug": "caribou",
-    "name": "Caribou",
-    "icon": "🦌"
-  },
-  {
-    "slug": "coral",
-    "name": "Coral",
-    "icon": "🪸"
-  },
-  {
-    "slug": "anemone",
-    "name": "Anemone",
-    "icon": "🪸"
-  },
-  {
-    "slug": "sea-urchin",
-    "name": "Sea Urchin",
-    "icon": "🦔"
-  },
-  {
-    "slug": "barracuda",
-    "name": "Barracuda",
-    "icon": "🐟"
-  },
-  {
-    "slug": "moray-eel",
-    "name": "Moray Eel",
+    "slug": "anaconda",
+    "name": "Anaconda",
     "icon": "🐍"
-  },
-  {
-    "slug": "electric-eel",
-    "name": "Electric Eel",
-    "icon": "⚡"
-  },
-  {
-    "slug": "piranha",
-    "name": "Piranha",
-    "icon": "🐟"
-  },
-  {
-    "slug": "carp",
-    "name": "Carp",
-    "icon": "🐟"
-  },
-  {
-    "slug": "catfish",
-    "name": "Catfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "bass",
-    "name": "Bass",
-    "icon": "🐟"
-  },
-  {
-    "slug": "trout",
-    "name": "Trout",
-    "icon": "🐟"
-  },
-  {
-    "slug": "perch",
-    "name": "Perch",
-    "icon": "🐟"
-  },
-  {
-    "slug": "halibut",
-    "name": "Halibut",
-    "icon": "🐟"
-  },
-  {
-    "slug": "flounder",
-    "name": "Flounder",
-    "icon": "🐟"
-  },
-  {
-    "slug": "cod",
-    "name": "Cod",
-    "icon": "🐟"
-  },
-  {
-    "slug": "herring",
-    "name": "Herring",
-    "icon": "🐟"
-  },
-  {
-    "slug": "sardine",
-    "name": "Sardine",
-    "icon": "🐟"
   },
   {
     "slug": "anchovy",
@@ -1410,44 +175,149 @@
     "icon": "🐟"
   },
   {
-    "slug": "tilapia",
-    "name": "Tilapia",
+    "slug": "andean-cock-of-the-rock",
+    "name": "Andean Cock-of-the-Rock",
+    "icon": "🐦"
+  },
+  {
+    "slug": "andean-condor",
+    "name": "Andean Condor",
+    "icon": "🦅"
+  },
+  {
+    "slug": "andean-flamingo",
+    "name": "Andean Flamingo",
+    "icon": "🦩"
+  },
+  {
+    "slug": "anemone",
+    "name": "Anemone",
+    "icon": "🪸"
+  },
+  {
+    "slug": "angelfish",
+    "name": "Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "anglerfish",
+    "name": "Anglerfish",
     "icon": "🐟"
   },
   {
-    "slug": "mackerel",
-    "name": "Mackerel",
+    "slug": "anoa",
+    "name": "Anoa",
+    "icon": "🐃"
+  },
+  {
+    "slug": "anole",
+    "name": "Anole",
+    "icon": "🦎"
+  },
+  {
+    "slug": "ant",
+    "name": "Ant",
+    "icon": "🐜"
+  },
+  {
+    "slug": "anteater",
+    "name": "Anteater",
+    "icon": "🐜"
+  },
+  {
+    "slug": "antelope",
+    "name": "Antelope",
+    "icon": "🦌"
+  },
+  {
+    "slug": "arabian-horse",
+    "name": "Arabian Horse",
+    "icon": "🐴"
+  },
+  {
+    "slug": "arapaima",
+    "name": "Arapaima",
     "icon": "🐟"
   },
   {
-    "slug": "wallaby",
-    "name": "Wallaby",
-    "icon": "🦘"
+    "slug": "archerfish",
+    "name": "Archerfish",
+    "icon": "🐟"
   },
   {
-    "slug": "zebra-shark",
-    "name": "Zebra Shark",
-    "icon": "🦈"
+    "slug": "arctic-fox",
+    "name": "Arctic Fox",
+    "icon": "🦊"
   },
   {
-    "slug": "nurse-shark",
-    "name": "Nurse Shark",
-    "icon": "🦈"
+    "slug": "arctic-hare",
+    "name": "Arctic Hare",
+    "icon": "🐰"
   },
   {
-    "slug": "tiger-shark",
-    "name": "Tiger Shark",
-    "icon": "🦈"
+    "slug": "arctic-wolf",
+    "name": "Arctic Wolf",
+    "icon": "🐺"
   },
   {
-    "slug": "bull-shark",
-    "name": "Bull Shark",
-    "icon": "🦈"
+    "slug": "argali",
+    "name": "Argali",
+    "icon": "🐑"
   },
   {
-    "slug": "akita",
-    "name": "Akita",
+    "slug": "argonaut",
+    "name": "Argonaut",
+    "icon": "🐙"
+  },
+  {
+    "slug": "armadillo",
+    "name": "Armadillo",
+    "icon": "🦔"
+  },
+  {
+    "slug": "armadillo-lizard",
+    "name": "Armadillo Lizard",
+    "icon": "🦎"
+  },
+  {
+    "slug": "arowana",
+    "name": "Arowana",
+    "icon": "🐟"
+  },
+  {
+    "slug": "asian-elephant",
+    "name": "Asian Elephant",
+    "icon": "🐘"
+  },
+  {
+    "slug": "assassin-bug",
+    "name": "Assassin Bug",
+    "icon": "🪲"
+  },
+  {
+    "slug": "atlantic-puffin",
+    "name": "Atlantic Puffin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "atlas-moth",
+    "name": "Atlas Moth",
+    "icon": "🦋"
+  },
+  {
+    "slug": "auk",
+    "name": "Auk",
+    "icon": "🐧"
+  },
+  {
+    "slug": "australian-cattle-dog",
+    "name": "Australian Cattle Dog",
     "icon": "🐕"
+  },
+  {
+    "slug": "australian-mist",
+    "name": "Australian Mist",
+    "icon": "🐱"
   },
   {
     "slug": "australian-shepherd",
@@ -1460,9 +330,239 @@
     "icon": "🐕"
   },
   {
+    "slug": "australian-terrier",
+    "name": "Australian Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "avocet",
+    "name": "Avocet",
+    "icon": "🦩"
+  },
+  {
+    "slug": "axolotl",
+    "name": "Axolotl",
+    "icon": "🦎"
+  },
+  {
+    "slug": "aye-aye",
+    "name": "Aye-Aye",
+    "icon": "🐒"
+  },
+  {
+    "slug": "babirusa",
+    "name": "Babirusa",
+    "icon": "🐗"
+  },
+  {
+    "slug": "baboon",
+    "name": "Baboon",
+    "icon": "🐒"
+  },
+  {
+    "slug": "badger",
+    "name": "Badger",
+    "icon": "🦡"
+  },
+  {
+    "slug": "baiji",
+    "name": "Baiji",
+    "icon": "🐬"
+  },
+  {
+    "slug": "bald-eagle",
+    "name": "Bald Eagle",
+    "icon": "🦅"
+  },
+  {
+    "slug": "bali-myna",
+    "name": "Bali Myna",
+    "icon": "🐦"
+  },
+  {
+    "slug": "balinese",
+    "name": "Balinese",
+    "icon": "🐱"
+  },
+  {
+    "slug": "ball-python",
+    "name": "Ball Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "bambino",
+    "name": "Bambino",
+    "icon": "🐱"
+  },
+  {
+    "slug": "banded-sea-krait",
+    "name": "Banded Sea Krait",
+    "icon": "🐍"
+  },
+  {
+    "slug": "bandicoot",
+    "name": "Bandicoot",
+    "icon": "🐹"
+  },
+  {
+    "slug": "banggai-cardinalfish",
+    "name": "Banggai Cardinalfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "bar-headed-goose",
+    "name": "Bar-Headed Goose",
+    "icon": "🦆"
+  },
+  {
+    "slug": "barbary-sheep",
+    "name": "Barbary Sheep",
+    "icon": "🐑"
+  },
+  {
+    "slug": "barbet",
+    "name": "Barbet",
+    "icon": "🐦"
+  },
+  {
+    "slug": "barn-owl",
+    "name": "Barn Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "barn-swallow",
+    "name": "Barn Swallow",
+    "icon": "🐦"
+  },
+  {
+    "slug": "barracuda",
+    "name": "Barracuda",
+    "icon": "🐟"
+  },
+  {
+    "slug": "barramundi",
+    "name": "Barramundi",
+    "icon": "🐟"
+  },
+  {
+    "slug": "barreleye",
+    "name": "Barreleye",
+    "icon": "🐟"
+  },
+  {
+    "slug": "basenji",
+    "name": "Basenji",
+    "icon": "🐕"
+  },
+  {
+    "slug": "basilisk",
+    "name": "Basilisk",
+    "icon": "🦎"
+  },
+  {
+    "slug": "basilisk-lizard",
+    "name": "Basilisk Lizard",
+    "icon": "🦎"
+  },
+  {
+    "slug": "bass",
+    "name": "Bass",
+    "icon": "🐟"
+  },
+  {
+    "slug": "basset-hound",
+    "name": "Basset Hound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "bat",
+    "name": "Bat",
+    "icon": "🦇"
+  },
+  {
+    "slug": "bat-eared-fox",
+    "name": "Bat-Eared Fox",
+    "icon": "🦊"
+  },
+  {
     "slug": "beagle",
     "name": "Beagle",
     "icon": "🐕"
+  },
+  {
+    "slug": "bear",
+    "name": "Bear",
+    "icon": "🐻"
+  },
+  {
+    "slug": "bearded-dragon",
+    "name": "Bearded Dragon",
+    "icon": "🦎"
+  },
+  {
+    "slug": "beaver",
+    "name": "Beaver",
+    "icon": "🦫"
+  },
+  {
+    "slug": "bedlington-terrier",
+    "name": "Bedlington Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "bee",
+    "name": "Bee",
+    "icon": "🐝"
+  },
+  {
+    "slug": "bee-eater",
+    "name": "Bee-Eater",
+    "icon": "🐦"
+  },
+  {
+    "slug": "beetle",
+    "name": "Beetle",
+    "icon": "🪲"
+  },
+  {
+    "slug": "belgian-malinois",
+    "name": "Belgian Malinois",
+    "icon": "🐕"
+  },
+  {
+    "slug": "beluga",
+    "name": "Beluga",
+    "icon": "🐋"
+  },
+  {
+    "slug": "bengal-cat",
+    "name": "Bengal Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "bengal-tiger",
+    "name": "Bengal Tiger",
+    "icon": "🐯"
+  },
+  {
+    "slug": "bernese-mountain-dog",
+    "name": "Bernese Mountain Dog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "betta",
+    "name": "Betta Fish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "betta-fish",
+    "name": "Betta Fish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "bichir",
+    "name": "Bichir",
+    "icon": "🐟"
   },
   {
     "slug": "bichon-frise",
@@ -1470,14 +570,229 @@
     "icon": "🐕"
   },
   {
+    "slug": "bicolor-blenny",
+    "name": "Bicolor Blenny",
+    "icon": "🐟"
+  },
+  {
+    "slug": "bighorn-sheep",
+    "name": "Bighorn Sheep",
+    "icon": "🐑"
+  },
+  {
+    "slug": "bilby",
+    "name": "Bilby",
+    "icon": "🐰"
+  },
+  {
+    "slug": "binturong",
+    "name": "Binturong",
+    "icon": "🐻"
+  },
+  {
+    "slug": "bird",
+    "name": "Bird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "birman",
+    "name": "Birman",
+    "icon": "🐱"
+  },
+  {
+    "slug": "bison",
+    "name": "Bison",
+    "icon": "🦬"
+  },
+  {
+    "slug": "black-backed-jackal",
+    "name": "Black-Backed Jackal",
+    "icon": "🐺"
+  },
+  {
+    "slug": "black-bear",
+    "name": "Black Bear",
+    "icon": "🐻"
+  },
+  {
+    "slug": "black-cockatoo",
+    "name": "Black Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "black-crowned-crane",
+    "name": "Black-Crowned Crane",
+    "icon": "🦤"
+  },
+  {
+    "slug": "black-mamba",
+    "name": "Black Mamba",
+    "icon": "🐍"
+  },
+  {
+    "slug": "black-molly",
+    "name": "Black Molly",
+    "icon": "🐟"
+  },
+  {
+    "slug": "black-rhino",
+    "name": "Black Rhino",
+    "icon": "🦏"
+  },
+  {
+    "slug": "black-russian-terrier",
+    "name": "Black Russian Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "blacktip-reef-shark",
+    "name": "Blacktip Reef Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "blanket-octopus",
+    "name": "Blanket Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "bloodhound",
+    "name": "Bloodhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "blue-and-gold-macaw",
+    "name": "Blue and Gold Macaw",
+    "icon": "🦜"
+  },
+  {
+    "slug": "blue-dragon",
+    "name": "Blue Dragon",
+    "icon": "🐌"
+  },
+  {
+    "slug": "blue-footed-booby",
+    "name": "Blue-Footed Booby",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "blue-iguana",
+    "name": "Blue Iguana",
+    "icon": "🦎"
+  },
+  {
+    "slug": "blue-jay",
+    "name": "Blue Jay",
+    "icon": "🐦"
+  },
+  {
+    "slug": "blue-morpho-butterfly",
+    "name": "Blue Morpho Butterfly",
+    "icon": "🦋"
+  },
+  {
+    "slug": "blue-ringed-octopus",
+    "name": "Blue-Ringed Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "blue-tang",
+    "name": "Blue Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "blue-tit",
+    "name": "Blue Tit",
+    "icon": "🐦"
+  },
+  {
+    "slug": "blue-tongued-skink",
+    "name": "Blue-Tongued Skink",
+    "icon": "🦎"
+  },
+  {
+    "slug": "blue-whale",
+    "name": "Blue Whale",
+    "icon": "🐋"
+  },
+  {
+    "slug": "bluefin-tuna",
+    "name": "Bluefin Tuna",
+    "icon": "🐟"
+  },
+  {
+    "slug": "bobcat",
+    "name": "Bobcat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "bobtail-squid",
+    "name": "Bobtail Squid",
+    "icon": "🦑"
+  },
+  {
+    "slug": "bohemian-waxwing",
+    "name": "Bohemian Waxwing",
+    "icon": "🐦"
+  },
+  {
+    "slug": "bombay",
+    "name": "Bombay",
+    "icon": "🐱"
+  },
+  {
+    "slug": "bonefish",
+    "name": "Bonefish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "bongo",
+    "name": "Bongo",
+    "icon": "🦌"
+  },
+  {
+    "slug": "booby",
+    "name": "Booby",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "boomslang",
+    "name": "Boomslang",
+    "icon": "🐍"
+  },
+  {
     "slug": "border-collie",
     "name": "Border Collie",
+    "icon": "🐕"
+  },
+  {
+    "slug": "border-terrier",
+    "name": "Border Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "borzoi",
+    "name": "Borzoi",
     "icon": "🐕"
   },
   {
     "slug": "boston-terrier",
     "name": "Boston Terrier",
     "icon": "🐕"
+  },
+  {
+    "slug": "bottlenose-dolphin",
+    "name": "Bottlenose Dolphin",
+    "icon": "🐬"
+  },
+  {
+    "slug": "bouvier",
+    "name": "Bouvier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "box-jellyfish",
+    "name": "Box Jellyfish",
+    "icon": "🪼"
   },
   {
     "slug": "boxer",
@@ -1490,9 +805,269 @@
     "icon": "🐕"
   },
   {
+    "slug": "boxfish",
+    "name": "Boxfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "boykin-spaniel",
+    "name": "Boykin Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "brazilian-wandering-spider",
+    "name": "Brazilian Wandering Spider",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "briard",
+    "name": "Briard",
+    "icon": "🐕"
+  },
+  {
+    "slug": "british-shorthair",
+    "name": "British Shorthair",
+    "icon": "🐱"
+  },
+  {
+    "slug": "british-shorthair-cat",
+    "name": "British Shorthair",
+    "icon": "🐱"
+  },
+  {
+    "slug": "brittany-spaniel",
+    "name": "Brittany Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "brown-bear",
+    "name": "Brown Bear",
+    "icon": "🐻"
+  },
+  {
+    "slug": "brush-turkey",
+    "name": "Brush Turkey",
+    "icon": "🦃"
+  },
+  {
+    "slug": "brussels-griffon",
+    "name": "Brussels Griffon",
+    "icon": "🐕"
+  },
+  {
+    "slug": "budgerigar",
+    "name": "Budgerigar",
+    "icon": "🦜"
+  },
+  {
+    "slug": "budgett-frog",
+    "name": "Budgett's Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "budgie",
+    "name": "Budgie",
+    "icon": "🦜"
+  },
+  {
+    "slug": "buffalo",
+    "name": "Buffalo",
+    "icon": "🐃"
+  },
+  {
+    "slug": "bull-shark",
+    "name": "Bull Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "bull-terrier",
+    "name": "Bull Terrier",
+    "icon": "🐕"
+  },
+  {
     "slug": "bulldog",
     "name": "Bulldog",
     "icon": "🐕"
+  },
+  {
+    "slug": "bullmastiff",
+    "name": "Bullmastiff",
+    "icon": "🐕"
+  },
+  {
+    "slug": "bumblebee",
+    "name": "Bumblebee",
+    "icon": "🐝"
+  },
+  {
+    "slug": "bumblebee-bat",
+    "name": "Bumblebee Bat",
+    "icon": "🦇"
+  },
+  {
+    "slug": "burmese",
+    "name": "Burmese Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "burmese-cat",
+    "name": "Burmese Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "burmilla",
+    "name": "Burmilla",
+    "icon": "🐱"
+  },
+  {
+    "slug": "burrowing-owl",
+    "name": "Burrowing Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "bush-dog",
+    "name": "Bush Dog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "bushbuck",
+    "name": "Bushbuck",
+    "icon": "🦌"
+  },
+  {
+    "slug": "bushmaster",
+    "name": "Bushmaster",
+    "icon": "🐍"
+  },
+  {
+    "slug": "butterfly",
+    "name": "Butterfly",
+    "icon": "🦋"
+  },
+  {
+    "slug": "caecilian",
+    "name": "Caecilian",
+    "icon": "🐍"
+  },
+  {
+    "slug": "cairn-terrier",
+    "name": "Cairn Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "california-condor",
+    "name": "California Condor",
+    "icon": "🦅"
+  },
+  {
+    "slug": "california-kingsnake",
+    "name": "California Kingsnake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "california-quail",
+    "name": "California Quail",
+    "icon": "🐦"
+  },
+  {
+    "slug": "california-sea-lion",
+    "name": "California Sea Lion",
+    "icon": "🦭"
+  },
+  {
+    "slug": "camel",
+    "name": "Camel",
+    "icon": "🐪"
+  },
+  {
+    "slug": "canada-goose",
+    "name": "Canada Goose",
+    "icon": "🦆"
+  },
+  {
+    "slug": "canary",
+    "name": "Canary",
+    "icon": "🐦"
+  },
+  {
+    "slug": "candiru",
+    "name": "Candiru",
+    "icon": "🐟"
+  },
+  {
+    "slug": "cape-penguin",
+    "name": "Cape Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "capuchin-monkey",
+    "name": "Capuchin Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "capybara",
+    "name": "Capybara",
+    "icon": "🦫"
+  },
+  {
+    "slug": "caracal",
+    "name": "Caracal",
+    "icon": "🐱"
+  },
+  {
+    "slug": "cardigan-welsh-corgi",
+    "name": "Cardigan Welsh Corgi",
+    "icon": "🐕"
+  },
+  {
+    "slug": "cardinal",
+    "name": "Cardinal",
+    "icon": "🐦"
+  },
+  {
+    "slug": "caribou",
+    "name": "Caribou",
+    "icon": "🦌"
+  },
+  {
+    "slug": "carmine-bee-eater",
+    "name": "Carmine Bee-Eater",
+    "icon": "🐦"
+  },
+  {
+    "slug": "carp",
+    "name": "Carp",
+    "icon": "🐟"
+  },
+  {
+    "slug": "carpet-python",
+    "name": "Carpet Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "cassowary",
+    "name": "Cassowary",
+    "icon": "🦃"
+  },
+  {
+    "slug": "cat",
+    "name": "Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "caterpillar",
+    "name": "Caterpillar",
+    "icon": "🐛"
+  },
+  {
+    "slug": "catfish",
+    "name": "Catfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "cattle",
+    "name": "Cattle",
+    "icon": "🐄"
   },
   {
     "slug": "cavalier-king-charles",
@@ -1505,14 +1080,189 @@
     "icon": "🐕"
   },
   {
+    "slug": "cedar-waxwing",
+    "name": "Cedar Waxwing",
+    "icon": "🐦"
+  },
+  {
+    "slug": "centipede",
+    "name": "Centipede",
+    "icon": "🦂"
+  },
+  {
+    "slug": "chachalaca",
+    "name": "Chachalaca",
+    "icon": "🐦"
+  },
+  {
+    "slug": "chambered-nautilus",
+    "name": "Chambered Nautilus",
+    "icon": "🐚"
+  },
+  {
+    "slug": "chameleon",
+    "name": "Chameleon",
+    "icon": "🦎"
+  },
+  {
+    "slug": "chartreux",
+    "name": "Chartreux",
+    "icon": "🐱"
+  },
+  {
+    "slug": "chattering-lory",
+    "name": "Chattering Lory",
+    "icon": "🦜"
+  },
+  {
+    "slug": "chausie",
+    "name": "Chausie",
+    "icon": "🐱"
+  },
+  {
+    "slug": "cheetah",
+    "name": "Cheetah",
+    "icon": "🐆"
+  },
+  {
+    "slug": "cheetoh",
+    "name": "Cheetoh",
+    "icon": "🐱"
+  },
+  {
+    "slug": "cherry-barb",
+    "name": "Cherry Barb",
+    "icon": "🐟"
+  },
+  {
+    "slug": "chesapeake-retriever",
+    "name": "Chesapeake Bay Retriever",
+    "icon": "🐕"
+  },
+  {
+    "slug": "chickadee",
+    "name": "Chickadee",
+    "icon": "🐦"
+  },
+  {
+    "slug": "chicken",
+    "name": "Chicken",
+    "icon": "🐔"
+  },
+  {
     "slug": "chihuahua",
     "name": "Chihuahua",
     "icon": "🐕"
   },
   {
+    "slug": "childrens-python",
+    "name": "Children's Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "chimpanzee",
+    "name": "Chimpanzee",
+    "icon": "🐒"
+  },
+  {
+    "slug": "chinchilla",
+    "name": "Chinchilla",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "chinese-crested",
+    "name": "Chinese Crested",
+    "icon": "🐕"
+  },
+  {
+    "slug": "chinese-giant-salamander",
+    "name": "Chinese Giant Salamander",
+    "icon": "🦎"
+  },
+  {
+    "slug": "chinese-shar-pei",
+    "name": "Chinese Shar-Pei",
+    "icon": "🐕"
+  },
+  {
+    "slug": "chinese-water-dragon",
+    "name": "Chinese Water Dragon",
+    "icon": "🦎"
+  },
+  {
+    "slug": "chipmunk",
+    "name": "Chipmunk",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "chiru",
+    "name": "Chiru",
+    "icon": "🦌"
+  },
+  {
+    "slug": "chocolate-chip-sea-star",
+    "name": "Chocolate Chip Sea Star",
+    "icon": "🌟"
+  },
+  {
     "slug": "chow-chow",
     "name": "Chow Chow",
     "icon": "🐕"
+  },
+  {
+    "slug": "christmas-tree-worm",
+    "name": "Christmas Tree Worm",
+    "icon": "🪱"
+  },
+  {
+    "slug": "cichlid",
+    "name": "Cichlid",
+    "icon": "🐟"
+  },
+  {
+    "slug": "clam",
+    "name": "Clam",
+    "icon": "🐚"
+  },
+  {
+    "slug": "cleaner-wrasse",
+    "name": "Cleaner Wrasse",
+    "icon": "🐟"
+  },
+  {
+    "slug": "clouded-leopard",
+    "name": "Clouded Leopard",
+    "icon": "🐆"
+  },
+  {
+    "slug": "clownfish",
+    "name": "Clownfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "clumber-spaniel",
+    "name": "Clumber Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "coati",
+    "name": "Coati",
+    "icon": "🦝"
+  },
+  {
+    "slug": "cobra",
+    "name": "Cobra",
+    "icon": "🐍"
+  },
+  {
+    "slug": "cockatiel",
+    "name": "Cockatiel",
+    "icon": "🦜"
+  },
+  {
+    "slug": "cockatoo",
+    "name": "Cockatoo",
+    "icon": "🦜"
   },
   {
     "slug": "cocker-spaniel",
@@ -1525,9 +1275,199 @@
     "icon": "🐕"
   },
   {
+    "slug": "cockroach",
+    "name": "Cockroach",
+    "icon": "🪳"
+  },
+  {
+    "slug": "coconut-crab",
+    "name": "Coconut Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "coconut-octopus",
+    "name": "Coconut Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "cod",
+    "name": "Cod",
+    "icon": "🐟"
+  },
+  {
+    "slug": "coelacanth",
+    "name": "Coelacanth",
+    "icon": "🐟"
+  },
+  {
+    "slug": "colobus-monkey",
+    "name": "Colobus Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "colugo",
+    "name": "Colugo",
+    "icon": "🦇"
+  },
+  {
+    "slug": "common-dolphin",
+    "name": "Common Dolphin",
+    "icon": "🐬"
+  },
+  {
+    "slug": "common-kingfisher",
+    "name": "Common Kingfisher",
+    "icon": "🐦"
+  },
+  {
+    "slug": "common-loon",
+    "name": "Common Loon",
+    "icon": "🦆"
+  },
+  {
+    "slug": "common-marmoset",
+    "name": "Common Marmoset",
+    "icon": "🐒"
+  },
+  {
+    "slug": "common-nightingale",
+    "name": "Common Nightingale",
+    "icon": "🐦"
+  },
+  {
+    "slug": "condor",
+    "name": "Condor",
+    "icon": "🦅"
+  },
+  {
+    "slug": "conure",
+    "name": "Conure",
+    "icon": "🦜"
+  },
+  {
+    "slug": "copperband-butterflyfish",
+    "name": "Copperband Butterflyfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "coral",
+    "name": "Coral",
+    "icon": "🪸"
+  },
+  {
+    "slug": "coral-beauty-angelfish",
+    "name": "Coral Beauty Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "coral-snake",
+    "name": "Coral Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "corella",
+    "name": "Corella",
+    "icon": "🦜"
+  },
+  {
     "slug": "corgi",
     "name": "Corgi",
     "icon": "🐕"
+  },
+  {
+    "slug": "cormorant",
+    "name": "Cormorant",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "corn-snake",
+    "name": "Corn Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "cornish-rex",
+    "name": "Cornish Rex",
+    "icon": "🐱"
+  },
+  {
+    "slug": "cow",
+    "name": "Cow",
+    "icon": "🐮"
+  },
+  {
+    "slug": "cowfish",
+    "name": "Cowfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "coyote",
+    "name": "Coyote",
+    "icon": "🐺"
+  },
+  {
+    "slug": "crab",
+    "name": "Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "crab-eating-macaque",
+    "name": "Crab-Eating Macaque",
+    "icon": "🐒"
+  },
+  {
+    "slug": "crane",
+    "name": "Crane",
+    "icon": "🦤"
+  },
+  {
+    "slug": "crested-gecko",
+    "name": "Crested Gecko",
+    "icon": "🦎"
+  },
+  {
+    "slug": "cricket",
+    "name": "Cricket",
+    "icon": "🦗"
+  },
+  {
+    "slug": "crocodile",
+    "name": "Crocodile",
+    "icon": "🐊"
+  },
+  {
+    "slug": "crow",
+    "name": "Crow",
+    "icon": "🐦‍⬛"
+  },
+  {
+    "slug": "crowned-pigeon",
+    "name": "Crowned Pigeon",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "cuckoo",
+    "name": "Cuckoo",
+    "icon": "🐦"
+  },
+  {
+    "slug": "curassow",
+    "name": "Curassow",
+    "icon": "🐦"
+  },
+  {
+    "slug": "curly-coated-retriever",
+    "name": "Curly-Coated Retriever",
+    "icon": "🐕"
+  },
+  {
+    "slug": "cuttlefish",
+    "name": "Cuttlefish",
+    "icon": "🦑"
+  },
+  {
+    "slug": "cymric",
+    "name": "Cymric",
+    "icon": "🐱"
   },
   {
     "slug": "dachshund",
@@ -1540,6 +1480,66 @@
     "icon": "🐕"
   },
   {
+    "slug": "dalmatian-pelican",
+    "name": "Dalmatian Pelican",
+    "icon": "🦤"
+  },
+  {
+    "slug": "dandie-dinmont-terrier",
+    "name": "Dandie Dinmont Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "day-gecko",
+    "name": "Day Gecko",
+    "icon": "🦎"
+  },
+  {
+    "slug": "death-head-hawkmoth",
+    "name": "Death's-Head Hawkmoth",
+    "icon": "🦋"
+  },
+  {
+    "slug": "deer",
+    "name": "Deer",
+    "icon": "🦌"
+  },
+  {
+    "slug": "degu",
+    "name": "Degu",
+    "icon": "🐹"
+  },
+  {
+    "slug": "devon-rex",
+    "name": "Devon Rex",
+    "icon": "🐱"
+  },
+  {
+    "slug": "dhole",
+    "name": "Dhole",
+    "icon": "🐕"
+  },
+  {
+    "slug": "diamond-goby",
+    "name": "Diamond Goby",
+    "icon": "🐟"
+  },
+  {
+    "slug": "dik-dik",
+    "name": "Dik-Dik",
+    "icon": "🦌"
+  },
+  {
+    "slug": "dingo",
+    "name": "Dingo",
+    "icon": "🐕"
+  },
+  {
+    "slug": "discus",
+    "name": "Discus",
+    "icon": "🐠"
+  },
+  {
     "slug": "doberman",
     "name": "Doberman",
     "icon": "🐕"
@@ -1550,9 +1550,574 @@
     "icon": "🐕"
   },
   {
+    "slug": "dog",
+    "name": "Dog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "dolphin",
+    "name": "Dolphin",
+    "icon": "🐬"
+  },
+  {
+    "slug": "don-sphynx",
+    "name": "Don Sphynx",
+    "icon": "🐱"
+  },
+  {
+    "slug": "donkey",
+    "name": "Donkey",
+    "icon": "🫏"
+  },
+  {
+    "slug": "dovekie",
+    "name": "Dovekie",
+    "icon": "🐧"
+  },
+  {
+    "slug": "dragon",
+    "name": "Dragon",
+    "icon": "🐉"
+  },
+  {
+    "slug": "dragon-goby",
+    "name": "Dragon Goby",
+    "icon": "🐟"
+  },
+  {
+    "slug": "dragon-li",
+    "name": "Dragon Li",
+    "icon": "🐱"
+  },
+  {
+    "slug": "dragonet",
+    "name": "Dragonet",
+    "icon": "🐟"
+  },
+  {
+    "slug": "dragonfish",
+    "name": "Dragonfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "dragonfly",
+    "name": "Dragonfly",
+    "icon": "🪰"
+  },
+  {
+    "slug": "duck",
+    "name": "Duck",
+    "icon": "🦆"
+  },
+  {
+    "slug": "dugong",
+    "name": "Dugong",
+    "icon": "🦭"
+  },
+  {
+    "slug": "duiker",
+    "name": "Duiker",
+    "icon": "🦌"
+  },
+  {
+    "slug": "dumbo-octopus",
+    "name": "Dumbo Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "dwarf-hamster",
+    "name": "Dwarf Hamster",
+    "icon": "🐹"
+  },
+  {
+    "slug": "eagle",
+    "name": "Eagle",
+    "icon": "🦅"
+  },
+  {
+    "slug": "earthworm",
+    "name": "Earthworm",
+    "icon": "🪱"
+  },
+  {
+    "slug": "eastern-box-turtle",
+    "name": "Eastern Box Turtle",
+    "icon": "🐢"
+  },
+  {
+    "slug": "eastern-chipmunk",
+    "name": "Eastern Chipmunk",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "eastern-gorilla",
+    "name": "Eastern Gorilla",
+    "icon": "🦍"
+  },
+  {
+    "slug": "eastern-lubber-grasshopper",
+    "name": "Eastern Lubber Grasshopper",
+    "icon": "🦗"
+  },
+  {
+    "slug": "echidna",
+    "name": "Echidna",
+    "icon": "🦔"
+  },
+  {
+    "slug": "eclectus-parrot",
+    "name": "Eclectus Parrot",
+    "icon": "🦜"
+  },
+  {
+    "slug": "egret",
+    "name": "Egret",
+    "icon": "🦤"
+  },
+  {
+    "slug": "egyptian-mau",
+    "name": "Egyptian Mau",
+    "icon": "🐱"
+  },
+  {
+    "slug": "eland",
+    "name": "Eland",
+    "icon": "🦌"
+  },
+  {
+    "slug": "electric-blue-ram",
+    "name": "Electric Blue Ram",
+    "icon": "🐟"
+  },
+  {
+    "slug": "electric-eel",
+    "name": "Electric Eel",
+    "icon": "⚡"
+  },
+  {
+    "slug": "elephant",
+    "name": "Elephant",
+    "icon": "🐘"
+  },
+  {
+    "slug": "elephantnose-fish",
+    "name": "Elephantnose Fish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "elk",
+    "name": "Elk",
+    "icon": "🦌"
+  },
+  {
+    "slug": "emerald-crab",
+    "name": "Emerald Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "emerald-tree-boa",
+    "name": "Emerald Tree Boa",
+    "icon": "🐍"
+  },
+  {
+    "slug": "emperor-angelfish",
+    "name": "Emperor Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "emperor-penguin",
+    "name": "Emperor Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "emperor-scorpion",
+    "name": "Emperor Scorpion",
+    "icon": "🦂"
+  },
+  {
+    "slug": "emu",
+    "name": "Emu",
+    "icon": "🦤"
+  },
+  {
+    "slug": "english-cocker-spaniel",
+    "name": "English Cocker Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "english-setter",
+    "name": "English Setter",
+    "icon": "🐕"
+  },
+  {
+    "slug": "english-springer-spaniel",
+    "name": "English Springer Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "entlebucher-mountain-dog",
+    "name": "Entlebucher Mountain Dog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "ermine",
+    "name": "Ermine",
+    "icon": "🦡"
+  },
+  {
+    "slug": "ethiopian-wolf",
+    "name": "Ethiopian Wolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "eurasian-eagle-owl",
+    "name": "Eurasian Eagle-Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "eurasian-wren",
+    "name": "Eurasian Wren",
+    "icon": "🐦"
+  },
+  {
+    "slug": "european-badger",
+    "name": "European Badger",
+    "icon": "🦡"
+  },
+  {
+    "slug": "european-burmese",
+    "name": "European Burmese",
+    "icon": "🐱"
+  },
+  {
+    "slug": "european-goldfinch",
+    "name": "European Goldfinch",
+    "icon": "🐦"
+  },
+  {
+    "slug": "european-robin",
+    "name": "European Robin",
+    "icon": "🐦"
+  },
+  {
+    "slug": "exotic-shorthair",
+    "name": "Exotic Shorthair",
+    "icon": "🐱"
+  },
+  {
+    "slug": "fairy-wrasse",
+    "name": "Fairy Wrasse",
+    "icon": "🐟"
+  },
+  {
+    "slug": "falanouc",
+    "name": "Falanouc",
+    "icon": "🦊"
+  },
+  {
+    "slug": "falcon",
+    "name": "Falcon",
+    "icon": "🦅"
+  },
+  {
+    "slug": "fallow-deer",
+    "name": "Fallow Deer",
+    "icon": "🦌"
+  },
+  {
+    "slug": "fancy-mouse",
+    "name": "Fancy Mouse",
+    "icon": "🐭"
+  },
+  {
+    "slug": "fancy-rat",
+    "name": "Fancy Rat",
+    "icon": "🐀"
+  },
+  {
+    "slug": "fangtooth",
+    "name": "Fangtooth",
+    "icon": "🐟"
+  },
+  {
+    "slug": "fennec-fox",
+    "name": "Fennec Fox",
+    "icon": "🦊"
+  },
+  {
+    "slug": "fer-de-lance",
+    "name": "Fer-de-Lance",
+    "icon": "🐍"
+  },
+  {
+    "slug": "ferret",
+    "name": "Ferret",
+    "icon": "🦡"
+  },
+  {
+    "slug": "field-spaniel",
+    "name": "Field Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "fijian-crested-iguana",
+    "name": "Fijian Crested Iguana",
+    "icon": "🦎"
+  },
+  {
+    "slug": "finch",
+    "name": "Finch",
+    "icon": "🐦"
+  },
+  {
+    "slug": "finnish-lapphund",
+    "name": "Finnish Lapphund",
+    "icon": "🐕"
+  },
+  {
+    "slug": "finnish-spitz",
+    "name": "Finnish Spitz",
+    "icon": "🐕"
+  },
+  {
+    "slug": "fire-bellied-toad",
+    "name": "Fire-Bellied Toad",
+    "icon": "🐸"
+  },
+  {
+    "slug": "fire-shrimp",
+    "name": "Fire Shrimp",
+    "icon": "🦐"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "icon": "🪲"
+  },
+  {
+    "slug": "fish",
+    "name": "Fish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "fisher",
+    "name": "Fisher",
+    "icon": "🦡"
+  },
+  {
+    "slug": "fishing-cat",
+    "name": "Fishing Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "flame-angelfish",
+    "name": "Flame Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "flame-hawkfish",
+    "name": "Flame Hawkfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "flame-scallop",
+    "name": "Flame Scallop",
+    "icon": "🐚"
+  },
+  {
+    "slug": "flamingo",
+    "name": "Flamingo",
+    "icon": "🦩"
+  },
+  {
+    "slug": "flapjack-octopus",
+    "name": "Flapjack Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "flat-coated-retriever",
+    "name": "Flat-Coated Retriever",
+    "icon": "🐕"
+  },
+  {
+    "slug": "flounder",
+    "name": "Flounder",
+    "icon": "🐟"
+  },
+  {
+    "slug": "flying-dragon",
+    "name": "Flying Dragon",
+    "icon": "🦎"
+  },
+  {
+    "slug": "flying-fox",
+    "name": "Flying Fox",
+    "icon": "🦇"
+  },
+  {
+    "slug": "flying-squirrel",
+    "name": "Flying Squirrel",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "folio-rex",
+    "name": "Folio Rex",
+    "icon": "🐱"
+  },
+  {
+    "slug": "fossa",
+    "name": "Fossa",
+    "icon": "🐱"
+  },
+  {
+    "slug": "fox",
+    "name": "Fox",
+    "icon": "🦊"
+  },
+  {
+    "slug": "foxface-rabbitfish",
+    "name": "Foxface Rabbitfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "french-angelfish",
+    "name": "French Angelfish",
+    "icon": "🐠"
+  },
+  {
     "slug": "french-bulldog",
     "name": "French Bulldog",
     "icon": "🐕"
+  },
+  {
+    "slug": "freshwater-angelfish",
+    "name": "Freshwater Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "frigatebird",
+    "name": "Frigatebird",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "frilled-lizard",
+    "name": "Frilled Lizard",
+    "icon": "🦎"
+  },
+  {
+    "slug": "frog",
+    "name": "Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "frogfish",
+    "name": "Frogfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "frogmouth",
+    "name": "Frogmouth",
+    "icon": "🦉"
+  },
+  {
+    "slug": "fruit-dove",
+    "name": "Fruit Dove",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "gaboon-viper",
+    "name": "Gaboon Viper",
+    "icon": "🐍"
+  },
+  {
+    "slug": "galah",
+    "name": "Galah",
+    "icon": "🦜"
+  },
+  {
+    "slug": "galapagos-sea-lion",
+    "name": "Galapagos Sea Lion",
+    "icon": "🦭"
+  },
+  {
+    "slug": "galapagos-tortoise",
+    "name": "Galapagos Tortoise",
+    "icon": "🐢"
+  },
+  {
+    "slug": "gambian-pouched-rat",
+    "name": "Gambian Pouched Rat",
+    "icon": "🐹"
+  },
+  {
+    "slug": "gang-gang-cockatoo",
+    "name": "Gang-Gang Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "ganges-river-dolphin",
+    "name": "Ganges River Dolphin",
+    "icon": "🐬"
+  },
+  {
+    "slug": "gannet",
+    "name": "Gannet",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "garden-eel",
+    "name": "Garden Eel",
+    "icon": "🐍"
+  },
+  {
+    "slug": "garter-snake",
+    "name": "Garter Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "gazelle",
+    "name": "Gazelle",
+    "icon": "🦌"
+  },
+  {
+    "slug": "gecko",
+    "name": "Gecko",
+    "icon": "🦎"
+  },
+  {
+    "slug": "gelada",
+    "name": "Gelada",
+    "icon": "🐒"
+  },
+  {
+    "slug": "gem-tang",
+    "name": "Gem Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "gentoo-penguin",
+    "name": "Gentoo Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "gerbil",
+    "name": "Gerbil",
+    "icon": "🐭"
+  },
+  {
+    "slug": "gerenuk",
+    "name": "Gerenuk",
+    "icon": "🦌"
+  },
+  {
+    "slug": "german-pinscher",
+    "name": "German Pinscher",
+    "icon": "🐕"
+  },
+  {
+    "slug": "german-rex",
+    "name": "German Rex",
+    "icon": "🐱"
   },
   {
     "slug": "german-shepherd",
@@ -1560,9 +2125,199 @@
     "icon": "🐕"
   },
   {
+    "slug": "german-shorthaired-pointer",
+    "name": "German Shorthaired Pointer",
+    "icon": "🐕"
+  },
+  {
+    "slug": "ghost-knifefish",
+    "name": "Ghost Knifefish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "giant-african-millipede",
+    "name": "Giant African Millipede",
+    "icon": "🪱"
+  },
+  {
+    "slug": "giant-armadillo",
+    "name": "Giant Armadillo",
+    "icon": "🦔"
+  },
+  {
+    "slug": "giant-clam",
+    "name": "Giant Clam",
+    "icon": "🐚"
+  },
+  {
+    "slug": "giant-isopod",
+    "name": "Giant Isopod",
+    "icon": "🦞"
+  },
+  {
+    "slug": "giant-panda",
+    "name": "Giant Panda",
+    "icon": "🐼"
+  },
+  {
+    "slug": "giant-prickly-stick-insect",
+    "name": "Giant Prickly Stick Insect",
+    "icon": "🦗"
+  },
+  {
+    "slug": "giant-schnauzer",
+    "name": "Giant Schnauzer",
+    "icon": "🐕"
+  },
+  {
+    "slug": "giant-squid",
+    "name": "Giant Squid",
+    "icon": "🦑"
+  },
+  {
+    "slug": "giant-water-bug",
+    "name": "Giant Water Bug",
+    "icon": "🪲"
+  },
+  {
+    "slug": "giant-weta",
+    "name": "Giant Weta",
+    "icon": "🦗"
+  },
+  {
+    "slug": "gibbon",
+    "name": "Gibbon",
+    "icon": "🐒"
+  },
+  {
+    "slug": "gila-monster",
+    "name": "Gila Monster",
+    "icon": "🦎"
+  },
+  {
+    "slug": "giraffe",
+    "name": "Giraffe",
+    "icon": "🦒"
+  },
+  {
+    "slug": "glass-frog",
+    "name": "Glass Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "glass-lizard",
+    "name": "Glass Lizard",
+    "icon": "🦎"
+  },
+  {
+    "slug": "glen-of-imaal-terrier",
+    "name": "Glen of Imaal Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "goat",
+    "name": "Goat",
+    "icon": "🐐"
+  },
+  {
+    "slug": "golden-conure",
+    "name": "Golden Conure",
+    "icon": "🦜"
+  },
+  {
+    "slug": "golden-eagle",
+    "name": "Golden Eagle",
+    "icon": "🦅"
+  },
+  {
+    "slug": "golden-lion-tamarin",
+    "name": "Golden Lion Tamarin",
+    "icon": "🐒"
+  },
+  {
+    "slug": "golden-mantella",
+    "name": "Golden Mantella",
+    "icon": "🐸"
+  },
+  {
+    "slug": "golden-pheasant",
+    "name": "Golden Pheasant",
+    "icon": "🐦"
+  },
+  {
     "slug": "golden-retriever",
     "name": "Golden Retriever",
     "icon": "🐕"
+  },
+  {
+    "slug": "golden-silk-orb-weaver",
+    "name": "Golden Silk Orb Weaver",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "goldfish",
+    "name": "Goldfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "goliath-beetle",
+    "name": "Goliath Beetle",
+    "icon": "🪲"
+  },
+  {
+    "slug": "goliath-bird-eater",
+    "name": "Goliath Bird-Eater",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "goliath-birdeater",
+    "name": "Goliath Birdeater",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "goliath-frog",
+    "name": "Goliath Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "goliath-tigerfish",
+    "name": "Goliath Tigerfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "goose",
+    "name": "Goose",
+    "icon": "🦆"
+  },
+  {
+    "slug": "gordon-setter",
+    "name": "Gordon Setter",
+    "icon": "🐕"
+  },
+  {
+    "slug": "gorilla",
+    "name": "Gorilla",
+    "icon": "🦍"
+  },
+  {
+    "slug": "grand-basset-griffon-vendeen",
+    "name": "Grand Basset Griffon Vendéen",
+    "icon": "🐕"
+  },
+  {
+    "slug": "grasshopper",
+    "name": "Grasshopper",
+    "icon": "🦗"
+  },
+  {
+    "slug": "gray-wolf",
+    "name": "Gray Wolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "great-blue-heron",
+    "name": "Great Blue Heron",
+    "icon": "🦤"
   },
   {
     "slug": "great-dane",
@@ -1575,9 +2330,939 @@
     "icon": "🐕"
   },
   {
+    "slug": "great-egret",
+    "name": "Great Egret",
+    "icon": "🦤"
+  },
+  {
+    "slug": "great-hornbill",
+    "name": "Great Hornbill",
+    "icon": "🐦"
+  },
+  {
+    "slug": "great-horned-owl",
+    "name": "Great Horned Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "great-white-shark",
+    "name": "Great White Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "greater-flamingo",
+    "name": "Greater Flamingo",
+    "icon": "🦩"
+  },
+  {
+    "slug": "greater-rhea",
+    "name": "Greater Rhea",
+    "icon": "🦃"
+  },
+  {
+    "slug": "green-cheeked-conure",
+    "name": "Green-Cheeked Conure",
+    "icon": "🦜"
+  },
+  {
+    "slug": "green-iguana",
+    "name": "Green Iguana",
+    "icon": "🦎"
+  },
+  {
+    "slug": "green-mandarin",
+    "name": "Green Mandarin",
+    "icon": "🐟"
+  },
+  {
+    "slug": "green-tree-python",
+    "name": "Green Tree Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "green-woodpecker",
+    "name": "Green Woodpecker",
+    "icon": "🐦"
+  },
+  {
+    "slug": "grey-crowned-crane",
+    "name": "Grey-Crowned Crane",
+    "icon": "🦤"
+  },
+  {
+    "slug": "grey-heron",
+    "name": "Grey Heron",
+    "icon": "🦤"
+  },
+  {
+    "slug": "grey-seal",
+    "name": "Grey Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "greyhound",
+    "name": "Greyhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "griffin",
+    "name": "Griffin",
+    "icon": "🦅"
+  },
+  {
+    "slug": "grison",
+    "name": "Grison",
+    "icon": "🦨"
+  },
+  {
+    "slug": "grizzly-bear",
+    "name": "Grizzly Bear",
+    "icon": "🐻"
+  },
+  {
+    "slug": "groundhog",
+    "name": "Groundhog",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "grouse",
+    "name": "Grouse",
+    "icon": "🐦"
+  },
+  {
+    "slug": "guam-rail",
+    "name": "Guam Rail",
+    "icon": "🐦"
+  },
+  {
+    "slug": "guan",
+    "name": "Guan",
+    "icon": "🐦"
+  },
+  {
+    "slug": "guillemot",
+    "name": "Guillemot",
+    "icon": "🐧"
+  },
+  {
+    "slug": "guinea-fowl",
+    "name": "Guinea Fowl",
+    "icon": "🐦"
+  },
+  {
+    "slug": "guinea-pig",
+    "name": "Guinea Pig",
+    "icon": "🐹"
+  },
+  {
+    "slug": "gulper-eel",
+    "name": "Gulper Eel",
+    "icon": "🐍"
+  },
+  {
+    "slug": "gundi",
+    "name": "Gundi",
+    "icon": "🐹"
+  },
+  {
+    "slug": "guppy",
+    "name": "Guppy",
+    "icon": "🐟"
+  },
+  {
+    "slug": "halibut",
+    "name": "Halibut",
+    "icon": "🐟"
+  },
+  {
+    "slug": "hammerhead-shark",
+    "name": "Hammerhead Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "hamster",
+    "name": "Hamster",
+    "icon": "🐹"
+  },
+  {
+    "slug": "handfish",
+    "name": "Handfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "harbor-porpoise",
+    "name": "Harbor Porpoise",
+    "icon": "🐬"
+  },
+  {
+    "slug": "harbor-seal",
+    "name": "Harbor Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "harbour-porpoise",
+    "name": "Harbour Porpoise",
+    "icon": "🐬"
+  },
+  {
+    "slug": "harlequin-shrimp",
+    "name": "Harlequin Shrimp",
+    "icon": "🦐"
+  },
+  {
+    "slug": "harlequin-tuskfish",
+    "name": "Harlequin Tuskfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "harpy-eagle",
+    "name": "Harpy Eagle",
+    "icon": "🦅"
+  },
+  {
+    "slug": "hatchetfish",
+    "name": "Hatchetfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "havana-brown",
+    "name": "Havana Brown",
+    "icon": "🐱"
+  },
+  {
+    "slug": "havanese",
+    "name": "Havanese",
+    "icon": "🐕"
+  },
+  {
+    "slug": "hawaiian-monk-seal",
+    "name": "Hawaiian Monk Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "hawk",
+    "name": "Hawk",
+    "icon": "🦅"
+  },
+  {
+    "slug": "hedgehog",
+    "name": "Hedgehog",
+    "icon": "🦔"
+  },
+  {
+    "slug": "hellbender",
+    "name": "Hellbender",
+    "icon": "🦎"
+  },
+  {
+    "slug": "hercules-beetle",
+    "name": "Hercules Beetle",
+    "icon": "🪲"
+  },
+  {
+    "slug": "hermit-crab",
+    "name": "Hermit Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "heron",
+    "name": "Heron",
+    "icon": "🦤"
+  },
+  {
+    "slug": "herring",
+    "name": "Herring",
+    "icon": "🐟"
+  },
+  {
+    "slug": "highlander",
+    "name": "Highlander",
+    "icon": "🐱"
+  },
+  {
+    "slug": "himalayan",
+    "name": "Himalayan",
+    "icon": "🐱"
+  },
+  {
+    "slug": "hippo",
+    "name": "Hippo",
+    "icon": "🦛"
+  },
+  {
+    "slug": "hippo-tang",
+    "name": "Hippo Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "hippopotamus",
+    "name": "Hippopotamus",
+    "icon": "🦛"
+  },
+  {
+    "slug": "hoatzin",
+    "name": "Hoatzin",
+    "icon": "🐦"
+  },
+  {
+    "slug": "hog-nose-snake",
+    "name": "Hog-Nose Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "hognose-snake",
+    "name": "Hognose Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "honey-badger",
+    "name": "Honey Badger",
+    "icon": "🦡"
+  },
+  {
+    "slug": "honey-pot-ant",
+    "name": "Honeypot Ant",
+    "icon": "🐜"
+  },
+  {
+    "slug": "honeybee",
+    "name": "Honeybee",
+    "icon": "🐝"
+  },
+  {
+    "slug": "hoopoe",
+    "name": "Hoopoe",
+    "icon": "🐦"
+  },
+  {
+    "slug": "hornbill",
+    "name": "Hornbill",
+    "icon": "🐦"
+  },
+  {
+    "slug": "horse",
+    "name": "Horse",
+    "icon": "🐴"
+  },
+  {
+    "slug": "horseshoe-crab",
+    "name": "Horseshoe Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "house-sparrow",
+    "name": "House Sparrow",
+    "icon": "🐦"
+  },
+  {
+    "slug": "howler-monkey",
+    "name": "Howler Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "hummingbird",
+    "name": "Hummingbird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "humpback-whale",
+    "name": "Humpback Whale",
+    "icon": "🐋"
+  },
+  {
+    "slug": "husky",
+    "name": "Husky",
+    "icon": "🐕"
+  },
+  {
+    "slug": "hyacinth-macaw",
+    "name": "Hyacinth Macaw",
+    "icon": "🦜"
+  },
+  {
+    "slug": "hyena",
+    "name": "Hyena",
+    "icon": "🦡"
+  },
+  {
+    "slug": "hyrax",
+    "name": "Hyrax",
+    "icon": "🐹"
+  },
+  {
+    "slug": "iberian-lynx",
+    "name": "Iberian Lynx",
+    "icon": "🐆"
+  },
+  {
+    "slug": "ibex",
+    "name": "Ibex",
+    "icon": "🐐"
+  },
+  {
+    "slug": "ibis",
+    "name": "Ibis",
+    "icon": "🦤"
+  },
+  {
+    "slug": "ibizan-hound",
+    "name": "Ibizan Hound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "icelandic-sheepdog",
+    "name": "Icelandic Sheepdog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "iguana",
+    "name": "Iguana",
+    "icon": "🦎"
+  },
+  {
+    "slug": "impala",
+    "name": "Impala",
+    "icon": "🦌"
+  },
+  {
+    "slug": "imperial-pigeon",
+    "name": "Imperial Pigeon",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "indian-pangolin",
+    "name": "Indian Pangolin",
+    "icon": "🦔"
+  },
+  {
+    "slug": "indian-peafowl",
+    "name": "Indian Peafowl",
+    "icon": "🦚"
+  },
+  {
+    "slug": "indian-rhino",
+    "name": "Indian Rhino",
+    "icon": "🦏"
+  },
+  {
+    "slug": "indian-ringneck",
+    "name": "Indian Ringneck",
+    "icon": "🦜"
+  },
+  {
+    "slug": "indri",
+    "name": "Indri",
+    "icon": "🐒"
+  },
+  {
+    "slug": "irish-red-and-white-setter",
+    "name": "Irish Red and White Setter",
+    "icon": "🐕"
+  },
+  {
+    "slug": "irish-setter",
+    "name": "Irish Setter",
+    "icon": "🐕"
+  },
+  {
+    "slug": "irish-wolfhound",
+    "name": "Irish Wolfhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "irrawaddy-dolphin",
+    "name": "Irrawaddy Dolphin",
+    "icon": "🐬"
+  },
+  {
+    "slug": "italian-greyhound",
+    "name": "Italian Greyhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "jacamar",
+    "name": "Jacamar",
+    "icon": "🐦"
+  },
+  {
+    "slug": "jacana",
+    "name": "Jacana",
+    "icon": "🐦"
+  },
+  {
+    "slug": "jack-russell-terrier",
+    "name": "Jack Russell Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "jackal",
+    "name": "Jackal",
+    "icon": "🐺"
+  },
+  {
+    "slug": "jackass-penguin",
+    "name": "Jackass Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "jaeger",
+    "name": "Jaeger",
+    "icon": "🦅"
+  },
+  {
+    "slug": "jaguar",
+    "name": "Jaguar",
+    "icon": "🐆"
+  },
+  {
+    "slug": "jaguarundi",
+    "name": "Jaguarundi",
+    "icon": "🐱"
+  },
+  {
+    "slug": "japanese-bobtail",
+    "name": "Japanese Bobtail",
+    "icon": "🐱"
+  },
+  {
+    "slug": "japanese-dragon-eel",
+    "name": "Japanese Dragon Eel",
+    "icon": "🐍"
+  },
+  {
+    "slug": "japanese-giant-salamander",
+    "name": "Japanese Giant Salamander",
+    "icon": "🦎"
+  },
+  {
+    "slug": "japanese-macaque",
+    "name": "Japanese Macaque",
+    "icon": "🐒"
+  },
+  {
+    "slug": "japanese-spider-crab",
+    "name": "Japanese Spider Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "javan-lutung",
+    "name": "Javan Lutung",
+    "icon": "🐒"
+  },
+  {
+    "slug": "javan-rhino",
+    "name": "Javan Rhino",
+    "icon": "🦏"
+  },
+  {
+    "slug": "javanese",
+    "name": "Javanese",
+    "icon": "🐱"
+  },
+  {
+    "slug": "jawfish",
+    "name": "Jawfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "jellyfish",
+    "name": "Jellyfish",
+    "icon": "🪼"
+  },
+  {
+    "slug": "jerboa",
+    "name": "Jerboa",
+    "icon": "🐭"
+  },
+  {
+    "slug": "jewel-beetle",
+    "name": "Jewel Beetle",
+    "icon": "🪲"
+  },
+  {
+    "slug": "kakapo",
+    "name": "Kakapo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "kangaroo",
+    "name": "Kangaroo",
+    "icon": "🦘"
+  },
+  {
+    "slug": "keel-billed-toucan",
+    "name": "Keel-Billed Toucan",
+    "icon": "🦜"
+  },
+  {
+    "slug": "keeshond",
+    "name": "Keeshond",
+    "icon": "🐕"
+  },
+  {
+    "slug": "kestrel",
+    "name": "Kestrel",
+    "icon": "🦅"
+  },
+  {
+    "slug": "khao-manee",
+    "name": "Khao Manee",
+    "icon": "🐱"
+  },
+  {
+    "slug": "killer-whale",
+    "name": "Killer Whale",
+    "icon": "🐋"
+  },
+  {
+    "slug": "king-charles-spaniel",
+    "name": "King Charles Spaniel",
+    "icon": "🐕"
+  },
+  {
+    "slug": "king-cobra",
+    "name": "King Cobra",
+    "icon": "🐍"
+  },
+  {
+    "slug": "king-colobus",
+    "name": "King Colobus",
+    "icon": "🐒"
+  },
+  {
+    "slug": "king-penguin",
+    "name": "King Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "kingfisher",
+    "name": "Kingfisher",
+    "icon": "🐦"
+  },
+  {
+    "slug": "kinkajou",
+    "name": "Kinkajou",
+    "icon": "🦝"
+  },
+  {
+    "slug": "kiwi",
+    "name": "Kiwi",
+    "icon": "🥝"
+  },
+  {
+    "slug": "kiwi-bird",
+    "name": "Kiwi Bird",
+    "icon": "🥝"
+  },
+  {
+    "slug": "klipspringer",
+    "name": "Klipspringer",
+    "icon": "🦌"
+  },
+  {
+    "slug": "knifefish",
+    "name": "Knifefish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "koala",
+    "name": "Koala",
+    "icon": "🐨"
+  },
+  {
+    "slug": "koi",
+    "name": "Koi",
+    "icon": "🐟"
+  },
+  {
+    "slug": "koi-carp",
+    "name": "Koi Carp",
+    "icon": "🐟"
+  },
+  {
+    "slug": "kole-tang",
+    "name": "Kole Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "komodo-dragon",
+    "name": "Komodo Dragon",
+    "icon": "🦎"
+  },
+  {
+    "slug": "komondor",
+    "name": "Komondor",
+    "icon": "🐕"
+  },
+  {
+    "slug": "kookaburra",
+    "name": "Kookaburra",
+    "icon": "🐦"
+  },
+  {
+    "slug": "korat",
+    "name": "Korat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "krait",
+    "name": "Krait",
+    "icon": "🐍"
+  },
+  {
+    "slug": "kudu",
+    "name": "Kudu",
+    "icon": "🦌"
+  },
+  {
+    "slug": "kurilian-bobtail",
+    "name": "Kurilian Bobtail",
+    "icon": "🐱"
+  },
+  {
+    "slug": "kuvasz",
+    "name": "Kuvasz",
+    "icon": "🐕"
+  },
+  {
     "slug": "labrador",
     "name": "Labrador Retriever",
     "icon": "🐕"
+  },
+  {
+    "slug": "ladybug",
+    "name": "Ladybug",
+    "icon": "🐞"
+  },
+  {
+    "slug": "lagotto-romagnolo",
+    "name": "Lagotto Romagnolo",
+    "icon": "🐕"
+  },
+  {
+    "slug": "lambkin",
+    "name": "Lambkin",
+    "icon": "🐱"
+  },
+  {
+    "slug": "landseer",
+    "name": "Landseer",
+    "icon": "🐕"
+  },
+  {
+    "slug": "lanternfish",
+    "name": "Lanternfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "laperm",
+    "name": "LaPerm",
+    "icon": "🐱"
+  },
+  {
+    "slug": "large-spotted-genet",
+    "name": "Large-Spotted Genet",
+    "icon": "🐱"
+  },
+  {
+    "slug": "leaf-insect",
+    "name": "Leaf Insect",
+    "icon": "🪲"
+  },
+  {
+    "slug": "leafcutter-ant",
+    "name": "Leafcutter Ant",
+    "icon": "🐜"
+  },
+  {
+    "slug": "leafy-seadragon",
+    "name": "Leafy Seadragon",
+    "icon": "🐟"
+  },
+  {
+    "slug": "lechwe",
+    "name": "Lechwe",
+    "icon": "🦌"
+  },
+  {
+    "slug": "lemming",
+    "name": "Lemming",
+    "icon": "🐭"
+  },
+  {
+    "slug": "lemonpeel-angelfish",
+    "name": "Lemonpeel Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "lemur",
+    "name": "Lemur",
+    "icon": "🐒"
+  },
+  {
+    "slug": "leonberger",
+    "name": "Leonberger",
+    "icon": "🐕"
+  },
+  {
+    "slug": "leopard",
+    "name": "Leopard",
+    "icon": "🐆"
+  },
+  {
+    "slug": "leopard-gecko",
+    "name": "Leopard Gecko",
+    "icon": "🦎"
+  },
+  {
+    "slug": "leopard-seal",
+    "name": "Leopard Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "lesser-rhea",
+    "name": "Lesser Rhea",
+    "icon": "🦃"
+  },
+  {
+    "slug": "lhasa-apso",
+    "name": "Lhasa Apso",
+    "icon": "🐕"
+  },
+  {
+    "slug": "lilac-crowned-amazon",
+    "name": "Lilac-Crowned Amazon",
+    "icon": "🦜"
+  },
+  {
+    "slug": "limpkin",
+    "name": "Limpkin",
+    "icon": "🐦"
+  },
+  {
+    "slug": "lion",
+    "name": "Lion",
+    "icon": "🦁"
+  },
+  {
+    "slug": "lionfish",
+    "name": "Lionfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "little-penguin",
+    "name": "Little Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "lizard",
+    "name": "Lizard",
+    "icon": "🦎"
+  },
+  {
+    "slug": "llama",
+    "name": "Llama",
+    "icon": "🦙"
+  },
+  {
+    "slug": "lobster",
+    "name": "Lobster",
+    "icon": "🦞"
+  },
+  {
+    "slug": "longnose-butterflyfish",
+    "name": "Longnose Butterflyfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "lop-rabbit",
+    "name": "Lop Rabbit",
+    "icon": "🐰"
+  },
+  {
+    "slug": "lorikeet",
+    "name": "Lorikeet",
+    "icon": "🦜"
+  },
+  {
+    "slug": "lovebird",
+    "name": "Lovebird",
+    "icon": "🦜"
+  },
+  {
+    "slug": "luna-moth",
+    "name": "Luna Moth",
+    "icon": "🦋"
+  },
+  {
+    "slug": "lungfish",
+    "name": "Lungfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "lykoi",
+    "name": "Lykoi",
+    "icon": "🐱"
+  },
+  {
+    "slug": "lynx",
+    "name": "Lynx",
+    "icon": "🐱"
+  },
+  {
+    "slug": "lyretail-anthias",
+    "name": "Lyretail Anthias",
+    "icon": "🐟"
+  },
+  {
+    "slug": "macaque",
+    "name": "Macaque",
+    "icon": "🐒"
+  },
+  {
+    "slug": "macaroni-penguin",
+    "name": "Macaroni Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "macaw",
+    "name": "Macaw",
+    "icon": "🦜"
+  },
+  {
+    "slug": "mackerel",
+    "name": "Mackerel",
+    "icon": "🐟"
+  },
+  {
+    "slug": "madagascar-hissing-cockroach",
+    "name": "Madagascar Hissing Cockroach",
+    "icon": "🪳"
+  },
+  {
+    "slug": "magellanic-penguin",
+    "name": "Magellanic Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "maine-coon",
+    "name": "Maine Coon",
+    "icon": "🐱"
+  },
+  {
+    "slug": "major-mitchell-cockatoo",
+    "name": "Major Mitchell Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "mallard",
+    "name": "Mallard",
+    "icon": "🦆"
+  },
+  {
+    "slug": "malleefowl",
+    "name": "Malleefowl",
+    "icon": "🐦"
   },
   {
     "slug": "maltese",
@@ -1590,8 +3275,838 @@
     "icon": "🐕"
   },
   {
+    "slug": "manatee",
+    "name": "Manatee",
+    "icon": "🦭"
+  },
+  {
+    "slug": "mandarin-dragonet",
+    "name": "Mandarin Dragonet",
+    "icon": "🐟"
+  },
+  {
+    "slug": "mandarinfish",
+    "name": "Mandarinfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "mandrill",
+    "name": "Mandrill",
+    "icon": "🐒"
+  },
+  {
+    "slug": "maned-wolf",
+    "name": "Maned Wolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "manta-ray",
+    "name": "Manta Ray",
+    "icon": "🦈"
+  },
+  {
+    "slug": "mantis-shrimp",
+    "name": "Mantis Shrimp",
+    "icon": "🦐"
+  },
+  {
+    "slug": "manx",
+    "name": "Manx",
+    "icon": "🐱"
+  },
+  {
+    "slug": "margay",
+    "name": "Margay",
+    "icon": "🐱"
+  },
+  {
+    "slug": "marine-iguana",
+    "name": "Marine Iguana",
+    "icon": "🦎"
+  },
+  {
+    "slug": "marlin",
+    "name": "Marlin",
+    "icon": "🐟"
+  },
+  {
+    "slug": "marmoset",
+    "name": "Marmoset",
+    "icon": "🐒"
+  },
+  {
+    "slug": "marmot",
+    "name": "Marmot",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "marten",
+    "name": "Marten",
+    "icon": "🦡"
+  },
+  {
+    "slug": "marvellous-spatuletail",
+    "name": "Marvellous Spatuletail",
+    "icon": "🐦"
+  },
+  {
+    "slug": "mastiff",
+    "name": "Mastiff",
+    "icon": "🐕"
+  },
+  {
+    "slug": "mata-mata",
+    "name": "Mata-Mata",
+    "icon": "🐢"
+  },
+  {
+    "slug": "meerkat",
+    "name": "Meerkat",
+    "icon": "🦡"
+  },
+  {
+    "slug": "mekong-bobtail",
+    "name": "Mekong Bobtail",
+    "icon": "🐱"
+  },
+  {
+    "slug": "mermaid",
+    "name": "Mermaid",
+    "icon": "🧜‍♀️"
+  },
+  {
+    "slug": "mexican-red-knee-tarantula",
+    "name": "Mexican Red-Knee Tarantula",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "midas-blenny",
+    "name": "Midas Blenny",
+    "icon": "🐟"
+  },
+  {
+    "slug": "milk-snake",
+    "name": "Milk Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "millipede",
+    "name": "Millipede",
+    "icon": "🪱"
+  },
+  {
+    "slug": "mimic-octopus",
+    "name": "Mimic Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "mimic-tang",
+    "name": "Mimic Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "miniature-american-shepherd",
+    "name": "Miniature American Shepherd",
+    "icon": "🐕"
+  },
+  {
+    "slug": "miniature-schnauzer",
+    "name": "Miniature Schnauzer",
+    "icon": "🐕"
+  },
+  {
+    "slug": "mink",
+    "name": "Mink",
+    "icon": "🦡"
+  },
+  {
+    "slug": "minskin",
+    "name": "Minskin",
+    "icon": "🐱"
+  },
+  {
+    "slug": "mockingbird",
+    "name": "Mockingbird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "mole",
+    "name": "Mole",
+    "icon": "🐭"
+  },
+  {
+    "slug": "molly",
+    "name": "Molly",
+    "icon": "🐟"
+  },
+  {
+    "slug": "moluccan-cockatoo",
+    "name": "Moluccan Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "monarch-butterfly",
+    "name": "Monarch Butterfly",
+    "icon": "🦋"
+  },
+  {
+    "slug": "mongoose",
+    "name": "Mongoose",
+    "icon": "🦡"
+  },
+  {
+    "slug": "monitor-lizard",
+    "name": "Monitor Lizard",
+    "icon": "🦎"
+  },
+  {
+    "slug": "monkey",
+    "name": "Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "moon-jellyfish",
+    "name": "Moon Jellyfish",
+    "icon": "🪼"
+  },
+  {
+    "slug": "moorish-idol",
+    "name": "Moorish Idol",
+    "icon": "🐠"
+  },
+  {
+    "slug": "moose",
+    "name": "Moose",
+    "icon": "🫎"
+  },
+  {
+    "slug": "moray-eel",
+    "name": "Moray Eel",
+    "icon": "🐍"
+  },
+  {
+    "slug": "mosquito",
+    "name": "Mosquito",
+    "icon": "🦟"
+  },
+  {
+    "slug": "motmot",
+    "name": "Motmot",
+    "icon": "🐦"
+  },
+  {
+    "slug": "mouflon",
+    "name": "Mouflon",
+    "icon": "🐑"
+  },
+  {
+    "slug": "mountain-goat",
+    "name": "Mountain Goat",
+    "icon": "🐐"
+  },
+  {
+    "slug": "mountain-gorilla",
+    "name": "Mountain Gorilla",
+    "icon": "🦍"
+  },
+  {
+    "slug": "mountain-nyala",
+    "name": "Mountain Nyala",
+    "icon": "🦌"
+  },
+  {
+    "slug": "mouse",
+    "name": "Mouse",
+    "icon": "🐭"
+  },
+  {
+    "slug": "mudpuppy",
+    "name": "Mudpuppy",
+    "icon": "🦎"
+  },
+  {
+    "slug": "mudskipper",
+    "name": "Mudskipper",
+    "icon": "🐟"
+  },
+  {
+    "slug": "munchkin",
+    "name": "Munchkin",
+    "icon": "🐱"
+  },
+  {
+    "slug": "muntjac",
+    "name": "Muntjac",
+    "icon": "🦌"
+  },
+  {
+    "slug": "murre",
+    "name": "Murre",
+    "icon": "🐧"
+  },
+  {
+    "slug": "murrelet",
+    "name": "Murrelet",
+    "icon": "🐧"
+  },
+  {
+    "slug": "mushroom-coral",
+    "name": "Mushroom Coral",
+    "icon": "🪸"
+  },
+  {
+    "slug": "musk-deer",
+    "name": "Musk Deer",
+    "icon": "🦌"
+  },
+  {
+    "slug": "musk-ox",
+    "name": "Musk Ox",
+    "icon": "🐃"
+  },
+  {
+    "slug": "mute-swan",
+    "name": "Mute Swan",
+    "icon": "🦢"
+  },
+  {
+    "slug": "naked-mole-rat",
+    "name": "Naked Mole-Rat",
+    "icon": "🐹"
+  },
+  {
+    "slug": "nanday-conure",
+    "name": "Nanday Conure",
+    "icon": "🦜"
+  },
+  {
+    "slug": "napoleon",
+    "name": "Napoleon",
+    "icon": "🐱"
+  },
+  {
+    "slug": "narwhal",
+    "name": "Narwhal",
+    "icon": "🐋"
+  },
+  {
+    "slug": "naso-tang",
+    "name": "Naso Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "nautilus",
+    "name": "Nautilus",
+    "icon": "🐚"
+  },
+  {
+    "slug": "nebelung",
+    "name": "Nebelung",
+    "icon": "🐱"
+  },
+  {
+    "slug": "neon-tetra",
+    "name": "Neon Tetra",
+    "icon": "🐟"
+  },
+  {
+    "slug": "newfoundland",
+    "name": "Newfoundland",
+    "icon": "🐕"
+  },
+  {
+    "slug": "newt",
+    "name": "Newt",
+    "icon": "🦎"
+  },
+  {
+    "slug": "nicobar-pigeon",
+    "name": "Nicobar Pigeon",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "nightingale",
+    "name": "Nightingale",
+    "icon": "🐦"
+  },
+  {
+    "slug": "nile-monitor",
+    "name": "Nile Monitor",
+    "icon": "🦎"
+  },
+  {
+    "slug": "norfolk-terrier",
+    "name": "Norfolk Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "northern-cardinal",
+    "name": "Northern Cardinal",
+    "icon": "🐦"
+  },
+  {
+    "slug": "northern-elephant-seal",
+    "name": "Northern Elephant Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "northern-flicker",
+    "name": "Northern Flicker",
+    "icon": "🐦"
+  },
+  {
+    "slug": "northern-mockingbird",
+    "name": "Northern Mockingbird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "norwegian-elkhound",
+    "name": "Norwegian Elkhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "norwegian-forest",
+    "name": "Norwegian Forest Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "norwegian-forest-cat",
+    "name": "Norwegian Forest Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "norwegian-lundehund",
+    "name": "Norwegian Lundehund",
+    "icon": "🐕"
+  },
+  {
+    "slug": "nudibranch",
+    "name": "Nudibranch",
+    "icon": "🐌"
+  },
+  {
+    "slug": "numbat",
+    "name": "Numbat",
+    "icon": "🦡"
+  },
+  {
+    "slug": "nurse-shark",
+    "name": "Nurse Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "nyala",
+    "name": "Nyala",
+    "icon": "🦌"
+  },
+  {
+    "slug": "ocellaris-clownfish",
+    "name": "Ocellaris Clownfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "ocelot",
+    "name": "Ocelot",
+    "icon": "🐆"
+  },
+  {
+    "slug": "ocicat",
+    "name": "Ocicat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "octopus",
+    "name": "Octopus",
+    "icon": "🐙"
+  },
+  {
+    "slug": "oilbird",
+    "name": "Oilbird",
+    "icon": "🦇"
+  },
+  {
+    "slug": "ojos-azules",
+    "name": "Ojos Azules",
+    "icon": "🐱"
+  },
+  {
+    "slug": "okapi",
+    "name": "Okapi",
+    "icon": "🦒"
+  },
+  {
+    "slug": "old-english-sheepdog",
+    "name": "Old English Sheepdog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "olinguito",
+    "name": "Olinguito",
+    "icon": "🦝"
+  },
+  {
+    "slug": "olive-baboon",
+    "name": "Olive Baboon",
+    "icon": "🐒"
+  },
+  {
+    "slug": "olm",
+    "name": "Olm",
+    "icon": "🦎"
+  },
+  {
+    "slug": "opossum",
+    "name": "Opossum",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "orange-spot-goby",
+    "name": "Orange-Spot Goby",
+    "icon": "🐟"
+  },
+  {
+    "slug": "orangutan",
+    "name": "Orangutan",
+    "icon": "🦧"
+  },
+  {
+    "slug": "orca",
+    "name": "Orca",
+    "icon": "🐋"
+  },
+  {
+    "slug": "orchid-bee",
+    "name": "Orchid Bee",
+    "icon": "🐝"
+  },
+  {
+    "slug": "orchid-dottyback",
+    "name": "Orchid Dottyback",
+    "icon": "🐟"
+  },
+  {
+    "slug": "orchid-mantis",
+    "name": "Orchid Mantis",
+    "icon": "🪲"
+  },
+  {
+    "slug": "oriental-shorthair",
+    "name": "Oriental Shorthair",
+    "icon": "🐱"
+  },
+  {
+    "slug": "oryx",
+    "name": "Oryx",
+    "icon": "🦌"
+  },
+  {
+    "slug": "osprey",
+    "name": "Osprey",
+    "icon": "🦅"
+  },
+  {
+    "slug": "ostrich",
+    "name": "Ostrich",
+    "icon": "🦤"
+  },
+  {
+    "slug": "otter",
+    "name": "Otter",
+    "icon": "🦦"
+  },
+  {
+    "slug": "otterhound",
+    "name": "Otterhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "owl",
+    "name": "Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "ox",
+    "name": "Ox",
+    "icon": "🐂"
+  },
+  {
+    "slug": "pacman-frog",
+    "name": "Pacman Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "pacu",
+    "name": "Pacu",
+    "icon": "🐟"
+  },
+  {
+    "slug": "paddlefish",
+    "name": "Paddlefish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "painted-dog",
+    "name": "Painted Dog",
+    "icon": "🐺"
+  },
+  {
+    "slug": "painted-turtle",
+    "name": "Painted Turtle",
+    "icon": "🐢"
+  },
+  {
+    "slug": "pajama-cardinalfish",
+    "name": "Pajama Cardinalfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "pallas-cat",
+    "name": "Pallas Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "palm-cockatoo",
+    "name": "Palm Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "pampas-cat",
+    "name": "Pampas Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "panda",
+    "name": "Panda",
+    "icon": "🐼"
+  },
+  {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "icon": "🦔"
+  },
+  {
     "slug": "papillon-dog",
     "name": "Papillon",
+    "icon": "🐕"
+  },
+  {
+    "slug": "parrot",
+    "name": "Parrot",
+    "icon": "🦜"
+  },
+  {
+    "slug": "parson-russell-terrier",
+    "name": "Parson Russell Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "partridge",
+    "name": "Partridge",
+    "icon": "🐦"
+  },
+  {
+    "slug": "patagonian-mara",
+    "name": "Patagonian Mara",
+    "icon": "🐹"
+  },
+  {
+    "slug": "payara",
+    "name": "Payara",
+    "icon": "🐟"
+  },
+  {
+    "slug": "peach-faced-lovebird",
+    "name": "Peach-Faced Lovebird",
+    "icon": "🦜"
+  },
+  {
+    "slug": "peacock",
+    "name": "Peacock",
+    "icon": "🦚"
+  },
+  {
+    "slug": "peacock-mantis-shrimp",
+    "name": "Peacock Mantis Shrimp",
+    "icon": "🦐"
+  },
+  {
+    "slug": "peacock-spider",
+    "name": "Peacock Spider",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "peccary",
+    "name": "Peccary",
+    "icon": "🐗"
+  },
+  {
+    "slug": "pegasus",
+    "name": "Pegasus",
+    "icon": "🐴"
+  },
+  {
+    "slug": "pekingese",
+    "name": "Pekingese",
+    "icon": "🐕"
+  },
+  {
+    "slug": "pelican",
+    "name": "Pelican",
+    "icon": "🦤"
+  },
+  {
+    "slug": "pembroke-welsh-corgi",
+    "name": "Pembroke Welsh Corgi",
+    "icon": "🐕"
+  },
+  {
+    "slug": "penguin",
+    "name": "Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "peppermint-shrimp",
+    "name": "Peppermint Shrimp",
+    "icon": "🦐"
+  },
+  {
+    "slug": "perch",
+    "name": "Perch",
+    "icon": "🐟"
+  },
+  {
+    "slug": "peregrine-falcon",
+    "name": "Peregrine Falcon",
+    "icon": "🦅"
+  },
+  {
+    "slug": "persian-cat",
+    "name": "Persian Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "peterbald",
+    "name": "Peterbald",
+    "icon": "🐱"
+  },
+  {
+    "slug": "petit-basset-griffon-vendeen",
+    "name": "Petit Basset Griffon Vendéen",
+    "icon": "🐕"
+  },
+  {
+    "slug": "petrel",
+    "name": "Petrel",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "pharaoh-hound",
+    "name": "Pharaoh Hound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "pheasant",
+    "name": "Pheasant",
+    "icon": "🐦"
+  },
+  {
+    "slug": "philippine-eagle",
+    "name": "Philippine Eagle",
+    "icon": "🦅"
+  },
+  {
+    "slug": "phoenix",
+    "name": "Phoenix",
+    "icon": "🐦‍🔥"
+  },
+  {
+    "slug": "picasso-triggerfish",
+    "name": "Picasso Triggerfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "pied-kingfisher",
+    "name": "Pied Kingfisher",
+    "icon": "🐦"
+  },
+  {
+    "slug": "pig",
+    "name": "Pig",
+    "icon": "🐷"
+  },
+  {
+    "slug": "pigeon",
+    "name": "Pigeon",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "pileated-woodpecker",
+    "name": "Pileated Woodpecker",
+    "icon": "🐦"
+  },
+  {
+    "slug": "pilot-whale",
+    "name": "Pilot Whale",
+    "icon": "🐋"
+  },
+  {
+    "slug": "pink-cockatoo",
+    "name": "Pink Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "pink-fairy-armadillo",
+    "name": "Pink Fairy Armadillo",
+    "icon": "🦔"
+  },
+  {
+    "slug": "pink-skunk-clownfish",
+    "name": "Pink Skunk Clownfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "piranha",
+    "name": "Piranha",
+    "icon": "🐟"
+  },
+  {
+    "slug": "pistol-shrimp",
+    "name": "Pistol Shrimp",
+    "icon": "🦐"
+  },
+  {
+    "slug": "pixie-bob",
+    "name": "Pixie-Bob",
+    "icon": "🐱"
+  },
+  {
+    "slug": "platypus",
+    "name": "Platypus",
+    "icon": "🦆"
+  },
+  {
+    "slug": "plott-hound",
+    "name": "Plott Hound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "pointer",
+    "name": "Pointer",
+    "icon": "🐕"
+  },
+  {
+    "slug": "poison-dart-frog",
+    "name": "Poison Dart Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "polar-bear",
+    "name": "Polar Bear",
+    "icon": "🐻‍❄️"
+  },
+  {
+    "slug": "polish-lowland-sheepdog",
+    "name": "Polish Lowland Sheepdog",
     "icon": "🐕"
   },
   {
@@ -1605,9 +4120,429 @@
     "icon": "🐩"
   },
   {
+    "slug": "porcelain-crab",
+    "name": "Porcelain Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "porcupine",
+    "name": "Porcupine",
+    "icon": "🦔"
+  },
+  {
+    "slug": "porcupinefish",
+    "name": "Porcupinefish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "portuguese-man-o-war",
+    "name": "Portuguese Man O' War",
+    "icon": "🪼"
+  },
+  {
+    "slug": "portuguese-podengo",
+    "name": "Portuguese Podengo",
+    "icon": "🐕"
+  },
+  {
+    "slug": "portuguese-water-dog",
+    "name": "Portuguese Water Dog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "possum",
+    "name": "Possum",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "pot-bellied-pig",
+    "name": "Pot-Bellied Pig",
+    "icon": "🐷"
+  },
+  {
+    "slug": "potoo",
+    "name": "Potoo",
+    "icon": "🦉"
+  },
+  {
+    "slug": "potto",
+    "name": "Potto",
+    "icon": "🐒"
+  },
+  {
+    "slug": "powder-blue-tang",
+    "name": "Powder Blue Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "powder-brown-tang",
+    "name": "Powder Brown Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "prairie-dog",
+    "name": "Prairie Dog",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "pratincole",
+    "name": "Pratincole",
+    "icon": "🐦"
+  },
+  {
+    "slug": "praying-mantis",
+    "name": "Praying Mantis",
+    "icon": "🦗"
+  },
+  {
+    "slug": "proboscis-monkey",
+    "name": "Proboscis Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "pronghorn",
+    "name": "Pronghorn",
+    "icon": "🦌"
+  },
+  {
+    "slug": "ptarmigan",
+    "name": "Ptarmigan",
+    "icon": "🐦"
+  },
+  {
+    "slug": "puffbird",
+    "name": "Puffbird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "pufferfish",
+    "name": "Pufferfish",
+    "icon": "🐡"
+  },
+  {
+    "slug": "puffin",
+    "name": "Puffin",
+    "icon": "🐧"
+  },
+  {
     "slug": "pug",
     "name": "Pug",
     "icon": "🐕"
+  },
+  {
+    "slug": "puli",
+    "name": "Puli",
+    "icon": "🐕"
+  },
+  {
+    "slug": "puma",
+    "name": "Puma",
+    "icon": "🐆"
+  },
+  {
+    "slug": "purple-frog",
+    "name": "Purple Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "purple-tang",
+    "name": "Purple Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "pygmy-goat",
+    "name": "Pygmy Goat",
+    "icon": "🐐"
+  },
+  {
+    "slug": "pygmy-hippo",
+    "name": "Pygmy Hippo",
+    "icon": "🦛"
+  },
+  {
+    "slug": "pygmy-hippopotamus",
+    "name": "Pygmy Hippopotamus",
+    "icon": "🦛"
+  },
+  {
+    "slug": "pygmy-marmoset",
+    "name": "Pygmy Marmoset",
+    "icon": "🐒"
+  },
+  {
+    "slug": "pyrenean-shepherd",
+    "name": "Pyrenean Shepherd",
+    "icon": "🐕"
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "quail",
+    "name": "Quail",
+    "icon": "🐦"
+  },
+  {
+    "slug": "quaker-parrot",
+    "name": "Quaker Parrot",
+    "icon": "🦜"
+  },
+  {
+    "slug": "quarter-horse",
+    "name": "Quarter Horse",
+    "icon": "🐴"
+  },
+  {
+    "slug": "queen-angelfish",
+    "name": "Queen Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "quokka",
+    "name": "Quokka",
+    "icon": "🦘"
+  },
+  {
+    "slug": "quoll",
+    "name": "Quoll",
+    "icon": "🐾"
+  },
+  {
+    "slug": "rabbit",
+    "name": "Rabbit",
+    "icon": "🐰"
+  },
+  {
+    "slug": "raccoon",
+    "name": "Raccoon",
+    "icon": "🦝"
+  },
+  {
+    "slug": "raccoon-dog",
+    "name": "Raccoon Dog",
+    "icon": "🦝"
+  },
+  {
+    "slug": "ragamuffin",
+    "name": "Ragamuffin",
+    "icon": "🐱"
+  },
+  {
+    "slug": "ragdoll",
+    "name": "Ragdoll Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "ragdoll-cat",
+    "name": "Ragdoll Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "rainbow-lorikeet",
+    "name": "Rainbow Lorikeet",
+    "icon": "🦜"
+  },
+  {
+    "slug": "rat",
+    "name": "Rat",
+    "icon": "🐀"
+  },
+  {
+    "slug": "rat-terrier",
+    "name": "Rat Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "rattlesnake",
+    "name": "Rattlesnake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "raven",
+    "name": "Raven",
+    "icon": "🐦‍⬛"
+  },
+  {
+    "slug": "razorbill",
+    "name": "Razorbill",
+    "icon": "🐧"
+  },
+  {
+    "slug": "red-deer",
+    "name": "Red Deer",
+    "icon": "🦌"
+  },
+  {
+    "slug": "red-eared-slider",
+    "name": "Red-Eared Slider",
+    "icon": "🐢"
+  },
+  {
+    "slug": "red-eyed-tree-frog",
+    "name": "Red-Eyed Tree Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "red-fox",
+    "name": "Red Fox",
+    "icon": "🦊"
+  },
+  {
+    "slug": "red-handed-tamarin",
+    "name": "Red-Handed Tamarin",
+    "icon": "🐒"
+  },
+  {
+    "slug": "red-lory",
+    "name": "Red Lory",
+    "icon": "🦜"
+  },
+  {
+    "slug": "red-panda",
+    "name": "Red Panda",
+    "icon": "🐼"
+  },
+  {
+    "slug": "red-tailed-hawk",
+    "name": "Red-Tailed Hawk",
+    "icon": "🦅"
+  },
+  {
+    "slug": "red-wolf",
+    "name": "Red Wolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "redbone-coonhound",
+    "name": "Redbone Coonhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "reedbuck",
+    "name": "Reedbuck",
+    "icon": "🦌"
+  },
+  {
+    "slug": "regal-angelfish",
+    "name": "Regal Angelfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "regal-tang",
+    "name": "Regal Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "reindeer",
+    "name": "Reindeer",
+    "icon": "🦌"
+  },
+  {
+    "slug": "resplendent-quetzal",
+    "name": "Resplendent Quetzal",
+    "icon": "🐦"
+  },
+  {
+    "slug": "reticulated-python",
+    "name": "Reticulated Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "rhea",
+    "name": "Rhea",
+    "icon": "🦤"
+  },
+  {
+    "slug": "rhesus-macaque",
+    "name": "Rhesus Macaque",
+    "icon": "🐒"
+  },
+  {
+    "slug": "rhino",
+    "name": "Rhino",
+    "icon": "🦏"
+  },
+  {
+    "slug": "rhinoceros",
+    "name": "Rhinoceros",
+    "icon": "🦏"
+  },
+  {
+    "slug": "rhinoceros-iguana",
+    "name": "Rhinoceros Iguana",
+    "icon": "🦎"
+  },
+  {
+    "slug": "rhodesian-ridgeback",
+    "name": "Rhodesian Ridgeback",
+    "icon": "🐕"
+  },
+  {
+    "slug": "rifleman-bird",
+    "name": "Rifleman Bird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "ring-necked-pheasant",
+    "name": "Ring-Necked Pheasant",
+    "icon": "🐦"
+  },
+  {
+    "slug": "ring-tailed-lemur",
+    "name": "Ring-Tailed Lemur",
+    "icon": "🐒"
+  },
+  {
+    "slug": "ringtail",
+    "name": "Ringtail",
+    "icon": "🦝"
+  },
+  {
+    "slug": "robin",
+    "name": "Robin",
+    "icon": "🐦"
+  },
+  {
+    "slug": "roborovski-hamster",
+    "name": "Roborovski Hamster",
+    "icon": "🐹"
+  },
+  {
+    "slug": "rockhopper-penguin",
+    "name": "Rockhopper Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "roller",
+    "name": "Roller",
+    "icon": "🐦"
+  },
+  {
+    "slug": "rose-breasted-cockatoo",
+    "name": "Rose-Breasted Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "rose-hair-tarantula",
+    "name": "Rose Hair Tarantula",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "roseate-spoonbill",
+    "name": "Roseate Spoonbill",
+    "icon": "🦤"
+  },
+  {
+    "slug": "rosella",
+    "name": "Rosella",
+    "icon": "🦜"
+  },
+  {
+    "slug": "rosy-boa",
+    "name": "Rosy Boa",
+    "icon": "🐍"
   },
   {
     "slug": "rottweiler",
@@ -1615,14 +4550,304 @@
     "icon": "🐕"
   },
   {
+    "slug": "royal-antelope",
+    "name": "Royal Antelope",
+    "icon": "🦌"
+  },
+  {
+    "slug": "royal-gramma",
+    "name": "Royal Gramma",
+    "icon": "🐟"
+  },
+  {
+    "slug": "royal-penguin",
+    "name": "Royal Penguin",
+    "icon": "🐧"
+  },
+  {
+    "slug": "ruby-throated-hummingbird",
+    "name": "Ruby-Throated Hummingbird",
+    "icon": "🐦"
+  },
+  {
+    "slug": "russian-blue",
+    "name": "Russian Blue",
+    "icon": "🐱"
+  },
+  {
+    "slug": "russian-tortoise",
+    "name": "Russian Tortoise",
+    "icon": "🐢"
+  },
+  {
+    "slug": "rusty-spotted-cat",
+    "name": "Rusty-Spotted Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "safari-cat",
+    "name": "Safari Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "saiga",
+    "name": "Saiga",
+    "icon": "🦌"
+  },
+  {
+    "slug": "saiga-antelope",
+    "name": "Saiga Antelope",
+    "icon": "🐐"
+  },
+  {
+    "slug": "sailfin-tang",
+    "name": "Sailfin Tang",
+    "icon": "🐠"
+  },
+  {
     "slug": "saint-bernard",
     "name": "Saint Bernard",
     "icon": "🐕"
   },
   {
+    "slug": "salamander",
+    "name": "Salamander",
+    "icon": "🦎"
+  },
+  {
+    "slug": "salmon",
+    "name": "Salmon",
+    "icon": "🐟"
+  },
+  {
+    "slug": "saluki",
+    "name": "Saluki",
+    "icon": "🐕"
+  },
+  {
+    "slug": "sam-sawet",
+    "name": "Sam Sawet",
+    "icon": "🐱"
+  },
+  {
     "slug": "samoyed",
     "name": "Samoyed",
     "icon": "🐕"
+  },
+  {
+    "slug": "sand-boa",
+    "name": "Sand Boa",
+    "icon": "🐍"
+  },
+  {
+    "slug": "sand-cat",
+    "name": "Sand Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "sandgrouse",
+    "name": "Sandgrouse",
+    "icon": "🐦"
+  },
+  {
+    "slug": "sandhill-crane",
+    "name": "Sandhill Crane",
+    "icon": "🦤"
+  },
+  {
+    "slug": "saola",
+    "name": "Saola",
+    "icon": "🦌"
+  },
+  {
+    "slug": "sardine",
+    "name": "Sardine",
+    "icon": "🐟"
+  },
+  {
+    "slug": "satanic-leaf-tailed-gecko",
+    "name": "Satanic Leaf-Tailed Gecko",
+    "icon": "🦎"
+  },
+  {
+    "slug": "savannah",
+    "name": "Savannah",
+    "icon": "🐱"
+  },
+  {
+    "slug": "scarlet-hermit-crab",
+    "name": "Scarlet Hermit Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "scarlet-ibis",
+    "name": "Scarlet Ibis",
+    "icon": "🦤"
+  },
+  {
+    "slug": "scarlet-macaw",
+    "name": "Scarlet Macaw",
+    "icon": "🦜"
+  },
+  {
+    "slug": "schipperke",
+    "name": "Schipperke",
+    "icon": "🐕"
+  },
+  {
+    "slug": "scooter-blenny",
+    "name": "Scooter Blenny",
+    "icon": "🐟"
+  },
+  {
+    "slug": "scorpion",
+    "name": "Scorpion",
+    "icon": "🦂"
+  },
+  {
+    "slug": "scorpionfish",
+    "name": "Scorpionfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "scottish-deerhound",
+    "name": "Scottish Deerhound",
+    "icon": "🐕"
+  },
+  {
+    "slug": "scottish-fold",
+    "name": "Scottish Fold",
+    "icon": "🐱"
+  },
+  {
+    "slug": "scottish-fold-cat",
+    "name": "Scottish Fold",
+    "icon": "🐱"
+  },
+  {
+    "slug": "scottish-terrier",
+    "name": "Scottish Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "sea-angel",
+    "name": "Sea Angel",
+    "icon": "🐚"
+  },
+  {
+    "slug": "sea-bunny",
+    "name": "Sea Bunny",
+    "icon": "🐰"
+  },
+  {
+    "slug": "sea-hare",
+    "name": "Sea Hare",
+    "icon": "🐌"
+  },
+  {
+    "slug": "sea-lion",
+    "name": "Sea Lion",
+    "icon": "🦭"
+  },
+  {
+    "slug": "sea-otter",
+    "name": "Sea Otter",
+    "icon": "🦦"
+  },
+  {
+    "slug": "sea-snake",
+    "name": "Sea Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "sea-turtle",
+    "name": "Sea Turtle",
+    "icon": "🐢"
+  },
+  {
+    "slug": "sea-urchin",
+    "name": "Sea Urchin",
+    "icon": "🦔"
+  },
+  {
+    "slug": "seagull",
+    "name": "Seagull",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "seahorse",
+    "name": "Seahorse",
+    "icon": "🐴"
+  },
+  {
+    "slug": "seal",
+    "name": "Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "sebae-clownfish",
+    "name": "Sebae Clownfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "secretary-bird",
+    "name": "Secretary Bird",
+    "icon": "🦅"
+  },
+  {
+    "slug": "seedsnipe",
+    "name": "Seedsnipe",
+    "icon": "🐦"
+  },
+  {
+    "slug": "selkirk-rex",
+    "name": "Selkirk Rex",
+    "icon": "🐱"
+  },
+  {
+    "slug": "senegal-parrot",
+    "name": "Senegal Parrot",
+    "icon": "🦜"
+  },
+  {
+    "slug": "serengeti",
+    "name": "Serengeti",
+    "icon": "🐱"
+  },
+  {
+    "slug": "serpent-star",
+    "name": "Serpent Star",
+    "icon": "🌟"
+  },
+  {
+    "slug": "serval",
+    "name": "Serval",
+    "icon": "🐱"
+  },
+  {
+    "slug": "seychellois",
+    "name": "Seychellois",
+    "icon": "🐱"
+  },
+  {
+    "slug": "shar-pei",
+    "name": "Shar-Pei",
+    "icon": "🐕"
+  },
+  {
+    "slug": "shark",
+    "name": "Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "shearwater",
+    "name": "Shearwater",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "sheep",
+    "name": "Sheep",
+    "icon": "🐑"
   },
   {
     "slug": "shetland-sheepdog",
@@ -1640,104 +4865,214 @@
     "icon": "🐕"
   },
   {
-    "slug": "weimaraner",
-    "name": "Weimaraner",
-    "icon": "🐕"
+    "slug": "shoebill",
+    "name": "Shoebill",
+    "icon": "🦩"
   },
   {
-    "slug": "yorkshire-terrier",
-    "name": "Yorkshire Terrier",
-    "icon": "🐕"
+    "slug": "shrew",
+    "name": "Shrew",
+    "icon": "🐭"
   },
   {
-    "slug": "yorkshire-terrier-dog",
-    "name": "Yorkshire Terrier",
-    "icon": "🐕"
+    "slug": "shrimp",
+    "name": "Shrimp",
+    "icon": "🦐"
   },
   {
-    "slug": "abyssinian",
-    "name": "Abyssinian Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "abyssinian-cat",
-    "name": "Abyssinian Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "bengal-cat",
-    "name": "Bengal Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "british-shorthair",
-    "name": "British Shorthair",
-    "icon": "🐱"
-  },
-  {
-    "slug": "british-shorthair-cat",
-    "name": "British Shorthair",
-    "icon": "🐱"
-  },
-  {
-    "slug": "burmese",
-    "name": "Burmese Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "burmese-cat",
-    "name": "Burmese Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "devon-rex",
-    "name": "Devon Rex",
-    "icon": "🐱"
-  },
-  {
-    "slug": "maine-coon",
-    "name": "Maine Coon",
-    "icon": "🐱"
-  },
-  {
-    "slug": "norwegian-forest",
-    "name": "Norwegian Forest Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "norwegian-forest-cat",
-    "name": "Norwegian Forest Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "persian-cat",
-    "name": "Persian Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ragdoll",
-    "name": "Ragdoll Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ragdoll-cat",
-    "name": "Ragdoll Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "scottish-fold",
-    "name": "Scottish Fold",
-    "icon": "🐱"
-  },
-  {
-    "slug": "scottish-fold-cat",
-    "name": "Scottish Fold",
-    "icon": "🐱"
+    "slug": "siamang",
+    "name": "Siamang",
+    "icon": "🐒"
   },
   {
     "slug": "siamese-cat",
     "name": "Siamese Cat",
     "icon": "🐱"
+  },
+  {
+    "slug": "siberian-husky",
+    "name": "Siberian Husky",
+    "icon": "🐕"
+  },
+  {
+    "slug": "siberian-tiger",
+    "name": "Siberian Tiger",
+    "icon": "🐯"
+  },
+  {
+    "slug": "silky-terrier",
+    "name": "Silky Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "singapura",
+    "name": "Singapura",
+    "icon": "🐱"
+  },
+  {
+    "slug": "siren",
+    "name": "Siren",
+    "icon": "🦎"
+  },
+  {
+    "slug": "sitatunga",
+    "name": "Sitatunga",
+    "icon": "🦌"
+  },
+  {
+    "slug": "six-line-wrasse",
+    "name": "Six-Line Wrasse",
+    "icon": "🐟"
+  },
+  {
+    "slug": "skink",
+    "name": "Skink",
+    "icon": "🦎"
+  },
+  {
+    "slug": "skua",
+    "name": "Skua",
+    "icon": "🦅"
+  },
+  {
+    "slug": "skunk",
+    "name": "Skunk",
+    "icon": "🦨"
+  },
+  {
+    "slug": "skunk-clownfish",
+    "name": "Skunk Clownfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "sky-terrier",
+    "name": "Skye Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "sleeper-goby",
+    "name": "Sleeper Goby",
+    "icon": "🐟"
+  },
+  {
+    "slug": "sloth",
+    "name": "Sloth",
+    "icon": "🦥"
+  },
+  {
+    "slug": "sloughi",
+    "name": "Sloughi",
+    "icon": "🐕"
+  },
+  {
+    "slug": "slow-loris",
+    "name": "Slow Loris",
+    "icon": "🐒"
+  },
+  {
+    "slug": "snail",
+    "name": "Snail",
+    "icon": "🐌"
+  },
+  {
+    "slug": "snake",
+    "name": "Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "snow-goose",
+    "name": "Snow Goose",
+    "icon": "🦆"
+  },
+  {
+    "slug": "snow-leopard",
+    "name": "Snow Leopard",
+    "icon": "🐆"
+  },
+  {
+    "slug": "snow-monkey",
+    "name": "Snow Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "snowshoe",
+    "name": "Snowshoe",
+    "icon": "🐱"
+  },
+  {
+    "slug": "snowy-owl",
+    "name": "Snowy Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "soft-coated-wheaten-terrier",
+    "name": "Soft-Coated Wheaten Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "softshell-turtle",
+    "name": "Softshell Turtle",
+    "icon": "🐢"
+  },
+  {
+    "slug": "sokoke",
+    "name": "Sokoke",
+    "icon": "🐱"
+  },
+  {
+    "slug": "solendon",
+    "name": "Solenodon",
+    "icon": "🐭"
+  },
+  {
+    "slug": "solenodon",
+    "name": "Solenodon",
+    "icon": "🦔"
+  },
+  {
+    "slug": "somali",
+    "name": "Somali",
+    "icon": "🐱"
+  },
+  {
+    "slug": "south-american-coati",
+    "name": "South American Coati",
+    "icon": "🦝"
+  },
+  {
+    "slug": "southern-sea-otter",
+    "name": "Southern Sea Otter",
+    "icon": "🦦"
+  },
+  {
+    "slug": "spanish-dancer",
+    "name": "Spanish Dancer",
+    "icon": "🐌"
+  },
+  {
+    "slug": "spanish-moon-moth",
+    "name": "Spanish Moon Moth",
+    "icon": "🦋"
+  },
+  {
+    "slug": "spanish-water-dog",
+    "name": "Spanish Water Dog",
+    "icon": "🐕"
+  },
+  {
+    "slug": "sparrow",
+    "name": "Sparrow",
+    "icon": "🐦"
+  },
+  {
+    "slug": "spectacled-bear",
+    "name": "Spectacled Bear",
+    "icon": "🐻"
+  },
+  {
+    "slug": "sperm-whale",
+    "name": "Sperm Whale",
+    "icon": "🐋"
   },
   {
     "slug": "sphynx",
@@ -1750,1849 +5085,14 @@
     "icon": "🐱"
   },
   {
-    "slug": "tonkinese",
-    "name": "Tonkinese Cat",
-    "icon": "🐱"
+    "slug": "spider",
+    "name": "Spider",
+    "icon": "🕷️"
   },
   {
-    "slug": "african-grey",
-    "name": "African Grey Parrot",
-    "icon": "🦜"
-  },
-  {
-    "slug": "african-grey-parrot",
-    "name": "African Grey Parrot",
-    "icon": "🦜"
-  },
-  {
-    "slug": "bald-eagle",
-    "name": "Bald Eagle",
-    "icon": "🦅"
-  },
-  {
-    "slug": "cockatiel",
-    "name": "Cockatiel",
-    "icon": "🦜"
-  },
-  {
-    "slug": "conure",
-    "name": "Conure",
-    "icon": "🦜"
-  },
-  {
-    "slug": "golden-eagle",
-    "name": "Golden Eagle",
-    "icon": "🦅"
-  },
-  {
-    "slug": "quail",
-    "name": "Quail",
-    "icon": "🐦"
-  },
-  {
-    "slug": "snowy-owl",
-    "name": "Snowy Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "turkey",
-    "name": "Turkey",
-    "icon": "🦃"
-  },
-  {
-    "slug": "guinea-fowl",
-    "name": "Guinea Fowl",
-    "icon": "🐦"
-  },
-  {
-    "slug": "african-elephant",
-    "name": "African Elephant",
-    "icon": "🐘"
-  },
-  {
-    "slug": "african-lion",
-    "name": "African Lion",
-    "icon": "🦁"
-  },
-  {
-    "slug": "asian-elephant",
-    "name": "Asian Elephant",
-    "icon": "🐘"
-  },
-  {
-    "slug": "bengal-tiger",
-    "name": "Bengal Tiger",
-    "icon": "🐯"
-  },
-  {
-    "slug": "black-bear",
-    "name": "Black Bear",
-    "icon": "🐻"
-  },
-  {
-    "slug": "brown-bear",
-    "name": "Brown Bear",
-    "icon": "🐻"
-  },
-  {
-    "slug": "grizzly-bear",
-    "name": "Grizzly Bear",
-    "icon": "🐻"
-  },
-  {
-    "slug": "gray-wolf",
-    "name": "Gray Wolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "arctic-wolf",
-    "name": "Arctic Wolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "siberian-tiger",
-    "name": "Siberian Tiger",
-    "icon": "🐯"
-  },
-  {
-    "slug": "king-cobra",
-    "name": "King Cobra",
-    "icon": "🐍"
-  },
-  {
-    "slug": "black-mamba",
-    "name": "Black Mamba",
-    "icon": "🐍"
-  },
-  {
-    "slug": "emperor-penguin",
-    "name": "Emperor Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "king-penguin",
-    "name": "King Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "flamingo",
-    "name": "Flamingo",
-    "icon": "🦩"
-  },
-  {
-    "slug": "great-white-shark",
-    "name": "Great White Shark",
-    "icon": "🦈"
-  },
-  {
-    "slug": "hammerhead-shark",
-    "name": "Hammerhead Shark",
-    "icon": "🦈"
-  },
-  {
-    "slug": "killer-whale",
-    "name": "Killer Whale",
-    "icon": "🐋"
-  },
-  {
-    "slug": "blue-whale",
-    "name": "Blue Whale",
-    "icon": "🐋"
-  },
-  {
-    "slug": "bottlenose-dolphin",
-    "name": "Bottlenose Dolphin",
-    "icon": "🐬"
-  },
-  {
-    "slug": "husky",
-    "name": "Husky",
-    "icon": "🐕"
-  },
-  {
-    "slug": "siberian-husky",
-    "name": "Siberian Husky",
-    "icon": "🐕"
-  },
-  {
-    "slug": "arabian-horse",
-    "name": "Arabian Horse",
-    "icon": "🐴"
-  },
-  {
-    "slug": "thoroughbred",
-    "name": "Thoroughbred",
-    "icon": "🐴"
-  },
-  {
-    "slug": "quarter-horse",
-    "name": "Quarter Horse",
-    "icon": "🐴"
-  },
-  {
-    "slug": "ball-python",
-    "name": "Ball Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "bearded-dragon",
-    "name": "Bearded Dragon",
-    "icon": "🦎"
-  },
-  {
-    "slug": "corn-snake",
-    "name": "Corn Snake",
-    "icon": "🐍"
-  },
-  {
-    "slug": "green-iguana",
-    "name": "Green Iguana",
-    "icon": "🦎"
-  },
-  {
-    "slug": "leopard-gecko",
-    "name": "Leopard Gecko",
-    "icon": "🦎"
-  },
-  {
-    "slug": "dwarf-hamster",
-    "name": "Dwarf Hamster",
-    "icon": "🐹"
-  },
-  {
-    "slug": "syrian-hamster",
-    "name": "Syrian Hamster",
-    "icon": "🐹"
-  },
-  {
-    "slug": "sugar-glider",
-    "name": "Sugar Glider",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "lop-rabbit",
-    "name": "Lop Rabbit",
-    "icon": "🐰"
-  },
-  {
-    "slug": "pot-bellied-pig",
-    "name": "Pot-Bellied Pig",
-    "icon": "🐷"
-  },
-  {
-    "slug": "pygmy-goat",
-    "name": "Pygmy Goat",
-    "icon": "🐐"
-  },
-  {
-    "slug": "honeybee",
-    "name": "Honeybee",
-    "icon": "🐝"
-  },
-  {
-    "slug": "bumblebee",
-    "name": "Bumblebee",
-    "icon": "🐝"
-  },
-  {
-    "slug": "monarch-butterfly",
-    "name": "Monarch Butterfly",
-    "icon": "🦋"
-  },
-  {
-    "slug": "vampire-bat",
-    "name": "Vampire Bat",
-    "icon": "🦇"
-  },
-  {
-    "slug": "clam",
-    "name": "Clam",
-    "icon": "🐚"
-  },
-  {
-    "slug": "shrimp",
-    "name": "Shrimp",
-    "icon": "🦐"
-  },
-  {
-    "slug": "betta",
-    "name": "Betta Fish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "red-fox",
-    "name": "Red Fox",
-    "icon": "🦊"
-  },
-  {
-    "slug": "clouded-leopard",
-    "name": "Clouded Leopard",
-    "icon": "🐆"
-  },
-  {
-    "slug": "jaguarundi",
-    "name": "Jaguarundi",
-    "icon": "🐱"
-  },
-  {
-    "slug": "fishing-cat",
-    "name": "Fishing Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "sand-cat",
-    "name": "Sand Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "pallas-cat",
-    "name": "Pallas Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "rusty-spotted-cat",
-    "name": "Rusty-Spotted Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "stoat",
-    "name": "Stoat",
-    "icon": "🦡"
-  },
-  {
-    "slug": "ermine",
-    "name": "Ermine",
-    "icon": "🦡"
-  },
-  {
-    "slug": "fisher",
-    "name": "Fisher",
-    "icon": "🦡"
-  },
-  {
-    "slug": "sea-otter",
-    "name": "Sea Otter",
-    "icon": "🦦"
-  },
-  {
-    "slug": "coati",
-    "name": "Coati",
-    "icon": "🦝"
-  },
-  {
-    "slug": "kinkajou",
-    "name": "Kinkajou",
-    "icon": "🦝"
-  },
-  {
-    "slug": "ringtail",
-    "name": "Ringtail",
-    "icon": "🦝"
-  },
-  {
-    "slug": "giant-panda",
-    "name": "Giant Panda",
-    "icon": "🐼"
-  },
-  {
-    "slug": "hippo",
-    "name": "Hippo",
-    "icon": "🦛"
-  },
-  {
-    "slug": "rhino",
-    "name": "Rhino",
-    "icon": "🦏"
-  },
-  {
-    "slug": "white-rhino",
-    "name": "White Rhino",
-    "icon": "🦏"
-  },
-  {
-    "slug": "black-rhino",
-    "name": "Black Rhino",
-    "icon": "🦏"
-  },
-  {
-    "slug": "indian-rhino",
-    "name": "Indian Rhino",
-    "icon": "🦏"
-  },
-  {
-    "slug": "javan-rhino",
-    "name": "Javan Rhino",
-    "icon": "🦏"
-  },
-  {
-    "slug": "oryx",
-    "name": "Oryx",
-    "icon": "🦌"
-  },
-  {
-    "slug": "addax",
-    "name": "Addax",
-    "icon": "🦌"
-  },
-  {
-    "slug": "saiga",
-    "name": "Saiga",
-    "icon": "🦌"
-  },
-  {
-    "slug": "dik-dik",
-    "name": "Dik-Dik",
-    "icon": "🦌"
-  },
-  {
-    "slug": "duiker",
-    "name": "Duiker",
-    "icon": "🦌"
-  },
-  {
-    "slug": "klipspringer",
-    "name": "Klipspringer",
-    "icon": "🦌"
-  },
-  {
-    "slug": "gerenuk",
-    "name": "Gerenuk",
-    "icon": "🦌"
-  },
-  {
-    "slug": "bongo",
-    "name": "Bongo",
-    "icon": "🦌"
-  },
-  {
-    "slug": "kudu",
-    "name": "Kudu",
-    "icon": "🦌"
-  },
-  {
-    "slug": "nyala",
-    "name": "Nyala",
-    "icon": "🦌"
-  },
-  {
-    "slug": "eland",
-    "name": "Eland",
-    "icon": "🦌"
-  },
-  {
-    "slug": "bushbuck",
-    "name": "Bushbuck",
-    "icon": "🦌"
-  },
-  {
-    "slug": "waterbuck",
-    "name": "Waterbuck",
-    "icon": "🦌"
-  },
-  {
-    "slug": "reedbuck",
-    "name": "Reedbuck",
-    "icon": "🦌"
-  },
-  {
-    "slug": "water-buffalo",
-    "name": "Water Buffalo",
-    "icon": "🐃"
-  },
-  {
-    "slug": "cattle",
-    "name": "Cattle",
-    "icon": "🐄"
-  },
-  {
-    "slug": "red-deer",
-    "name": "Red Deer",
-    "icon": "🦌"
-  },
-  {
-    "slug": "fallow-deer",
-    "name": "Fallow Deer",
-    "icon": "🦌"
-  },
-  {
-    "slug": "muntjac",
-    "name": "Muntjac",
-    "icon": "🦌"
-  },
-  {
-    "slug": "mouflon",
-    "name": "Mouflon",
-    "icon": "🐑"
-  },
-  {
-    "slug": "argali",
-    "name": "Argali",
-    "icon": "🐑"
-  },
-  {
-    "slug": "urial",
-    "name": "Urial",
-    "icon": "🐑"
-  },
-  {
-    "slug": "barbary-sheep",
-    "name": "Barbary Sheep",
-    "icon": "🐑"
-  },
-  {
-    "slug": "peccary",
-    "name": "Peccary",
-    "icon": "🐗"
-  },
-  {
-    "slug": "babirusa",
-    "name": "Babirusa",
-    "icon": "🐗"
-  },
-  {
-    "slug": "pygmy-hippo",
-    "name": "Pygmy Hippo",
-    "icon": "🦛"
-  },
-  {
-    "slug": "tamandua",
-    "name": "Tamandua",
-    "icon": "🐜"
-  },
-  {
-    "slug": "tenrec",
-    "name": "Tenrec",
-    "icon": "🦔"
-  },
-  {
-    "slug": "shrew",
-    "name": "Shrew",
-    "icon": "🐭"
-  },
-  {
-    "slug": "mole",
-    "name": "Mole",
-    "icon": "🐭"
-  },
-  {
-    "slug": "solendon",
-    "name": "Solenodon",
-    "icon": "🐭"
-  },
-  {
-    "slug": "flying-fox",
-    "name": "Flying Fox",
-    "icon": "🦇"
-  },
-  {
-    "slug": "flying-squirrel",
-    "name": "Flying Squirrel",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "possum",
-    "name": "Possum",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "opossum",
-    "name": "Opossum",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "tree-kangaroo",
-    "name": "Tree Kangaroo",
-    "icon": "🦘"
-  },
-  {
-    "slug": "rhea",
-    "name": "Rhea",
-    "icon": "🦤"
-  },
-  {
-    "slug": "weka",
-    "name": "Weka",
-    "icon": "🐦"
-  },
-  {
-    "slug": "takahe",
-    "name": "Takahe",
-    "icon": "🐦"
-  },
-  {
-    "slug": "kakapo",
-    "name": "Kakapo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "hornbill",
-    "name": "Hornbill",
-    "icon": "🐦"
-  },
-  {
-    "slug": "hoopoe",
-    "name": "Hoopoe",
-    "icon": "🐦"
-  },
-  {
-    "slug": "bee-eater",
-    "name": "Bee-Eater",
-    "icon": "🐦"
-  },
-  {
-    "slug": "roller",
-    "name": "Roller",
-    "icon": "🐦"
-  },
-  {
-    "slug": "osprey",
-    "name": "Osprey",
-    "icon": "🦅"
-  },
-  {
-    "slug": "kestrel",
-    "name": "Kestrel",
-    "icon": "🦅"
-  },
-  {
-    "slug": "peregrine-falcon",
-    "name": "Peregrine Falcon",
-    "icon": "🦅"
-  },
-  {
-    "slug": "lorikeet",
-    "name": "Lorikeet",
-    "icon": "🦜"
-  },
-  {
-    "slug": "rosella",
-    "name": "Rosella",
-    "icon": "🦜"
-  },
-  {
-    "slug": "budgerigar",
-    "name": "Budgerigar",
-    "icon": "🦜"
-  },
-  {
-    "slug": "pheasant",
-    "name": "Pheasant",
-    "icon": "🐦"
-  },
-  {
-    "slug": "grouse",
-    "name": "Grouse",
-    "icon": "🐦"
-  },
-  {
-    "slug": "ptarmigan",
-    "name": "Ptarmigan",
-    "icon": "🐦"
-  },
-  {
-    "slug": "partridge",
-    "name": "Partridge",
-    "icon": "🐦"
-  },
-  {
-    "slug": "stork",
-    "name": "Stork",
-    "icon": "🦤"
-  },
-  {
-    "slug": "heron",
-    "name": "Heron",
-    "icon": "🦤"
-  },
-  {
-    "slug": "egret",
-    "name": "Egret",
-    "icon": "🦤"
-  },
-  {
-    "slug": "crane",
-    "name": "Crane",
-    "icon": "🦤"
-  },
-  {
-    "slug": "ibis",
-    "name": "Ibis",
-    "icon": "🦤"
-  },
-  {
-    "slug": "spoonbill",
-    "name": "Spoonbill",
-    "icon": "🦤"
-  },
-  {
-    "slug": "gannet",
-    "name": "Gannet",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "booby",
-    "name": "Booby",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "cormorant",
-    "name": "Cormorant",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "frigatebird",
-    "name": "Frigatebird",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "petrel",
-    "name": "Petrel",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "shearwater",
-    "name": "Shearwater",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "auk",
-    "name": "Auk",
-    "icon": "🐧"
-  },
-  {
-    "slug": "guillemot",
-    "name": "Guillemot",
-    "icon": "🐧"
-  },
-  {
-    "slug": "murre",
-    "name": "Murre",
-    "icon": "🐧"
-  },
-  {
-    "slug": "skink",
-    "name": "Skink",
-    "icon": "🦎"
-  },
-  {
-    "slug": "monitor-lizard",
-    "name": "Monitor Lizard",
-    "icon": "🦎"
-  },
-  {
-    "slug": "frilled-lizard",
-    "name": "Frilled Lizard",
-    "icon": "🦎"
-  },
-  {
-    "slug": "basilisk",
-    "name": "Basilisk",
-    "icon": "🦎"
-  },
-  {
-    "slug": "anole",
-    "name": "Anole",
-    "icon": "🦎"
-  },
-  {
-    "slug": "basenji",
-    "name": "Basenji",
-    "icon": "🐕"
-  },
-  {
-    "slug": "basset-hound",
-    "name": "Basset Hound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "belgian-malinois",
-    "name": "Belgian Malinois",
-    "icon": "🐕"
-  },
-  {
-    "slug": "bernese-mountain-dog",
-    "name": "Bernese Mountain Dog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "bloodhound",
-    "name": "Bloodhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "border-terrier",
-    "name": "Border Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "borzoi",
-    "name": "Borzoi",
-    "icon": "🐕"
-  },
-  {
-    "slug": "bouvier",
-    "name": "Bouvier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "briard",
-    "name": "Briard",
-    "icon": "🐕"
-  },
-  {
-    "slug": "brittany-spaniel",
-    "name": "Brittany Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "brussels-griffon",
-    "name": "Brussels Griffon",
-    "icon": "🐕"
-  },
-  {
-    "slug": "bull-terrier",
-    "name": "Bull Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "bullmastiff",
-    "name": "Bullmastiff",
-    "icon": "🐕"
-  },
-  {
-    "slug": "cairn-terrier",
-    "name": "Cairn Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "chesapeake-retriever",
-    "name": "Chesapeake Bay Retriever",
-    "icon": "🐕"
-  },
-  {
-    "slug": "chinese-crested",
-    "name": "Chinese Crested",
-    "icon": "🐕"
-  },
-  {
-    "slug": "chinese-shar-pei",
-    "name": "Chinese Shar-Pei",
-    "icon": "🐕"
-  },
-  {
-    "slug": "clumber-spaniel",
-    "name": "Clumber Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "curly-coated-retriever",
-    "name": "Curly-Coated Retriever",
-    "icon": "🐕"
-  },
-  {
-    "slug": "english-setter",
-    "name": "English Setter",
-    "icon": "🐕"
-  },
-  {
-    "slug": "english-springer-spaniel",
-    "name": "English Springer Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "german-shorthaired-pointer",
-    "name": "German Shorthaired Pointer",
-    "icon": "🐕"
-  },
-  {
-    "slug": "giant-schnauzer",
-    "name": "Giant Schnauzer",
-    "icon": "🐕"
-  },
-  {
-    "slug": "greyhound",
-    "name": "Greyhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "havanese",
-    "name": "Havanese",
-    "icon": "🐕"
-  },
-  {
-    "slug": "irish-setter",
-    "name": "Irish Setter",
-    "icon": "🐕"
-  },
-  {
-    "slug": "irish-wolfhound",
-    "name": "Irish Wolfhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "italian-greyhound",
-    "name": "Italian Greyhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "keeshond",
-    "name": "Keeshond",
-    "icon": "🐕"
-  },
-  {
-    "slug": "komondor",
-    "name": "Komondor",
-    "icon": "🐕"
-  },
-  {
-    "slug": "kuvasz",
-    "name": "Kuvasz",
-    "icon": "🐕"
-  },
-  {
-    "slug": "leonberger",
-    "name": "Leonberger",
-    "icon": "🐕"
-  },
-  {
-    "slug": "lhasa-apso",
-    "name": "Lhasa Apso",
-    "icon": "🐕"
-  },
-  {
-    "slug": "mastiff",
-    "name": "Mastiff",
-    "icon": "🐕"
-  },
-  {
-    "slug": "miniature-schnauzer",
-    "name": "Miniature Schnauzer",
-    "icon": "🐕"
-  },
-  {
-    "slug": "newfoundland",
-    "name": "Newfoundland",
-    "icon": "🐕"
-  },
-  {
-    "slug": "norwegian-elkhound",
-    "name": "Norwegian Elkhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "old-english-sheepdog",
-    "name": "Old English Sheepdog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "pekingese",
-    "name": "Pekingese",
-    "icon": "🐕"
-  },
-  {
-    "slug": "pembroke-welsh-corgi",
-    "name": "Pembroke Welsh Corgi",
-    "icon": "🐕"
-  },
-  {
-    "slug": "pointer",
-    "name": "Pointer",
-    "icon": "🐕"
-  },
-  {
-    "slug": "portuguese-water-dog",
-    "name": "Portuguese Water Dog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "rhodesian-ridgeback",
-    "name": "Rhodesian Ridgeback",
-    "icon": "🐕"
-  },
-  {
-    "slug": "saluki",
-    "name": "Saluki",
-    "icon": "🐕"
-  },
-  {
-    "slug": "schipperke",
-    "name": "Schipperke",
-    "icon": "🐕"
-  },
-  {
-    "slug": "scottish-terrier",
-    "name": "Scottish Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "shar-pei",
-    "name": "Shar-Pei",
-    "icon": "🐕"
-  },
-  {
-    "slug": "staffordshire-bull-terrier",
-    "name": "Staffordshire Bull Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "tibetan-mastiff",
-    "name": "Tibetan Mastiff",
-    "icon": "🐕"
-  },
-  {
-    "slug": "vizsla",
-    "name": "Vizsla",
-    "icon": "🐕"
-  },
-  {
-    "slug": "west-highland-white-terrier",
-    "name": "West Highland White Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "whippet",
-    "name": "Whippet",
-    "icon": "🐕"
-  },
-  {
-    "slug": "wirehaired-pointing-griffon",
-    "name": "Wirehaired Pointing Griffon",
-    "icon": "🐕"
-  },
-  {
-    "slug": "australian-cattle-dog",
-    "name": "Australian Cattle Dog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "american-shorthair",
-    "name": "American Shorthair",
-    "icon": "🐱"
-  },
-  {
-    "slug": "balinese",
-    "name": "Balinese",
-    "icon": "🐱"
-  },
-  {
-    "slug": "birman",
-    "name": "Birman",
-    "icon": "🐱"
-  },
-  {
-    "slug": "bombay",
-    "name": "Bombay",
-    "icon": "🐱"
-  },
-  {
-    "slug": "chartreux",
-    "name": "Chartreux",
-    "icon": "🐱"
-  },
-  {
-    "slug": "cornish-rex",
-    "name": "Cornish Rex",
-    "icon": "🐱"
-  },
-  {
-    "slug": "egyptian-mau",
-    "name": "Egyptian Mau",
-    "icon": "🐱"
-  },
-  {
-    "slug": "exotic-shorthair",
-    "name": "Exotic Shorthair",
-    "icon": "🐱"
-  },
-  {
-    "slug": "havana-brown",
-    "name": "Havana Brown",
-    "icon": "🐱"
-  },
-  {
-    "slug": "himalayan",
-    "name": "Himalayan",
-    "icon": "🐱"
-  },
-  {
-    "slug": "japanese-bobtail",
-    "name": "Japanese Bobtail",
-    "icon": "🐱"
-  },
-  {
-    "slug": "javanese",
-    "name": "Javanese",
-    "icon": "🐱"
-  },
-  {
-    "slug": "korat",
-    "name": "Korat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "laperm",
-    "name": "LaPerm",
-    "icon": "🐱"
-  },
-  {
-    "slug": "manx",
-    "name": "Manx",
-    "icon": "🐱"
-  },
-  {
-    "slug": "munchkin",
-    "name": "Munchkin",
-    "icon": "🐱"
-  },
-  {
-    "slug": "nebelung",
-    "name": "Nebelung",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ocicat",
-    "name": "Ocicat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "oriental-shorthair",
-    "name": "Oriental Shorthair",
-    "icon": "🐱"
-  },
-  {
-    "slug": "pixie-bob",
-    "name": "Pixie-Bob",
-    "icon": "🐱"
-  },
-  {
-    "slug": "russian-blue",
-    "name": "Russian Blue",
-    "icon": "🐱"
-  },
-  {
-    "slug": "savannah",
-    "name": "Savannah",
-    "icon": "🐱"
-  },
-  {
-    "slug": "selkirk-rex",
-    "name": "Selkirk Rex",
-    "icon": "🐱"
-  },
-  {
-    "slug": "singapura",
-    "name": "Singapura",
-    "icon": "🐱"
-  },
-  {
-    "slug": "somali",
-    "name": "Somali",
-    "icon": "🐱"
-  },
-  {
-    "slug": "turkish-angora",
-    "name": "Turkish Angora",
-    "icon": "🐱"
-  },
-  {
-    "slug": "turkish-van",
-    "name": "Turkish Van",
-    "icon": "🐱"
-  },
-  {
-    "slug": "snowshoe",
-    "name": "Snowshoe",
-    "icon": "🐱"
-  },
-  {
-    "slug": "african-penguin",
-    "name": "African Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "andean-condor",
-    "name": "Andean Condor",
-    "icon": "🦅"
-  },
-  {
-    "slug": "atlantic-puffin",
-    "name": "Atlantic Puffin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "barn-swallow",
-    "name": "Barn Swallow",
-    "icon": "🐦"
-  },
-  {
-    "slug": "blue-footed-booby",
-    "name": "Blue-Footed Booby",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "blue-tit",
-    "name": "Blue Tit",
-    "icon": "🐦"
-  },
-  {
-    "slug": "burrowing-owl",
-    "name": "Burrowing Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "california-condor",
-    "name": "California Condor",
-    "icon": "🦅"
-  },
-  {
-    "slug": "canada-goose",
-    "name": "Canada Goose",
-    "icon": "🦆"
-  },
-  {
-    "slug": "cedar-waxwing",
-    "name": "Cedar Waxwing",
-    "icon": "🐦"
-  },
-  {
-    "slug": "chickadee",
-    "name": "Chickadee",
-    "icon": "🐦"
-  },
-  {
-    "slug": "common-loon",
-    "name": "Common Loon",
-    "icon": "🦆"
-  },
-  {
-    "slug": "eurasian-wren",
-    "name": "Eurasian Wren",
-    "icon": "🐦"
-  },
-  {
-    "slug": "european-robin",
-    "name": "European Robin",
-    "icon": "🐦"
-  },
-  {
-    "slug": "golden-pheasant",
-    "name": "Golden Pheasant",
-    "icon": "🐦"
-  },
-  {
-    "slug": "great-blue-heron",
-    "name": "Great Blue Heron",
-    "icon": "🦤"
-  },
-  {
-    "slug": "great-egret",
-    "name": "Great Egret",
-    "icon": "🦤"
-  },
-  {
-    "slug": "green-woodpecker",
-    "name": "Green Woodpecker",
-    "icon": "🐦"
-  },
-  {
-    "slug": "grey-heron",
-    "name": "Grey Heron",
-    "icon": "🦤"
-  },
-  {
-    "slug": "house-sparrow",
-    "name": "House Sparrow",
-    "icon": "🐦"
-  },
-  {
-    "slug": "indian-peafowl",
-    "name": "Indian Peafowl",
-    "icon": "🦚"
-  },
-  {
-    "slug": "keel-billed-toucan",
-    "name": "Keel-Billed Toucan",
-    "icon": "🦜"
-  },
-  {
-    "slug": "mallard",
-    "name": "Mallard",
-    "icon": "🦆"
-  },
-  {
-    "slug": "mute-swan",
-    "name": "Mute Swan",
-    "icon": "🦢"
-  },
-  {
-    "slug": "northern-cardinal",
-    "name": "Northern Cardinal",
-    "icon": "🐦"
-  },
-  {
-    "slug": "northern-mockingbird",
-    "name": "Northern Mockingbird",
-    "icon": "🐦"
-  },
-  {
-    "slug": "pileated-woodpecker",
-    "name": "Pileated Woodpecker",
-    "icon": "🐦"
-  },
-  {
-    "slug": "rainbow-lorikeet",
-    "name": "Rainbow Lorikeet",
-    "icon": "🦜"
-  },
-  {
-    "slug": "red-tailed-hawk",
-    "name": "Red-Tailed Hawk",
-    "icon": "🦅"
-  },
-  {
-    "slug": "ring-necked-pheasant",
-    "name": "Ring-Necked Pheasant",
-    "icon": "🐦"
-  },
-  {
-    "slug": "roseate-spoonbill",
-    "name": "Roseate Spoonbill",
-    "icon": "🦤"
-  },
-  {
-    "slug": "ruby-throated-hummingbird",
-    "name": "Ruby-Throated Hummingbird",
-    "icon": "🐦"
-  },
-  {
-    "slug": "sandhill-crane",
-    "name": "Sandhill Crane",
-    "icon": "🦤"
-  },
-  {
-    "slug": "scarlet-macaw",
-    "name": "Scarlet Macaw",
-    "icon": "🦜"
-  },
-  {
-    "slug": "snow-goose",
-    "name": "Snow Goose",
-    "icon": "🦆"
-  },
-  {
-    "slug": "tawny-owl",
-    "name": "Tawny Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "wandering-albatross",
-    "name": "Wandering Albatross",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "wood-duck",
-    "name": "Wood Duck",
-    "icon": "🦆"
-  },
-  {
-    "slug": "yellow-warbler",
-    "name": "Yellow Warbler",
-    "icon": "🐦"
-  },
-  {
-    "slug": "blue-tang",
-    "name": "Blue Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "emperor-angelfish",
-    "name": "Emperor Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "flame-angelfish",
-    "name": "Flame Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "foxface-rabbitfish",
-    "name": "Foxface Rabbitfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "french-angelfish",
-    "name": "French Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "harlequin-tuskfish",
-    "name": "Harlequin Tuskfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "hippo-tang",
-    "name": "Hippo Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "koi-carp",
-    "name": "Koi Carp",
-    "icon": "🐟"
-  },
-  {
-    "slug": "lionfish",
-    "name": "Lionfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "mandarin-dragonet",
-    "name": "Mandarin Dragonet",
-    "icon": "🐟"
-  },
-  {
-    "slug": "moorish-idol",
-    "name": "Moorish Idol",
-    "icon": "🐠"
-  },
-  {
-    "slug": "neon-tetra",
-    "name": "Neon Tetra",
-    "icon": "🐟"
-  },
-  {
-    "slug": "powder-blue-tang",
-    "name": "Powder Blue Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "queen-angelfish",
-    "name": "Queen Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "regal-tang",
-    "name": "Regal Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "royal-gramma",
-    "name": "Royal Gramma",
-    "icon": "🐟"
-  },
-  {
-    "slug": "six-line-wrasse",
-    "name": "Six-Line Wrasse",
-    "icon": "🐟"
-  },
-  {
-    "slug": "yellow-tang",
-    "name": "Yellow Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "aardwolf",
-    "name": "Aardwolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "agouti",
-    "name": "Agouti",
-    "icon": "🐹"
-  },
-  {
-    "slug": "alpine-ibex",
-    "name": "Alpine Ibex",
-    "icon": "🐐"
-  },
-  {
-    "slug": "american-bison",
-    "name": "American Bison",
-    "icon": "🦬"
-  },
-  {
-    "slug": "arctic-hare",
-    "name": "Arctic Hare",
-    "icon": "🐰"
-  },
-  {
-    "slug": "aye-aye",
-    "name": "Aye-Aye",
+    "slug": "spider-monkey",
+    "name": "Spider Monkey",
     "icon": "🐒"
-  },
-  {
-    "slug": "bat-eared-fox",
-    "name": "Bat-Eared Fox",
-    "icon": "🦊"
-  },
-  {
-    "slug": "black-backed-jackal",
-    "name": "Black-Backed Jackal",
-    "icon": "🐺"
-  },
-  {
-    "slug": "bush-dog",
-    "name": "Bush Dog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "colobus-monkey",
-    "name": "Colobus Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "common-marmoset",
-    "name": "Common Marmoset",
-    "icon": "🐒"
-  },
-  {
-    "slug": "crab-eating-macaque",
-    "name": "Crab-Eating Macaque",
-    "icon": "🐒"
-  },
-  {
-    "slug": "eastern-gorilla",
-    "name": "Eastern Gorilla",
-    "icon": "🦍"
-  },
-  {
-    "slug": "ethiopian-wolf",
-    "name": "Ethiopian Wolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "european-badger",
-    "name": "European Badger",
-    "icon": "🦡"
-  },
-  {
-    "slug": "gelada",
-    "name": "Gelada",
-    "icon": "🐒"
-  },
-  {
-    "slug": "golden-lion-tamarin",
-    "name": "Golden Lion Tamarin",
-    "icon": "🐒"
-  },
-  {
-    "slug": "gundi",
-    "name": "Gundi",
-    "icon": "🐹"
-  },
-  {
-    "slug": "indian-pangolin",
-    "name": "Indian Pangolin",
-    "icon": "🦔"
-  },
-  {
-    "slug": "japanese-macaque",
-    "name": "Japanese Macaque",
-    "icon": "🐒"
-  },
-  {
-    "slug": "javan-lutung",
-    "name": "Javan Lutung",
-    "icon": "🐒"
-  },
-  {
-    "slug": "king-colobus",
-    "name": "King Colobus",
-    "icon": "🐒"
-  },
-  {
-    "slug": "large-spotted-genet",
-    "name": "Large-Spotted Genet",
-    "icon": "🐱"
-  },
-  {
-    "slug": "maned-wolf",
-    "name": "Maned Wolf",
-    "icon": "🐺"
-  },
-  {
-    "slug": "margay",
-    "name": "Margay",
-    "icon": "🐱"
-  },
-  {
-    "slug": "mountain-gorilla",
-    "name": "Mountain Gorilla",
-    "icon": "🦍"
-  },
-  {
-    "slug": "naked-mole-rat",
-    "name": "Naked Mole-Rat",
-    "icon": "🐹"
-  },
-  {
-    "slug": "northern-elephant-seal",
-    "name": "Northern Elephant Seal",
-    "icon": "🦭"
-  },
-  {
-    "slug": "olive-baboon",
-    "name": "Olive Baboon",
-    "icon": "🐒"
-  },
-  {
-    "slug": "pampas-cat",
-    "name": "Pampas Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "patagonian-mara",
-    "name": "Patagonian Mara",
-    "icon": "🐹"
-  },
-  {
-    "slug": "pygmy-marmoset",
-    "name": "Pygmy Marmoset",
-    "icon": "🐒"
-  },
-  {
-    "slug": "raccoon-dog",
-    "name": "Raccoon Dog",
-    "icon": "🦝"
-  },
-  {
-    "slug": "red-handed-tamarin",
-    "name": "Red-Handed Tamarin",
-    "icon": "🐒"
-  },
-  {
-    "slug": "ring-tailed-lemur",
-    "name": "Ring-Tailed Lemur",
-    "icon": "🐒"
-  },
-  {
-    "slug": "rhesus-macaque",
-    "name": "Rhesus Macaque",
-    "icon": "🐒"
-  },
-  {
-    "slug": "siamang",
-    "name": "Siamang",
-    "icon": "🐒"
-  },
-  {
-    "slug": "snow-monkey",
-    "name": "Snow Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "south-american-coati",
-    "name": "South American Coati",
-    "icon": "🦝"
-  },
-  {
-    "slug": "spectacled-bear",
-    "name": "Spectacled Bear",
-    "icon": "🐻"
-  },
-  {
-    "slug": "spotted-hyena",
-    "name": "Spotted Hyena",
-    "icon": "🐺"
-  },
-  {
-    "slug": "squirrel-monkey",
-    "name": "Squirrel Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "striped-hyena",
-    "name": "Striped Hyena",
-    "icon": "🐺"
-  },
-  {
-    "slug": "sun-bear",
-    "name": "Sun Bear",
-    "icon": "🐻"
-  },
-  {
-    "slug": "vervet-monkey",
-    "name": "Vervet Monkey",
-    "icon": "🐒"
-  },
-  {
-    "slug": "western-gorilla",
-    "name": "Western Gorilla",
-    "icon": "🦍"
-  },
-  {
-    "slug": "zebra-duiker",
-    "name": "Zebra Duiker",
-    "icon": "🦌"
-  },
-  {
-    "slug": "african-bullfrog",
-    "name": "African Bullfrog",
-    "icon": "🐸"
-  },
-  {
-    "slug": "fire-bellied-toad",
-    "name": "Fire-Bellied Toad",
-    "icon": "🐸"
-  },
-  {
-    "slug": "glass-frog",
-    "name": "Glass Frog",
-    "icon": "🐸"
-  },
-  {
-    "slug": "pacman-frog",
-    "name": "Pacman Frog",
-    "icon": "🐸"
-  },
-  {
-    "slug": "poison-dart-frog",
-    "name": "Poison Dart Frog",
-    "icon": "🐸"
-  },
-  {
-    "slug": "red-eyed-tree-frog",
-    "name": "Red-Eyed Tree Frog",
-    "icon": "🐸"
-  },
-  {
-    "slug": "tiger-salamander",
-    "name": "Tiger Salamander",
-    "icon": "🦎"
-  },
-  {
-    "slug": "white-tree-frog",
-    "name": "White Tree Frog",
-    "icon": "🐸"
-  },
-  {
-    "slug": "blue-tongued-skink",
-    "name": "Blue-Tongued Skink",
-    "icon": "🦎"
-  },
-  {
-    "slug": "chinese-water-dragon",
-    "name": "Chinese Water Dragon",
-    "icon": "🦎"
-  },
-  {
-    "slug": "crested-gecko",
-    "name": "Crested Gecko",
-    "icon": "🦎"
-  },
-  {
-    "slug": "day-gecko",
-    "name": "Day Gecko",
-    "icon": "🦎"
-  },
-  {
-    "slug": "eastern-box-turtle",
-    "name": "Eastern Box Turtle",
-    "icon": "🐢"
-  },
-  {
-    "slug": "galapagos-tortoise",
-    "name": "Galapagos Tortoise",
-    "icon": "🐢"
-  },
-  {
-    "slug": "gila-monster",
-    "name": "Gila Monster",
-    "icon": "🦎"
-  },
-  {
-    "slug": "nile-monitor",
-    "name": "Nile Monitor",
-    "icon": "🦎"
-  },
-  {
-    "slug": "painted-turtle",
-    "name": "Painted Turtle",
-    "icon": "🐢"
-  },
-  {
-    "slug": "red-eared-slider",
-    "name": "Red-Eared Slider",
-    "icon": "🐢"
-  },
-  {
-    "slug": "russian-tortoise",
-    "name": "Russian Tortoise",
-    "icon": "🐢"
-  },
-  {
-    "slug": "sulcata-tortoise",
-    "name": "Sulcata Tortoise",
-    "icon": "🐢"
-  },
-  {
-    "slug": "tegus",
-    "name": "Tegus",
-    "icon": "🦎"
-  },
-  {
-    "slug": "tokay-gecko",
-    "name": "Tokay Gecko",
-    "icon": "🦎"
-  },
-  {
-    "slug": "water-dragon",
-    "name": "Water Dragon",
-    "icon": "🦎"
-  },
-  {
-    "slug": "california-sea-lion",
-    "name": "California Sea Lion",
-    "icon": "🦭"
-  },
-  {
-    "slug": "common-dolphin",
-    "name": "Common Dolphin",
-    "icon": "🐬"
-  },
-  {
-    "slug": "galapagos-sea-lion",
-    "name": "Galapagos Sea Lion",
-    "icon": "🦭"
-  },
-  {
-    "slug": "grey-seal",
-    "name": "Grey Seal",
-    "icon": "🦭"
-  },
-  {
-    "slug": "harbor-porpoise",
-    "name": "Harbor Porpoise",
-    "icon": "🐬"
-  },
-  {
-    "slug": "harbor-seal",
-    "name": "Harbor Seal",
-    "icon": "🦭"
-  },
-  {
-    "slug": "hawaiian-monk-seal",
-    "name": "Hawaiian Monk Seal",
-    "icon": "🦭"
-  },
-  {
-    "slug": "leopard-seal",
-    "name": "Leopard Seal",
-    "icon": "🦭"
-  },
-  {
-    "slug": "pilot-whale",
-    "name": "Pilot Whale",
-    "icon": "🐋"
-  },
-  {
-    "slug": "sea-lion",
-    "name": "Sea Lion",
-    "icon": "🦭"
-  },
-  {
-    "slug": "southern-sea-otter",
-    "name": "Southern Sea Otter",
-    "icon": "🦦"
   },
   {
     "slug": "spinner-dolphin",
@@ -3600,309 +5100,164 @@
     "icon": "🐬"
   },
   {
-    "slug": "weddell-seal",
-    "name": "Weddell Seal",
-    "icon": "🦭"
-  },
-  {
-    "slug": "blue-ringed-octopus",
-    "name": "Blue-Ringed Octopus",
-    "icon": "🐙"
-  },
-  {
-    "slug": "box-jellyfish",
-    "name": "Box Jellyfish",
-    "icon": "🪼"
-  },
-  {
-    "slug": "coconut-octopus",
-    "name": "Coconut Octopus",
-    "icon": "🐙"
-  },
-  {
-    "slug": "emperor-scorpion",
-    "name": "Emperor Scorpion",
-    "icon": "🦂"
-  },
-  {
-    "slug": "giant-clam",
-    "name": "Giant Clam",
-    "icon": "🐚"
-  },
-  {
-    "slug": "giant-squid",
-    "name": "Giant Squid",
-    "icon": "🦑"
-  },
-  {
-    "slug": "honey-pot-ant",
-    "name": "Honeypot Ant",
-    "icon": "🐜"
-  },
-  {
-    "slug": "japanese-spider-crab",
-    "name": "Japanese Spider Crab",
-    "icon": "🦀"
-  },
-  {
-    "slug": "moon-jellyfish",
-    "name": "Moon Jellyfish",
-    "icon": "🪼"
-  },
-  {
-    "slug": "peacock-mantis-shrimp",
-    "name": "Peacock Mantis Shrimp",
-    "icon": "🦐"
-  },
-  {
-    "slug": "tube-worm",
-    "name": "Tube Worm",
-    "icon": "🪱"
-  },
-  {
-    "slug": "vampire-squid",
-    "name": "Vampire Squid",
-    "icon": "🦑"
-  },
-  {
-    "slug": "velvet-worm",
-    "name": "Velvet Worm",
-    "icon": "🪱"
-  },
-  {
-    "slug": "airedale-terrier",
-    "name": "Airedale Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "alaskan-malamute",
-    "name": "Alaskan Malamute",
-    "icon": "🐕"
-  },
-  {
-    "slug": "american-eskimo-dog",
-    "name": "American Eskimo Dog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "australian-terrier",
-    "name": "Australian Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "bedlington-terrier",
-    "name": "Bedlington Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "black-russian-terrier",
-    "name": "Black Russian Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "boykin-spaniel",
-    "name": "Boykin Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "cardigan-welsh-corgi",
-    "name": "Cardigan Welsh Corgi",
-    "icon": "🐕"
-  },
-  {
-    "slug": "dandie-dinmont-terrier",
-    "name": "Dandie Dinmont Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "english-cocker-spaniel",
-    "name": "English Cocker Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "entlebucher-mountain-dog",
-    "name": "Entlebucher Mountain Dog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "field-spaniel",
-    "name": "Field Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "finnish-lapphund",
-    "name": "Finnish Lapphund",
-    "icon": "🐕"
-  },
-  {
-    "slug": "finnish-spitz",
-    "name": "Finnish Spitz",
-    "icon": "🐕"
-  },
-  {
-    "slug": "flat-coated-retriever",
-    "name": "Flat-Coated Retriever",
-    "icon": "🐕"
-  },
-  {
-    "slug": "german-pinscher",
-    "name": "German Pinscher",
-    "icon": "🐕"
-  },
-  {
-    "slug": "glen-of-imaal-terrier",
-    "name": "Glen of Imaal Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "gordon-setter",
-    "name": "Gordon Setter",
-    "icon": "🐕"
-  },
-  {
-    "slug": "grand-basset-griffon-vendeen",
-    "name": "Grand Basset Griffon Vendéen",
-    "icon": "🐕"
-  },
-  {
-    "slug": "ibizan-hound",
-    "name": "Ibizan Hound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "icelandic-sheepdog",
-    "name": "Icelandic Sheepdog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "irish-red-and-white-setter",
-    "name": "Irish Red and White Setter",
-    "icon": "🐕"
-  },
-  {
-    "slug": "jack-russell-terrier",
-    "name": "Jack Russell Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "king-charles-spaniel",
-    "name": "King Charles Spaniel",
-    "icon": "🐕"
-  },
-  {
-    "slug": "lagotto-romagnolo",
-    "name": "Lagotto Romagnolo",
-    "icon": "🐕"
-  },
-  {
-    "slug": "landseer",
-    "name": "Landseer",
-    "icon": "🐕"
-  },
-  {
-    "slug": "miniature-american-shepherd",
-    "name": "Miniature American Shepherd",
-    "icon": "🐕"
-  },
-  {
-    "slug": "norfolk-terrier",
-    "name": "Norfolk Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "norwegian-lundehund",
-    "name": "Norwegian Lundehund",
-    "icon": "🐕"
-  },
-  {
-    "slug": "otterhound",
-    "name": "Otterhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "parson-russell-terrier",
-    "name": "Parson Russell Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "petit-basset-griffon-vendeen",
-    "name": "Petit Basset Griffon Vendéen",
-    "icon": "🐕"
-  },
-  {
-    "slug": "pharaoh-hound",
-    "name": "Pharaoh Hound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "plott-hound",
-    "name": "Plott Hound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "polish-lowland-sheepdog",
-    "name": "Polish Lowland Sheepdog",
-    "icon": "🐕"
-  },
-  {
-    "slug": "portuguese-podengo",
-    "name": "Portuguese Podengo",
-    "icon": "🐕"
-  },
-  {
-    "slug": "puli",
-    "name": "Puli",
-    "icon": "🐕"
-  },
-  {
-    "slug": "pyrenean-shepherd",
-    "name": "Pyrenean Shepherd",
-    "icon": "🐕"
-  },
-  {
-    "slug": "rat-terrier",
-    "name": "Rat Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "redbone-coonhound",
-    "name": "Redbone Coonhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "scottish-deerhound",
-    "name": "Scottish Deerhound",
-    "icon": "🐕"
-  },
-  {
-    "slug": "silky-terrier",
-    "name": "Silky Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "sky-terrier",
-    "name": "Skye Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "sloughi",
-    "name": "Sloughi",
-    "icon": "🐕"
-  },
-  {
-    "slug": "soft-coated-wheaten-terrier",
-    "name": "Soft-Coated Wheaten Terrier",
-    "icon": "🐕"
-  },
-  {
-    "slug": "spanish-water-dog",
-    "name": "Spanish Water Dog",
-    "icon": "🐕"
-  },
-  {
     "slug": "spinone-italiano",
     "name": "Spinone Italiano",
     "icon": "🐕"
+  },
+  {
+    "slug": "spiny-mouse",
+    "name": "Spiny Mouse",
+    "icon": "🐭"
+  },
+  {
+    "slug": "spoonbill",
+    "name": "Spoonbill",
+    "icon": "🦤"
+  },
+  {
+    "slug": "spotted-hyena",
+    "name": "Spotted Hyena",
+    "icon": "🐺"
+  },
+  {
+    "slug": "spotted-mandarin",
+    "name": "Spotted Mandarin",
+    "icon": "🐟"
+  },
+  {
+    "slug": "spotted-python",
+    "name": "Spotted Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "springbok",
+    "name": "Springbok",
+    "icon": "🦌"
+  },
+  {
+    "slug": "squirrel",
+    "name": "Squirrel",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "squirrel-monkey",
+    "name": "Squirrel Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "staffordshire-bull-terrier",
+    "name": "Staffordshire Bull Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "starfish",
+    "name": "Starfish",
+    "icon": "🌟"
+  },
+  {
+    "slug": "starry-blenny",
+    "name": "Starry Blenny",
+    "icon": "🐟"
+  },
+  {
+    "slug": "stellar-sea-cow",
+    "name": "Steller's Sea Cow",
+    "icon": "🦭"
+  },
+  {
+    "slug": "stick-insect",
+    "name": "Stick Insect",
+    "icon": "🦗"
+  },
+  {
+    "slug": "stilt",
+    "name": "Stilt",
+    "icon": "🦩"
+  },
+  {
+    "slug": "stingray",
+    "name": "Stingray",
+    "icon": "🦈"
+  },
+  {
+    "slug": "stoat",
+    "name": "Stoat",
+    "icon": "🦡"
+  },
+  {
+    "slug": "stone-curlew",
+    "name": "Stone Curlew",
+    "icon": "🐦"
+  },
+  {
+    "slug": "stonefish",
+    "name": "Stonefish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "stork",
+    "name": "Stork",
+    "icon": "🦤"
+  },
+  {
+    "slug": "striped-hyena",
+    "name": "Striped Hyena",
+    "icon": "🐺"
+  },
+  {
+    "slug": "sturgeon",
+    "name": "Sturgeon",
+    "icon": "🐟"
+  },
+  {
+    "slug": "sugar-glider",
+    "name": "Sugar Glider",
+    "icon": "🐿️"
+  },
+  {
+    "slug": "sulcata-tortoise",
+    "name": "Sulcata Tortoise",
+    "icon": "🐢"
+  },
+  {
+    "slug": "sulphur-crested-cockatoo",
+    "name": "Sulphur-Crested Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "sun-bear",
+    "name": "Sun Bear",
+    "icon": "🐻"
+  },
+  {
+    "slug": "sun-conure",
+    "name": "Sun Conure",
+    "icon": "🦜"
+  },
+  {
+    "slug": "sunbittern",
+    "name": "Sunbittern",
+    "icon": "🐦"
+  },
+  {
+    "slug": "sunfish",
+    "name": "Sunfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "sungazer",
+    "name": "Sungazer",
+    "icon": "🦎"
+  },
+  {
+    "slug": "suphalak",
+    "name": "Suphalak",
+    "icon": "🐱"
+  },
+  {
+    "slug": "surinam-toad",
+    "name": "Surinam Toad",
+    "icon": "🐸"
   },
   {
     "slug": "sussex-spaniel",
@@ -3910,8 +5265,143 @@
     "icon": "🐕"
   },
   {
+    "slug": "swan",
+    "name": "Swan",
+    "icon": "🦢"
+  },
+  {
     "slug": "swedish-vallhund",
     "name": "Swedish Vallhund",
+    "icon": "🐕"
+  },
+  {
+    "slug": "swordfish",
+    "name": "Swordfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "syrian-hamster",
+    "name": "Syrian Hamster",
+    "icon": "🐹"
+  },
+  {
+    "slug": "tailspot-blenny",
+    "name": "Tailspot Blenny",
+    "icon": "🐟"
+  },
+  {
+    "slug": "takahe",
+    "name": "Takahe",
+    "icon": "🐦"
+  },
+  {
+    "slug": "takin",
+    "name": "Takin",
+    "icon": "🐐"
+  },
+  {
+    "slug": "tamandua",
+    "name": "Tamandua",
+    "icon": "🐜"
+  },
+  {
+    "slug": "tamaraw",
+    "name": "Tamaraw",
+    "icon": "🐃"
+  },
+  {
+    "slug": "tamarin",
+    "name": "Tamarin",
+    "icon": "🐒"
+  },
+  {
+    "slug": "tapir",
+    "name": "Tapir",
+    "icon": "🐖"
+  },
+  {
+    "slug": "tarantula",
+    "name": "Tarantula",
+    "icon": "🕷️"
+  },
+  {
+    "slug": "tarantula-hawk",
+    "name": "Tarantula Hawk",
+    "icon": "🐝"
+  },
+  {
+    "slug": "tarpon",
+    "name": "Tarpon",
+    "icon": "🐟"
+  },
+  {
+    "slug": "tarsier",
+    "name": "Tarsier",
+    "icon": "🐒"
+  },
+  {
+    "slug": "tasmanian-devil",
+    "name": "Tasmanian Devil",
+    "icon": "🦡"
+  },
+  {
+    "slug": "tawny-owl",
+    "name": "Tawny Owl",
+    "icon": "🦉"
+  },
+  {
+    "slug": "tayra",
+    "name": "Tayra",
+    "icon": "🦡"
+  },
+  {
+    "slug": "tegus",
+    "name": "Tegus",
+    "icon": "🦎"
+  },
+  {
+    "slug": "tenrec",
+    "name": "Tenrec",
+    "icon": "🦔"
+  },
+  {
+    "slug": "termite",
+    "name": "Termite",
+    "icon": "🐜"
+  },
+  {
+    "slug": "tetra",
+    "name": "Tetra",
+    "icon": "🐟"
+  },
+  {
+    "slug": "thai-cat",
+    "name": "Thai Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "thick-knee",
+    "name": "Thick-Knee",
+    "icon": "🐦"
+  },
+  {
+    "slug": "thorny-devil",
+    "name": "Thorny Devil",
+    "icon": "🦎"
+  },
+  {
+    "slug": "thoroughbred",
+    "name": "Thoroughbred",
+    "icon": "🐴"
+  },
+  {
+    "slug": "tibetan-antelope",
+    "name": "Tibetan Antelope",
+    "icon": "🦌"
+  },
+  {
+    "slug": "tibetan-mastiff",
+    "name": "Tibetan Mastiff",
     "icon": "🐕"
   },
   {
@@ -3925,14 +5415,319 @@
     "icon": "🐕"
   },
   {
+    "slug": "tiger",
+    "name": "Tiger",
+    "icon": "🐯"
+  },
+  {
+    "slug": "tiger-salamander",
+    "name": "Tiger Salamander",
+    "icon": "🦎"
+  },
+  {
+    "slug": "tiger-shark",
+    "name": "Tiger Shark",
+    "icon": "🦈"
+  },
+  {
+    "slug": "tilapia",
+    "name": "Tilapia",
+    "icon": "🐟"
+  },
+  {
+    "slug": "tinamou",
+    "name": "Tinamou",
+    "icon": "🐦"
+  },
+  {
+    "slug": "toad",
+    "name": "Toad",
+    "icon": "🐸"
+  },
+  {
+    "slug": "toco-toucan",
+    "name": "Toco Toucan",
+    "icon": "🦜"
+  },
+  {
+    "slug": "tokay-gecko",
+    "name": "Tokay Gecko",
+    "icon": "🦎"
+  },
+  {
+    "slug": "tomato-clownfish",
+    "name": "Tomato Clownfish",
+    "icon": "🐠"
+  },
+  {
+    "slug": "tomato-frog",
+    "name": "Tomato Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "tonkinese",
+    "name": "Tonkinese Cat",
+    "icon": "🐱"
+  },
+  {
+    "slug": "tortoise",
+    "name": "Tortoise",
+    "icon": "🐢"
+  },
+  {
+    "slug": "toucan",
+    "name": "Toucan",
+    "icon": "🦜"
+  },
+  {
     "slug": "toy-fox-terrier",
     "name": "Toy Fox Terrier",
     "icon": "🐕"
   },
   {
+    "slug": "toyger",
+    "name": "Toyger",
+    "icon": "🐱"
+  },
+  {
+    "slug": "tree-frog",
+    "name": "Tree Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "tree-kangaroo",
+    "name": "Tree Kangaroo",
+    "icon": "🦘"
+  },
+  {
+    "slug": "tree-shrew",
+    "name": "Tree Shrew",
+    "icon": "🐿️"
+  },
+  {
     "slug": "treeing-walker-coonhound",
     "name": "Treeing Walker Coonhound",
     "icon": "🐕"
+  },
+  {
+    "slug": "triops",
+    "name": "Triops",
+    "icon": "🦐"
+  },
+  {
+    "slug": "trout",
+    "name": "Trout",
+    "icon": "🐟"
+  },
+  {
+    "slug": "tuatara",
+    "name": "Tuatara",
+    "icon": "🦎"
+  },
+  {
+    "slug": "tube-worm",
+    "name": "Tube Worm",
+    "icon": "🪱"
+  },
+  {
+    "slug": "tucuxi",
+    "name": "Tucuxi",
+    "icon": "🐬"
+  },
+  {
+    "slug": "tuna",
+    "name": "Tuna",
+    "icon": "🐟"
+  },
+  {
+    "slug": "turkey",
+    "name": "Turkey",
+    "icon": "🦃"
+  },
+  {
+    "slug": "turkish-angora",
+    "name": "Turkish Angora",
+    "icon": "🐱"
+  },
+  {
+    "slug": "turkish-van",
+    "name": "Turkish Van",
+    "icon": "🐱"
+  },
+  {
+    "slug": "turtle",
+    "name": "Turtle",
+    "icon": "🐢"
+  },
+  {
+    "slug": "two-spot-goby",
+    "name": "Two-Spot Goby",
+    "icon": "🐟"
+  },
+  {
+    "slug": "ukrainian-levkoy",
+    "name": "Ukrainian Levkoy",
+    "icon": "🐱"
+  },
+  {
+    "slug": "umbrella-cockatoo",
+    "name": "Umbrella Cockatoo",
+    "icon": "🦜"
+  },
+  {
+    "slug": "unicorn",
+    "name": "Unicorn",
+    "icon": "🦄"
+  },
+  {
+    "slug": "urial",
+    "name": "Urial",
+    "icon": "🐑"
+  },
+  {
+    "slug": "vampire-bat",
+    "name": "Vampire Bat",
+    "icon": "🦇"
+  },
+  {
+    "slug": "vampire-squid",
+    "name": "Vampire Squid",
+    "icon": "🦑"
+  },
+  {
+    "slug": "vaquita",
+    "name": "Vaquita",
+    "icon": "🐬"
+  },
+  {
+    "slug": "velvet-ant",
+    "name": "Velvet Ant",
+    "icon": "🐝"
+  },
+  {
+    "slug": "velvet-worm",
+    "name": "Velvet Worm",
+    "icon": "🪱"
+  },
+  {
+    "slug": "vervet-monkey",
+    "name": "Vervet Monkey",
+    "icon": "🐒"
+  },
+  {
+    "slug": "victoria-crowned-pigeon",
+    "name": "Victoria Crowned Pigeon",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "vine-snake",
+    "name": "Vine Snake",
+    "icon": "🐍"
+  },
+  {
+    "slug": "viperfish",
+    "name": "Viperfish",
+    "icon": "🐟"
+  },
+  {
+    "slug": "vizsla",
+    "name": "Vizsla",
+    "icon": "🐕"
+  },
+  {
+    "slug": "vlamingi-tang",
+    "name": "Vlamingi Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "vole",
+    "name": "Vole",
+    "icon": "🐭"
+  },
+  {
+    "slug": "vulture",
+    "name": "Vulture",
+    "icon": "🦅"
+  },
+  {
+    "slug": "vulturine-guineafowl",
+    "name": "Vulturine Guineafowl",
+    "icon": "🐦"
+  },
+  {
+    "slug": "walking-stick",
+    "name": "Walking Stick",
+    "icon": "🪲"
+  },
+  {
+    "slug": "wallaby",
+    "name": "Wallaby",
+    "icon": "🦘"
+  },
+  {
+    "slug": "walrus",
+    "name": "Walrus",
+    "icon": "🦭"
+  },
+  {
+    "slug": "wandering-albatross",
+    "name": "Wandering Albatross",
+    "icon": "🕊️"
+  },
+  {
+    "slug": "warthog",
+    "name": "Warthog",
+    "icon": "🐗"
+  },
+  {
+    "slug": "wasp",
+    "name": "Wasp",
+    "icon": "🐝"
+  },
+  {
+    "slug": "watchman-goby",
+    "name": "Watchman Goby",
+    "icon": "🐟"
+  },
+  {
+    "slug": "water-buffalo",
+    "name": "Water Buffalo",
+    "icon": "🐃"
+  },
+  {
+    "slug": "water-dragon",
+    "name": "Water Dragon",
+    "icon": "🦎"
+  },
+  {
+    "slug": "waterbuck",
+    "name": "Waterbuck",
+    "icon": "🦌"
+  },
+  {
+    "slug": "weasel",
+    "name": "Weasel",
+    "icon": "🦡"
+  },
+  {
+    "slug": "weddell-seal",
+    "name": "Weddell Seal",
+    "icon": "🦭"
+  },
+  {
+    "slug": "weedy-seadragon",
+    "name": "Weedy Seadragon",
+    "icon": "🐟"
+  },
+  {
+    "slug": "weimaraner",
+    "name": "Weimaraner",
+    "icon": "🐕"
+  },
+  {
+    "slug": "weka",
+    "name": "Weka",
+    "icon": "🐦"
   },
   {
     "slug": "welsh-springer-spaniel",
@@ -3945,9 +5740,114 @@
     "icon": "🐕"
   },
   {
+    "slug": "werewolf",
+    "name": "Werewolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "west-highland-white-terrier",
+    "name": "West Highland White Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "west-indian-manatee",
+    "name": "West Indian Manatee",
+    "icon": "🦭"
+  },
+  {
+    "slug": "western-diamondback",
+    "name": "Western Diamondback",
+    "icon": "🐍"
+  },
+  {
+    "slug": "western-gorilla",
+    "name": "Western Gorilla",
+    "icon": "🦍"
+  },
+  {
+    "slug": "whale",
+    "name": "Whale",
+    "icon": "🐋"
+  },
+  {
+    "slug": "whippet",
+    "name": "Whippet",
+    "icon": "🐕"
+  },
+  {
+    "slug": "white-bellied-sea-eagle",
+    "name": "White-Bellied Sea Eagle",
+    "icon": "🦅"
+  },
+  {
+    "slug": "white-rhino",
+    "name": "White Rhino",
+    "icon": "🦏"
+  },
+  {
+    "slug": "white-tree-frog",
+    "name": "White Tree Frog",
+    "icon": "🐸"
+  },
+  {
+    "slug": "whooping-crane",
+    "name": "Whooping Crane",
+    "icon": "🦩"
+  },
+  {
+    "slug": "wild-boar",
+    "name": "Wild Boar",
+    "icon": "🐗"
+  },
+  {
+    "slug": "wildebeest",
+    "name": "Wildebeest",
+    "icon": "🐃"
+  },
+  {
+    "slug": "winter-white-hamster",
+    "name": "Winter White Hamster",
+    "icon": "🐹"
+  },
+  {
     "slug": "wire-fox-terrier",
     "name": "Wire Fox Terrier",
     "icon": "🐕"
+  },
+  {
+    "slug": "wirehaired-pointing-griffon",
+    "name": "Wirehaired Pointing Griffon",
+    "icon": "🐕"
+  },
+  {
+    "slug": "wolf",
+    "name": "Wolf",
+    "icon": "🐺"
+  },
+  {
+    "slug": "wolverine",
+    "name": "Wolverine",
+    "icon": "🦡"
+  },
+  {
+    "slug": "woma-python",
+    "name": "Woma Python",
+    "icon": "🐍"
+  },
+  {
+    "slug": "wombat",
+    "name": "Wombat",
+    "icon": "🦡"
+  },
+  {
+    "slug": "wood-duck",
+    "name": "Wood Duck",
+    "icon": "🦆"
+  },
+  {
+    "slug": "woodpecker",
+    "name": "Woodpecker",
+    "icon": "🐦"
   },
   {
     "slug": "xoloitzcuintli",
@@ -3955,464 +5855,19 @@
     "icon": "🐕"
   },
   {
+    "slug": "yak",
+    "name": "Yak",
+    "icon": "🐃"
+  },
+  {
     "slug": "yakutian-laika",
     "name": "Yakutian Laika",
     "icon": "🐕"
   },
   {
-    "slug": "american-bobtail",
-    "name": "American Bobtail",
-    "icon": "🐱"
-  },
-  {
-    "slug": "american-curl",
-    "name": "American Curl",
-    "icon": "🐱"
-  },
-  {
-    "slug": "american-wirehair",
-    "name": "American Wirehair",
-    "icon": "🐱"
-  },
-  {
-    "slug": "australian-mist",
-    "name": "Australian Mist",
-    "icon": "🐱"
-  },
-  {
-    "slug": "bambino",
-    "name": "Bambino",
-    "icon": "🐱"
-  },
-  {
-    "slug": "burmilla",
-    "name": "Burmilla",
-    "icon": "🐱"
-  },
-  {
-    "slug": "chausie",
-    "name": "Chausie",
-    "icon": "🐱"
-  },
-  {
-    "slug": "cheetoh",
-    "name": "Cheetoh",
-    "icon": "🐱"
-  },
-  {
-    "slug": "cymric",
-    "name": "Cymric",
-    "icon": "🐱"
-  },
-  {
-    "slug": "don-sphynx",
-    "name": "Don Sphynx",
-    "icon": "🐱"
-  },
-  {
-    "slug": "dragon-li",
-    "name": "Dragon Li",
-    "icon": "🐱"
-  },
-  {
-    "slug": "european-burmese",
-    "name": "European Burmese",
-    "icon": "🐱"
-  },
-  {
-    "slug": "folio-rex",
-    "name": "Folio Rex",
-    "icon": "🐱"
-  },
-  {
-    "slug": "german-rex",
-    "name": "German Rex",
-    "icon": "🐱"
-  },
-  {
-    "slug": "highlander",
-    "name": "Highlander",
-    "icon": "🐱"
-  },
-  {
-    "slug": "khao-manee",
-    "name": "Khao Manee",
-    "icon": "🐱"
-  },
-  {
-    "slug": "kurilian-bobtail",
-    "name": "Kurilian Bobtail",
-    "icon": "🐱"
-  },
-  {
-    "slug": "lambkin",
-    "name": "Lambkin",
-    "icon": "🐱"
-  },
-  {
-    "slug": "lykoi",
-    "name": "Lykoi",
-    "icon": "🐱"
-  },
-  {
-    "slug": "mekong-bobtail",
-    "name": "Mekong Bobtail",
-    "icon": "🐱"
-  },
-  {
-    "slug": "minskin",
-    "name": "Minskin",
-    "icon": "🐱"
-  },
-  {
-    "slug": "napoleon",
-    "name": "Napoleon",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ojos-azules",
-    "name": "Ojos Azules",
-    "icon": "🐱"
-  },
-  {
-    "slug": "peterbald",
-    "name": "Peterbald",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ragamuffin",
-    "name": "Ragamuffin",
-    "icon": "🐱"
-  },
-  {
-    "slug": "safari-cat",
-    "name": "Safari Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "sam-sawet",
-    "name": "Sam Sawet",
-    "icon": "🐱"
-  },
-  {
-    "slug": "serengeti",
-    "name": "Serengeti",
-    "icon": "🐱"
-  },
-  {
-    "slug": "seychellois",
-    "name": "Seychellois",
-    "icon": "🐱"
-  },
-  {
-    "slug": "sokoke",
-    "name": "Sokoke",
-    "icon": "🐱"
-  },
-  {
-    "slug": "suphalak",
-    "name": "Suphalak",
-    "icon": "🐱"
-  },
-  {
-    "slug": "thai-cat",
-    "name": "Thai Cat",
-    "icon": "🐱"
-  },
-  {
-    "slug": "toyger",
-    "name": "Toyger",
-    "icon": "🐱"
-  },
-  {
-    "slug": "ukrainian-levkoy",
-    "name": "Ukrainian Levkoy",
-    "icon": "🐱"
-  },
-  {
-    "slug": "york-chocolate",
-    "name": "York Chocolate",
-    "icon": "🐱"
-  },
-  {
-    "slug": "african-grey-hornbill",
-    "name": "African Grey Hornbill",
-    "icon": "🐦"
-  },
-  {
-    "slug": "american-flamingo",
-    "name": "American Flamingo",
-    "icon": "🦩"
-  },
-  {
-    "slug": "andean-flamingo",
-    "name": "Andean Flamingo",
-    "icon": "🦩"
-  },
-  {
-    "slug": "bali-myna",
-    "name": "Bali Myna",
-    "icon": "🐦"
-  },
-  {
-    "slug": "bar-headed-goose",
-    "name": "Bar-Headed Goose",
-    "icon": "🦆"
-  },
-  {
-    "slug": "black-crowned-crane",
-    "name": "Black-Crowned Crane",
-    "icon": "🦤"
-  },
-  {
-    "slug": "blue-and-gold-macaw",
-    "name": "Blue and Gold Macaw",
-    "icon": "🦜"
-  },
-  {
-    "slug": "bohemian-waxwing",
-    "name": "Bohemian Waxwing",
-    "icon": "🐦"
-  },
-  {
-    "slug": "california-quail",
-    "name": "California Quail",
-    "icon": "🐦"
-  },
-  {
-    "slug": "cape-penguin",
-    "name": "Cape Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "carmine-bee-eater",
-    "name": "Carmine Bee-Eater",
-    "icon": "🐦"
-  },
-  {
-    "slug": "chattering-lory",
-    "name": "Chattering Lory",
-    "icon": "🦜"
-  },
-  {
-    "slug": "common-kingfisher",
-    "name": "Common Kingfisher",
-    "icon": "🐦"
-  },
-  {
-    "slug": "common-nightingale",
-    "name": "Common Nightingale",
-    "icon": "🐦"
-  },
-  {
-    "slug": "crowned-pigeon",
-    "name": "Crowned Pigeon",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "dalmatian-pelican",
-    "name": "Dalmatian Pelican",
-    "icon": "🦤"
-  },
-  {
-    "slug": "eclectus-parrot",
-    "name": "Eclectus Parrot",
-    "icon": "🦜"
-  },
-  {
-    "slug": "eurasian-eagle-owl",
-    "name": "Eurasian Eagle-Owl",
-    "icon": "🦉"
-  },
-  {
-    "slug": "european-goldfinch",
-    "name": "European Goldfinch",
-    "icon": "🐦"
-  },
-  {
-    "slug": "galah",
-    "name": "Galah",
-    "icon": "🦜"
-  },
-  {
-    "slug": "gentoo-penguin",
-    "name": "Gentoo Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "golden-conure",
-    "name": "Golden Conure",
-    "icon": "🦜"
-  },
-  {
-    "slug": "great-hornbill",
-    "name": "Great Hornbill",
-    "icon": "🐦"
-  },
-  {
-    "slug": "greater-flamingo",
-    "name": "Greater Flamingo",
-    "icon": "🦩"
-  },
-  {
-    "slug": "green-cheeked-conure",
-    "name": "Green-Cheeked Conure",
-    "icon": "🦜"
-  },
-  {
-    "slug": "grey-crowned-crane",
-    "name": "Grey-Crowned Crane",
-    "icon": "🦤"
-  },
-  {
-    "slug": "hyacinth-macaw",
-    "name": "Hyacinth Macaw",
-    "icon": "🦜"
-  },
-  {
-    "slug": "indian-ringneck",
-    "name": "Indian Ringneck",
-    "icon": "🦜"
-  },
-  {
-    "slug": "jackass-penguin",
-    "name": "Jackass Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "lilac-crowned-amazon",
-    "name": "Lilac-Crowned Amazon",
-    "icon": "🦜"
-  },
-  {
-    "slug": "little-penguin",
-    "name": "Little Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "macaroni-penguin",
-    "name": "Macaroni Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "magellanic-penguin",
-    "name": "Magellanic Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "major-mitchell-cockatoo",
-    "name": "Major Mitchell Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "moluccan-cockatoo",
-    "name": "Moluccan Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "nanday-conure",
-    "name": "Nanday Conure",
-    "icon": "🦜"
-  },
-  {
-    "slug": "northern-flicker",
-    "name": "Northern Flicker",
-    "icon": "🐦"
-  },
-  {
-    "slug": "palm-cockatoo",
-    "name": "Palm Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "peach-faced-lovebird",
-    "name": "Peach-Faced Lovebird",
-    "icon": "🦜"
-  },
-  {
-    "slug": "pied-kingfisher",
-    "name": "Pied Kingfisher",
-    "icon": "🐦"
-  },
-  {
-    "slug": "pink-cockatoo",
-    "name": "Pink Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "quaker-parrot",
-    "name": "Quaker Parrot",
-    "icon": "🦜"
-  },
-  {
-    "slug": "red-lory",
-    "name": "Red Lory",
-    "icon": "🦜"
-  },
-  {
-    "slug": "resplendent-quetzal",
-    "name": "Resplendent Quetzal",
-    "icon": "🐦"
-  },
-  {
-    "slug": "rockhopper-penguin",
-    "name": "Rockhopper Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "rose-breasted-cockatoo",
-    "name": "Rose-Breasted Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "royal-penguin",
-    "name": "Royal Penguin",
-    "icon": "🐧"
-  },
-  {
-    "slug": "scarlet-ibis",
-    "name": "Scarlet Ibis",
-    "icon": "🦤"
-  },
-  {
-    "slug": "senegal-parrot",
-    "name": "Senegal Parrot",
-    "icon": "🦜"
-  },
-  {
-    "slug": "sulphur-crested-cockatoo",
-    "name": "Sulphur-Crested Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "sun-conure",
-    "name": "Sun Conure",
-    "icon": "🦜"
-  },
-  {
-    "slug": "toco-toucan",
-    "name": "Toco Toucan",
-    "icon": "🦜"
-  },
-  {
-    "slug": "umbrella-cockatoo",
-    "name": "Umbrella Cockatoo",
-    "icon": "🦜"
-  },
-  {
-    "slug": "victoria-crowned-pigeon",
-    "name": "Victoria Crowned Pigeon",
-    "icon": "🕊️"
-  },
-  {
-    "slug": "vulturine-guineafowl",
-    "name": "Vulturine Guineafowl",
-    "icon": "🐦"
-  },
-  {
-    "slug": "white-bellied-sea-eagle",
-    "name": "White-Bellied Sea Eagle",
-    "icon": "🦅"
+    "slug": "yellow-clown-goby",
+    "name": "Yellow Clown Goby",
+    "icon": "🐟"
   },
   {
     "slug": "yellow-crested-cockatoo",
@@ -4425,319 +5880,14 @@
     "icon": "🦜"
   },
   {
-    "slug": "zebra-finch",
-    "name": "Zebra Finch",
+    "slug": "yellow-tang",
+    "name": "Yellow Tang",
+    "icon": "🐠"
+  },
+  {
+    "slug": "yellow-warbler",
+    "name": "Yellow Warbler",
     "icon": "🐦"
-  },
-  {
-    "slug": "achilles-tang",
-    "name": "Achilles Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "banded-sea-krait",
-    "name": "Banded Sea Krait",
-    "icon": "🐍"
-  },
-  {
-    "slug": "banggai-cardinalfish",
-    "name": "Banggai Cardinalfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "bicolor-blenny",
-    "name": "Bicolor Blenny",
-    "icon": "🐟"
-  },
-  {
-    "slug": "black-molly",
-    "name": "Black Molly",
-    "icon": "🐟"
-  },
-  {
-    "slug": "blacktip-reef-shark",
-    "name": "Blacktip Reef Shark",
-    "icon": "🦈"
-  },
-  {
-    "slug": "cherry-barb",
-    "name": "Cherry Barb",
-    "icon": "🐟"
-  },
-  {
-    "slug": "chocolate-chip-sea-star",
-    "name": "Chocolate Chip Sea Star",
-    "icon": "🌟"
-  },
-  {
-    "slug": "cleaner-wrasse",
-    "name": "Cleaner Wrasse",
-    "icon": "🐟"
-  },
-  {
-    "slug": "copperband-butterflyfish",
-    "name": "Copperband Butterflyfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "coral-beauty-angelfish",
-    "name": "Coral Beauty Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "diamond-goby",
-    "name": "Diamond Goby",
-    "icon": "🐟"
-  },
-  {
-    "slug": "dragon-goby",
-    "name": "Dragon Goby",
-    "icon": "🐟"
-  },
-  {
-    "slug": "electric-blue-ram",
-    "name": "Electric Blue Ram",
-    "icon": "🐟"
-  },
-  {
-    "slug": "emerald-crab",
-    "name": "Emerald Crab",
-    "icon": "🦀"
-  },
-  {
-    "slug": "fairy-wrasse",
-    "name": "Fairy Wrasse",
-    "icon": "🐟"
-  },
-  {
-    "slug": "fire-shrimp",
-    "name": "Fire Shrimp",
-    "icon": "🦐"
-  },
-  {
-    "slug": "flame-hawkfish",
-    "name": "Flame Hawkfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "freshwater-angelfish",
-    "name": "Freshwater Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "garden-eel",
-    "name": "Garden Eel",
-    "icon": "🐍"
-  },
-  {
-    "slug": "gem-tang",
-    "name": "Gem Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "ghost-knifefish",
-    "name": "Ghost Knifefish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "green-mandarin",
-    "name": "Green Mandarin",
-    "icon": "🐟"
-  },
-  {
-    "slug": "harlequin-shrimp",
-    "name": "Harlequin Shrimp",
-    "icon": "🦐"
-  },
-  {
-    "slug": "hatchetfish",
-    "name": "Hatchetfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "japanese-dragon-eel",
-    "name": "Japanese Dragon Eel",
-    "icon": "🐍"
-  },
-  {
-    "slug": "jawfish",
-    "name": "Jawfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "kole-tang",
-    "name": "Kole Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "lemonpeel-angelfish",
-    "name": "Lemonpeel Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "longnose-butterflyfish",
-    "name": "Longnose Butterflyfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "lyretail-anthias",
-    "name": "Lyretail Anthias",
-    "icon": "🐟"
-  },
-  {
-    "slug": "midas-blenny",
-    "name": "Midas Blenny",
-    "icon": "🐟"
-  },
-  {
-    "slug": "mimic-tang",
-    "name": "Mimic Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "molly",
-    "name": "Molly",
-    "icon": "🐟"
-  },
-  {
-    "slug": "mushroom-coral",
-    "name": "Mushroom Coral",
-    "icon": "🪸"
-  },
-  {
-    "slug": "naso-tang",
-    "name": "Naso Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "ocellaris-clownfish",
-    "name": "Ocellaris Clownfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "orange-spot-goby",
-    "name": "Orange-Spot Goby",
-    "icon": "🐟"
-  },
-  {
-    "slug": "orchid-dottyback",
-    "name": "Orchid Dottyback",
-    "icon": "🐟"
-  },
-  {
-    "slug": "pajama-cardinalfish",
-    "name": "Pajama Cardinalfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "peppermint-shrimp",
-    "name": "Peppermint Shrimp",
-    "icon": "🦐"
-  },
-  {
-    "slug": "picasso-triggerfish",
-    "name": "Picasso Triggerfish",
-    "icon": "🐟"
-  },
-  {
-    "slug": "pink-skunk-clownfish",
-    "name": "Pink Skunk Clownfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "porcelain-crab",
-    "name": "Porcelain Crab",
-    "icon": "🦀"
-  },
-  {
-    "slug": "powder-brown-tang",
-    "name": "Powder Brown Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "purple-tang",
-    "name": "Purple Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "regal-angelfish",
-    "name": "Regal Angelfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "sailfin-tang",
-    "name": "Sailfin Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "scarlet-hermit-crab",
-    "name": "Scarlet Hermit Crab",
-    "icon": "🦀"
-  },
-  {
-    "slug": "scooter-blenny",
-    "name": "Scooter Blenny",
-    "icon": "🐟"
-  },
-  {
-    "slug": "sebae-clownfish",
-    "name": "Sebae Clownfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "serpent-star",
-    "name": "Serpent Star",
-    "icon": "🌟"
-  },
-  {
-    "slug": "skunk-clownfish",
-    "name": "Skunk Clownfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "sleeper-goby",
-    "name": "Sleeper Goby",
-    "icon": "🐟"
-  },
-  {
-    "slug": "spotted-mandarin",
-    "name": "Spotted Mandarin",
-    "icon": "🐟"
-  },
-  {
-    "slug": "starry-blenny",
-    "name": "Starry Blenny",
-    "icon": "🐟"
-  },
-  {
-    "slug": "tailspot-blenny",
-    "name": "Tailspot Blenny",
-    "icon": "🐟"
-  },
-  {
-    "slug": "tomato-clownfish",
-    "name": "Tomato Clownfish",
-    "icon": "🐠"
-  },
-  {
-    "slug": "two-spot-goby",
-    "name": "Two-Spot Goby",
-    "icon": "🐟"
-  },
-  {
-    "slug": "vlamingi-tang",
-    "name": "Vlamingi Tang",
-    "icon": "🐠"
-  },
-  {
-    "slug": "watchman-goby",
-    "name": "Watchman Goby",
-    "icon": "🐟"
-  },
-  {
-    "slug": "yellow-clown-goby",
-    "name": "Yellow Clown Goby",
-    "icon": "🐟"
   },
   {
     "slug": "yellow-watchman-goby",
@@ -4745,203 +5895,53 @@
     "icon": "🐟"
   },
   {
+    "slug": "yeti-crab",
+    "name": "Yeti Crab",
+    "icon": "🦀"
+  },
+  {
+    "slug": "york-chocolate",
+    "name": "York Chocolate",
+    "icon": "🐱"
+  },
+  {
+    "slug": "yorkshire-terrier",
+    "name": "Yorkshire Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "yorkshire-terrier-dog",
+    "name": "Yorkshire Terrier",
+    "icon": "🐕"
+  },
+  {
+    "slug": "zebra",
+    "name": "Zebra",
+    "icon": "🦓"
+  },
+  {
+    "slug": "zebra-duiker",
+    "name": "Zebra Duiker",
+    "icon": "🦌"
+  },
+  {
+    "slug": "zebra-finch",
+    "name": "Zebra Finch",
+    "icon": "🐦"
+  },
+  {
     "slug": "zebra-moray",
     "name": "Zebra Moray",
     "icon": "🐍"
   },
   {
-    "slug": "california-kingsnake",
-    "name": "California Kingsnake",
-    "icon": "🐍"
+    "slug": "zebra-shark",
+    "name": "Zebra Shark",
+    "icon": "🦈"
   },
   {
-    "slug": "carpet-python",
-    "name": "Carpet Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "childrens-python",
-    "name": "Children's Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "emerald-tree-boa",
-    "name": "Emerald Tree Boa",
-    "icon": "🐍"
-  },
-  {
-    "slug": "gaboon-viper",
-    "name": "Gaboon Viper",
-    "icon": "🐍"
-  },
-  {
-    "slug": "green-tree-python",
-    "name": "Green Tree Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "garter-snake",
-    "name": "Garter Snake",
-    "icon": "🐍"
-  },
-  {
-    "slug": "hog-nose-snake",
-    "name": "Hog-Nose Snake",
-    "icon": "🐍"
-  },
-  {
-    "slug": "milk-snake",
-    "name": "Milk Snake",
-    "icon": "🐍"
-  },
-  {
-    "slug": "reticulated-python",
-    "name": "Reticulated Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "rosy-boa",
-    "name": "Rosy Boa",
-    "icon": "🐍"
-  },
-  {
-    "slug": "sand-boa",
-    "name": "Sand Boa",
-    "icon": "🐍"
-  },
-  {
-    "slug": "spotted-python",
-    "name": "Spotted Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "western-diamondback",
-    "name": "Western Diamondback",
-    "icon": "🐍"
-  },
-  {
-    "slug": "woma-python",
-    "name": "Woma Python",
-    "icon": "🐍"
-  },
-  {
-    "slug": "african-dormouse",
-    "name": "African Dormouse",
-    "icon": "🐹"
-  },
-  {
-    "slug": "degu",
-    "name": "Degu",
-    "icon": "🐹"
-  },
-  {
-    "slug": "eastern-chipmunk",
-    "name": "Eastern Chipmunk",
-    "icon": "🐿️"
-  },
-  {
-    "slug": "fancy-mouse",
-    "name": "Fancy Mouse",
-    "icon": "🐭"
-  },
-  {
-    "slug": "fancy-rat",
-    "name": "Fancy Rat",
-    "icon": "🐀"
-  },
-  {
-    "slug": "gambian-pouched-rat",
-    "name": "Gambian Pouched Rat",
-    "icon": "🐹"
-  },
-  {
-    "slug": "roborovski-hamster",
-    "name": "Roborovski Hamster",
-    "icon": "🐹"
-  },
-  {
-    "slug": "spiny-mouse",
-    "name": "Spiny Mouse",
-    "icon": "🐭"
-  },
-  {
-    "slug": "winter-white-hamster",
-    "name": "Winter White Hamster",
-    "icon": "🐹"
-  },
-  {
-    "slug": "atlas-moth",
-    "name": "Atlas Moth",
-    "icon": "🦋"
-  },
-  {
-    "slug": "blue-morpho-butterfly",
-    "name": "Blue Morpho Butterfly",
-    "icon": "🦋"
-  },
-  {
-    "slug": "bumblebee-bat",
-    "name": "Bumblebee Bat",
-    "icon": "🦇"
-  },
-  {
-    "slug": "death-head-hawkmoth",
-    "name": "Death's-Head Hawkmoth",
-    "icon": "🦋"
-  },
-  {
-    "slug": "eastern-lubber-grasshopper",
-    "name": "Eastern Lubber Grasshopper",
-    "icon": "🦗"
-  },
-  {
-    "slug": "giant-african-millipede",
-    "name": "Giant African Millipede",
-    "icon": "🪱"
-  },
-  {
-    "slug": "giant-prickly-stick-insect",
-    "name": "Giant Prickly Stick Insect",
-    "icon": "🦗"
-  },
-  {
-    "slug": "goliath-bird-eater",
-    "name": "Goliath Bird-Eater",
-    "icon": "🕷️"
-  },
-  {
-    "slug": "leafcutter-ant",
-    "name": "Leafcutter Ant",
-    "icon": "🐜"
-  },
-  {
-    "slug": "luna-moth",
-    "name": "Luna Moth",
-    "icon": "🦋"
-  },
-  {
-    "slug": "madagascar-hissing-cockroach",
-    "name": "Madagascar Hissing Cockroach",
-    "icon": "🪳"
-  },
-  {
-    "slug": "mexican-red-knee-tarantula",
-    "name": "Mexican Red-Knee Tarantula",
-    "icon": "🕷️"
-  },
-  {
-    "slug": "orchid-bee",
-    "name": "Orchid Bee",
-    "icon": "🐝"
-  },
-  {
-    "slug": "rose-hair-tarantula",
-    "name": "Rose Hair Tarantula",
-    "icon": "🕷️"
-  },
-  {
-    "slug": "spanish-moon-moth",
-    "name": "Spanish Moon Moth",
-    "icon": "🦋"
+    "slug": "zorilla",
+    "name": "Zorilla",
+    "icon": "🦨"
   }
 ]
