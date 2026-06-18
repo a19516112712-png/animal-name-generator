@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col bg-[#f8fafc] text-[#1e293b]">
         <GoogleAnalytics gaId="G-C9HPD23Y02" />
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-          <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+          <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between" aria-label="Main navigation">
             <Link href="/" className="text-xl font-bold text-primary hover:text-primary-dark transition-colors">
               🐾 AnimalNameGen
             </Link>
@@ -63,8 +63,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </nav>
         </header>
-        <main className="flex-1">{children}</main>
-        <footer className="bg-gray-900 text-gray-400 py-10">
+        <main className="flex-1" aria-label="Main content">{children}</main>
+        <footer className="bg-gray-900 text-gray-400 py-10" aria-label="Site footer">
           <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
             <div>
               <h4 className="text-white font-semibold text-sm uppercase tracking-wide mb-3">Company</h4>
@@ -90,6 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><Link href="/blog/" className="hover:text-white transition-colors">Blog</Link></li>
                 <li><Link href="/animal/dog/" className="hover:text-white transition-colors">Dog Names</Link></li>
                 <li><Link href="/animal/cat/" className="hover:text-white transition-colors">Cat Names</Link></li>
+                <li><Link href="/sitemap.xml" className="hover:text-white transition-colors">Sitemap</Link></li>
               </ul>
             </div>
             <div>

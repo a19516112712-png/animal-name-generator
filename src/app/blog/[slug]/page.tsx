@@ -276,6 +276,7 @@ export default async function BlogPost({ params }: Props) {
           <div className="flex items-center justify-center gap-2 text-xs text-gray-500 mb-3">
             <span className="bg-primary/10 text-primary font-semibold px-3 py-1 rounded-full">{post.category}</span>
             <span>{post.date}</span>
+            <span className="text-gray-500">By BestAnimalNames Editorial Team</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">{post.title}</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">{post.description}</p>

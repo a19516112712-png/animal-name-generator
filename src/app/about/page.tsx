@@ -64,6 +64,12 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Trust &amp; Transparency</h2>
           <p>We believe in being completely open about how Animal Name Generator operates. The site is and will remain free — no hidden costs, no accounts required. We may display advertisements to support operational costs; these are clearly distinguished from content. All names are human-curated and reviewed. We do not use AI to generate names without human review. We are committed to accessibility, inclusivity, and maintaining a safe platform for everyone.</p>
         </div>
+        <div>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Editorial Policy</h2>
+          <p>Every animal name on BestAnimalNames.com is hand-curated by our editorial team. We source names from real pet owner submissions, veterinary naming databases, zoological references, and cultural naming traditions across different regions and languages. Each name is reviewed for pronunciation clarity, positive associations, uniqueness within its category, and suitability for the target animal species.</p>
+          <p className="mt-3">Our blog content follows a rigorous research process. Articles are drafted by experienced writers, fact-checked against authoritative sources — including veterinary publications, zoological societies, and ethology research — and reviewed by our editorial team before publication. We cite sources where applicable and update articles regularly to reflect new research, naming trends, and reader feedback.</p>
+          <p className="mt-3">Content updates are maintained through our daily generation pipeline, which refreshes name collections, validates internal links, and ensures all pages remain accurate and accessible. We are committed to providing a trustworthy, high-quality resource that helps every animal lover find the perfect name — for free, forever. If you spot an error or have a suggestion, please <Link href="/contact/" className="text-primary hover:underline">contact us</Link>.</p>
+        </div>
       </section>
     </>
   );
