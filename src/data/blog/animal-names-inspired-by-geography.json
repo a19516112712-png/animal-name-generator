@@ -1,0 +1,88 @@
+{
+  "slug": "animal-names-inspired-by-geography",
+  "title": "Animal Names Inspired by Geography: 200+ Place-Based Ideas 🗺️",
+  "description": "Name your pet after the world's most beautiful places. From cities to mountains to rivers, discover geographically inspired animal names.",
+  "date": "2026-06-18",
+  "category": "Naming Tips",
+  "image": "🗺️",
+  "tags": [
+    "geography names",
+    "place names",
+    "city names",
+    "country names"
+  ],
+  "content": [
+    {
+      "type": "toc",
+      "items": [
+        {
+          "href": "#cities",
+          "text": "City & Country Names"
+        },
+        {
+          "href": "#rivers",
+          "text": "River & Lake Names"
+        },
+        {
+          "href": "#mountains-geo",
+          "text": "Mountain & Desert Names"
+        },
+        {
+          "href": "#islands",
+          "text": "Island & Coastal Names"
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The world map is full of name-worthy places. Naming your pet after a city, mountain, river, or country connects them to the geography you love — whether it's a place you've visited, a dream destination, or your hometown."
+    },
+    {
+      "type": "h2",
+      "text": "City & Country Names"
+    },
+    {
+      "type": "p",
+      "text": "<strong>Paris</strong>, <strong>Sydney</strong>, <strong>Brooklyn</strong>, <strong>Memphis</strong>, <strong>Vegas</strong>, <strong>Dublin</strong>, <strong>Indiana</strong>, <strong>Kenya</strong>, <strong>India</strong>."
+    },
+    {
+      "type": "h2",
+      "text": "River & Lake Names"
+    },
+    {
+      "type": "p",
+      "text": "<strong>Nile</strong>, <strong>Amazon</strong>, <strong>Danube</strong>, <strong>Hudson</strong>, <strong>Indus</strong>, <strong>Tahoe</strong>, <strong>Baikal</strong>, <strong>Victoria</strong>."
+    },
+    {
+      "type": "h2",
+      "text": "Mountain & Desert Names"
+    },
+    {
+      "type": "p",
+      "text": "<strong>Everest</strong>, <strong>Sierra</strong>, <strong>Rocky</strong>, <strong>Denali</strong>, <strong>Sahara</strong>, <strong>Gobi</strong>, <strong>Kalahari</strong>, <strong>Andes</strong>."
+    },
+    {
+      "type": "h2",
+      "text": "Island & Coastal Names"
+    },
+    {
+      "type": "p",
+      "text": "<strong>Maui</strong>, <strong>Java</strong>, <strong>Cyprus</strong>, <strong>Bali</strong>, <strong>Iona</strong>, <strong>Capri</strong>, <strong>Malibu</strong>, <strong>Monterey</strong>."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why choose a geographical name?",
+      "a": "Geographical names are distinctive, personal, and tell a story. They're great conversation starters."
+    }
+  ],
+  "relatedAnimals": [
+    "dog",
+    "cat"
+  ],
+  "relatedGuides": []
+}
