@@ -48,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <link rel="manifest" href="/manifest.json" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6710458178434465" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-screen flex flex-col bg-[#f8fafc] text-[#1e293b]">
         <GoogleAnalytics gaId="G-C9HPD23Y02" />
