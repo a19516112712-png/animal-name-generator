@@ -70,6 +70,86 @@
       ],
       "destination": "https://bestanimalnames.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/funny-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/funny-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/cute-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/cute-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/male-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/male-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/female-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/female-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/fantasy-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/fantasy-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/baby-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/baby-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/cool-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/cool-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/unique-animal-names",
+      "destination": "/animals/",
+      "permanent": true
+    },
+    {
+      "source": "/unique-animal-names/",
+      "destination": "/animals/",
+      "permanent": true
     }
   ]
 }
