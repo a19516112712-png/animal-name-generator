@@ -1,5 +1,305 @@
 [
   {
+    "slug": "120-adorable-oryx-names",
+    "animal": "oryx",
+    "adjective": "adorable",
+    "number": "120"
+  },
+  {
+    "slug": "150-amazing-perch-names",
+    "animal": "perch",
+    "adjective": "amazing",
+    "number": "150"
+  },
+  {
+    "slug": "175-beautiful-caique-names",
+    "animal": "caique",
+    "adjective": "beautiful",
+    "number": "175"
+  },
+  {
+    "slug": "200-brave-ibis-names",
+    "animal": "ibis",
+    "adjective": "brave",
+    "number": "200"
+  },
+  {
+    "slug": "120-brilliant-hippo-names",
+    "animal": "hippo",
+    "adjective": "brilliant",
+    "number": "120"
+  },
+  {
+    "slug": "150-charming-olm-names",
+    "animal": "olm",
+    "adjective": "charming",
+    "number": "150"
+  },
+  {
+    "slug": "175-cheerful-colugo-names",
+    "animal": "colugo",
+    "adjective": "cheerful",
+    "number": "175"
+  },
+  {
+    "slug": "200-clever-whelk-names",
+    "animal": "whelk",
+    "adjective": "clever",
+    "number": "200"
+  },
+  {
+    "slug": "120-cool-indri-names",
+    "animal": "indri",
+    "adjective": "cool",
+    "number": "120"
+  },
+  {
+    "slug": "150-creative-eider-names",
+    "animal": "eider",
+    "adjective": "creative",
+    "number": "150"
+  },
+  {
+    "slug": "175-adorable-heron-names",
+    "animal": "heron",
+    "adjective": "adorable",
+    "number": "175"
+  },
+  {
+    "slug": "200-amazing-borzoi-names",
+    "animal": "borzoi",
+    "adjective": "amazing",
+    "number": "200"
+  },
+  {
+    "slug": "120-beautiful-guan-names",
+    "animal": "guan",
+    "adjective": "beautiful",
+    "number": "120"
+  },
+  {
+    "slug": "150-brave-chiton-names",
+    "animal": "chiton",
+    "adjective": "brave",
+    "number": "150"
+  },
+  {
+    "slug": "175-brilliant-cattle-names",
+    "animal": "cattle",
+    "adjective": "brilliant",
+    "number": "175"
+  },
+  {
+    "slug": "200-charming-goose-names",
+    "animal": "goose",
+    "adjective": "charming",
+    "number": "200"
+  },
+  {
+    "slug": "120-cheerful-potto-names",
+    "animal": "potto",
+    "adjective": "cheerful",
+    "number": "120"
+  },
+  {
+    "slug": "150-clever-kiwi-names",
+    "animal": "kiwi",
+    "adjective": "clever",
+    "number": "150"
+  },
+  {
+    "slug": "175-cool-booby-names",
+    "animal": "booby",
+    "adjective": "cool",
+    "number": "175"
+  },
+  {
+    "slug": "200-creative-quoll-names",
+    "animal": "quoll",
+    "adjective": "creative",
+    "number": "200"
+  },
+  {
+    "slug": "120-adorable-pug-names",
+    "animal": "pug",
+    "adjective": "adorable",
+    "number": "120"
+  },
+  {
+    "slug": "150-amazing-mara-names",
+    "animal": "mara",
+    "adjective": "amazing",
+    "number": "150"
+  },
+  {
+    "slug": "175-beautiful-potoo-names",
+    "animal": "potoo",
+    "adjective": "beautiful",
+    "number": "175"
+  },
+  {
+    "slug": "200-brave-alpaca-names",
+    "animal": "alpaca",
+    "adjective": "brave",
+    "number": "200"
+  },
+  {
+    "slug": "120-brilliant-bonobo-names",
+    "animal": "bonobo",
+    "adjective": "brilliant",
+    "number": "120"
+  },
+  {
+    "slug": "150-charming-bass-names",
+    "animal": "bass",
+    "adjective": "charming",
+    "number": "150"
+  },
+  {
+    "slug": "175-cheerful-stilt-names",
+    "animal": "stilt",
+    "adjective": "cheerful",
+    "number": "175"
+  },
+  {
+    "slug": "200-clever-trout-names",
+    "animal": "trout",
+    "adjective": "clever",
+    "number": "200"
+  },
+  {
+    "slug": "120-cool-barbet-names",
+    "animal": "barbet",
+    "adjective": "cool",
+    "number": "120"
+  },
+  {
+    "slug": "150-creative-bongo-names",
+    "animal": "bongo",
+    "adjective": "creative",
+    "number": "150"
+  },
+  {
+    "slug": "150-magical-flat-coated-retriever-names",
+    "animal": "flat-coated-retriever",
+    "adjective": "magical",
+    "number": "150"
+  },
+  {
+    "slug": "150-royal-donkey-names",
+    "animal": "donkey",
+    "adjective": "royal",
+    "number": "150"
+  },
+  {
+    "slug": "120-precious-serval-names",
+    "animal": "serval",
+    "adjective": "precious",
+    "number": "120"
+  },
+  {
+    "slug": "120-majestic-murre-names",
+    "animal": "murre",
+    "adjective": "majestic",
+    "number": "120"
+  },
+  {
+    "slug": "150-magical-day-gecko-names",
+    "animal": "day-gecko",
+    "adjective": "magical",
+    "number": "150"
+  },
+  {
+    "slug": "100-magical-tegus-names",
+    "animal": "tegus",
+    "adjective": "magical",
+    "number": "100"
+  },
+  {
+    "slug": "150-majestic-gaboon-viper-names",
+    "animal": "gaboon-viper",
+    "adjective": "majestic",
+    "number": "150"
+  },
+  {
+    "slug": "150-playful-tamandua-names",
+    "animal": "tamandua",
+    "adjective": "playful",
+    "number": "150"
+  },
+  {
+    "slug": "120-loyal-conure-names",
+    "animal": "conure",
+    "adjective": "loyal",
+    "number": "120"
+  },
+  {
+    "slug": "120-royal-tibetan-terrier-names",
+    "animal": "tibetan-terrier",
+    "adjective": "royal",
+    "number": "120"
+  },
+  {
+    "slug": "150-precious-borneo-eared-frog-names",
+    "animal": "borneo-eared-frog",
+    "adjective": "precious",
+    "number": "150"
+  },
+  {
+    "slug": "150-noble-european-robin-names",
+    "animal": "european-robin",
+    "adjective": "noble",
+    "number": "150"
+  },
+  {
+    "slug": "100-royal-rose-hair-tarantula-names",
+    "animal": "rose-hair-tarantula",
+    "adjective": "royal",
+    "number": "100"
+  },
+  {
+    "slug": "120-playful-vampire-bat-names",
+    "animal": "vampire-bat",
+    "adjective": "playful",
+    "number": "120"
+  },
+  {
+    "slug": "100-playful-gundi-names",
+    "animal": "gundi",
+    "adjective": "playful",
+    "number": "100"
+  },
+  {
+    "slug": "150-majestic-emperor-penguin-names",
+    "animal": "emperor-penguin",
+    "adjective": "majestic",
+    "number": "150"
+  },
+  {
+    "slug": "120-perfect-barn-owl-names",
+    "animal": "barn-owl",
+    "adjective": "perfect",
+    "number": "120"
+  },
+  {
+    "slug": "150-majestic-african-lion-names",
+    "animal": "african-lion",
+    "adjective": "majestic",
+    "number": "150"
+  },
+  {
+    "slug": "120-magical-swedish-vallhund-names",
+    "animal": "swedish-vallhund",
+    "adjective": "magical",
+    "number": "120"
+  },
+  {
+    "slug": "100-lovable-anaconda-names",
+    "animal": "anaconda",
+    "adjective": "lovable",
+    "number": "100"
+  },
+  {
     "slug": "100-adorable-grison-names",
     "animal": "grison",
     "adjective": "adorable",
