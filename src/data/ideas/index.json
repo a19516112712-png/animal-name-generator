@@ -1,5 +1,905 @@
 [
   {
+    "slug": "100-adorable-wild-boar-names",
+    "animal": "wild-boar",
+    "adjective": "adorable",
+    "number": "100"
+  },
+  {
+    "slug": "120-amazing-bamboo-shark-names",
+    "animal": "bamboo-shark",
+    "adjective": "amazing",
+    "number": "120"
+  },
+  {
+    "slug": "150-beautiful-burmese-cat-names",
+    "animal": "burmese-cat",
+    "adjective": "beautiful",
+    "number": "150"
+  },
+  {
+    "slug": "175-brave-andean-fox-names",
+    "animal": "andean-fox",
+    "adjective": "brave",
+    "number": "175"
+  },
+  {
+    "slug": "200-brilliant-sea-hare-names",
+    "animal": "sea-hare",
+    "adjective": "brilliant",
+    "number": "200"
+  },
+  {
+    "slug": "100-charming-highland-cow-names",
+    "animal": "highland-cow",
+    "adjective": "charming",
+    "number": "100"
+  },
+  {
+    "slug": "120-cheerful-grasshopper-names",
+    "animal": "grasshopper",
+    "adjective": "cheerful",
+    "number": "120"
+  },
+  {
+    "slug": "150-clever-sleeper-goby-names",
+    "animal": "sleeper-goby",
+    "adjective": "clever",
+    "number": "150"
+  },
+  {
+    "slug": "175-cool-giant-isopod-names",
+    "animal": "giant-isopod",
+    "adjective": "cool",
+    "number": "175"
+  },
+  {
+    "slug": "200-creative-hoary-bat-names",
+    "animal": "hoary-bat",
+    "adjective": "creative",
+    "number": "200"
+  },
+  {
+    "slug": "100-cute-eyelash-viper-names",
+    "animal": "eyelash-viper",
+    "adjective": "cute",
+    "number": "100"
+  },
+  {
+    "slug": "120-daring-oilbird-names",
+    "animal": "oilbird",
+    "adjective": "daring",
+    "number": "120"
+  },
+  {
+    "slug": "150-elegant-indian-rhino-names",
+    "animal": "indian-rhino",
+    "adjective": "elegant",
+    "number": "150"
+  },
+  {
+    "slug": "175-famous-brittle-star-names",
+    "animal": "brittle-star",
+    "adjective": "famous",
+    "number": "175"
+  },
+  {
+    "slug": "200-fantastic-cherry-barb-names",
+    "animal": "cherry-barb",
+    "adjective": "fantastic",
+    "number": "200"
+  },
+  {
+    "slug": "100-fluffy-tamaraw-names",
+    "animal": "tamaraw",
+    "adjective": "fluffy",
+    "number": "100"
+  },
+  {
+    "slug": "120-funny-bristlemouth-names",
+    "animal": "bristlemouth",
+    "adjective": "funny",
+    "number": "120"
+  },
+  {
+    "slug": "150-gentle-safari-cat-names",
+    "animal": "safari-cat",
+    "adjective": "gentle",
+    "number": "150"
+  },
+  {
+    "slug": "175-gorgeous-great-dane-dog-names",
+    "animal": "great-dane-dog",
+    "adjective": "gorgeous",
+    "number": "175"
+  },
+  {
+    "slug": "200-happy-border-collie-names",
+    "animal": "border-collie",
+    "adjective": "happy",
+    "number": "200"
+  },
+  {
+    "slug": "100-hilarious-pompeii-worm-names",
+    "animal": "pompeii-worm",
+    "adjective": "hilarious",
+    "number": "100"
+  },
+  {
+    "slug": "120-lovable-guillemot-names",
+    "animal": "guillemot",
+    "adjective": "lovable",
+    "number": "120"
+  },
+  {
+    "slug": "150-loyal-springbok-names",
+    "animal": "springbok",
+    "adjective": "loyal",
+    "number": "150"
+  },
+  {
+    "slug": "175-magical-sea-cucumber-names",
+    "animal": "sea-cucumber",
+    "adjective": "magical",
+    "number": "175"
+  },
+  {
+    "slug": "200-majestic-coral-snake-names",
+    "animal": "coral-snake",
+    "adjective": "majestic",
+    "number": "200"
+  },
+  {
+    "slug": "100-modern-kangaroo-rat-names",
+    "animal": "kangaroo-rat",
+    "adjective": "modern",
+    "number": "100"
+  },
+  {
+    "slug": "120-noble-vine-snake-names",
+    "animal": "vine-snake",
+    "adjective": "noble",
+    "number": "120"
+  },
+  {
+    "slug": "150-perfect-mouse-lemur-names",
+    "animal": "mouse-lemur",
+    "adjective": "perfect",
+    "number": "150"
+  },
+  {
+    "slug": "175-playful-spotted-bat-names",
+    "animal": "spotted-bat",
+    "adjective": "playful",
+    "number": "175"
+  },
+  {
+    "slug": "200-precious-brush-turkey-names",
+    "animal": "brush-turkey",
+    "adjective": "precious",
+    "number": "200"
+  },
+  {
+    "slug": "100-proud-vinegaroon-names",
+    "animal": "vinegaroon",
+    "adjective": "proud",
+    "number": "100"
+  },
+  {
+    "slug": "120-quirky-bengal-fox-names",
+    "animal": "bengal-fox",
+    "adjective": "quirky",
+    "number": "120"
+  },
+  {
+    "slug": "150-royal-dung-beetle-names",
+    "animal": "dung-beetle",
+    "adjective": "royal",
+    "number": "150"
+  },
+  {
+    "slug": "175-smart-cedar-waxwing-names",
+    "animal": "cedar-waxwing",
+    "adjective": "smart",
+    "number": "175"
+  },
+  {
+    "slug": "200-sweet-black-widow-names",
+    "animal": "black-widow",
+    "adjective": "sweet",
+    "number": "200"
+  },
+  {
+    "slug": "100-tiny-midwife-toad-names",
+    "animal": "midwife-toad",
+    "adjective": "tiny",
+    "number": "100"
+  },
+  {
+    "slug": "120-trendy-nudibranch-names",
+    "animal": "nudibranch",
+    "adjective": "trendy",
+    "number": "120"
+  },
+  {
+    "slug": "150-unique-snipe-eel-names",
+    "animal": "snipe-eel",
+    "adjective": "unique",
+    "number": "150"
+  },
+  {
+    "slug": "175-wild-fanfin-angler-names",
+    "animal": "fanfin-angler",
+    "adjective": "wild",
+    "number": "175"
+  },
+  {
+    "slug": "200-wonderful-snow-monkey-names",
+    "animal": "snow-monkey",
+    "adjective": "wonderful",
+    "number": "200"
+  },
+  {
+    "slug": "100-adorable-pelican-eel-names",
+    "animal": "pelican-eel",
+    "adjective": "adorable",
+    "number": "100"
+  },
+  {
+    "slug": "120-amazing-house-sparrow-names",
+    "animal": "house-sparrow",
+    "adjective": "amazing",
+    "number": "120"
+  },
+  {
+    "slug": "150-beautiful-lesser-rhea-names",
+    "animal": "lesser-rhea",
+    "adjective": "beautiful",
+    "number": "150"
+  },
+  {
+    "slug": "175-brave-zebra-moray-names",
+    "animal": "zebra-moray",
+    "adjective": "brave",
+    "number": "175"
+  },
+  {
+    "slug": "200-brilliant-sandgrouse-names",
+    "animal": "sandgrouse",
+    "adjective": "brilliant",
+    "number": "200"
+  },
+  {
+    "slug": "100-charming-gordon-setter-names",
+    "animal": "gordon-setter",
+    "adjective": "charming",
+    "number": "100"
+  },
+  {
+    "slug": "120-cheerful-assassin-bug-names",
+    "animal": "assassin-bug",
+    "adjective": "cheerful",
+    "number": "120"
+  },
+  {
+    "slug": "150-clever-fishing-cat-names",
+    "animal": "fishing-cat",
+    "adjective": "clever",
+    "number": "150"
+  },
+  {
+    "slug": "175-cool-garden-spider-names",
+    "animal": "garden-spider",
+    "adjective": "cool",
+    "number": "175"
+  },
+  {
+    "slug": "200-creative-atlas-moth-names",
+    "animal": "atlas-moth",
+    "adjective": "creative",
+    "number": "200"
+  },
+  {
+    "slug": "100-cute-basket-star-names",
+    "animal": "basket-star",
+    "adjective": "cute",
+    "number": "100"
+  },
+  {
+    "slug": "120-daring-common-wombat-names",
+    "animal": "common-wombat",
+    "adjective": "daring",
+    "number": "120"
+  },
+  {
+    "slug": "150-elegant-tibetan-fox-names",
+    "animal": "tibetan-fox",
+    "adjective": "elegant",
+    "number": "150"
+  },
+  {
+    "slug": "175-famous-maori-wrasse-names",
+    "animal": "maori-wrasse",
+    "adjective": "famous",
+    "number": "175"
+  },
+  {
+    "slug": "200-fantastic-wood-frog-names",
+    "animal": "wood-frog",
+    "adjective": "fantastic",
+    "number": "200"
+  },
+  {
+    "slug": "100-fluffy-rock-lobster-names",
+    "animal": "rock-lobster",
+    "adjective": "fluffy",
+    "number": "100"
+  },
+  {
+    "slug": "120-funny-marine-otter-names",
+    "animal": "marine-otter",
+    "adjective": "funny",
+    "number": "120"
+  },
+  {
+    "slug": "150-gentle-brown-booby-names",
+    "animal": "brown-booby",
+    "adjective": "gentle",
+    "number": "150"
+  },
+  {
+    "slug": "175-gorgeous-bengal-tiger-names",
+    "animal": "bengal-tiger",
+    "adjective": "gorgeous",
+    "number": "175"
+  },
+  {
+    "slug": "200-happy-sechuran-fox-names",
+    "animal": "sechuran-fox",
+    "adjective": "happy",
+    "number": "200"
+  },
+  {
+    "slug": "100-hilarious-fire-shrimp-names",
+    "animal": "fire-shrimp",
+    "adjective": "hilarious",
+    "number": "100"
+  },
+  {
+    "slug": "120-lovable-brown-recluse-names",
+    "animal": "brown-recluse",
+    "adjective": "lovable",
+    "number": "120"
+  },
+  {
+    "slug": "150-loyal-coelacanth-names",
+    "animal": "coelacanth",
+    "adjective": "loyal",
+    "number": "150"
+  },
+  {
+    "slug": "175-magical-paper-wasp-names",
+    "animal": "paper-wasp",
+    "adjective": "magical",
+    "number": "175"
+  },
+  {
+    "slug": "200-majestic-barrel-sponge-names",
+    "animal": "barrel-sponge",
+    "adjective": "majestic",
+    "number": "200"
+  },
+  {
+    "slug": "100-modern-purple-frog-names",
+    "animal": "purple-frog",
+    "adjective": "modern",
+    "number": "100"
+  },
+  {
+    "slug": "120-noble-springhare-names",
+    "animal": "springhare",
+    "adjective": "noble",
+    "number": "120"
+  },
+  {
+    "slug": "150-perfect-tube-anemone-names",
+    "animal": "tube-anemone",
+    "adjective": "perfect",
+    "number": "150"
+  },
+  {
+    "slug": "175-playful-paddlefish-names",
+    "animal": "paddlefish",
+    "adjective": "playful",
+    "number": "175"
+  },
+  {
+    "slug": "200-precious-common-crane-names",
+    "animal": "common-crane",
+    "adjective": "precious",
+    "number": "200"
+  },
+  {
+    "slug": "100-proud-temple-viper-names",
+    "animal": "temple-viper",
+    "adjective": "proud",
+    "number": "100"
+  },
+  {
+    "slug": "120-quirky-red-panda-names",
+    "animal": "red-panda",
+    "adjective": "quirky",
+    "number": "120"
+  },
+  {
+    "slug": "150-royal-kodiak-bear-names",
+    "animal": "kodiak-bear",
+    "adjective": "royal",
+    "number": "150"
+  },
+  {
+    "slug": "175-smart-nazca-booby-names",
+    "animal": "nazca-booby",
+    "adjective": "smart",
+    "number": "175"
+  },
+  {
+    "slug": "200-sweet-glass-sponge-names",
+    "animal": "glass-sponge",
+    "adjective": "sweet",
+    "number": "200"
+  },
+  {
+    "slug": "100-tiny-electric-eel-names",
+    "animal": "electric-eel",
+    "adjective": "tiny",
+    "number": "100"
+  },
+  {
+    "slug": "120-trendy-hognose-snake-names",
+    "animal": "hognose-snake",
+    "adjective": "trendy",
+    "number": "120"
+  },
+  {
+    "slug": "150-unique-sea-fan-names",
+    "animal": "sea-fan",
+    "adjective": "unique",
+    "number": "150"
+  },
+  {
+    "slug": "175-wild-bobtail-squid-names",
+    "animal": "bobtail-squid",
+    "adjective": "wild",
+    "number": "175"
+  },
+  {
+    "slug": "200-wonderful-moose-names",
+    "animal": "moose",
+    "adjective": "wonderful",
+    "number": "200"
+  },
+  {
+    "slug": "100-adorable-velvet-ant-names",
+    "animal": "velvet-ant",
+    "adjective": "adorable",
+    "number": "100"
+  },
+  {
+    "slug": "120-amazing-minke-whale-names",
+    "animal": "minke-whale",
+    "adjective": "amazing",
+    "number": "120"
+  },
+  {
+    "slug": "150-beautiful-naso-tang-names",
+    "animal": "naso-tang",
+    "adjective": "beautiful",
+    "number": "150"
+  },
+  {
+    "slug": "175-brave-greater-rhea-names",
+    "animal": "greater-rhea",
+    "adjective": "brave",
+    "number": "175"
+  },
+  {
+    "slug": "200-brilliant-scorpionfish-names",
+    "animal": "scorpionfish",
+    "adjective": "brilliant",
+    "number": "200"
+  },
+  {
+    "slug": "100-charming-darwins-fox-names",
+    "animal": "darwins-fox",
+    "adjective": "charming",
+    "number": "100"
+  },
+  {
+    "slug": "120-cheerful-emerald-crab-names",
+    "animal": "emerald-crab",
+    "adjective": "cheerful",
+    "number": "120"
+  },
+  {
+    "slug": "150-clever-gulper-shark-names",
+    "animal": "gulper-shark",
+    "adjective": "clever",
+    "number": "150"
+  },
+  {
+    "slug": "175-cool-giant-otter-names",
+    "animal": "giant-otter",
+    "adjective": "cool",
+    "number": "175"
+  },
+  {
+    "slug": "200-creative-ghost-bat-names",
+    "animal": "ghost-bat",
+    "adjective": "creative",
+    "number": "200"
+  },
+  {
+    "slug": "100-cute-pygmy-possum-names",
+    "animal": "pygmy-possum",
+    "adjective": "cute",
+    "number": "100"
+  },
+  {
+    "slug": "120-daring-nile-monitor-names",
+    "animal": "nile-monitor",
+    "adjective": "daring",
+    "number": "120"
+  },
+  {
+    "slug": "150-elegant-bush-viper-names",
+    "animal": "bush-viper",
+    "adjective": "elegant",
+    "number": "150"
+  },
+  {
+    "slug": "175-famous-selkirk-rex-names",
+    "animal": "selkirk-rex",
+    "adjective": "famous",
+    "number": "175"
+  },
+  {
+    "slug": "200-fantastic-surinam-toad-names",
+    "animal": "surinam-toad",
+    "adjective": "fantastic",
+    "number": "200"
+  },
+  {
+    "slug": "100-fluffy-bear-cuscus-names",
+    "animal": "bear-cuscus",
+    "adjective": "fluffy",
+    "number": "100"
+  },
+  {
+    "slug": "120-funny-electric-ray-names",
+    "animal": "electric-ray",
+    "adjective": "funny",
+    "number": "120"
+  },
+  {
+    "slug": "150-gentle-bowhead-whale-names",
+    "animal": "bowhead-whale",
+    "adjective": "gentle",
+    "number": "150"
+  },
+  {
+    "slug": "175-gorgeous-marmoset-names",
+    "animal": "marmoset",
+    "adjective": "gorgeous",
+    "number": "175"
+  },
+  {
+    "slug": "200-happy-spirit-bear-names",
+    "animal": "spirit-bear",
+    "adjective": "happy",
+    "number": "200"
+  },
+  {
+    "slug": "100-hilarious-wood-stork-names",
+    "animal": "wood-stork",
+    "adjective": "hilarious",
+    "number": "100"
+  },
+  {
+    "slug": "120-lovable-bairds-tapir-names",
+    "animal": "bairds-tapir",
+    "adjective": "lovable",
+    "number": "120"
+  },
+  {
+    "slug": "150-loyal-ruffed-lemur-names",
+    "animal": "ruffed-lemur",
+    "adjective": "loyal",
+    "number": "150"
+  },
+  {
+    "slug": "175-magical-glass-lizard-names",
+    "animal": "glass-lizard",
+    "adjective": "magical",
+    "number": "175"
+  },
+  {
+    "slug": "200-majestic-green-mamba-names",
+    "animal": "green-mamba",
+    "adjective": "majestic",
+    "number": "200"
+  },
+  {
+    "slug": "100-modern-tropicbird-names",
+    "animal": "tropicbird",
+    "adjective": "modern",
+    "number": "100"
+  },
+  {
+    "slug": "120-noble-purple-tang-names",
+    "animal": "purple-tang",
+    "adjective": "noble",
+    "number": "120"
+  },
+  {
+    "slug": "150-perfect-marine-toad-names",
+    "animal": "marine-toad",
+    "adjective": "perfect",
+    "number": "150"
+  },
+  {
+    "slug": "175-playful-flying-dragon-names",
+    "animal": "flying-dragon",
+    "adjective": "playful",
+    "number": "175"
+  },
+  {
+    "slug": "200-precious-arabian-wolf-names",
+    "animal": "arabian-wolf",
+    "adjective": "precious",
+    "number": "200"
+  },
+  {
+    "slug": "100-proud-sand-octopus-names",
+    "animal": "sand-octopus",
+    "adjective": "proud",
+    "number": "100"
+  },
+  {
+    "slug": "120-quirky-pygmy-goat-names",
+    "animal": "pygmy-goat",
+    "adjective": "quirky",
+    "number": "120"
+  },
+  {
+    "slug": "150-royal-common-genet-names",
+    "animal": "common-genet",
+    "adjective": "royal",
+    "number": "150"
+  },
+  {
+    "slug": "175-smart-goliath-frog-names",
+    "animal": "goliath-frog",
+    "adjective": "smart",
+    "number": "175"
+  },
+  {
+    "slug": "200-sweet-salmon-names",
+    "animal": "salmon",
+    "adjective": "sweet",
+    "number": "200"
+  },
+  {
+    "slug": "100-tiny-suri-alpaca-names",
+    "animal": "suri-alpaca",
+    "adjective": "tiny",
+    "number": "100"
+  },
+  {
+    "slug": "120-trendy-black-caiman-names",
+    "animal": "black-caiman",
+    "adjective": "trendy",
+    "number": "120"
+  },
+  {
+    "slug": "150-unique-rock-wallaby-names",
+    "animal": "rock-wallaby",
+    "adjective": "unique",
+    "number": "150"
+  },
+  {
+    "slug": "175-wild-blue-iguana-names",
+    "animal": "blue-iguana",
+    "adjective": "wild",
+    "number": "175"
+  },
+  {
+    "slug": "200-wonderful-harbor-seal-names",
+    "animal": "harbor-seal",
+    "adjective": "wonderful",
+    "number": "200"
+  },
+  {
+    "slug": "100-adorable-flame-scallop-names",
+    "animal": "flame-scallop",
+    "adjective": "adorable",
+    "number": "100"
+  },
+  {
+    "slug": "120-amazing-newfoundland-names",
+    "animal": "newfoundland",
+    "adjective": "amazing",
+    "number": "120"
+  },
+  {
+    "slug": "150-beautiful-brain-coral-names",
+    "animal": "brain-coral",
+    "adjective": "beautiful",
+    "number": "150"
+  },
+  {
+    "slug": "175-brave-storm-petrel-names",
+    "animal": "storm-petrel",
+    "adjective": "brave",
+    "number": "175"
+  },
+  {
+    "slug": "200-brilliant-tomato-frog-names",
+    "animal": "tomato-frog",
+    "adjective": "brilliant",
+    "number": "200"
+  },
+  {
+    "slug": "100-charming-atlas-beetle-names",
+    "animal": "atlas-beetle",
+    "adjective": "charming",
+    "number": "100"
+  },
+  {
+    "slug": "120-cheerful-cownose-ray-names",
+    "animal": "cownose-ray",
+    "adjective": "cheerful",
+    "number": "120"
+  },
+  {
+    "slug": "150-clever-green-frog-names",
+    "animal": "green-frog",
+    "adjective": "clever",
+    "number": "150"
+  },
+  {
+    "slug": "175-cool-pademelon-names",
+    "animal": "pademelon",
+    "adjective": "cool",
+    "number": "175"
+  },
+  {
+    "slug": "200-creative-amazon-parrot-names",
+    "animal": "amazon-parrot",
+    "adjective": "creative",
+    "number": "200"
+  },
+  {
+    "slug": "100-cute-cardinalfish-names",
+    "animal": "cardinalfish",
+    "adjective": "cute",
+    "number": "100"
+  },
+  {
+    "slug": "120-daring-tree-shrew-names",
+    "animal": "tree-shrew",
+    "adjective": "daring",
+    "number": "120"
+  },
+  {
+    "slug": "150-elegant-viperfish-names",
+    "animal": "viperfish",
+    "adjective": "elegant",
+    "number": "150"
+  },
+  {
+    "slug": "175-famous-stonefish-names",
+    "animal": "stonefish",
+    "adjective": "famous",
+    "number": "175"
+  },
+  {
+    "slug": "200-fantastic-quokka-names",
+    "animal": "quokka",
+    "adjective": "fantastic",
+    "number": "200"
+  },
+  {
+    "slug": "100-fluffy-sea-biscuit-names",
+    "animal": "sea-biscuit",
+    "adjective": "fluffy",
+    "number": "100"
+  },
+  {
+    "slug": "120-funny-heart-urchin-names",
+    "animal": "heart-urchin",
+    "adjective": "funny",
+    "number": "120"
+  },
+  {
+    "slug": "150-gentle-click-beetle-names",
+    "animal": "click-beetle",
+    "adjective": "gentle",
+    "number": "150"
+  },
+  {
+    "slug": "175-gorgeous-nightingale-names",
+    "animal": "nightingale",
+    "adjective": "gorgeous",
+    "number": "175"
+  },
+  {
+    "slug": "200-happy-lanternfish-names",
+    "animal": "lanternfish",
+    "adjective": "happy",
+    "number": "200"
+  },
+  {
+    "slug": "100-hilarious-tokay-gecko-names",
+    "animal": "tokay-gecko",
+    "adjective": "hilarious",
+    "number": "100"
+  },
+  {
+    "slug": "120-lovable-sungazer-names",
+    "animal": "sungazer",
+    "adjective": "lovable",
+    "number": "120"
+  },
+  {
+    "slug": "150-loyal-tundra-wolf-names",
+    "animal": "tundra-wolf",
+    "adjective": "loyal",
+    "number": "150"
+  },
+  {
+    "slug": "175-magical-engineer-goby-names",
+    "animal": "engineer-goby",
+    "adjective": "magical",
+    "number": "175"
+  },
+  {
+    "slug": "200-majestic-hermit-crab-names",
+    "animal": "hermit-crab",
+    "adjective": "majestic",
+    "number": "200"
+  },
+  {
+    "slug": "100-modern-honey-possum-names",
+    "animal": "honey-possum",
+    "adjective": "modern",
+    "number": "100"
+  },
+  {
+    "slug": "120-noble-finnish-spitz-names",
+    "animal": "finnish-spitz",
+    "adjective": "noble",
+    "number": "120"
+  },
+  {
+    "slug": "150-perfect-cuttlefish-names",
+    "animal": "cuttlefish",
+    "adjective": "perfect",
+    "number": "150"
+  },
+  {
+    "slug": "175-playful-cape-penguin-names",
+    "animal": "cape-penguin",
+    "adjective": "playful",
+    "number": "175"
+  },
+  {
+    "slug": "200-precious-spixs-macaw-names",
+    "animal": "spixs-macaw",
+    "adjective": "precious",
+    "number": "200"
+  },
+  {
     "slug": "100-adorable-barreleye-names",
     "animal": "barreleye",
     "adjective": "adorable",
