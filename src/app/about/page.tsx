@@ -69,7 +69,17 @@ export default function AboutPage() {
           <p>Every animal name on BestAnimalNames.com is hand-curated by our editorial team. We source names from real pet owner submissions, veterinary naming databases, zoological references, and cultural naming traditions across different regions and languages. Each name is reviewed for pronunciation clarity, positive associations, uniqueness within its category, and suitability for the target animal species.</p>
           <p className="mt-3">Our blog content follows a rigorous research process. Articles are drafted by experienced writers, fact-checked against authoritative sources — including veterinary publications, zoological societies, and ethology research — and reviewed by our editorial team before publication. We cite sources where applicable and update articles regularly to reflect new research, naming trends, and reader feedback.</p>
           <p className="mt-3">Content updates are maintained through our daily generation pipeline, which refreshes name collections, validates internal links, and ensures all pages remain accurate and accessible. We are committed to providing a trustworthy, high-quality resource that helps every animal lover find the perfect name — for free, forever. If you spot an error or have a suggestion, please <Link href="/contact/" className="text-primary hover:underline">contact us</Link>.</p>
+          <p className="mt-3">For more details on our quality standards, read our full <Link href="/editorial-policy/" className="text-primary hover:underline">Editorial Policy</Link> and learn <Link href="/how-we-create-content/" className="text-primary hover:underline">How We Create Content</Link> — including our research methodology, review process, and commitment to accuracy.</p>
         </div>
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mt-6">
+            <h3 className="text-lg font-bold text-blue-900 mb-2">📖 Learn More</h3>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/editorial-policy/" className="text-blue-700 hover:underline">📋 Editorial Policy</Link> — How we research and curate every animal name</li>
+              <li><Link href="/how-we-create-content/" className="text-blue-700 hover:underline">🛠️ How We Create Content</Link> — Behind the scenes of our content process</li>
+              <li><Link href="/contact/" className="text-blue-700 hover:underline">📧 Contact Us</Link> — Submit feedback, corrections, or suggestions</li>
+              <li><Link href="/faq/" className="text-blue-700 hover:underline">❓ FAQ</Link> — Frequently asked questions about our site</li>
+            </ul>
+          </div>
       </section>
     </>
   );

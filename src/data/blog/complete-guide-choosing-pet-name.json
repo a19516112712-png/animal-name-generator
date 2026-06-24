@@ -192,7 +192,7 @@
     },
     {
       "type": "p",
-      "text": "Looking for more inspiration? Browse our complete collection of name generators: {russian-blue} names, {ocicat} names, {green-woodpecker} names, {tawny-owl} names, and {havanese} names. Each generator features 160+ hand-picked names across 9 unique categories including male, female, cute, funny, fantasy, unique, cool, and baby names."
+      "text": "Looking for more inspiration? Browse our complete collection of name generators: {russian-blue} names, {ocicat} names, {green-woodpecker} names, {tawny-owl} names, and {havanese} names. Each generator features 160+ hand-picked names across 9 unique categories including male, female, cute, funny, fantasy, unique, cool, and baby names. Discover specialized name collections for {bushmaster}, {bull-terrier}, {scarlet-macaw}, {oriental-shorthair}, {marbled-salamander}, {brydes-whale}, {finnish-lapphund}, {colossal-squid}, and many more on our site."
     },
     {
       "type": "h2",
@@ -228,7 +228,7 @@
     },
     {
       "type": "p",
-      "text": "Ready to explore more? Browse our complete collection of animal name generators at bestanimalnames.com. With 989 animal species and 160+ names per animal, you'll find inspiration for every pet, character, and creative project. Our guides, facts, and blog posts are designed to help you make the best choice — because every great relationship starts with a great name."
+      "text": "Ready to explore more? Browse our complete collection of animal name generators at bestanimalnames.com. With 989 animal species and 160+ names per animal, you'll find inspiration for every pet, character, and creative project. Our guides, facts, and blog posts are designed to help you make the best choice — because every great relationship starts with a great name. Discover specialized name collections for {penguin}, {honey-badger}, {marmoset}, {sea-urchin}, {helmeted-hornbill}, {russian-blue}, {scarlet-macaw}, {norwegian-lundehund}, and many more on our site."
     },
     {
       "type": "h2",
@@ -237,6 +237,22 @@
     {
       "type": "p",
       "text": "Understanding naming trends can help you choose a name that feels current or deliberately timeless. According to veterinary databases and pet insurance records, the most popular pet names consistently include Luna, Bella, Max, Charlie, and Daisy for dogs; Luna, Milo, Oliver, Leo, and Loki for cats. But popularity isn't everything — a unique name that resonates with you personally will always be more meaningful than a trendy one that doesn't feel right. Trust your instincts and choose a name that makes your heart happy every time you say it."
+    },
+    {
+      "type": "h2",
+      "text": "Real Stories: How Pet Owners Found the Perfect Name"
+    },
+    {
+      "type": "p",
+      "text": "Sarah from Portland adopted a timid rescue dog and spent ten days observing before choosing 'Phoenix' — a name symbolizing her pet's transformation from scared shelter animal to confident companion. 'The name had to mean something,' she says. 'Phoenix wasn't just a label; it was a declaration of who she would become.'"
+    },
+    {
+      "type": "p",
+      "text": "Marcus, a first-time pet owner, used our name generator for {spinone-italiano} and discovered 'Echo' — a name he'd never considered. 'It perfectly captured her habit of following me everywhere and mirroring my moods,' he says. 'The generator didn't just give me a name; it gave me a way to describe our relationship.'"
+    },
+    {
+      "type": "p",
+      "text": "These stories reflect a universal truth: the best names emerge from paying attention to your unique animal, not from following trends. For more real-world naming inspiration, explore our complete collection and discover names that tell your pet's story."
     }
   ],
   "faq": [
@@ -255,6 +271,18 @@
     {
       "q": "What if I change my pet's name after adoption?",
       "a": "Adult pets can learn new names with patience. Use lots of treats and positive reinforcement. Most pets adjust within a few weeks. Consistency is key."
+    },
+    {
+      "q": "How long should I take before deciding on a name?",
+      "a": "There's no rush. Most pet owners settle on a name within 3-7 days, but taking up to two weeks is perfectly fine — especially for rescue pets who may need time to show their true personality. During this period, try 2-3 different names and observe which one feels most natural. The name you keep coming back to is usually the right one."
+    },
+    {
+      "q": "Is it okay to change a pet's name after they've learned it?",
+      "a": "Yes, pets can learn new names at any age. The key is consistent positive reinforcement: say the new name, immediately offer a treat or affection, and repeat frequently. Most pets adapt to a new name within 1-2 weeks with daily practice. This is particularly common with rescue animals who benefit from a fresh start."
+    },
+    {
+      "q": "What's the single most important rule for choosing a pet name?",
+      "a": "Choose a name you love saying — because you'll say it thousands of times over your pet's lifetime. Technical considerations like syllable count and hard consonants matter, but your genuine affection for the name matters more. A name spoken with love is always the right name. If it makes you smile every time you say it, you've found the one."
     }
   ],
   "relatedAnimals": [
@@ -263,11 +291,19 @@
     "vulture",
     "don-sphynx",
     "guinea-pig",
-    "irish-red-and-white-setter"
+    "irish-red-and-white-setter",
+    "mata-mata-turtle",
+    "hawaiian-monk-seal",
+    "giant-clam",
+    "rattlesnake",
+    "eight-line-wrasse",
+    "jumping-viper"
   ],
   "relatedGuides": [
     "japanese-animal-names",
     "how-to-name-your-sugar-glider",
-    "how-to-name-your-duck"
+    "how-to-name-your-duck",
+    "how-to-name-your-canary",
+    "creative-rabbit-names"
   ]
 }

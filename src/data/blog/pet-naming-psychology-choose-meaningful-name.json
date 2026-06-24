@@ -67,6 +67,10 @@
       "text": "When you name your pet, you are engaging in what psychologists call 'symbolic interactionism' — the name becomes a symbol that shapes every future interaction. A dog named 'Killer' will be treated differently than a dog named 'Sweetie,' even if their personalities are identical. The name creates expectations, and those expectations subtly influence behavior — both yours and your pet's."
     },
     {
+      "type": "p",
+      "text": "Understanding the psychology behind pet naming can transform a simple decision into a meaningful ritual. Whether you're naming a {dog}, {cat}, {horse}, {rabbit}, or any other companion, the principles remain the same: choose a name that feels right in your mouth, resonates with your heart, and fits your animal's unique character. Psychology research confirms what pet owners have always known — the right name deepens your bond and enriches every interaction."
+    },
+    {
       "type": "h2",
       "text": "How Names Shape Your Bond"
     },
@@ -132,7 +136,7 @@
     },
     {
       "type": "p",
-      "text": "Explore our name generators for {arapaima}, {alligator-gar}, {alpaca-huacaya}, {american-black-bear}, and {arabian-leopard} to find the perfect name for your companion."
+      "text": "Explore our comprehensive collection of animal name generators — including {arapaima}, {alligator-gar}, {alpaca-huacaya}, {american-black-bear}, and {arabian-leopard} to find the perfect name for your companion. Try our specialized tools for {knifefish}, {portuguese-podengo}, {tamandua}, {ox}, {bridled-nailtail-wallaby}, {potto}, {frigatebird}, {paper-wasp}, {saiga-antelope}, {tucuxi}, {numbat}, {pacman-frog}, {elk}, {asian-elephant}, {cheetoh}, and hundreds more at our {{animals}} hub."
     },
     {
       "type": "h2",
@@ -159,6 +163,18 @@
     {
       "q": "Do pets know their names?",
       "a": "Yes, research confirms dogs, cats, and even some birds and rabbits recognize their names as referring to themselves. They learn through repetition and positive association."
+    },
+    {
+      "q": "What's the best way to test if a name fits my pet?",
+      "a": "Try the 'three-day test': use the name exclusively for three days in various situations — calling from another room, during feeding, at the park. If it feels natural and your pet responds well, it's a good fit. Also try the 'backdoor test' — stand outside and call the name loudly. If you feel comfortable shouting it in public, it passes."
+    },
+    {
+      "q": "Are two-syllable names really better for pets?",
+      "a": "Yes, research consistently shows that two-syllable names work best for most pets. They're long enough to be distinct from commands (like 'sit' or 'stay') but short enough for quick recognition. Names like Bella, Max, Luna, and Charlie dominate popularity charts for this reason. Three-syllable names work too, but owners naturally shorten them over time."
+    },
+    {
+      "q": "Can a pet's name influence how others perceive them?",
+      "a": "Absolutely. Studies on name stereotyping show that people form instant impressions based on pet names. A dog named 'Killer' is perceived as more aggressive than one named 'Buddy,' even if their behavior is identical. Names carry social weight — choose one that reflects the impression you want your pet to make at the vet, the park, and with new people."
     }
   ],
   "relatedAnimals": [
@@ -169,12 +185,18 @@
     "blue-tongued-skink",
     "zebra-shark",
     "rainbow-lorikeet",
-    "flounder"
+    "flounder",
+    "patagonian-mara",
+    "devon-rex",
+    "pink-fairy-armadillo",
+    "alpine-salamander"
   ],
   "relatedGuides": [
     "fantasy-cats-names",
     "classic-horse-names",
     "fantasy-pets-names",
-    "how-to-name-your-pufferfish"
+    "how-to-name-your-pufferfish",
+    "how-to-name-your-canary",
+    "fantasy-reptiles-names"
   ]
 }

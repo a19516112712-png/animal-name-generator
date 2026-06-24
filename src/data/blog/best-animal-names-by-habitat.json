@@ -56,7 +56,7 @@
     },
     {
       "type": "p",
-      "text": "Naming your pet is one of the most personal decisions you will make as an animal lover. But what if you could draw inspiration from the wild places where animals actually live? Habitat-inspired names connect your pet to the majestic landscapes of our planet — from the misty rainforests of the Amazon to the frozen tundra of the Arctic. This guide explores the best animal names organized by the world's most iconic habitats."
+      "text": "Naming your pet is one of the most personal decisions you will make as an animal lover. But what if you could draw inspiration from the wild places where animals actually live? Habitat-inspired names connect your pet to the majestic landscapes of our planet — from the misty rainforests of the Amazon to the frozen tundra of the Arctic. This guide explores the best animal names organized by the world's most iconic habitats. For forest-dwelling pets, explore our ['victoria-crowned-pigeon'] and ['waxy-monkey-treefrog'] name generators."
     },
     {
       "type": "h2",
@@ -68,7 +68,7 @@
     },
     {
       "type": "p",
-      "text": "Canopy-inspired names like <strong>Emerald</strong>, <strong>Moss</strong>, <strong>Fern</strong>, and <strong>Sylvan</strong> capture the lush greenery of the forest. For something more exotic, consider <strong>Amazon</strong>, <strong>Congo</strong>, <strong>Borneo</strong>, or <strong>Sequoia</strong> — names that honor the world's great forests. Mythological forest names like <strong>Dryad</strong>, <strong>Sylvanus</strong>, and <strong>Artemis</strong> add a touch of woodland magic."
+      "text": "Canopy-inspired names like <strong>Emerald</strong>, <strong>Moss</strong>, <strong>Fern</strong>, and <strong>Sylvan</strong> capture the lush greenery of the forest. For something more exotic, consider <strong>Amazon</strong>, <strong>Congo</strong>, <strong>Borneo</strong>, or <strong>Sequoia</strong> — names that honor the world's great forests. Mythological forest names like <strong>Dryad</strong>, <strong>Sylvanus</strong>, and <strong>Artemis</strong> add a touch of woodland magic. For forest-dwelling pets, explore our ['korat'] and ['ring-tailed-lemur'] name generators."
     },
     {
       "type": "h2",
@@ -80,7 +80,7 @@
     },
     {
       "type": "p",
-      "text": "Classic ocean names include <strong>Coral</strong>, <strong>Reef</strong>, <strong>Marina</strong>, <strong>Wave</strong>, and <strong>Kai</strong> (Hawaiian for 'sea'). For deep-sea majesty, try <strong>Abyss</strong>, <strong>Nautilus</strong>, <strong>Pelagic</strong>, or <strong>Nereus</strong> (the Old Man of the Sea). Gemstone names like <strong>Pearl</strong>, <strong>Aquamarine</strong>, and <strong>Opal</strong> shimmer with underwater beauty."
+      "text": "Classic ocean names include <strong>Coral</strong>, <strong>Reef</strong>, <strong>Marina</strong>, <strong>Wave</strong>, and <strong>Kai</strong> (Hawaiian for 'sea'). For deep-sea majesty, try <strong>Abyss</strong>, <strong>Nautilus</strong>, <strong>Pelagic</strong>, or <strong>Nereus</strong> (the Old Man of the Sea). Gemstone names like <strong>Pearl</strong>, <strong>Aquamarine</strong>, and <strong>Opal</strong> shimmer with underwater beauty. Browse our marine animal name collections for ['gundi'] and ['giraffe']."
     },
     {
       "type": "h2",
@@ -152,7 +152,7 @@
     },
     {
       "type": "p",
-      "text": "Think about the emotions each habitat evokes. Forest names feel mysterious and ancient. Ocean names feel vast and calming. Desert names feel warm and resilient. Mountain names feel strong and independent. Choose the feeling that best matches your pet's personality, not just their origin."
+      "text": "Think about the emotions each habitat evokes. Forest names feel mysterious and ancient. Ocean names feel vast and calming. Desert names feel warm and resilient. Mountain names feel strong and independent. Choose the feeling that best matches your pet's personality, not just their origin. For forest-dwelling pets, explore our ['parrot'] and ['tiger-shark'] name generators. Browse our marine animal name collections for ['chaco-horned-frog'] and ['murre']."
     },
     {
       "type": "p",
@@ -179,15 +179,36 @@
     {
       "q": "What are the most popular habitat names?",
       "a": "Popular habitat-inspired names include Willow, Forest, Coral, Savannah, Sierra, Sky, River, Sierra, Aurora, and Everest. Nature-based names consistently rank among pet owners' favorites."
+    },
+    {
+      "q": "Which habitat category has the most name options?",
+      "a": "Forest and woodland names offer the richest selection due to the sheer diversity of forest ecosystems. From tree names (Oak, Willow, Cedar) to forest creatures (Fox, Bear, Deer), to atmospheric words (Moss, Fern, Timber) — forest names work for nearly any pet. Ocean names are a close second, with coral reef-inspired names being particularly vibrant and creative."
+    },
+    {
+      "q": "Can habitat names work for indoor pets?",
+      "a": "Absolutely. A cat named 'River' who has never seen a river still carries beautiful imagery. Habitat names are about evoking a feeling or aesthetic, not about literal accuracy. Indoor cats, apartment dogs, and caged birds all wear habitat names beautifully — the name becomes part of their identity independent of their living situation."
+    },
+    {
+      "q": "Are desert-themed names trending?",
+      "a": "Desert names are an emerging trend in 2025-2026, driven by growing interest in arid-adapted pets like leopard geckos, bearded dragons, and certain snake species. Names like Sage, Mesa, Dune, Canyon, and Prickle are gaining popularity. The desert aesthetic — warm, minimalist, and striking — appeals to pet owners seeking distinctive, nature-connected names."
     }
   ],
   "relatedAnimals": [
     "tree-frog",
     "sugar-glider",
     "chameleon",
-    "arctic-fox"
+    "arctic-fox",
+    "anchovy",
+    "flame-scallop",
+    "sea-biscuit",
+    "dugong",
+    "yellow-clown-goby",
+    "eastern-long-necked-turtle"
   ],
   "relatedGuides": [
-    "nature-inspired-animal-names"
+    "nature-inspired-animal-names",
+    "hawaiian-animal-names",
+    "how-to-name-your-pig",
+    "creative-bird-names"
   ]
 }
