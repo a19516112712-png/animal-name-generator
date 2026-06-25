@@ -101,7 +101,17 @@
   ],
   "relatedAnimals": [
     "dog",
-    "cat"
+    "cat",
+    "banded-sea-krait",
+    "ring-necked-pheasant",
+    "samoyed",
+    "colobus-monkey",
+    "sea-nettle",
+    "kiwi"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "how-to-name-your-rabbit",
+    "celestial-animal-names",
+    "how-to-name-your-scorpion"
+  ]
 }

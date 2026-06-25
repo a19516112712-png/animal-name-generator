@@ -193,11 +193,11 @@ export default async function IdeasPage({ params }: Props) {
     "@type": "Article",
     headline: title,
     description: `Find the perfect ${adj.toLowerCase()} name for your ${animal} — ${num}+ handpicked ideas from BestAnimalNames.com.`,
-    author: { "@type": "Organization", name: "Animal Name Generator" },
-    publisher: { "@type": "Organization", name: "Animal Name Generator", url: "https://bestanimalnames.com" },
+    author: { "@type": "Organization", name: "BestAnimalNames Editorial Team", url: "https://bestanimalnames.com/about/" },
+    publisher: { "@type": "Organization", name: "BestAnimalNames", url: "https://bestanimalnames.com" },
     mainEntityOfPage: { "@type": "WebPage", "@id": `https://bestanimalnames.com/ideas/${slug}/` },
     datePublished: "2025-06-01",
-    dateModified: "2025-06-01",
+    dateModified: "2026-06-25",
     inLanguage: "en",
   };
 

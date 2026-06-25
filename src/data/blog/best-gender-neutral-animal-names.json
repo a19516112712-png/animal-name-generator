@@ -119,7 +119,16 @@
   "relatedAnimals": [
     "dog",
     "cat",
-    "rabbit"
+    "rabbit",
+    "beaver",
+    "kookaburra",
+    "hamster",
+    "carpet-python",
+    "gulper-eel"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "how-to-name-your-seahorse",
+    "popular-turtle-names",
+    "how-to-name-your-chicken"
+  ]
 }

@@ -88,7 +88,15 @@
     "tiger",
     "elephant",
     "whale",
-    "panda"
+    "panda",
+    "painted-turtle",
+    "crane",
+    "bichir",
+    "dalmatian-pelican"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "cool-pets-names",
+    "fantasy-cats-names",
+    "fantasy-reptiles-names"
+  ]
 }

@@ -89,7 +89,17 @@
   ],
   "relatedAnimals": [
     "dog",
-    "cat"
+    "cat",
+    "oncilla",
+    "sun-conure",
+    "flamingo",
+    "wallaces-flying-frog",
+    "white-rhino",
+    "himalayan-wolf"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "norse-animal-names",
+    "inuit-animal-names",
+    "unique-birds-names"
+  ]
 }

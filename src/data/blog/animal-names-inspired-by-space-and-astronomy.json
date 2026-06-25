@@ -108,7 +108,16 @@
   "relatedAnimals": [
     "dog",
     "cat",
-    "rabbit"
+    "rabbit",
+    "king-penguin",
+    "hyrax",
+    "silky-terrier",
+    "saltwater-crocodile",
+    "pompeii-worm"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "latin-animal-names",
+    "female-pets-names",
+    "mongolian-animal-names"
+  ]
 }

@@ -98,9 +98,17 @@
   ],
   "relatedAnimals": [
     "dog",
-    "cat"
+    "cat",
+    "alpine-ibex",
+    "glass-sponge",
+    "common-genet",
+    "black-rhino",
+    "green-and-black-poison-frog",
+    "african-grey"
   ],
   "relatedGuides": [
-    "vintage-animal-names"
+    "vintage-animal-names",
+    "latin-animal-names",
+    "female-reptiles-names"
   ]
 }

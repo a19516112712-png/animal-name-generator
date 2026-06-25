@@ -107,7 +107,16 @@
   "relatedAnimals": [
     "dog",
     "cat",
-    "hamster"
+    "hamster",
+    "bumblebee",
+    "sandhill-crane",
+    "james-flamingo",
+    "indian-peafowl",
+    "eastern-chipmunk"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "southern-animal-names",
+    "popular-rabbit-names",
+    "baby-dogs-names"
+  ]
 }

@@ -129,7 +129,15 @@
     "hamster",
     "guinea-pig",
     "gerbil",
-    "chinchilla"
+    "chinchilla",
+    "bushmaster",
+    "painted-turtle",
+    "demoiselle-crane",
+    "orca"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "classic-snake-names",
+    "welsh-animal-names",
+    "cajun-animal-names"
+  ]
 }

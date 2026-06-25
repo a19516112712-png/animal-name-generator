@@ -91,7 +91,16 @@
   "relatedAnimals": [
     "lion",
     "wolf",
-    "eagle"
+    "eagle",
+    "dalmatian",
+    "arabian-wolf",
+    "common-dunnart",
+    "scorpionfish",
+    "sand-octopus"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "finnish-animal-names",
+    "creative-turtle-names",
+    "female-cats-names"
+  ]
 }

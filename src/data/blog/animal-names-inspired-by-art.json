@@ -89,7 +89,17 @@
   ],
   "relatedAnimals": [
     "dog",
-    "cat"
+    "cat",
+    "kangaroo",
+    "marlin",
+    "boxfish",
+    "guinea-fowl",
+    "baboon",
+    "canada-goose"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "native-american-animal-names",
+    "mythological-animal-names",
+    "cool-birds-names"
+  ]
 }

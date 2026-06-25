@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Animal Name Generator",
+  name: "BestAnimalNames",
   url: "https://bestanimalnames.com",
   description: "Free animal name generator with 989+ animals. Browse thousands of name ideas across 9 categories.",
   potentialAction: {

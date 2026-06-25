@@ -115,7 +115,16 @@
   "relatedAnimals": [
     "lion",
     "wolf",
-    "bear"
+    "bear",
+    "olm",
+    "fishing-cat",
+    "hawaiian-monk-seal",
+    "hyrax",
+    "octopus"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "funny-pets-names",
+    "how-to-name-your-crab",
+    "how-to-name-your-sugar-glider"
+  ]
 }

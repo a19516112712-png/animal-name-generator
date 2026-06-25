@@ -116,7 +116,15 @@
     "dog",
     "cat",
     "rabbit",
-    "hamster"
+    "hamster",
+    "albatross",
+    "pig",
+    "cuban-crocodile",
+    "mossy-frog"
   ],
-  "relatedGuides": []
+  "relatedGuides": [
+    "how-to-name-your-snake",
+    "how-to-name-your-budgie",
+    "cute-pets-names"
+  ]
 }

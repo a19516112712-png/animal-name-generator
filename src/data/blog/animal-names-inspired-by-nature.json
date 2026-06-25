@@ -107,9 +107,16 @@
   "relatedAnimals": [
     "dog",
     "cat",
-    "rabbit"
+    "rabbit",
+    "cockroach",
+    "caribbean-flamingo",
+    "wallaby",
+    "nightingale",
+    "hyrax"
   ],
   "relatedGuides": [
-    "nature-inspired-animal-names"
+    "nature-inspired-animal-names",
+    "best-dog-names",
+    "trending-dog-names"
   ]
 }
