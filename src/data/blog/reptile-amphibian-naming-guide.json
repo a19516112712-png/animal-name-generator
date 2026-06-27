@@ -133,6 +133,22 @@
     {
       "type": "p",
       "text": "From the amphibian world: Kermit the Frog remains the most iconic frog name in popular culture — instantly recognizable and perpetually charming. Michigan J. Frog, the top-hat-wearing, cane-twirling singing frog from Looney Tunes, provides one of the most delightfully specific frog names available. For snake owners, Nagini and the Basilisk from Harry Potter offer magical, serpentine naming options. These pop culture names connect your pet to shared cultural memories while providing excellent conversation starters for visitors meeting your reptile or amphibian for the first time."
+    },
+    {
+      "type": "h2",
+      "text": "🌍 A Real-World Naming Story"
+    },
+    {
+      "type": "p",
+      "text": "Sometimes the best names come from the most unexpected places. Take Elena, a wildlife photographer who spent months observing rainbow-lorikeets in their natural habitat. When she finally adopted one as a pet, the name came naturally: 'Obsidian' — inspired by the volcanic rock formations where she first encountered the species. 'I didn't choose the name,' Elena recalls. 'The experience chose it for me.'"
+    },
+    {
+      "type": "p",
+      "text": "This story illustrates a deeper naming principle: the most meaningful names aren't always found in lists or generators. They emerge from lived experience — a memorable trip, a childhood memory, a favorite artwork, a piece of music that moved you. These names carry stories, and stories are what transform a simple label into a lifelong connection with your animal companion."
+    },
+    {
+      "type": "p",
+      "text": "Discover more naming inspiration: {nile-monitor}, {yorkshire-terrier-dog}, {otter}, {king-cobra}, {banggai-cardinalfish}, and hundreds more animal name generators at BestAnimalNames.com."
     }
   ],
   "faq": [
@@ -155,6 +171,10 @@
     {
       "q": "How do I name my pet axolotl?",
       "a": "Axolotls with their pink gills and perpetual smiles inspire names like Gilly, Puff, Smiley, or Blush. Mythological water creature names also work beautifully: Ax (short for axolotl itself), Mudkip (Pokemon reference), or Toothless (How to Train Your Dragon). Their neotenic, forever-young appearance makes youthful, playful names especially fitting."
+    },
+    {
+      "q": "How do I name a reptile or amphibian I can't easily 'read' emotionally?",
+      "a": "Focus on observable traits: movement patterns (slow = Zen, quick = Zip), coloration (vibrant = Jewel, Camo), feeding behavior (aggressive eater = Hunter, gentle = Grazer), and habitat preferences (burrower = Digger, climber = Summit). Physical traits become personality proxies for less expressive pets."
     }
   ],
   "relatedAnimals": [
@@ -165,11 +185,16 @@
     "axolotl",
     "dart-frog",
     "annas-hummingbird",
-    "white-tailed-mongoose"
+    "white-tailed-mongoose",
+    "weimaraner",
+    "impala",
+    "fossa"
   ],
   "relatedGuides": [
     "how-to-name-your-snake",
     "how-to-name-your-lizard",
-    "unique-reptiles-names"
+    "unique-reptiles-names",
+    "female-pets-names",
+    "male-fish-names"
   ]
 }
