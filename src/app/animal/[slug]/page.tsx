@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { loadAnimalData, loadIndex, loadPopularAnimals, NAME_TYPES } from "@/lib/data";
+import { getPageTitle, getPageIntro, getMetaDescription } from "@/lib/titleVariants";
 import AdSlot from "@/components/AdSlot";
+import InteractiveNamePicker from "@/components/InteractiveNamePicker";
 import type { AnimalData, AnimalIndex } from "@/lib/data";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -12,20 +14,17 @@ export async function generateStaticParams() {
 
 export const dynamicParams = true;
 
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const data = loadAnimalData(slug);
   if (!data) return { title: "Animal Not Found" };
+  const title = getPageTitle(slug, data.displayName, data.icon);
+  const description = getMetaDescription(slug, data.displayName);
   return {
-    title: data.seoTitle,
-    description: data.seoDescription,
-    openGraph: {
-      title: data.seoTitle,
-      description: data.seoDescription,
-      type: "website",
-    },
-    twitter: { card: "summary_large_image", title: data.seoTitle, description: data.seoDescription },
+    title,
+    description,
+    openGraph: { title, description, type: "website" },
+    twitter: { card: "summary_large_image", title, description },
     alternates: { canonical: `https://bestanimalnames.com/animal/${slug}/` },
     other: {
       "pinterest-rich-pin": "true",
@@ -57,7 +56,6 @@ export default async function AnimalPage({ params }: Props) {
   const { slug } = await params;
   const data = loadAnimalData(slug);
   const allAnimals = loadIndex();
-  const popular = loadPopularAnimals().slice(0, 10);
 
   if (!data) {
     return (
@@ -67,6 +65,26 @@ export default async function AnimalPage({ params }: Props) {
       </div>
     );
   }
+
+  const pageTitle = getPageTitle(slug, data.displayName, data.icon);
+  const pageIntro = getPageIntro(slug, data.displayName, data.icon);
+
+  // Flatten all names and build category groups for the interactive picker
+  const allNames: string[] = [
+    ...data.maleNames, ...data.femaleNames, ...data.cuteNames, ...data.funnyNames,
+    ...data.fantasyNames, ...data.uniqueNames, ...data.coolNames, ...data.babyNames,
+  ];
+
+  const pickerCategories = [
+    { key: "male", label: "♂️ Male", names: data.maleNames },
+    { key: "female", label: "♀️ Female", names: data.femaleNames },
+    { key: "cute", label: "💕 Cute", names: data.cuteNames },
+    { key: "funny", label: "😂 Funny", names: data.funnyNames },
+    { key: "unique", label: "🌟 Unique", names: data.uniqueNames },
+    { key: "cool", label: "😎 Cool", names: data.coolNames },
+    { key: "fantasy", label: "🧙 Fantasy", names: data.fantasyNames },
+    { key: "baby", label: "🍼 Baby", names: data.babyNames },
+  ];
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -111,175 +129,138 @@ export default async function AnimalPage({ params }: Props) {
         <Link href="/animals/" className="hover:text-primary">All Animals</Link>
         <span>/</span>
         <span className="text-gray-800 font-medium">{data.displayName} Names</span>
-
-        {/* Facts CTA */}
-        <div className="max-w-7xl mx-auto px-4 -mt-2 mb-8">
-          <Link href={`/animal/${slug}/facts/`} className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-full px-5 py-2.5 text-amber-800 font-semibold text-sm hover:bg-amber-100 transition-colors">
-            💡 Learn Facts About {data.displayName}s →
-          </Link>
-        </div>
       </nav>
+
+      {/* Facts CTA */}
+      <div className="max-w-7xl mx-auto px-4 -mt-2 mb-8">
+        <Link href={`/animal/${slug}/facts/`} className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-full px-5 py-2.5 text-amber-800 font-semibold text-sm hover:bg-amber-100 transition-colors">
+          💡 Learn Facts About {data.displayName}s →
+        </Link>
+      </div>
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary to-indigo-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 md:py-20 text-center">
-          <div className="text-6xl mb-4">{data.icon}</div>
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">{data.displayName} Name Generator</h1>
-          <p className="text-lg text-indigo-100 max-w-2xl mx-auto">{data.description}</p>
-          <p className="text-sm text-indigo-200 mt-3">160 hand-picked name ideas across 8 categories — all free!</p>
+        <div className="max-w-7xl mx-auto px-4 py-10 md:py-14 text-center">
+          <p className="text-indigo-200 text-sm mb-2">{data.icon} {data.displayName} Name Generator</p>
+          <h1 className="text-3xl md:text-5xl font-extrabold mb-4">{pageTitle}</h1>
+          <p className="text-indigo-100 text-lg max-w-3xl mx-auto">{pageIntro}</p>
         </div>
       </section>
 
-      <AdSlot position="hero" />
+      {/* ─── INTERACTIVE NAME PICKER (Above the Fold) ─── */}
+      <section className="max-w-3xl mx-auto px-4 -mt-6 relative z-10 mb-10">
+        <InteractiveNamePicker
+          allNames={allNames}
+          animalName={data.displayName}
+          icon={data.icon}
+          categories={pickerCategories}
+        />
+      </section>
 
-      {/* Name Sections */}
-      <div className="max-w-7xl mx-auto px-4 py-10 space-y-5">
-        {nameSections.map((sec) => (
-          <section key={sec.key} className={`rounded-2xl p-6 ${sec.bg}`}>
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-2xl font-bold flex items-center gap-2">
-                {sec.emoji} {data.displayName} {sec.label}
-              </h2>
-              <Link
-                href={`/${sec.key}-${slug}-names/`}
-                className="text-sm font-semibold text-primary hover:underline whitespace-nowrap"
-              >
-                View all →
-              </Link>
+      {/* Name Category Sections */}
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <AdSlot position="hero" />
+        <div className="space-y-8">
+          {nameSections.map((section) => (
+            <div key={section.key} id={section.key}>
+              <div className={`${section.bg} rounded-2xl p-6 shadow-sm border border-gray-100`}>
+                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                  {section.emoji} {section.label} for {data.displayName}s
+                </h2>
+                <NameGrid names={section.names} />
+              </div>
             </div>
-            <NameGrid names={sec.names} />
-          </section>
-        ))}
-      </div>
+          ))}
+        </div>
+        <AdSlot position="content" />
+      </section>
 
-      <AdSlot position="content" />
+      {/* FAQ Section */}
+      {data.faq && data.faq.length > 0 && (
+        <section className="max-w-3xl mx-auto px-4 py-12">
+          <h2 className="text-2xl font-bold text-center mb-8">
+            ❓ Frequently Asked Questions About {data.displayName} Names
+          </h2>
+          <div className="space-y-3">
+            {data.faq.map((item, idx) => (
+              <details key={idx} className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 group">
+                <summary className="font-semibold text-gray-800 cursor-pointer group-open:text-primary">
+                  {item.q}
+                </summary>
+                <p className="mt-3 text-gray-600 leading-relaxed">{item.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Naming Guide */}
-      <section className="max-w-4xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-center mb-8">📖 {data.displayName} Naming Guide</h2>
-        <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-          <ul className="space-y-3">
-            {data.namingGuide.map((tip, idx) => (
-              <li key={idx} className="flex gap-3 text-gray-700">
-                <span className="text-primary font-bold text-lg">0{idx + 1}</span>
-                <span>{tip}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      {data.namingGuide && data.namingGuide.length > 0 && (
+        <section className="max-w-3xl mx-auto px-4 py-12">
+          <h2 className="text-2xl font-bold text-center mb-8">📖 {data.displayName} Naming Guide</h2>
+          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+            <ul className="space-y-3">
+              {data.namingGuide.map((tip, idx) => (
+                <li key={idx} className="flex gap-3 text-gray-700">
+                  <span className="text-primary font-bold text-lg">0{idx + 1}</span>
+                  <span>{tip}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
-      {/* Category Links */}
-      <section className="max-w-7xl mx-auto px-4 py-10">
-        <h2 className="text-2xl font-bold text-center mb-6">🔗 {data.displayName} Name Categories</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {NAME_TYPES.map((nt) => (
-            <Link
-              key={nt.key}
-              href={`/${nt.key === "names" ? `${slug}-names` : `${nt.key}-${slug}-names`}/`}
-              className="bg-white rounded-lg px-4 py-3 text-center font-medium text-gray-700 border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all"
-            >
-              {nt.emoji} {nt.label}
-            </Link>
-          ))}
-        </div>
-      </section>
+      {/* Category Links + Related + Letter/Length nav */}
+      <section className="max-w-7xl mx-auto px-4 py-10 space-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Other Name Categories */}
+          <div>
+            <h2 className="text-2xl font-bold text-center mb-6">🔗 {data.displayName} Name Categories</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {NAME_TYPES.map((nt) => (
+                <Link
+                  key={nt.key}
+                  href={`/${nt.key === "names" ? `${slug}-names` : `${nt.key}-${slug}-names`}/`}
+                  className="bg-white rounded-lg px-4 py-3 text-center text-sm font-medium text-gray-700 hover:border-primary hover:text-primary transition-all"
+                >
+                  {nt.emoji} {data.displayName} {nt.label}
+                </Link>
+              ))}
+            </div>
+          </div>
 
-      {/* FAQ */}
-      <section className="max-w-4xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-center mb-8">❓ {data.displayName} Name FAQ</h2>
-        <div className="space-y-3">
-          {data.faq.map((item, idx) => (
-            <details key={idx} className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 group">
-              <summary className="font-semibold cursor-pointer group-open:text-primary list-none">{item.q}</summary>
-              <p className="mt-3 text-gray-600 leading-relaxed">{item.a}</p>
-            </details>
-          ))}
-        </div>
-      </section>
-
-      <AdSlot position="faq" />
-
-      {/* About / SEO */}
-      <section className="bg-white py-12 border-t border-gray-100">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-4">About {data.displayName} Names {data.icon}</h2>
-          <div className="text-gray-600 space-y-3 leading-relaxed">
-            <p>
-              Welcome to the ultimate <strong>{data.displayName} Name Generator</strong> — your one-stop
-              destination for finding the perfect {data.displayName.toLowerCase()} name. We have curated
-              160 unique name ideas across 8 categories including male, female, cute, funny, fantasy,
-              unique, cool, and baby names. Whether you are naming a pet, a fictional character, or just
-              exploring for fun, our generator has you covered.
-            </p>
-            <p>
-              Our {data.displayName.toLowerCase()} names are carefully selected from diverse sources —
-              mythology, pop culture, nature, and pure creative imagination. Each category offers 20
-              hand-picked names that reflect different personality traits and characteristics.
-            </p>
-            <p>
-              <strong>Why use our {data.displayName} Name Generator?</strong> It is 100% free, requires
-              no registration, and provides instant results. You can browse all categories on a single
-              page or dive deeper into specific name types through our dedicated category pages.
-              Bookmark us and come back anytime you need fresh name inspiration!
-            </p>
+          {/* Popular Animals */}
+          <div>
+            <h2 className="text-2xl font-bold text-center mb-6">⭐ Popular Animals</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+              {getRelated(allAnimals, slug, 10).map((a) => (
+                <Link
+                  key={a.slug}
+                  href={`/animal/${a.slug}/`}
+                  className="bg-white rounded-xl p-3 text-center border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group"
+                >
+                  <div className="text-2xl mb-1">{a.icon}</div>
+                  <div className="text-xs font-semibold text-gray-700 group-hover:text-primary truncate">{a.name}</div>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      <AdSlot position="footer" />
-
-      {/* Internal Links */}
-      <section className="max-w-7xl mx-auto px-4 py-12 space-y-12">
-        {/* Related Categories */}
-        <div>
-          <h2 className="text-2xl font-bold text-center mb-6">🔗 Related {data.displayName} Categories</h2>
-          <div className="flex flex-wrap justify-center gap-3">
-            {NAME_TYPES.slice(1).map((nt) => (
-              <Link
-                key={nt.key}
-                href={`/${nt.key}-${slug}-names/`}
-                className="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium text-gray-700 hover:border-primary hover:text-primary transition-all"
-              >
-                {nt.emoji} {data.displayName} {nt.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        {/* Popular Animals */}
-        <div>
-          <h2 className="text-2xl font-bold text-center mb-6">⭐ Popular Animals</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-            {getRelated(allAnimals, slug, 10).map((a) => (
-              <Link
-                key={a.slug}
-                href={`/animal/${a.slug}/`}
-                className="bg-white rounded-xl p-3 text-center border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group"
-              >
-                <div className="text-2xl mb-1">{a.icon}</div>
-                <div className="text-xs font-semibold text-gray-700 group-hover:text-primary truncate">{a.name}</div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Browse Names by Letter */}
-      <section className="max-w-4xl mx-auto px-4 py-8">
+      {/* Browse by Letter */}
+      <section className="max-w-4xl mx-auto px-4 py-6">
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
           <h2 className="text-xl font-bold mb-4">🔤 Browse {data.displayName} Names by Letter</h2>
           <p className="text-gray-600 text-sm mb-4">
-            Looking for {data.displayName.toLowerCase()} names that start with a specific letter? 
+            Looking for {data.displayName.toLowerCase()} names that start with a specific letter?
             Browse our complete A-Z collection:
           </p>
           <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-cols-13 gap-1.5">
             {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => (
-              <Link
-                key={l}
-                href={`/startswith/${l}/${slug}/`}
-                className="bg-gray-50 hover:bg-primary/10 rounded-lg py-2 text-center text-sm font-bold text-gray-700 hover:text-primary transition-colors"
-              >
+              <Link key={l} href={`/startswith/${l}/${slug}/`}
+                className="bg-gray-50 hover:bg-primary/10 rounded-lg py-2 text-center text-sm font-bold text-gray-700 hover:text-primary transition-colors">
                 {l}
               </Link>
             ))}
@@ -287,63 +268,17 @@ export default async function AnimalPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Browse Names by Length */}
-      <section className="max-w-4xl mx-auto px-4 py-8">
+      {/* Browse by Length */}
+      <section className="max-w-4xl mx-auto px-4 py-6 mb-12">
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
           <h2 className="text-xl font-bold mb-4">📏 Browse {data.displayName} Names by Length</h2>
           <p className="text-gray-600 text-sm mb-4">
-            Prefer {data.displayName.toLowerCase()} names of a specific length? Find short and sweet or longer distinctive names:
+            Prefer names of a specific length? Find short and sweet or longer distinctive names:
           </p>
           <div className="flex flex-wrap gap-2">
             {[3,4,5,6,7,8,9,10].map(n => (
-              <Link
-                key={n}
-                href={`/length/${n}/${slug}/`}
-                className="bg-gray-50 hover:bg-emerald-50 rounded-lg px-4 py-2 text-center text-sm font-semibold text-gray-700 hover:text-emerald-700 transition-colors"
-              >
-                {n} Letters
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Browse Names by Letter */}
-      <section className="max-w-4xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h2 className="text-xl font-bold mb-4">🔤 Browse {data.displayName} Names by Letter</h2>
-          <p className="text-gray-600 text-sm mb-4">
-            Looking for {data.displayName.toLowerCase()} names that start with a specific letter? 
-            Browse our complete A-Z collection:
-          </p>
-          <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-cols-13 gap-1.5">
-            {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => (
-              <Link
-                key={l}
-                href={`/startswith/${l}/${slug}/`}
-                className="bg-gray-50 hover:bg-primary/10 rounded-lg py-2 text-center text-sm font-bold text-gray-700 hover:text-primary transition-colors"
-              >
-                {l}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Browse Names by Length */}
-      <section className="max-w-4xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h2 className="text-xl font-bold mb-4">📏 Browse {data.displayName} Names by Length</h2>
-          <p className="text-gray-600 text-sm mb-4">
-            Prefer {data.displayName.toLowerCase()} names of a specific length? Find short and sweet or longer distinctive names:
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {[3,4,5,6,7,8,9,10].map(n => (
-              <Link
-                key={n}
-                href={`/length/${n}/${slug}/`}
-                className="bg-gray-50 hover:bg-emerald-50 rounded-lg px-4 py-2 text-center text-sm font-semibold text-gray-700 hover:text-emerald-700 transition-colors"
-              >
+              <Link key={n} href={`/length/${n}/${slug}/`}
+                className="bg-gray-50 hover:bg-emerald-50 rounded-lg px-4 py-2 text-center text-sm font-semibold text-gray-700 hover:text-emerald-700 transition-colors">
                 {n} Letters
               </Link>
             ))}
