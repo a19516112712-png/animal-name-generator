@@ -22,7 +22,6 @@ export const metadata: Metadata = {
     description: "Free animal name generator. Male, female, cute, funny, fantasy names for 989+ animals.",
   },
   robots: "index, follow",
-  alternates: { canonical: "https://bestanimalnames.com" },
   manifest: "/manifest.json",
   other: {
     "p:domain_verify": "acc18c9aa2855ead49c874b6cac9cb61",
