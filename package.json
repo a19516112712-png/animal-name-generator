@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "node scripts/generate-sitemap.mjs && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "indexnow": "node scripts/submit-indexnow.mjs",
+    "indexnow:dry": "node scripts/submit-indexnow.mjs --dry",
+    "indexnow:recent": "node scripts/submit-indexnow.mjs --recent",
+    "postbuild": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.7",
