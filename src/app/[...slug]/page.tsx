@@ -145,13 +145,13 @@ export default async function NameTypePage({ params }: Props) {
       <section className="bg-gradient-to-br from-primary to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 py-10 md:py-14 text-center">
           <p className="text-indigo-200 text-sm mb-2">{data.icon} {data.displayName} {nameType.label}</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">{pageTitle}</h1>
-          <p className="text-indigo-100 max-w-2xl mx-auto">{pageIntro}</p>
+          <h1 className="text-3xl md:text-5xl font-extrabold mb-4">{pageTitle}</h1>
+          <p className="text-indigo-100 text-lg max-w-3xl mx-auto">{pageIntro}</p>
         </div>
       </section>
 
-      {/* Interactive Picker */}
-      <section className="max-w-7xl mx-auto px-4 py-6">
+      {/* ─── INTERACTIVE NAME PICKER ─── */}
+      <section className="max-w-3xl mx-auto px-4 -mt-6 relative z-10 mb-10">
         <InteractiveNamePicker
           allNames={pickerNames}
           animalName={data.displayName}
