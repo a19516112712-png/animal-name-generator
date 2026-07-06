@@ -1,5 +1,4 @@
-import fs from "fs";
-import path from "path";
+import { BUNDLED_DATA } from "@/data/bundled";
 
 export interface AnimalData {
   slug: string;
@@ -52,20 +51,21 @@ export const NAME_TYPES: NameType[] = [
   { key: "baby", label: "Baby Names", emoji: "🍼", seoTitleSuffix: "Baby Name Generator", seoDescPrefix: "Tiny and precious", field: "babyNames" },
 ];
 
-const DATA_DIR = path.join(process.cwd(), "src/data/animals");
+function slugToKey(slug: string): string {
+  return `animals_${slug}`;
+}
 
 export function loadAnimalData(slug: string): AnimalData | null {
-  try {
-    const fp = path.join(DATA_DIR, `${slug}.json`);
-    return JSON.parse(fs.readFileSync(fp, "utf-8")) as AnimalData;
-  } catch {
-    return null;
-  }
+  const key = slugToKey(slug);
+  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
+  if (!data) return null;
+  return data as AnimalData;
 }
 
 export function loadIndex(): AnimalIndex[] {
-  const fp = path.join(DATA_DIR, "index.json");
-  return JSON.parse(fs.readFileSync(fp, "utf-8")) as AnimalIndex[];
+  const data = (BUNDLED_DATA as Record<string, unknown>)["animals_index"];
+  if (!data) return [];
+  return data as AnimalIndex[];
 }
 
 export function loadPopularAnimals(): AnimalIndex[] {
@@ -87,7 +87,7 @@ export function loadPopularAnimals(): AnimalIndex[] {
 export function parseNameTypeSlug(slugSegments: string[]): { animalSlug: string; nameType: NameType } | null {
   const fullPath = slugSegments.join("/");
   const allAnimals = loadIndex();
-  
+
   for (const animal of allAnimals) {
     for (const nt of NAME_TYPES) {
       const pattern = nt.key === "names"
@@ -126,8 +126,9 @@ export interface CategoryData {
 }
 
 export function loadCategories(): CategoryData[] {
-  const fp = path.join(process.cwd(), "src/data/categories/index.json");
-  return JSON.parse(fs.readFileSync(fp, "utf-8")) as CategoryData[];
+  const data = (BUNDLED_DATA as Record<string, unknown>)["categories_index"];
+  if (!data) return [];
+  return data as CategoryData[];
 }
 
 export function loadCategory(slug: string): CategoryData | null {
@@ -151,18 +152,21 @@ export interface FactData {
   seoDescription: string;
 }
 
+function factSlugToKey(slug: string): string {
+  return `facts_${slug}`;
+}
+
 export function loadFactData(slug: string): FactData | null {
-  try {
-    const fp = path.join(process.cwd(), "src/data/facts", `${slug}.json`);
-    return JSON.parse(fs.readFileSync(fp, "utf-8")) as FactData;
-  } catch {
-    return null;
-  }
+  const key = factSlugToKey(slug);
+  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
+  if (!data) return null;
+  return data as FactData;
 }
 
 export function loadFactIndex(): { slug: string; displayName: string; icon: string }[] {
-  const fp = path.join(process.cwd(), "src/data/facts/index.json");
-  return JSON.parse(fs.readFileSync(fp, "utf-8"));
+  const data = (BUNDLED_DATA as Record<string, unknown>)["facts_index"];
+  if (!data) return [];
+  return data as { slug: string; displayName: string; icon: string }[];
 }
 
 export interface GuideData {
@@ -175,13 +179,14 @@ export interface GuideData {
 }
 
 export function loadGuides(): GuideData[] {
-  const fp = path.join(process.cwd(), "src/data/guides/index.json");
-  return JSON.parse(fs.readFileSync(fp, "utf-8"));
+  const data = (BUNDLED_DATA as Record<string, unknown>)["guides_index"];
+  if (!data) return [];
+  return data as GuideData[];
 }
 
 export function loadGuide(slug: string): GuideData | null {
-  try {
-    const fp = path.join(process.cwd(), "src/data/guides", `${slug}.json`);
-    return JSON.parse(fs.readFileSync(fp, "utf-8")) as GuideData;
-  } catch { return null; }
+  const key = `guides_${slug}`;
+  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
+  if (!data) return null;
+  return data as GuideData;
 }
