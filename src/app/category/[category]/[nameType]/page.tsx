@@ -7,7 +7,7 @@ import AdSlot from "@/components/AdSlot";
 type Props = { params: Promise<{ category: string; nameType: string }> };
 
 export async function generateStaticParams() {
-  const cats = loadCategories();
+  const cats = await loadCategories();
   const params: { category: string; nameType: string }[] = [];
   for (const c of cats) {
     for (const nt of NAME_TYPES) {
@@ -22,7 +22,7 @@ export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, nameType } = await params;
-  const data = loadCategory(category);
+  const data = await loadCategory(category);
   const nt = NAME_TYPES.find((n) => n.key === nameType);
   if (!data || !nt) return { title: "Page Not Found" };
   return {
@@ -43,11 +43,11 @@ const NAME_FIELDS: Record<string, string> = {
 
 export default async function CategoryNameTypePage({ params }: Props) {
   const { category, nameType } = await params;
-  const data = loadCategory(category);
+  const data = await loadCategory(category);
   const nt = NAME_TYPES.find((n) => n.key === nameType);
   if (!data || !nt) notFound();
 
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
   const animalMap = new Map(allAnimals.map((a) => [a.slug, a]));
   const categoryAnimals = data.animals
     .map((s) => animalMap.get(s))
@@ -57,7 +57,7 @@ export default async function CategoryNameTypePage({ params }: Props) {
   const allNames: { name: string; animal: string; icon: string; slug: string }[] = [];
   
   for (const a of categoryAnimals) {
-    const ad = loadAnimalData(a.slug);
+    const ad = await loadAnimalData(a.slug);
     if (!ad) continue;
     const names = (ad as any)[field] as string[] || [];
     names.slice(0, 10).forEach((n) => {

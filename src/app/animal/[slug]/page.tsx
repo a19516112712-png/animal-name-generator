@@ -9,14 +9,14 @@ import type { AnimalData, AnimalIndex } from "@/lib/data";
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  return loadIndex().slice(0, 30).map((a) => ({ slug: a.slug }));
+  return (await loadIndex()).slice(0, 30).map((a) => ({ slug: a.slug }));
 }
 
 export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const data = loadAnimalData(slug);
+  const data = await loadAnimalData(slug);
   if (!data) return { title: "Animal Not Found" };
   const title = getPageTitle(slug, data.displayName, data.icon);
   const description = getMetaDescription(slug, data.displayName);
@@ -54,8 +54,8 @@ function getRelated(all: AnimalIndex[], current: string, count: number): AnimalI
 
 export default async function AnimalPage({ params }: Props) {
   const { slug } = await params;
-  const data = loadAnimalData(slug);
-  const allAnimals = loadIndex();
+  const data = await loadAnimalData(slug);
+  const allAnimals = await loadIndex();
 
   if (!data) {
     return (

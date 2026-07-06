@@ -331,8 +331,8 @@ const NAME_FIELDS: (keyof AnimalData)[] = [
   "fantasyNames", "uniqueNames", "coolNames", "babyNames",
 ];
 
-export function generateStaticParams() {
-  const animals = loadIndex();
+export async function generateStaticParams() {
+  const animals = await loadIndex();
   const animalSet = new Set(PRIORITY_ANIMALS);
   const priorityAnimals = animals.filter(a => animalSet.has(a.slug));
   
@@ -369,7 +369,7 @@ function getNamesByLength(data: AnimalData, length: number): string[] {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { num, animal } = await params;
   const length = parseInt(num, 10);
-  const data = loadAnimalData(animal);
+  const data = await loadAnimalData(animal);
   if (!data) return { title: "Not Found" };
   
   const title = `${length} Letter ${data.displayName} Names — ${data.icon}`;
@@ -390,11 +390,11 @@ export default async function LengthPage({ params }: Props) {
   
   if (!VALID_LENGTHS.includes(length)) notFound();
   
-  const data = loadAnimalData(animal);
+  const data = await loadAnimalData(animal);
   if (!data) notFound();
   
   const names = getNamesByLength(data, length);
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
   
   return (
     <>

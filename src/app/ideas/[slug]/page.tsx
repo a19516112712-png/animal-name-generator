@@ -1,13 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { loadIndex, loadAnimalData, type AnimalData } from "@/lib/data";
-import { BUNDLED_DATA } from "@/data/bundled";
+import { loadIndex, loadAnimalData, loadAllIdeas, type AnimalData } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
-
-
-
-
 
 interface IdeaIndexItem {
   slug: string;
@@ -16,36 +11,13 @@ interface IdeaIndexItem {
   number?: string;
 }
 
-function loadAllIdeas(): IdeaIndexItem[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["ideas_index"];
-  if (!data) return [];
-  return data as IdeaIndexItem[];
-}
-function findIdeaBySlug(slug: string): IdeaIndexItem | null {
-  return loadAllIdeas().find(i => i.slug === slug) || null;
-}
-
-function getRelatedIdeas(currentSlug: string, count: number = 8): IdeaIndexItem[] {
-  const all = loadAllIdeas();
-  const current = findIdeaBySlug(currentSlug);
-  const currentAnimal = current?.animal || slugToAnimal(currentSlug);
-  return all
-    .filter(i => {
-      if (i.slug === currentSlug) return false;
-      const iAnimal = i.animal || slugToAnimal(i.slug);
-      return iAnimal === currentAnimal;
-    })
-    .sort(() => Math.random() - 0.5)
-    .slice(0, count);
-}
-
 type Props = { params: Promise<{ slug: string }> };
 
 export const dynamicParams = true;
 export const revalidate = 86400;
 
 export async function generateStaticParams() {
-  const ideas = loadAllIdeas();
+  const ideas = await loadAllIdeas();
   return ideas.map((idea) => ({ slug: idea.slug }));
 }
 
@@ -109,6 +81,24 @@ function generateNamingTips(title: string, animal: string, adj: string): string[
   ];
 }
 
+async function findIdeaBySlug(allIdeas: IdeaIndexItem[], slug: string): Promise<IdeaIndexItem | null> {
+  return allIdeas.find(i => i.slug === slug) || null;
+}
+
+async function getRelatedIdeas(currentSlug: string, count: number = 8): Promise<IdeaIndexItem[]> {
+  const all = await loadAllIdeas();
+  const current = await findIdeaBySlug(all, currentSlug);
+  const currentAnimal = current?.animal || slugToAnimal(currentSlug);
+  return all
+    .filter(i => {
+      if (i.slug === currentSlug) return false;
+      const iAnimal = i.animal || slugToAnimal(i.slug);
+      return iAnimal === currentAnimal;
+    })
+    .sort(() => Math.random() - 0.5)
+    .slice(0, count);
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const title = slugToTitle(slug);
@@ -132,13 +122,12 @@ export default async function IdeasPage({ params }: Props) {
   const adj = slugToAdjective(slug);
   const num = slugToNum(slug);
 
-  const animalData = loadAnimalData(animal);
+  const animalData = await loadAnimalData(animal);
   const nameField = mapAdjToNameField(adj);
   
   let sampleNames: string[] = [];
   if (animalData) {
     const names = animalData[nameField] as string[] || [];
-    // Get up to 20 names, if fewer than 20, supplement from other categories
     sampleNames = names.slice(0, 20);
     if (sampleNames.length < 20) {
       const allCategories: (keyof AnimalData)[] = ["maleNames", "femaleNames", "cuteNames", "funnyNames", "fantasyNames", "uniqueNames", "coolNames", "babyNames"];
@@ -151,7 +140,7 @@ export default async function IdeasPage({ params }: Props) {
     }
   }
 
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
   const categoryLink = getAnimalCategoryLink(animal);
   const namingTips = generateNamingTips(title, animal, adj);
   const animalIcon = animalData?.icon || "🐾";
@@ -167,7 +156,7 @@ export default async function IdeasPage({ params }: Props) {
     .sort(() => Math.random() - 0.5)
     .slice(0, 6);
 
-  const relatedIdeas = getRelatedIdeas(slug, 8);
+  const relatedIdeas = await getRelatedIdeas(slug, 8);
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -219,32 +208,32 @@ export default async function IdeasPage({ params }: Props) {
       {itemListSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />}
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       
-      <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap">
-        <Link href="/" className="hover:text-primary">Home</Link><span>/</span>
-        <Link href={categoryLink} className="hover:text-primary">{animal.charAt(0).toUpperCase() + animal.slice(1)} Names</Link><span>/</span>
-        <span className="text-gray-800 font-medium">{title}</span>
+      <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-primary">Home</Link>
+        <span> / </span>
+        <Link href="/ideas/" className="hover:text-primary">Ideas</Link>
+        <span> / </span>
+        <span className="text-gray-800">{title}</span>
       </nav>
 
       <section className="bg-gradient-to-br from-amber-500 to-orange-600 text-white">
         <div className="max-w-7xl mx-auto px-4 py-14 text-center">
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-4">{title}</h1>
-          <p className="text-orange-100 text-lg max-w-2xl mx-auto">
-            Find the perfect {adj.toLowerCase()} name for your {animal} — {num}+ handpicked ideas
-          </p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">{title}</h1>
+          <p className="text-amber-100 text-lg max-w-2xl mx-auto">{intro.slice(0, 200)}…</p>
         </div>
       </section>
 
-      <section className="max-w-4xl mx-auto px-4 py-8">
+      <section className="max-w-4xl mx-auto px-4 py-10">
+        <AdSlot position="hero" />
+
         {/* Sample Names */}
         {sampleNames.length > 0 && (
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 mb-8">
-            <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-              {animalIcon} Sample {adj} {animal.charAt(0).toUpperCase() + animal.slice(1)} Names
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-              {sampleNames.map((name) => (
+            <h2 className="text-xl font-bold mb-4">✨ {num}+ {adj} {animal.charAt(0).toUpperCase() + animal.slice(1)} Name Ideas</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+              {sampleNames.slice(0, 30).map((name, i) => (
                 <Link
-                  key={name}
+                  key={i}
                   href={`${categoryLink}`}
                   className="bg-amber-50 hover:bg-amber-100 rounded-lg px-3 py-2 text-center text-sm font-medium text-gray-800 hover:text-primary transition-colors"
                 >
@@ -269,7 +258,7 @@ export default async function IdeasPage({ params }: Props) {
         {/* Naming Tips */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 mb-8">
           <h2 className="text-xl font-bold mb-4">Tips for Choosing the Perfect {animal.charAt(0).toUpperCase() + animal.slice(1)} Name</h2>
-          <p className="text-gray-700 mb-4">{namingTipsIntro}</p>
+          <p className="text-gray-600 mb-4">{namingTipsIntro}</p>
           <ol className="space-y-3 list-decimal list-inside">
             {namingTips.map((tip, i) => (
               <li key={i} className="text-gray-700 leading-relaxed pl-1">{tip}</li>

@@ -7,7 +7,8 @@ import AdSlot from "@/components/AdSlot";
 type Props = { params: Promise<{ category: string }> };
 
 export async function generateStaticParams() {
-  return loadCategories().slice(0, 30).map((c) => ({ category: c.slug }));
+  const cats = await loadCategories();
+  return cats.slice(0, 30).map((c) => ({ category: c.slug }));
 }
 
 export const dynamicParams = true;
@@ -15,7 +16,7 @@ export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
-  const data = loadCategory(category);
+  const data = await loadCategory(category);
   if (!data) return { title: "Category Not Found" };
   return {
     title: data.seoTitle,
@@ -28,10 +29,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CategoryPage({ params }: Props) {
   const { category } = await params;
-  const data = loadCategory(category);
+  const data = await loadCategory(category);
   if (!data) notFound();
 
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
   const animalMap = new Map(allAnimals.map((a) => [a.slug, a]));
   const categoryAnimals = data.animals.map((s) => animalMap.get(s)).filter(Boolean) as { slug: string; name: string; icon: string }[];
 

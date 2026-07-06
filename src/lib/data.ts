@@ -1,4 +1,4 @@
-import { BUNDLED_DATA } from "@/data/bundled";
+import { kvGet, kvGetArray } from "@/lib/kv";
 
 export interface AnimalData {
   slug: string;
@@ -51,25 +51,16 @@ export const NAME_TYPES: NameType[] = [
   { key: "baby", label: "Baby Names", emoji: "🍼", seoTitleSuffix: "Baby Name Generator", seoDescPrefix: "Tiny and precious", field: "babyNames" },
 ];
 
-function slugToKey(slug: string): string {
-  return `animals_${slug}`;
+export async function loadAnimalData(slug: string): Promise<AnimalData | null> {
+  return await kvGet<AnimalData>(`animals/${slug}`);
 }
 
-export function loadAnimalData(slug: string): AnimalData | null {
-  const key = slugToKey(slug);
-  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
-  if (!data) return null;
-  return data as AnimalData;
+export async function loadIndex(): Promise<AnimalIndex[]> {
+  return await kvGetArray<AnimalIndex>("animals/index");
 }
 
-export function loadIndex(): AnimalIndex[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["animals_index"];
-  if (!data) return [];
-  return data as AnimalIndex[];
-}
-
-export function loadPopularAnimals(): AnimalIndex[] {
-  const all = loadIndex();
+export async function loadPopularAnimals(): Promise<AnimalIndex[]> {
+  const all = await loadIndex();
   const popularSlugs = [
     "dog", "cat", "fox", "bear", "rabbit", "hamster", "horse", "parrot",
     "turtle", "fish", "snake", "bird", "lion", "tiger", "wolf", "elephant",
@@ -84,10 +75,8 @@ export function loadPopularAnimals(): AnimalIndex[] {
   return popular;
 }
 
-export function parseNameTypeSlug(slugSegments: string[]): { animalSlug: string; nameType: NameType } | null {
+export function parseNameTypeSlugFromIndex(allAnimals: AnimalIndex[], slugSegments: string[]): { animalSlug: string; nameType: NameType } | null {
   const fullPath = slugSegments.join("/");
-  const allAnimals = loadIndex();
-
   for (const animal of allAnimals) {
     for (const nt of NAME_TYPES) {
       const pattern = nt.key === "names"
@@ -101,8 +90,7 @@ export function parseNameTypeSlug(slugSegments: string[]): { animalSlug: string;
   return null;
 }
 
-export function getAllNameTypeSlugs(): string[] {
-  const allAnimals = loadIndex();
+export function getAllNameTypeSlugsFromIndex(allAnimals: AnimalIndex[]): string[] {
   const slugs: string[] = [];
   for (const animal of allAnimals) {
     for (const nt of NAME_TYPES) {
@@ -125,14 +113,12 @@ export interface CategoryData {
   seoDescription: string;
 }
 
-export function loadCategories(): CategoryData[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["categories_index"];
-  if (!data) return [];
-  return data as CategoryData[];
+export async function loadCategories(): Promise<CategoryData[]> {
+  return await kvGetArray<CategoryData>("categories/index");
 }
 
-export function loadCategory(slug: string): CategoryData | null {
-  const all = loadCategories();
+export async function loadCategory(slug: string): Promise<CategoryData | null> {
+  const all = await loadCategories();
   return all.find(c => c.slug === slug) || null;
 }
 
@@ -152,21 +138,12 @@ export interface FactData {
   seoDescription: string;
 }
 
-function factSlugToKey(slug: string): string {
-  return `facts_${slug}`;
+export async function loadFactData(slug: string): Promise<FactData | null> {
+  return await kvGet<FactData>(`facts/${slug}`);
 }
 
-export function loadFactData(slug: string): FactData | null {
-  const key = factSlugToKey(slug);
-  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
-  if (!data) return null;
-  return data as FactData;
-}
-
-export function loadFactIndex(): { slug: string; displayName: string; icon: string }[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["facts_index"];
-  if (!data) return [];
-  return data as { slug: string; displayName: string; icon: string }[];
+export async function loadFactIndex(): Promise<{ slug: string; displayName: string; icon: string }[]> {
+  return await kvGetArray<{ slug: string; displayName: string; icon: string }>("facts/index");
 }
 
 export interface GuideData {
@@ -178,15 +155,53 @@ export interface GuideData {
   faq: { q: string; a: string }[];
 }
 
-export function loadGuides(): GuideData[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["guides_index"];
-  if (!data) return [];
-  return data as GuideData[];
+export async function loadGuides(): Promise<GuideData[]> {
+  return await kvGetArray<GuideData>("guides/index");
 }
 
-export function loadGuide(slug: string): GuideData | null {
-  const key = `guides_${slug}`;
-  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
-  if (!data) return null;
-  return data as GuideData;
+export async function loadGuide(slug: string): Promise<GuideData | null> {
+  return await kvGet<GuideData>(`guides/${slug}`);
+}
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  category: string;
+  image: string;
+  tags: string[];
+}
+
+export async function loadBlogPosts(): Promise<BlogPost[]> {
+  return await kvGetArray<BlogPost>("blog/index");
+}
+
+export interface BlogContent {
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  category: string;
+  image: string;
+  tags: string[];
+  content: { type: string; text: string }[];
+  faq?: { q: string; a: string }[];
+  relatedAnimals?: string[];
+  relatedGuides?: string[];
+}
+
+export async function loadBlogPost(slug: string): Promise<BlogContent | null> {
+  return await kvGet<BlogContent>(`blog/${slug}`);
+}
+
+export interface IdeaIndexItem {
+  slug: string;
+  animal?: string;
+  adjective?: string;
+  number?: string;
+}
+
+export async function loadAllIdeas(): Promise<IdeaIndexItem[]> {
+  return await kvGetArray<IdeaIndexItem>("ideas/index");
 }

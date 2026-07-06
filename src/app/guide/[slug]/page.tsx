@@ -7,7 +7,8 @@ import AdSlot from "@/components/AdSlot";
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  return loadGuides().slice(0, 30).map((g) => ({ slug: g.slug }));
+  const guides = await loadGuides();
+  return guides.slice(0, 30).map((g) => ({ slug: g.slug }));
 }
 
 export const dynamicParams = true;
@@ -15,7 +16,7 @@ export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const guide = loadGuide(slug);
+  const guide = await loadGuide(slug);
   if (!guide) return { title: "Not Found" };
   return {
     title: guide.title,
@@ -28,10 +29,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function GuidePage({ params }: Props) {
   const { slug } = await params;
-  const guide = loadGuide(slug);
+  const guide = await loadGuide(slug);
   if (!guide) notFound();
 
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
   const animalMap = new Map(allAnimals.map((a) => [a.slug, a]));
   const relatedAnimals = guide.relatedAnimals.map((s) => animalMap.get(s)).filter(Boolean) as { slug: string; name: string; icon: string }[];
 

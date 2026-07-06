@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { BUNDLED_DATA } from "@/data/bundled";
+import { loadBlogPosts } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Animal Name Generator Blog — Pet Naming Tips, Guides & Ideas",
@@ -10,22 +10,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://bestanimalnames.com/blog/" },
 };
 
-interface BlogPost {
-  slug: string;
-  title: string;
-  description: string;
-  date: string;
-  category: string;
-  image: string;
-  tags: string[];
-}
-
-function loadBlogPosts(): BlogPost[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["blog_index"];
-  if (!data) return [];
-  return data as BlogPost[];
-}
-
 const blogSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -34,8 +18,8 @@ const blogSchema = {
   "url": "https://bestanimalnames.com/blog/",
 };
 
-export default function BlogPage() {
-  const posts = loadBlogPosts();
+export default async function BlogPage() {
+  const posts = await loadBlogPosts();
 
   return (
     <>

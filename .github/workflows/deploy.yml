@@ -25,8 +25,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Bundle static data for Cloudflare Workers
-        run: node scripts/bundle-data.mjs
+      - name: Upload data to Cloudflare Workers KV
+        run: node scripts/upload-kv.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Build OpenNext Cloudflare worker
         run: npx opennextjs-cloudflare build

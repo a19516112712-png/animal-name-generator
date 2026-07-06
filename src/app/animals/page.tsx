@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://bestanimalnames.com/animals/" },
 };
 
-export default function AnimalsPage() {
-  const animals = loadIndex();
+export default async function AnimalsPage() {
+  const animals = await loadIndex();
 
   const collectionSchema = {
     "@context": "https://schema.org",

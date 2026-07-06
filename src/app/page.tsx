@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { loadIndex, loadCategories, loadGuides } from "@/lib/data";
-import { BUNDLED_DATA } from "@/data/bundled";
+import { loadIndex, loadCategories, loadGuides, loadBlogPosts } from "@/lib/data";
 
 
 
-interface BlogPost { slug: string; title: string; description: string; date: string; category: string; image: string; tags: string[]; }
 
-function loadBlogPosts(): BlogPost[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["blog_index"] as BlogPost[] | undefined;
-  return data || [];
-}
 const POPULAR_SLUGS = [
   "dog", "cat", "fox", "bear", "rabbit", "hamster", "horse", "parrot",
   "turtle", "fish", "snake", "bird", "lion", "tiger", "wolf", "elephant",
@@ -42,11 +36,11 @@ export const metadata: Metadata = {
   keywords: ["animal names", "pet names", "name generator", "dog names", "cat names", "bird names"],
 };
 
-export default function HomePage() {
-  const allAnimals = loadIndex();
-  const categories = loadCategories();
-  const guides = loadGuides();
-  const blogPosts = loadBlogPosts();
+export default async function HomePage() {
+  const allAnimals = await loadIndex();
+  const categories = await loadCategories();
+  const guides = await loadGuides();
+  const blogPosts = await loadBlogPosts();
 
   const animalCount = allAnimals.length;
   const categoryCount = categories.length;

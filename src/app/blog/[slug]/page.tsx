@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { BUNDLED_DATA } from "@/data/bundled";
-import { loadIndex, loadGuides } from "@/lib/data";
+import { loadBlogPost, loadBlogPosts, loadGuides, loadIndex } from "@/lib/data";
 
 interface BlogContent {
   slug: string;
@@ -18,32 +17,28 @@ interface BlogContent {
   relatedGuides?: string[];
 }
 
+interface BlogPost {
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  category: string;
+  image: string;
+  tags: string[];
+}
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["blog_index"] as { slug: string }[] | undefined;
-  return (data || []).map((p) => ({ slug: p.slug }));
+  const data = await loadBlogPosts();
+  return data.map((p) => ({ slug: p.slug }));
 }
 
 export const dynamicParams = true;
 export const revalidate = 3600;
 
-function loadBlogPost(slug: string): BlogContent | null {
-  const key = `blog_${slug}`;
-  const data = (BUNDLED_DATA as Record<string, unknown>)[key];
-  if (!data) return null;
-  return data as BlogContent;
-}
-
-function loadAllBlogPosts(): BlogContent[] {
-  const data = (BUNDLED_DATA as Record<string, unknown>)["blog_index"];
-  if (!data) return [];
-  return data as BlogContent[];
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const post = loadBlogPost(slug);
+  const post = await loadBlogPost(slug);
   if (!post) return { title: "Post Not Found" };
   return {
     title: post.title,
@@ -55,8 +50,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-function getRelatedPosts(currentSlug: string, count: number = 6): BlogContent[] {
-  const all = loadAllBlogPosts();
+async function getRelatedPosts(currentSlug: string, count: number = 6): Promise<BlogPost[]> {
+  const all = await loadBlogPosts();
   const current = all.find(p => p.slug === currentSlug);
   if (!current) return [];
 
@@ -76,8 +71,8 @@ function getRelatedPosts(currentSlug: string, count: number = 6): BlogContent[] 
   return scored;
 }
 
-function getPrevNextPosts(currentSlug: string): { prev: BlogContent | null; next: BlogContent | null } {
-  const all = loadAllBlogPosts();
+async function getPrevNextPosts(currentSlug: string): Promise<{ prev: BlogPost | null; next: BlogPost | null }> {
+  const all = await loadBlogPosts();
   const idx = all.findIndex(p => p.slug === currentSlug);
   if (idx === -1) return { prev: null, next: null };
   return {
@@ -88,16 +83,16 @@ function getPrevNextPosts(currentSlug: string): { prev: BlogContent | null; next
 
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
-  const post = loadBlogPost(slug);
+  const post = await loadBlogPost(slug);
   if (!post) notFound();
 
-  const guides = loadGuides();
+  const guides = await loadGuides();
   const guideMap = new Map(guides.map(g => [g.slug, g.title]));
-  const animals = loadIndex();
+  const animals = await loadIndex();
   const animalMap = new Map(animals.map(a => [a.slug, a]));
 
-  const relatedPosts = getRelatedPosts(slug);
-  const { prev, next } = getPrevNextPosts(slug);
+  const relatedPosts = await getRelatedPosts(slug);
+  const { prev, next } = await getPrevNextPosts(slug);
 
   return (
     <article className="max-w-4xl mx-auto px-4 py-10">

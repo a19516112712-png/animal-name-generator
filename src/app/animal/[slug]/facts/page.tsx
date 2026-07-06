@@ -7,7 +7,8 @@ import AdSlot from "@/components/AdSlot";
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  return loadFactIndex().slice(0, 30).map((a) => ({ slug: a.slug }));
+  const facts = await loadFactIndex();
+  return facts.slice(0, 30).map((a: { slug: string }) => ({ slug: a.slug }));
 }
 
 export const dynamicParams = true;
@@ -15,7 +16,7 @@ export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const fact = loadFactData(slug);
+  const fact = await loadFactData(slug);
   if (!fact) return { title: "Facts Not Found" };
   return {
     title: fact.seoTitle,
@@ -28,9 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function FactsPage({ params }: Props) {
   const { slug } = await params;
-  const fact = loadFactData(slug);
-  const animal = loadAnimalData(slug);
-  const popular = loadPopularAnimals().slice(0, 8);
+  const fact = await loadFactData(slug);
+  const animal = await loadAnimalData(slug);
+  const popular = (await loadPopularAnimals()).slice(0, 8);
 
   if (!fact) notFound();
 

@@ -331,8 +331,8 @@ const NAME_FIELDS: (keyof AnimalData)[] = [
   "fantasyNames", "uniqueNames", "coolNames", "babyNames",
 ];
 
-export function generateStaticParams() {
-  const animals = loadIndex();
+export async function generateStaticParams() {
+  const animals = await loadIndex();
   const animalSet = new Set(PRIORITY_ANIMALS);
   const priorityAnimals = animals.filter(a => animalSet.has(a.slug));
   
@@ -370,7 +370,7 @@ function getNamesStartingWith(data: AnimalData, letter: string): string[] {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { letter, animal } = await params;
   const upper = letter.toUpperCase();
-  const data = loadAnimalData(animal);
+  const data = await loadAnimalData(animal);
   if (!data) return { title: "Not Found" };
   
   const title = `${data.displayName} Names That Start With ${upper} — ${data.icon}`;
@@ -391,12 +391,12 @@ export default async function StartWithPage({ params }: Props) {
   
   if (!ALL_LETTERS.includes(upper)) notFound();
   
-  const data = loadAnimalData(animal);
+  const data = await loadAnimalData(animal);
   if (!data) notFound();
   
   const names = getNamesStartingWith(data, upper);
   
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
   const otherLetters = ALL_LETTERS.filter(l => l !== upper);
   
   return (

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { loadAnimalData, loadIndex, parseNameTypeSlug, getAllNameTypeSlugs, NAME_TYPES, loadPopularAnimals } from "@/lib/data";
+import { loadAnimalData, loadIndex, parseNameTypeSlugFromIndex, getAllNameTypeSlugsFromIndex, NAME_TYPES } from "@/lib/data";
 import { getPageTitle, getPageIntro } from "@/lib/titleVariants";
 import AdSlot from "@/components/AdSlot";
 import InteractiveNamePicker from "@/components/InteractiveNamePicker";
@@ -8,17 +8,19 @@ import type { AnimalData, AnimalIndex, NameType } from "@/lib/data";
 
 type Props = { params: Promise<{ slug: string[] }> };
 
-export function generateStaticParams() {
-  return getAllNameTypeSlugs().slice(0, 30).map((s) => ({ slug: [s] }));
+export async function generateStaticParams() {
+  const allAnimals = await loadIndex();
+  return getAllNameTypeSlugsFromIndex(allAnimals).slice(0, 30).map((s) => ({ slug: [s] }));
 }
 
 export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const parsed = parseNameTypeSlug([""].concat(slug));
+  const allAnimals = await loadIndex();
+  const parsed = parseNameTypeSlugFromIndex(allAnimals, [""].concat(slug));
   if (!parsed) return { title: "Page Not Found" };
-  const data = loadAnimalData(parsed.animalSlug);
+  const data = await loadAnimalData(parsed.animalSlug);
   if (!data) return { title: "Page Not Found" };
   const categoryLabel = parsed.nameType.key === "names" ? undefined : parsed.nameType.label;
   const title = getPageTitle(parsed.animalSlug, data.displayName, data.icon, categoryLabel);
@@ -48,8 +50,8 @@ function NameGrid({ names }: { names: string[] }) {
 
 export default async function NameTypePage({ params }: Props) {
   const { slug } = await params;
-  const parsed = parseNameTypeSlug(slug);
-  const allAnimals = loadIndex();
+  const allAnimals = await loadIndex();
+  const parsed = parseNameTypeSlugFromIndex(allAnimals, slug);
 
   if (!parsed) {
     return (
@@ -61,7 +63,7 @@ export default async function NameTypePage({ params }: Props) {
   }
 
   const { animalSlug, nameType } = parsed;
-  const data = loadAnimalData(animalSlug);
+  const data = await loadAnimalData(animalSlug);
   if (!data) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-20 text-center">
@@ -143,13 +145,13 @@ export default async function NameTypePage({ params }: Props) {
       <section className="bg-gradient-to-br from-primary to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 py-10 md:py-14 text-center">
           <p className="text-indigo-200 text-sm mb-2">{data.icon} {data.displayName} {nameType.label}</p>
-          <h1 className="text-3xl md:text-5xl font-extrabold mb-4">{pageTitle}</h1>
-          <p className="text-indigo-100 text-lg max-w-3xl mx-auto">{pageIntro}</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">{pageTitle}</h1>
+          <p className="text-indigo-100 max-w-2xl mx-auto">{pageIntro}</p>
         </div>
       </section>
 
-      {/* ─── INTERACTIVE NAME PICKER ─── */}
-      <section className="max-w-3xl mx-auto px-4 -mt-6 relative z-10 mb-10">
+      {/* Interactive Picker */}
+      <section className="max-w-7xl mx-auto px-4 py-6">
         <InteractiveNamePicker
           allNames={pickerNames}
           animalName={data.displayName}
