@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import fs from "fs";
-import path from "path";
+import { BUNDLED_DATA } from "@/data/bundled";
 
 export const metadata: Metadata = {
   title: "Animal Name Generator Blog — Pet Naming Tips, Guides & Ideas",
@@ -22,25 +21,25 @@ interface BlogPost {
 }
 
 function loadBlogPosts(): BlogPost[] {
-  const fp = path.join(process.cwd(), "src/data/blog/index.json");
-  return JSON.parse(fs.readFileSync(fp, "utf-8"));
+  const data = (BUNDLED_DATA as Record<string, unknown>)["blog_index"];
+  if (!data) return [];
+  return data as BlogPost[];
 }
 
-
-  const blogSchema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Animal Name Generator Blog",
-    "description": "Pet naming tips, complete name guides, and creative ideas for every animal.",
-    "url": "https://bestanimalnames.com/blog/",
-  };
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Animal Name Generator Blog",
+  "description": "Pet naming tips, complete name guides, and creative ideas for every animal.",
+  "url": "https://bestanimalnames.com/blog/",
+};
 
 export default function BlogPage() {
   const posts = loadBlogPosts();
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
+      <script type="application/json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500 flex gap-1 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link><span>/</span>
         <span className="text-gray-800 font-medium">Blog</span>

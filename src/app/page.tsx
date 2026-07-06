@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { loadIndex, loadCategories, loadGuides } from "@/lib/data";
-import fs from "fs";
-import path from "path";
+import { BUNDLED_DATA } from "@/data/bundled";
+
+
 
 interface BlogPost { slug: string; title: string; description: string; date: string; category: string; image: string; tags: string[]; }
 
 function loadBlogPosts(): BlogPost[] {
-  try {
-    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "src/data/blog/index.json"), "utf-8"));
-  } catch { return []; }
+  const data = (BUNDLED_DATA as Record<string, unknown>)["blog_index"] as BlogPost[] | undefined;
+  return data || [];
 }
-
 const POPULAR_SLUGS = [
   "dog", "cat", "fox", "bear", "rabbit", "hamster", "horse", "parrot",
   "turtle", "fish", "snake", "bird", "lion", "tiger", "wolf", "elephant",

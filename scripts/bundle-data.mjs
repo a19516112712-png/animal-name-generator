@@ -6,7 +6,7 @@ const OUTPUT_FILE = path.join(DATA_ROOT, "bundled.ts");
 
 function readJsonRecursive(dir, baseDir = "") {
   const results = {};
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const entries = fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name));
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
     const relativePath = path.join(baseDir, entry.name);

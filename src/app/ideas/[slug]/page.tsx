@@ -2,11 +2,12 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadIndex, loadAnimalData, type AnimalData } from "@/lib/data";
+import { BUNDLED_DATA } from "@/data/bundled";
 import AdSlot from "@/components/AdSlot";
 
 
-import fs from "fs";
-import path from "path";
+
+
 
 interface IdeaIndexItem {
   slug: string;
@@ -16,10 +17,10 @@ interface IdeaIndexItem {
 }
 
 function loadAllIdeas(): IdeaIndexItem[] {
-  const fp = path.join(process.cwd(), "src/data/ideas/index.json");
-  return JSON.parse(fs.readFileSync(fp, "utf-8")) as IdeaIndexItem[];
+  const data = (BUNDLED_DATA as Record<string, unknown>)["ideas_index"];
+  if (!data) return [];
+  return data as IdeaIndexItem[];
 }
-
 function findIdeaBySlug(slug: string): IdeaIndexItem | null {
   return loadAllIdeas().find(i => i.slug === slug) || null;
 }
