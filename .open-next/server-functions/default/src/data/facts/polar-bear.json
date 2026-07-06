@@ -1,0 +1,26 @@
+{
+  "slug": "polar-bear",
+  "displayName": "Polar Bear",
+  "icon": "🐻‍❄️",
+  "scientificName": "Ursus maritimus",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Arctic sea ice",
+  "diet": "Carnivorous (seals)",
+  "lifespan": "25–30 years",
+  "size": "Up to 3 m, 800 kg",
+  "conservationStatus": "Vulnerable",
+  "funFacts": [
+    "Polar bear skin is actually black under their white fur.",
+    "Polar bears are the largest land carnivores.",
+    "They can smell seals from up to 30 km away.",
+    "They can swim for days covering hundreds of km."
+  ],
+  "seoTitle": "Polar Bear Facts — 🐻‍❄️ Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about polar bears 🐻‍❄️. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

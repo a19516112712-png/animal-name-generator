@@ -1,0 +1,26 @@
+{
+  "slug": "panda",
+  "displayName": "Panda",
+  "icon": "🐼",
+  "scientificName": "Ailuropoda melanoleuca",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Mountain forests of central China",
+  "diet": "Herbivorous (99% bamboo)",
+  "lifespan": "20 years (wild)",
+  "size": "Up to 1.8 m, 160 kg",
+  "conservationStatus": "Vulnerable",
+  "funFacts": [
+    "They can poop up to 40 times a day.",
+    "Pandas have a thumb-like wrist bone for gripping bamboo.",
+    "A newborn panda is only 1/900th the size of its mother.",
+    "Pandas spend 10–16 hours a day eating bamboo."
+  ],
+  "seoTitle": "Panda Facts — 🐼 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about pandas 🐼. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "griffin",
+  "displayName": "Griffin",
+  "icon": "🦅",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Mythological",
+    "class": "Mythological",
+    "order": "Mythological",
+    "family": "Mythological"
+  },
+  "habitat": "Mythology and folklore worldwide",
+  "diet": "Varies by legend",
+  "lifespan": "Immortal or varies by legend",
+  "size": "Varies by depiction",
+  "conservationStatus": "Not Applicable",
+  "funFacts": [
+    "The phoenix myth originated in ancient Egypt as the Bennu bird.",
+    "The unicorn is Scotland's national animal.",
+    "The Kraken legend likely originated from sightings of giant squid.",
+    "Dragon myths appear independently in nearly every ancient culture worldwide."
+  ],
+  "seoTitle": "Griffin Facts — 🦅 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about griffins 🦅. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

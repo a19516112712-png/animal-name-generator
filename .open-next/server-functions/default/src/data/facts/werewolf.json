@@ -1,0 +1,26 @@
+{
+  "slug": "werewolf",
+  "displayName": "Werewolf",
+  "icon": "🐺",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Mythological",
+    "class": "Mythological",
+    "order": "Mythological",
+    "family": "Mythological"
+  },
+  "habitat": "Mythology and folklore worldwide",
+  "diet": "Varies by legend",
+  "lifespan": "Immortal or varies by legend",
+  "size": "Varies by depiction",
+  "conservationStatus": "Not Applicable",
+  "funFacts": [
+    "Griffins were believed to guard treasures in Greek and Persian mythology.",
+    "The Kraken legend likely originated from sightings of giant squid.",
+    "Dragon myths appear independently in nearly every ancient culture worldwide.",
+    "The phoenix myth originated in ancient Egypt as the Bennu bird."
+  ],
+  "seoTitle": "Werewolf Facts — 🐺 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about werewolfs 🐺. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

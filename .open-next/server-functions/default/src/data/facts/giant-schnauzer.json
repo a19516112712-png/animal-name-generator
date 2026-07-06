@@ -1,0 +1,26 @@
+{
+  "slug": "giant-schnauzer",
+  "displayName": "Giant Schnauzer",
+  "icon": "🐕",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae"
+  },
+  "habitat": "Domestic, worldwide",
+  "diet": "Omnivorous (commercial dog food, meat, vegetables)",
+  "lifespan": "10–15 years",
+  "size": "Varies by breed (15–110 cm at shoulder)",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "The Basenji is the only barkless dog breed — it yodels instead.",
+    "Dogs have three eyelids, including one called the nictitating membrane.",
+    "Dogs can understand up to 250 words and gestures.",
+    "A dog's sense of smell is 10,000 to 100,000 times more acute than a human's."
+  ],
+  "seoTitle": "Giant Schnauzer Facts — 🐕 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about giant schnauzers 🐕. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

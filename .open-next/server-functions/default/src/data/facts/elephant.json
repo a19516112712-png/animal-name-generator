@@ -1,0 +1,26 @@
+{
+  "slug": "elephant",
+  "displayName": "Elephant",
+  "icon": "🐘",
+  "scientificName": "Loxodonta africana",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Insecta",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "African savannas and forests",
+  "diet": "Herbivorous (grass, leaves, bark, fruit)",
+  "lifespan": "60–70 years",
+  "size": "Up to 4 m tall, 6,000 kg",
+  "conservationStatus": "Vulnerable",
+  "funFacts": [
+    "They mourn their dead and show grieving behavior.",
+    "Elephants can hear through their feet by detecting seismic vibrations.",
+    "An elephant's trunk has 40,000 muscles.",
+    "Elephants are the only animals with 4 knees."
+  ],
+  "seoTitle": "Elephant Facts — 🐘 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about elephants 🐘. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

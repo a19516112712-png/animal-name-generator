@@ -1,0 +1,26 @@
+{
+  "slug": "guinea-pig",
+  "displayName": "Guinea Pig",
+  "icon": "🐹",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia/Aves",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Farms and agricultural land worldwide",
+  "diet": "Varies (grass, grain, insects, commercial feed)",
+  "lifespan": "Varies by species and use",
+  "size": "Varies by species",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "A horse's heart weighs about 10 pounds and pumps 75 liters of blood per minute when galloping.",
+    "Chickens are the closest living relatives to the Tyrannosaurus rex.",
+    "Cows have best friends and get stressed when separated from them.",
+    "Pigs are considered the 4th most intelligent animal, after chimps, dolphins, and elephants."
+  ],
+  "seoTitle": "Guinea Pig Facts — 🐹 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about guinea pigs 🐹. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

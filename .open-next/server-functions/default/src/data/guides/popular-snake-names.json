@@ -1,0 +1,19 @@
+{
+  "slug": "popular-snake-names",
+  "title": "Popular Snake Names — Top Popular Picks 🐍",
+  "description": "Discover the popular snake names. Hand-picked popular names for your snake.",
+  "category": "Top Picks",
+  "relatedAnimals": [
+    "snake"
+  ],
+  "faq": [
+    {
+      "q": "What are the popular snake names?",
+      "a": "The popular snake names include a mix of timeless classics and fresh ideas."
+    },
+    {
+      "q": "How often do popular names change?",
+      "a": "Name trends evolve over time, but classic names remain popular for decades."
+    }
+  ]
+}

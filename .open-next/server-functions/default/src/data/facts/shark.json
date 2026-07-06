@@ -1,0 +1,26 @@
+{
+  "slug": "shark",
+  "displayName": "Shark",
+  "icon": "🦈",
+  "scientificName": "Selachimorpha (varies by species)",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Chondrichthyes",
+    "order": "Varies",
+    "family": "Varies"
+  },
+  "habitat": "Oceans worldwide",
+  "diet": "Carnivorous (fish, seals, plankton)",
+  "lifespan": "20–400+ years",
+  "size": "20 cm to 18 m",
+  "conservationStatus": "Varies",
+  "funFacts": [
+    "Sharks can detect a drop of blood in an Olympic-sized pool.",
+    "The whale shark has about 3,000 tiny teeth but filter-feeds plankton.",
+    "Sharks have been around for 450 million years — before trees existed.",
+    "Sharks have electroreceptors to detect prey's electrical fields."
+  ],
+  "seoTitle": "Shark Facts — 🦈 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about sharks 🦈. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

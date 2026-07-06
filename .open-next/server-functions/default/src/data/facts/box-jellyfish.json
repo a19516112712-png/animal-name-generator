@@ -1,0 +1,26 @@
+{
+  "slug": "box-jellyfish",
+  "displayName": "Box Jellyfish",
+  "icon": "🪼",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Varies (Actinopterygii, Chondrichthyes)",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Freshwater and marine environments",
+  "diet": "Varies (plankton, algae, smaller fish, crustaceans)",
+  "lifespan": "1–200+ years depending on species",
+  "size": "8 mm (stout infantfish) to 12+ m (whale shark)",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "The Greenland shark can live over 400 years, the longest-living vertebrate.",
+    "Some fish communicate by farting — herring release bubbles from their swim bladders.",
+    "Some fish can change sex during their lifetime — clownfish are born male and can become female.",
+    "Electric eels can generate shocks up to 600 volts."
+  ],
+  "seoTitle": "Box Jellyfish Facts — 🪼 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about box jellyfishs 🪼. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

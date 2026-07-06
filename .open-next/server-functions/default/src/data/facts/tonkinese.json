@@ -1,0 +1,26 @@
+{
+  "slug": "tonkinese",
+  "displayName": "Tonkinese Cat",
+  "icon": "🐱",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae"
+  },
+  "habitat": "Domestic, worldwide",
+  "diet": "Carnivorous (meat, commercial cat food)",
+  "lifespan": "12–18 years",
+  "size": "23–25 cm at shoulder, 46 cm body length",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "Cats cannot taste sweetness due to a genetic deficiency.",
+    "A cat's purr vibrates at 25–150 Hz, a frequency known to promote bone and tissue healing.",
+    "Cats spend 70% of their lives sleeping — that's about 13–16 hours a day.",
+    "The oldest known pet cat was found in a 9,500-year-old grave in Cyprus."
+  ],
+  "seoTitle": "Tonkinese Cat Facts — 🐱 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about tonkinese cats 🐱. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

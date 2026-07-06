@@ -1,0 +1,26 @@
+{
+  "slug": "mosquito",
+  "displayName": "Mosquito",
+  "icon": "🦟",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Insecta",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Nearly all terrestrial and freshwater habitats",
+  "diet": "Varies (plants, other insects, nectar, blood, detritus)",
+  "lifespan": "Days to decades depending on species",
+  "size": "0.14 mm (fairyfly) to 60+ cm (giant weta)",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "Ants can lift 10–50 times their own body weight.",
+    "Insects make up over 80% of all known animal species on Earth.",
+    "A honeybee produces only about 1/12 teaspoon of honey in its lifetime.",
+    "Some termite queens can live for 50 years and lay 30,000 eggs per day."
+  ],
+  "seoTitle": "Mosquito Facts — 🦟 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about mosquitos 🦟. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

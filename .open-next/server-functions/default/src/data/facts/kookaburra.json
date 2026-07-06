@@ -1,0 +1,26 @@
+{
+  "slug": "kookaburra",
+  "displayName": "Kookaburra",
+  "icon": "🐦",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Varies worldwide",
+  "diet": "Varies by species",
+  "lifespan": "Varies by species",
+  "size": "Varies by species",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "Some species communicate through complex vocalizations and body language.",
+    "Many wild animals have unique adaptations for survival in their specific habitats.",
+    "Many wild animals form complex social structures within their groups.",
+    "Migratory animals travel thousands of kilometers each year for breeding or feeding."
+  ],
+  "seoTitle": "Kookaburra Facts — 🐦 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about kookaburras 🐦. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

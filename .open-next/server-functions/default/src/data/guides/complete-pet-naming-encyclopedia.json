@@ -1,0 +1,16 @@
+{
+  "slug": "complete-pet-naming-encyclopedia",
+  "title": "Complete Pet Naming Encyclopedia \u2014 A-Z Animal Names \ud83d\udc3e",
+  "description": "The ultimate pet naming reference. A-Z guide covering every animal with 1000s of name ideas.",
+  "category": "Reference",
+  "relatedAnimals": [
+    "dog",
+    "cat"
+  ],
+  "faq": [
+    {
+      "q": "What is this guide?",
+      "a": "A comprehensive reference for animal names."
+    }
+  ]
+}

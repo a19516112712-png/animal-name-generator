@@ -1,0 +1,19 @@
+{
+  "slug": "trending-fish-names",
+  "title": "Trending Fish Names — Top Trending Picks 🐠",
+  "description": "Discover the trending fish names. Hand-picked trending names for your fish.",
+  "category": "Top Picks",
+  "relatedAnimals": [
+    "fish"
+  ],
+  "faq": [
+    {
+      "q": "What are the trending fish names?",
+      "a": "The trending fish names include a mix of timeless classics and fresh ideas."
+    },
+    {
+      "q": "How often do trending names change?",
+      "a": "Name trends evolve over time, but classic names remain popular for decades."
+    }
+  ]
+}

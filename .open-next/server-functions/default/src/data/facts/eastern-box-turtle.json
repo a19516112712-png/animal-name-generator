@@ -1,0 +1,26 @@
+{
+  "slug": "eastern-box-turtle",
+  "displayName": "Eastern Box Turtle",
+  "icon": "🐢",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Varies (deserts, forests, wetlands, oceans)",
+  "diet": "Varies (insects, small mammals, plants, fish)",
+  "lifespan": "2–150+ years depending on species",
+  "size": "1.6 cm (dwarf gecko) to 6+ m (saltwater crocodile)",
+  "conservationStatus": "Varies by species",
+  "funFacts": [
+    "The Komodo dragon can reproduce asexually through parthenogenesis.",
+    "Snakes smell with their tongues, collecting particles and analyzing them with the Jacobson's organ.",
+    "Crocodiles have been around for 200 million years, surviving the dinosaur extinction.",
+    "Some turtles can breathe through their butts — using cloacal respiration."
+  ],
+  "seoTitle": "Eastern Box Turtle Facts — 🐢 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about eastern box turtles 🐢. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

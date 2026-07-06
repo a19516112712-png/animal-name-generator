@@ -1,0 +1,26 @@
+{
+  "slug": "cool-pets-names",
+  "title": "Cool Pets Names — 100+ Ideas 💫",
+  "description": "Browse cool pets names. Perfect cool name for your pet.",
+  "category": "Name Lists",
+  "relatedAnimals": [
+    "dog",
+    "cat",
+    "rabbit",
+    "hamster",
+    "guinea-pig",
+    "ferret",
+    "bird",
+    "fish"
+  ],
+  "faq": [
+    {
+      "q": "What makes a good cool pet name?",
+      "a": "A good cool name reflects personality, appearance, or a fun theme. The best names are memorable and meaningful."
+    },
+    {
+      "q": "Can I use a cool name for any pet?",
+      "a": "Yes! Cool names work for any breed or type."
+    }
+  ]
+}

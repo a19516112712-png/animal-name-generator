@@ -1,0 +1,26 @@
+{
+  "slug": "bighorn-sheep",
+  "displayName": "Bighorn Sheep",
+  "icon": "🐑",
+  "scientificName": "Varies by species",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia/Aves",
+    "order": "Varies by species",
+    "family": "Varies by species"
+  },
+  "habitat": "Farms and agricultural land worldwide",
+  "diet": "Varies (grass, grain, insects, commercial feed)",
+  "lifespan": "Varies by species and use",
+  "size": "Varies by species",
+  "conservationStatus": "Not Evaluated (domesticated)",
+  "funFacts": [
+    "A horse's heart weighs about 10 pounds and pumps 75 liters of blood per minute when galloping.",
+    "Pigs are considered the 4th most intelligent animal, after chimps, dolphins, and elephants.",
+    "Cows have best friends and get stressed when separated from them.",
+    "Goats have rectangular pupils that give them 320–340 degree field of vision."
+  ],
+  "seoTitle": "Bighorn Sheep Facts — 🐑 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about bighorn sheeps 🐑. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}

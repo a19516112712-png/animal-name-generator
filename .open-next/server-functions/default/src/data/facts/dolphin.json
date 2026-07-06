@@ -1,0 +1,26 @@
+{
+  "slug": "dolphin",
+  "displayName": "Dolphin",
+  "icon": "🐬",
+  "scientificName": "Delphinus delphis",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Cetacea",
+    "family": "Delphinidae"
+  },
+  "habitat": "Oceans worldwide",
+  "diet": "Carnivorous (fish, squid)",
+  "lifespan": "20–50 years",
+  "size": "Up to 4 m, 650 kg",
+  "conservationStatus": "Least Concern",
+  "funFacts": [
+    "A dolphin can hold its breath for up to 15 minutes.",
+    "Dolphins can recognize themselves in mirrors, showing self-awareness.",
+    "Dolphins sleep with one half of their brain at a time.",
+    "They use echolocation to 'see' with sound."
+  ],
+  "seoTitle": "Dolphin Facts — 🐬 Habitat, Diet, Lifespan & More",
+  "seoDescription": "Discover amazing facts about dolphins 🐬. Learn about their habitat, diet, lifespan, size, conservation status, and fun trivia."
+}
