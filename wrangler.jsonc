@@ -7,6 +7,10 @@
 		"nodejs_compat",
 		"global_fetch_strictly_public"
 	],
+	"alias": {
+		"critters": "./critters-shim.mjs",
+		"react-dom/server.edge": "react-dom/server.browser"
+	},
 	"r2_buckets": [
 		{
 			"binding": "ANIMAL_DATA_BUCKET",
