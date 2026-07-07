@@ -53,6 +53,8 @@ function collectFiles(dir, baseDir = "") {
 /**
  * Perform a single batch upload via the Workers KV Bulk Write API.
  * Retries on 429 (exponential backoff) and 5xx (fixed retry).
+ * All non-2xx responses stay inside the retry loop — only after
+ * exhausting MAX_RETRIES does the batch count as failed.
  */
 async function uploadBatch(namespaceId, batch, authToken, accountId, dryRun) {
   const url = `https://api.cloudflare.com/client/v4/accounts/${accountId}/storage/kv/namespaces/${namespaceId}/bulk`;
@@ -82,7 +84,7 @@ async function uploadBatch(namespaceId, batch, authToken, accountId, dryRun) {
         body: JSON.stringify(body),
       });
 
-      // Retry on 429 with exponential backoff
+      // --- 429 Too Many Requests: exponential backoff ---
       if (response.status === 429) {
         const backoff = INITIAL_BACKOFF_MS * Math.pow(2, attempt - 1);
         console.warn(
@@ -92,9 +94,10 @@ async function uploadBatch(namespaceId, batch, authToken, accountId, dryRun) {
           await new Promise((r) => setTimeout(r, backoff));
           continue;
         }
+        // Last attempt still 429 — fall through to report failure
       }
 
-      // Retry on 5xx
+      // --- 5xx Server Errors: fixed delay retry ---
       if (response.status >= 500) {
         console.warn(
           `  ⚠️  ${response.status} server error — retry ${attempt}/${MAX_RETRIES}`
@@ -103,21 +106,21 @@ async function uploadBatch(namespaceId, batch, authToken, accountId, dryRun) {
           await new Promise((r) => setTimeout(r, INITIAL_BACKOFF_MS));
           continue;
         }
+        // Last attempt still 5xx — fall through to report failure
       }
 
+      // --- Non-retryable errors (4xx other than 429, etc.) ---
       if (!response.ok) {
         const text = await response.text();
         throw new Error(`${response.status}: ${text}`);
       }
 
+      // --- Success ---
       const result = await response.json();
       if (!result.success) {
         throw new Error(`API reported failure: ${JSON.stringify(result.errors)}`);
       }
 
-      // Bulk API returns { success: true, result: { ... } }
-      // The result array contains per-key outcomes; we trust the response
-      // and count the whole batch as uploaded.
       return batch.length;
     } catch (err) {
       if (attempt < MAX_RETRIES) {
