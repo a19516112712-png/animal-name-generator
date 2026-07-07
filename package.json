@@ -21,6 +21,7 @@
     "wrangler": "^4.107.0"
   },
   "devDependencies": {
+    "@opentelemetry/api": "^1.9.1",
     "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^20.14.0",
     "@types/react": "^18.3.3",
