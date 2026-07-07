@@ -7,11 +7,11 @@
 		"nodejs_compat",
 		"global_fetch_strictly_public"
 	],
-	"kv_namespaces": [
+	"r2_buckets": [
 		{
-			"binding": "ANIMAL_DATA",
-			"id": "5fe097f6c1ba48d3b5942e02c7ed3b18",
-			"preview_id": "5fe097f6c1ba48d3b5942e02c7ed3b18"
+			"binding": "ANIMAL_DATA_BUCKET",
+			"bucket_name": "animal-data",
+			"preview_bucket_name": "animal-data"
 		}
 	],
 	"assets": {

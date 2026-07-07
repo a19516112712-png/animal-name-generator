@@ -1,14 +1,28 @@
 declare global {
-  interface KVNamespace {
-    get(key: string, options?: { type: "text" | "arrayBuffer" | "json" | "stream" }): Promise<string | ArrayBuffer | ReadableStream | null>;
-    get(key: string, encoding?: "text"): Promise<string | null>;
-    put(key: string, value: string | ArrayBuffer | ReadableStream | FormData): Promise<void>;
-    delete(key: string): Promise<void>;
-    list(options?: { prefix?: string; limit?: number; cursor?: string }): Promise<{ keys: { name: string; metadata?: unknown }[]; list_complete: boolean; cursor?: string }>;
+  interface R2Bucket {
+    get(key: string, options?: { range?: { offset?: number; length?: number }; head?: boolean }): Promise<R2Object | null>;
+    head(key: string): Promise<R2Object | null>;
+  }
+
+  interface R2Object {
+    key: string;
+    size: number;
+    etag: string;
+    uploaded: Date;
+    httpEtag?: string;
+    checksums?: { md5?: string; sha1?: string; sha256?: string; crc32c?: string };
+    customMetadata?: Record<string, string>;
+    /** @deprecated Use `customMetadata` instead */
+    metadata?: Record<string, string>;
+    text(): Promise<string>;
+    arrayBuffer(): Promise<ArrayBuffer>;
+    stream(): ReadableStream<Uint8Array>;
+    json<T>(): Promise<T>;
+    formData(): Promise<FormData>;
   }
 
   interface CloudflareEnv {
-    ANIMAL_DATA?: KVNamespace;
+    ANIMAL_DATA_BUCKET?: R2Bucket;
   }
 }
 
