@@ -1,4 +1,4 @@
-import { getJSON, getJSONArray } from "@/lib/r2";
+import { kvGet, kvGetArray } from "@/lib/kv";
 
 export interface AnimalData {
   slug: string;
@@ -52,11 +52,11 @@ export const NAME_TYPES: NameType[] = [
 ];
 
 export async function loadAnimalData(slug: string): Promise<AnimalData | null> {
-  return await getJSON<AnimalData>(`animals/${slug}`);
+  return await kvGet<AnimalData>(`animals/${slug}`);
 }
 
 export async function loadIndex(): Promise<AnimalIndex[]> {
-  return await getJSONArray<AnimalIndex>("animals/index");
+  return await kvGetArray<AnimalIndex>("animals/index");
 }
 
 export async function loadPopularAnimals(): Promise<AnimalIndex[]> {
@@ -114,7 +114,7 @@ export interface CategoryData {
 }
 
 export async function loadCategories(): Promise<CategoryData[]> {
-  return await getJSONArray<CategoryData>("categories/index");
+  return await kvGetArray<CategoryData>("categories/index");
 }
 
 export async function loadCategory(slug: string): Promise<CategoryData | null> {
@@ -139,11 +139,11 @@ export interface FactData {
 }
 
 export async function loadFactData(slug: string): Promise<FactData | null> {
-  return await getJSON<FactData>(`facts/${slug}`);
+  return await kvGet<FactData>(`facts/${slug}`);
 }
 
 export async function loadFactIndex(): Promise<{ slug: string; displayName: string; icon: string }[]> {
-  return await getJSONArray<{ slug: string; displayName: string; icon: string }>("facts/index");
+  return await kvGetArray<{ slug: string; displayName: string; icon: string }>("facts/index");
 }
 
 export interface GuideData {
@@ -156,11 +156,11 @@ export interface GuideData {
 }
 
 export async function loadGuides(): Promise<GuideData[]> {
-  return await getJSONArray<GuideData>("guides/index");
+  return await kvGetArray<GuideData>("guides/index");
 }
 
 export async function loadGuide(slug: string): Promise<GuideData | null> {
-  return await getJSON<GuideData>(`guides/${slug}`);
+  return await kvGet<GuideData>(`guides/${slug}`);
 }
 
 export interface BlogPost {
@@ -174,7 +174,7 @@ export interface BlogPost {
 }
 
 export async function loadBlogPosts(): Promise<BlogPost[]> {
-  return await getJSONArray<BlogPost>("blog/index");
+  return await kvGetArray<BlogPost>("blog/index");
 }
 
 export interface BlogContent {
@@ -192,7 +192,7 @@ export interface BlogContent {
 }
 
 export async function loadBlogPost(slug: string): Promise<BlogContent | null> {
-  return await getJSON<BlogContent>(`blog/${slug}`);
+  return await kvGet<BlogContent>(`blog/${slug}`);
 }
 
 export interface IdeaIndexItem {
@@ -203,5 +203,5 @@ export interface IdeaIndexItem {
 }
 
 export async function loadAllIdeas(): Promise<IdeaIndexItem[]> {
-  return await getJSONArray<IdeaIndexItem>("ideas/index");
+  return await kvGetArray<IdeaIndexItem>("ideas/index");
 }
