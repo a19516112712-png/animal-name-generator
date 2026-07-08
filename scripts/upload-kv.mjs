@@ -36,9 +36,9 @@ async function uploadKey(kvNamespaceId, key, value, authToken, accountId) {
         method: "PUT",
         headers: {
           "Authorization": `Bearer ${authToken}`,
-          "Content-Type": "application/json",
+          "Content-Type": "application/octet-stream",
         },
-        body: JSON.stringify(value),
+        body: value,
       });
       
       if (!response.ok) {
