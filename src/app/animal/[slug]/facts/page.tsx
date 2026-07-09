@@ -1,17 +1,20 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { loadFactData, loadFactIndex, loadPopularAnimals } from "@/lib/data";
+import { getPopularAnimals, getTopAnimals, loadFactData, loadFactIndex } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
 
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
+  const topAnimals = await getTopAnimals(100);
+  const topSlugs = new Set(topAnimals.map(a => a.slug));
   const facts = await loadFactIndex();
-  return facts.slice(0, 30).map((a: { slug: string }) => ({ slug: a.slug }));
+  return facts.filter(f => topSlugs.has(f.slug)).map(f => ({ slug: f.slug }));
 }
 
 export const dynamicParams = true;
+
 
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -30,8 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function FactsPage({ params }: Props) {
   const { slug } = await params;
   const fact = await loadFactData(slug);
-  // loadPopularAnimals() calls loadIndex() — both are cached by kv.ts
-  const popular = (await loadPopularAnimals()).slice(0, 8);
+  const popular = getPopularAnimals().slice(0, 8);
 
   if (!fact) notFound();
 

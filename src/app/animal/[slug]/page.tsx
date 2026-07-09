@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { loadAnimalData, loadIndex, loadPopularAnimals, NAME_TYPES } from "@/lib/data";
+import { getPopularAnimals, getTopAnimals, loadAnimalData, loadIndex, NAME_TYPES } from "@/lib/data";
 import { getPageTitle, getPageIntro, getMetaDescription } from "@/lib/titleVariants";
 import AdSlot from "@/components/AdSlot";
 import InteractiveNamePicker from "@/components/InteractiveNamePicker";
@@ -9,7 +9,7 @@ import type { AnimalData, AnimalIndex } from "@/lib/data";
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  return (await loadIndex()).slice(0, 30).map((a) => ({ slug: a.slug }));
+  return (await getTopAnimals(100)).map((a) => ({ slug: a.slug }));
 }
 
 export const dynamicParams = true;
@@ -75,7 +75,6 @@ function getRelated(all: AnimalIndex[], current: string, count: number): AnimalI
 export default async function AnimalPage({ params }: Props) {
   const { slug } = await params;
   const data = await loadAnimalData(slug);
-  const allAnimals = await loadIndex();
 
   if (!data) {
     return (
@@ -254,7 +253,7 @@ export default async function AnimalPage({ params }: Props) {
           <div>
             <h2 className="text-2xl font-bold text-center mb-6">⭐ Popular Animals</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-              {getRelated(allAnimals, slug, 10).map((a) => (
+              {getRelated(getPopularAnimals(), slug, 10).map((a) => (
                 <Link
                   key={a.slug}
                   href={`/animal/${a.slug}/`}

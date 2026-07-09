@@ -1,24 +1,34 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { loadAnimalData, loadIndex, parseNameTypeSlugFromIndex, getAllNameTypeSlugsFromIndex, NAME_TYPES } from "@/lib/data";
+import { loadIndex, loadAnimalData, parseSlugDirectly, NAME_TYPES } from "@/lib/data";
+import { getTopAnimals } from "@/lib/data";
 import { getPageTitle, getPageIntro } from "@/lib/titleVariants";
 import AdSlot from "@/components/AdSlot";
 import InteractiveNamePicker from "@/components/InteractiveNamePicker";
-import type { AnimalData, AnimalIndex, NameType } from "@/lib/data";
+import type { AnimalData, NameType } from "@/lib/data";
 
 type Props = { params: Promise<{ slug: string[] }> };
 
 export async function generateStaticParams() {
-  const allAnimals = await loadIndex();
-  return getAllNameTypeSlugsFromIndex(allAnimals).slice(0, 30).map((s) => ({ slug: [s] }));
+  const animals = await getTopAnimals(100);
+  const params: { slug: string[] }[] = [];
+  for (const animal of animals) {
+    // /{slug}-names/ for each animal
+    params.push({ slug: [animal.slug + "-names"] });
+    for (const nt of NAME_TYPES) {
+      if (nt.key === "names") continue;
+      // /{nameType}-{slug}-names/ for each animal × nameType
+      params.push({ slug: [nt.key + "-" + animal.slug + "-names"] });
+    }
+  }
+  return params;
 }
 
 export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const allAnimals = await loadIndex();
-  const parsed = parseNameTypeSlugFromIndex(allAnimals, [""].concat(slug));
+  const parsed = parseSlugDirectly(slug);
   if (!parsed) return { title: "Page Not Found" };
   const data = await loadAnimalData(parsed.animalSlug);
   if (!data) return { title: "Page Not Found" };
@@ -49,17 +59,20 @@ function NameGrid({ names }: { names: string[] }) {
 }
 
 /**
- * Deterministic related animals — same pattern as animal/[slug]/page.tsx.
- * No sort(), no Math.random(), O(n) linear scan.
+ * Deterministic related animals from the hardcoded popular list.
+ * O(30) instead of O(989) — no loadIndex() call.
  */
-function getRelatedAnimals(all: AnimalIndex[], current: string, count: number): AnimalIndex[] {
+function getRelatedAnimals(current: string, count: number): { slug: string; name: string; icon: string }[] {
+  // Lazy import to avoid circular deps at module level
+  const { getPopularAnimals } = require("@/lib/data");
+  const all = getPopularAnimals();
   let hash = 0;
   for (let i = 0; i < current.length; i++) {
     hash = ((hash << 5) - hash) + current.charCodeAt(i);
     hash |= 0;
   }
   const offset = Math.abs(hash) % all.length;
-  const result: AnimalIndex[] = [];
+  const result: { slug: string; name: string; icon: string }[] = [];
   for (let i = 0; i < all.length && result.length < count; i++) {
     const idx = (offset + i) % all.length;
     if (all[idx].slug !== current) {
@@ -71,9 +84,7 @@ function getRelatedAnimals(all: AnimalIndex[], current: string, count: number): 
 
 export default async function NameTypePage({ params }: Props) {
   const { slug } = await params;
-  // loadIndex() is cached by kv.ts — single KV read per request
-  const allAnimals = await loadIndex();
-  const parsed = parseNameTypeSlugFromIndex(allAnimals, slug);
+  const parsed = parseSlugDirectly(slug);
 
   if (!parsed) {
     return (
@@ -113,7 +124,7 @@ export default async function NameTypePage({ params }: Props) {
   ] : undefined;
 
   const categoryLinks = NAME_TYPES.filter((nt) => nt.key !== nameType.key);
-  const relatedAnimals = getRelatedAnimals(allAnimals, animalSlug, 8);
+  const relatedAnimals = getRelatedAnimals(animalSlug, 8);
 
   const pageUrl = `https://bestanimalnames.com/${nameType.key === "names" ? `${animalSlug}-names` : `${nameType.key}-${animalSlug}-names`}/`;
 
