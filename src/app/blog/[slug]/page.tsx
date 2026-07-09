@@ -50,13 +50,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+/**
+ * Optimized related-posts scoring.
+ * The KV cache in kv.ts ensures loadBlogPosts() is only called once per request.
+ */
 async function getRelatedPosts(currentSlug: string, count: number = 6): Promise<BlogPost[]> {
   const all = await loadBlogPosts();
+  const categoryPosts = new Map<string, BlogPost[]>();
+  for (const p of all) {
+    if (!categoryPosts.has(p.category)) categoryPosts.set(p.category, []);
+    categoryPosts.get(p.category)!.push(p);
+  }
+
   const current = all.find(p => p.slug === currentSlug);
   if (!current) return [];
 
-  const scored = all
-    .filter(p => p.slug !== currentSlug)
+  const sameCat = categoryPosts.get(current.category);
+  if (sameCat && sameCat.length >= count) {
+    const candidates = sameCat.filter(p => p.slug !== currentSlug);
+    if (candidates.length >= count) {
+      const scored = candidates
+        .map(p => {
+          let score = 10;
+          const sharedTags = p.tags.filter(t => current.tags.includes(t)).length;
+          score += sharedTags * 5;
+          return { post: p, score };
+        })
+        .sort((a, b) => b.score - a.score)
+        .slice(0, count)
+        .map(x => x.post);
+      return scored;
+    }
+  }
+
+  const allOthers = all.filter(p => p.slug !== currentSlug);
+  const scored = allOthers
     .map(p => {
       let score = 0;
       if (p.category === current.category) score += 3;
@@ -67,7 +95,6 @@ async function getRelatedPosts(currentSlug: string, count: number = 6): Promise<
     .sort((a, b) => b.score - a.score)
     .slice(0, count)
     .map(x => x.post);
-
   return scored;
 }
 
@@ -143,11 +170,11 @@ export default async function BlogPostPage({ params }: Props) {
         <section className="mt-12">
           <h2 className="text-2xl font-bold mb-6">🐾 Related Animal Name Generators</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            {post.relatedAnimals.map((slug) => {
-              const a = animalMap.get(slug);
+            {post.relatedAnimals.map((slugKey) => {
+              const a = animalMap.get(slugKey);
               if (!a) return null;
               return (
-                <Link key={slug} href={`/animal/${slug}/`}
+                <Link key={slugKey} href={`/animal/${a.slug}/`}
                   className="bg-white rounded-xl p-4 text-center border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group">
                   <div className="text-2xl mb-1">{a.icon}</div>
                   <div className="text-sm font-semibold text-gray-700 group-hover:text-primary">{a.name}</div>
@@ -162,11 +189,11 @@ export default async function BlogPostPage({ params }: Props) {
         <section className="mt-12">
           <h2 className="text-2xl font-bold mb-6">📖 Related Naming Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {post.relatedGuides.map((slug) => {
-              const title = guideMap.get(slug);
+            {post.relatedGuides.map((slugKey) => {
+              const title = guideMap.get(slugKey);
               if (!title) return null;
               return (
-                <Link key={slug} href={`/guide/${slug}/`}
+                <Link key={slugKey} href={`/guide/${slugKey}/`}
                   className="bg-white rounded-xl p-4 border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/30 transition-all group flex items-center gap-3">
                   <span className="text-2xl">📖</span>
                   <span className="text-sm font-semibold text-gray-700 group-hover:text-primary">{title}</span>

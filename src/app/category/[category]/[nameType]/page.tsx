@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadCategory, loadCategories, loadIndex, NAME_TYPES, loadAnimalData } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
+import type { AnimalData } from "@/lib/data";
 
 type Props = { params: Promise<{ category: string; nameType: string }> };
 
@@ -53,11 +54,18 @@ export default async function CategoryNameTypePage({ params }: Props) {
     .map((s) => animalMap.get(s))
     .filter(Boolean) as { slug: string; name: string; icon: string }[];
 
+  // CRITICAL FIX: Batch-load all animal data in parallel instead of N sequential KV reads.
   const field = NAME_FIELDS[nameType] || "maleNames";
-  const allNames: { name: string; animal: string; icon: string; slug: string }[] = [];
-  
-  for (const a of categoryAnimals) {
+  const animalDataMap = new Map<string, AnimalData>();
+  const promises = categoryAnimals.map(async (a) => {
     const ad = await loadAnimalData(a.slug);
+    if (ad) animalDataMap.set(a.slug, ad);
+  });
+  await Promise.all(promises);
+
+  const allNames: { name: string; animal: string; icon: string; slug: string }[] = [];
+  for (const a of categoryAnimals) {
+    const ad = animalDataMap.get(a.slug);
     if (!ad) continue;
     const names = (ad as any)[field] as string[] || [];
     names.slice(0, 10).forEach((n) => {
@@ -111,7 +119,7 @@ export default async function CategoryNameTypePage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-4 py-14 text-center">
           <div className="text-5xl mb-4">{data.icon}</div>
           <h1 className="text-3xl md:text-4xl font-extrabold mb-4">{data.name} {nt.label}</h1>
-          <p className="text-indigo-100 text-lg max-w-2xl mx-auto">Browse {allNames.length} {nt.label.toLowerCase()} across {categoryAnimals.length} {data.name.toLowerCase()} species.</p>
+      <p className="text-indigo-100 text-lg max-w-2xl mx-auto">Browse {allNames.length} {nt.label.toLowerCase()} across {categoryAnimals.length} {data.name.toLowerCase()} species.</p>
         </div>
       </section>
 

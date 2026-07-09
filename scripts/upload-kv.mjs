@@ -51,6 +51,8 @@ function collectFiles(dir, baseDir = "") {
 
 /**
  * Perform a single batch upload via the Workers KV Bulk Write API.
+ * Uses base64 encoding to avoid double-escaping when the batch body
+ * is JSON-serialized before sending to the API.
  * Retries on 429 (exponential backoff) and 5xx (fixed retry).
  */
 async function uploadBatch(namespaceId, batch, authToken, accountId) {
@@ -58,8 +60,8 @@ async function uploadBatch(namespaceId, batch, authToken, accountId) {
 
   const body = batch.map(({ key, value }) => ({
     key,
-    value,
-    base64: false,
+    value: Buffer.from(value).toString("base64"),
+    base64: true,
   }));
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
@@ -101,7 +103,7 @@ async function uploadBatch(namespaceId, batch, authToken, accountId) {
 }
 
 async function main() {
-  console.log("📦 Uploading data files to Cloudflare Workers KV (bulk API)...");
+  console.log("📦 Uploading data files to Cloudflare Workers KV (bulk API, base64-encoded)...");
   console.log(`   Source: ${DATA_ROOT}`);
 
   const authToken = getAuthToken();
@@ -136,6 +138,7 @@ async function main() {
   console.log(`   Found ${files.length} JSON files`);
 
   // Build batches: each entry is { key: relativePath (no .json), value: raw file content }
+  // The uploadBatch function will base64-encode these before sending to the API.
   const batches = [];
   for (const file of files) {
     const content = fs.readFileSync(file.absolutePath, "utf-8");

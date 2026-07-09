@@ -48,8 +48,28 @@ function NameGrid({ names }: { names: string[] }) {
   );
 }
 
+/**
+ * Deterministic related animals — no sort(), no random, O(n) linear scan.
+ * Uses a hash of the current slug to pick a starting offset, then walks
+ * the array sequentially. This gives each animal a stable set of "related"
+ * animals without the CPU cost of sorting ~989 items on every request.
+ */
 function getRelated(all: AnimalIndex[], current: string, count: number): AnimalIndex[] {
-  return all.filter((a) => a.slug !== current).sort(() => Math.random() - 0.5).slice(0, count);
+  // Simple hash: sum of char codes
+  let hash = 0;
+  for (let i = 0; i < current.length; i++) {
+    hash = ((hash << 5) - hash) + current.charCodeAt(i);
+    hash |= 0;
+  }
+  const offset = Math.abs(hash) % all.length;
+  const result: AnimalIndex[] = [];
+  for (let i = 0; i < all.length && result.length < count; i++) {
+    const idx = (offset + i) % all.length;
+    if (all[idx].slug !== current) {
+      result.push(all[idx]);
+    }
+  }
+  return result;
 }
 
 export default async function AnimalPage({ params }: Props) {

@@ -51,6 +51,15 @@ export const NAME_TYPES: NameType[] = [
   { key: "baby", label: "Baby Names", emoji: "🍼", seoTitleSuffix: "Baby Name Generator", seoDescPrefix: "Tiny and precious", field: "babyNames" },
 ];
 
+// Pre-built set for O(1) popular-slug lookup
+const POPULAR_SLUG_SET = new Set([
+  "dog", "cat", "fox", "bear", "rabbit", "hamster", "horse", "parrot",
+  "turtle", "fish", "snake", "bird", "lion", "tiger", "wolf", "elephant",
+  "panda", "dolphin", "penguin", "butterfly", "owl", "hedgehog",
+  "guinea-pig", "ferret", "chinchilla", "frog", "gecko", "dragon",
+  "unicorn", "phoenix",
+]);
+
 export async function loadAnimalData(slug: string): Promise<AnimalData | null> {
   return await kvGet<AnimalData>(`animals/${slug}`);
 }
@@ -61,16 +70,18 @@ export async function loadIndex(): Promise<AnimalIndex[]> {
 
 export async function loadPopularAnimals(): Promise<AnimalIndex[]> {
   const all = await loadIndex();
-  const popularSlugs = [
-    "dog", "cat", "fox", "bear", "rabbit", "hamster", "horse", "parrot",
-    "turtle", "fish", "snake", "bird", "lion", "tiger", "wolf", "elephant",
-    "panda", "dolphin", "penguin", "butterfly", "owl", "hedgehog",
-    "guinea-pig", "ferret", "chinchilla", "frog", "gecko", "dragon",
-    "unicorn", "phoenix",
-  ];
-  const popular = popularSlugs.map((s) => all.find((a) => a.slug === s)).filter(Boolean) as AnimalIndex[];
+  // Use pre-built set for O(1) membership check — avoids nested .find() on 989 items
+  const popular: AnimalIndex[] = [];
   for (const a of all) {
-    if (!popular.find((p) => p.slug === a.slug)) popular.push(a);
+    if (POPULAR_SLUG_SET.has(a.slug)) {
+      popular.push(a);
+    }
+  }
+  // Fill remaining slots with non-popular animals (deterministic, no sort)
+  for (const a of all) {
+    if (popular.length >= 100 && popular.length < all.length) {
+      popular.push(a);
+    }
   }
   return popular;
 }

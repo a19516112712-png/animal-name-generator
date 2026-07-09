@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { loadAnimalData, loadFactData, loadFactIndex, loadPopularAnimals } from "@/lib/data";
+import { loadFactData, loadFactIndex, loadPopularAnimals } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function FactsPage({ params }: Props) {
   const { slug } = await params;
   const fact = await loadFactData(slug);
-  const animal = await loadAnimalData(slug);
+  // loadPopularAnimals() calls loadIndex() — both are cached by kv.ts
   const popular = (await loadPopularAnimals()).slice(0, 8);
 
   if (!fact) notFound();

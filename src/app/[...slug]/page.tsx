@@ -48,8 +48,30 @@ function NameGrid({ names }: { names: string[] }) {
   );
 }
 
+/**
+ * Deterministic related animals — same pattern as animal/[slug]/page.tsx.
+ * No sort(), no Math.random(), O(n) linear scan.
+ */
+function getRelatedAnimals(all: AnimalIndex[], current: string, count: number): AnimalIndex[] {
+  let hash = 0;
+  for (let i = 0; i < current.length; i++) {
+    hash = ((hash << 5) - hash) + current.charCodeAt(i);
+    hash |= 0;
+  }
+  const offset = Math.abs(hash) % all.length;
+  const result: AnimalIndex[] = [];
+  for (let i = 0; i < all.length && result.length < count; i++) {
+    const idx = (offset + i) % all.length;
+    if (all[idx].slug !== current) {
+      result.push(all[idx]);
+    }
+  }
+  return result;
+}
+
 export default async function NameTypePage({ params }: Props) {
   const { slug } = await params;
+  // loadIndex() is cached by kv.ts — single KV read per request
   const allAnimals = await loadIndex();
   const parsed = parseNameTypeSlugFromIndex(allAnimals, slug);
 
@@ -91,7 +113,7 @@ export default async function NameTypePage({ params }: Props) {
   ] : undefined;
 
   const categoryLinks = NAME_TYPES.filter((nt) => nt.key !== nameType.key);
-  const relatedAnimals = allAnimals.filter((a) => a.slug !== animalSlug).sort(() => Math.random() - 0.5).slice(0, 8);
+  const relatedAnimals = getRelatedAnimals(allAnimals, animalSlug, 8);
 
   const pageUrl = `https://bestanimalnames.com/${nameType.key === "names" ? `${animalSlug}-names` : `${nameType.key}-${animalSlug}-names`}/`;
 
@@ -164,7 +186,7 @@ export default async function NameTypePage({ params }: Props) {
 
       {/* All Names Grid */}
       <section className="max-w-7xl mx-auto px-4 py-10">
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+      <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
             {nameType.emoji} All {data.displayName} {nameType.label}
           </h2>
@@ -242,7 +264,7 @@ export default async function NameTypePage({ params }: Props) {
       </section>
 
       {/* Related Animals */}
-      <section className="max-w-7xl mx-auto px-4 py-10">
+           <section className="max-w-7xl mx-auto px-4 py-10">
         <h2 className="text-2xl font-bold text-center mb-6">🐾 More Animals to Explore</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {relatedAnimals.map((a) => (
